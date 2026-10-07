@@ -1,0 +1,484 @@
+﻿l_english:
+ 
+ o_operation: "ปฏิบัติการ"
+ o_unternehmen: "ปฏิบัติการ"
+ o_storm: "พายุ"
+ o_fox: "จิ้งจอก"
+ ###Default Adjective
+ o_umbral: "เงามืด"
+ o_shadow: "เงา"
+ o_sunlight: "แสงตะวัน"
+ o_starry: "ดวงดาว"
+ o_mountain: "ขุนเขา"
+ o_crescent: "จันทรเสี้ยว"
+ o_active: "เคลื่อนไหว"
+ o_joint: "รวม"
+ o_allied: "สัมพันธมิตร"
+ o_unified: "ผนึกกําลัง"
+ o_resolute: "แนวแน"
+ o_courageous: "กลาหาญ"
+ o_dark: "มืดมิด"
+ o_bright: "สวางไสว"
+ o_defiant: "ทาทาย"
+ o_poised: "พรอมสรรพ"
+ o_proud: "ภาคภูมิ"
+ o_spotless: "ไรมลทิน"
+ o_steel: "เหล็กกลา"
+ o_iron: "เหล็ก"
+ o_bronze: "สําริด"
+ o_alpha: "อัลฟา"
+ o_beta: "เบตา"
+ o_gamma: "แกมมา"
+ o_reckless: "บาบิ่น"
+ o_stalwart: "ทรหด"
+ o_red: "แดง"
+ o_green: "เขียว"
+ o_orange: "สม"
+ o_blue: "นํ้าเงิน"
+ o_ochre: "เหลืองดิน"
+ o_grey: "เทา"
+ o_purple: "มวง"
+ o_restless: "ไมหยุดนิ่ง"
+ ###Default Noun
+ o_scimitar: "ดาบโคง"
+ o_sword: "ดาบ"
+ o_spirit: "วิญญาณ"
+ o_wolf: "หมาปา"
+ o_panther: "เสือดํา"
+ o_slingshot: "หนังสติ๊ก"
+ o_wind: "สายลม"
+ o_garden: "อุทยาน"
+ o_thunder: "อสนี"
+ o_rain: "สายฝน"
+ o_hail: "ลูกเห็บ"
+ o_pegasus: "เพกาซัส"
+ o_star: "ดวงดาว"
+ o_apron: "ลานจอด"
+ o_dome: "โดม"
+ o_homecoming: "คืนสูเหยา"
+ o_laser: "เลเซอร"
+ o_default_operation: "ฟาแลงซ"
+ o_phalanx: "ฟาแลงซ"
+ o_resolve: "ปณิธาน"
+ o_heart: "หัวใจ"
+ o_support: "สนับสนุน"
+ o_heat: "ความรอน"
+ o_moon: "จันทรา"
+ o_oak: "ตนโอก"
+ o_ash: "เถาถาน"
+ o_fire: "เพลิง"
+ o_force: "พลานุภาพ"
+ o_hill: "เนินเขา"
+ o_river: "สายนํ้า"
+ o_eagle: "อินทรี"
+ o_raptor: "นกลาเหยื่อ"
+ o_hawk: "เหยี่ยว"
+ o_lion: "สิงโต"
+ o_tiger: "เสือ"
+ o_shield: "โล"
+
+ ###German
+ o_barbarossa: "ปฏิบัติการบารบารอสซา"
+ o_fall_blau: "แผนสีนํ้าเงิน"
+ o_fall_rot: "แผนสีแดง"
+ o_fall_gelb: "แผนสีเหลือง"
+ o_fall_braun: "แผนสีนํ้าตาล"
+ o_fall_weiss: "แผนสีขาว"
+ o_seelowe: "ปฏิบัติการสิงโตทะเล"
+ o_weserubung: "ปฏิบัติการเวเซอรอือบุง"
+ o_fall_grun: "แผนสีเขียว"
+ o_merkur: "ปฏิบัติการเมอรคูร"
+ o_marita: "ปฏิบัติการมาริทา"
+ o_herkules: "ปฏิบัติการแฮรคูเลส"
+ o_silberfuchs: "ปฏิบัติการจิ้งจอกเงิน"
+ o_blaufuchs: "ปฏิบัติการจิ้งจอกนํ้าเงิน"
+ o_polarfuchs: "ปฏิบัติการจิ้งจอกขั้วโลก"
+ o_platinfuchs: "ปฏิบัติการจิ้งจอกแพลทินัม"
+ o_taifun: "ปฏิบัติการไตฝุน"
+ o_zitadelle: "ปฏิบัติการซิทาเดล"
+ o_herbstnebel: "ปฏิบัติการหมอกฤดูใบไมรวง"
+ o_buffel: "ปฏิบัติการกระทิง"
+ o_sizilien: "ปฏิบัติการซิซิลี"
+ o_birke: "ปฏิบัติการเบิรช"
+ o_tanne_ost: "ปฏิบัติการสนตะวันออก"
+ o_tanne_west: "ปฏิบัติการสนตะวันตก"
+
+ o_fruhlingserwachen: "ปฏิบัติการตื่นรับวสันต" #hungary
+ o_konrad: "ปฏิบัติการคอนราด" #hungary
+ o_margarethe: "ปฏิบัติการมารการีเทอ" #hungary
+ o_sudwind: "ปฏิบัติการลมใต" #hungary
+
+ o_eiche: "ปฏิบัติการโอก" #italy
+ o_achse: "แผนอักเซอ" #italy
+ o_alarich: "ปฏิบัติการอาลาริค" #italy
+ o_scwartz: "ปฏิบัติการชวารซ" #italy
+ o_konstantin: "ปฏิบัติการคอนสแตนทีน" #italy
+
+ o_wildente: "เปดปา"
+ o_biene: "ผึ้ง"
+ o_gneisenau: "ไกเซอเนา"
+ o_granit: "หินแกรนิต"
+ o_stahl: "เหล็กกลา"
+ o_scharnhorst: "ชารนฮอสท"
+ o_nebelubung: "ฝกมานหมอก"
+ o_eisen: "เหล็ก"
+ o_festung: "ปอมปราการ"
+ o_Geier: "แรง"
+ o_habicht: "เหยี่ยวนกเขา"
+ o_luchs: "แมวปาลิงซ"
+ o_morgenrote: "รุงอรุณ"
+ o_grunpfeil: "ลูกศรเขียว"
+
+ o_ikarus: "ปฏิบัติการอิคารัส" #Iceland
+ o_herbstreise: "ปฏิบัติการเดินทางฤดูใบไมรวง" #Scotland
+ o_kathleen: "ปฏิบัติการแคธลีน" #Ireland
+
+ o_brandung: "ปฏิบัติการคลื่นซัดฝง" #Nafrica
+ o_skorpion: "ปฏิบัติการแมงปอง" #Nafrica
+ o_aida: "ปฏิบัติการไอดา" #Nafrica
+ o_capri: "ปฏิบัติการคาปรี" #Nafrica
+ o_theseus: "ปฏิบัติการเธเซอุส" #Nafrica
+ o_ochsenkopf: "ปฏิบัติการหัววัว" #Nafrica
+ o_venezie: "ปฏิบัติการเวเนเซีย" #Nafrica
+ o_fruhlingswind: "ปฏิบัติการลมวสันต" #Nafrica
+ o_ausladung: "ปฏิบัติการขนถาย"
+ o_eilbote: "ปฏิบัติการผูสงสารดวน"
+ o_fliederblute: "ปฏิบัติการไลแลกบาน"
+ o_kuckuksei: "ปฏิบัติการไขนกกาเหวา"
+
+ o_beowulf: "ปฏิบัติการเบวูลฟ" #baltics
+ o_doppelkopf: "ปฏิบัติการโดพเพิลคอพฟ" #baltics
+ o_laura: "ปฏิบัติการเลารา" #baltics
+ o_haifisch: "ฉลาม"
+ o_nordwind: "ลมเหนือ"
+ o_schlussjagd: "การลาครั้งสุดทาย"
+ o_sturmflut: "คลื่นพายุซัดฝง"
+ o_taube: "นกพิราบ"
+ o_siegfried: "ซีกฟรีด"
+ o_westwind: "ลมตะวันตก"
+
+ o_edelweiss: "ปฏิบัติการเอเดิลไวส" #Caucasus
+ o_attika: "ปฏิบัติการแอตติกา" #caucasus
+ o_bussard: "ปฏิบัติการเหยี่ยวบัซซารด" #Caucasus
+ o_herbstlaub: "ปฏิบัติการใบไมรวง" #caucasus
+ o_herbstzeitlose: "ปฏิบัติการดอกโครคัสฤดูใบไมรวง" #caucasus
+ o_schamil: "ปฏิบัติการชามิล" #caucasus
+ o_clausewitz: "ปฏิบัติการเคลาเซวิทซ" #caucasus
+ o_brunhild: "ปฏิบัติการบรุนฮิลด"
+ o_krimhilde: "ปฏิบัติการครีมฮิลเดอ"
+ o_wikinger: "ปฏิบัติการไวกิ้ง"
+
+ o_gisella: "ปฏิบัติการกีเซลลา" # Iberia
+ o_ilona: "ปฏิบัติการอีโลนา" #Iberia
+ o_isabella: "ปฏิบัติการอิซาเบลลา" #Iberia
+ o_felix: "ปฏิบัติการเฟลิกซ" #Iberia
+
+ o_munchen: "ปฏิบัติการมิวนิก" # Bessarabia
+
+ o_maus: "หนู"
+ o_derfflinger: "แดรฟฟลิงเงอร"
+ o_moorbrand: "ไฟปาพรุ"
+ o_bettelstab: "ไมเทาขอทาน"
+ o_blucher: "บลือเชอร"
+ o_braunschweig: "เบรานชไวก"
+ o_bruckenschlag: "ทอดสะพาน"
+ o_feuerzauber: "ปฏิบัติการมนตรเพลิง" #Leningrad
+ o_nordlicht: "ปฏิบัติการแสงเหนือ" #Leningrad
+ o_sumpf: "ปฏิบัติการหนองนํ้า" #Leningrad
+ o_fredericus: "เฟรเดอริคุส"
+ o_gertrud: "ปฏิบัติการแกรทรูด" #turkey
+ o_fischreiher: "นกกระสา"
+ o_lichtschlag: "แสงวาบ"
+ o_nordpol: "ขั้วโลกเหนือ"
+ o_orkan: "เฮอริเคน"
+ o_raubtier: "สัตวลาเหยื่อ"
+ o_storfang: "ปลาสเตอรเจียน"
+ o_taubenschlag: "รังนกพิราบ"
+ o_trappenjagd: "ลานกอีแรง"
+ o_wiesengrund: "ทุงหญา"
+ o_wintermarchen: "นิทานฤดูหนาว"
+ o_eisbar: "หมีขั้วโลก"
+ o_lehrgang: "หลักสูตรฝก"
+ o_leopard: "เสือดาว"
+ o_michael: "มิคาเอล"
+ o_poseidon: "โพไซดอน"
+ o_zwischenspiel: "อันตรกาล"
+ o_wintergewitter: "พายุฤดูหนาว"
+ o_aster: "ดอกแอสเตอร"
+ o_blei: "ตะกั่ว"
+ o_blume: "ดอกไม"
+ o_fischfang: "จับปลา"
+ o_ludwig: "ลุดวิก"
+ o_luttich: "ลีแยฌ"
+ o_martin: "มารทิน"
+ o_morgenwind: "ลมรุงอรุณ"
+ o_sonnenaufgang: "ตะวันขึ้น"
+ o_wacht_am_rhein: "ปฏิบัติการเฝาระวังแมนํ้าไรน"
+ o_schneeman: "มนุษยหิมะ"
+ o_sonnenwende: "อายัน"
+ o_sudwing: "ลมใต"
+
+ o_ostwind: "ลมตะวันออก" #fictional below
+ o_wetzstein: "หินลับมีด"
+ o_oderubung: "ฝกโอเดอร"
+ o_donauubung: "ฝกดานูบ"
+ o_osterspaziergang: "เดินเลนวันอีสเตอร"
+ o_reibeisen: "ที่ขูด"
+ o_einbaum: "เรือขุด"
+ o_apfelbaum: "ตนแอปเปล"
+ o_fuchsjagd: "ลาจิ้งจอก"
+ o_bismarck: "บิสมารค"
+ o_dorffest: "งานวัดหมูบาน"
+ o_gelandemarsch: "เดินทัพขามภูมิประเทศ"
+ o_freiherr: "ทานบารอน"
+ o_deichgraf: "นายกองคันกั้นนํ้า"
+ o_heimfahrt: "เดินทางกลับบาน"
+ o_heimspiel: "เกมเหยา"
+ o_hasenjagd: "ลากระตาย"
+ o_ingwer: "ขิง"
+ o_jahreswechsel: "เปลี่ยนป"
+ o_kannonenkugel: "ลูกปนใหญ"
+ o_lastkahn: "เรือลําเลียงสินคา"
+ o_mondschein: "แสงจันทร"
+ o_neuland: "ดินแดนใหม"
+ o_ofenrohr: "ทอเตา"
+ o_pistole: "ปนพก"
+ o_ruckreise: "เดินทางกลับ"
+ o_sandbank: "สันดอน"
+ o_tankwart: "พนักงานปม"
+ o_vogelsang: "เสียงนกรอง"
+ o_winkel: "มุม"
+ o_zebra: "มาลาย"
+
+
+ ###Soviet Union
+ o_operatsiya: "ปฏิบัติการ"
+ o_bagration: "ปฏิบัติการบากราติออน"
+ o_suvorov: "ปฏิบัติการซูโวรอฟ"
+ o_iskra: "ปฏิบัติการอิสครา"
+ o_lyuban: "ปฏิบัติการลูบัน"
+ o_sinyavino: "ปฏิบัติการซินยาวีโน"
+ o_mars: "ปฏิบัติการมารส"
+ o_jupiter: "ปฏิบัติการยูปเตอร"
+ o_kutuzov: "ปฏิบัติการคูตูซอฟ"
+ o_polar_star: "ปฏิบัติการดาวเหนือ"
+ o_belgrade_strategic_offensive: "เบลเกรด"
+ o_berlin_strategic_offensive: "เบอรลิน"
+ o_ring: "ปฏิบัติการวงแหวน"
+ o_saturn: "ปฏิบัติการแซทเทิรน"
+ o_uranus: "ปฏิบัติการยูเรนัส"
+ o_samland: "ปฏิบัติการซัมลันด"
+ o_mercury: "ปฏิบัติการเมอรคิวรี"
+ o_venus: "ปฏิบัติการวีนัส"
+ o_neptune: "ปฏิบัติการเนปจูน"
+ o_maly_saturn: "ปฏิบัติการแซทเทิรนนอย"
+ o_maly_neptun: "ปฏิบัติการเนปจูนนอย"
+ o_kontsert: "ปฏิบัติการคอนเสิรต"
+ o_rumyantsev: "ปฏิบัติการแมทัพรูมยานตเซฟ"
+ o_strat_offensive_ru: "ปฏิบัติการรุกทางยุทธศาสตร"
+ o_strat_defensive_ru: "ปฏิบัติการตั้งรับทางยุทธศาสตร"
+ o_strat_naval_ru: "ปฏิบัติการยกพลขึ้นบกทางยุทธศาสตร"
+ o_strat_offensive_default: "ปฏิบัติการรุก"
+ o_strat_defensive_default: "คําสั่งตั้งรับ"
+ o_strat_naval_default: "ปฏิบัติการยกพลขึ้นบก"
+ ###Japan
+ o_ichi: "อิจิ"
+ o_ni: "นิ"
+ o_san: "ซัง"
+ o_yon: "ยน"
+ o_ko: "โก"
+ o_roku: "โรกุ"
+ o_nana: "นานะ"
+ o_hachi: "ฮาจิ"
+ o_kyu: "คิว"
+ o_ju: "จู"
+ o_ju_ichi: "จู อิจิ"
+ o_ju_ni: "จู นิ"
+ o_ju_san: "จู ซัง"
+ o_ju_yon: "จู ยน"
+ o_ju_ko: "จู โก"
+ o_ju_roku: "จู โรกุ"
+ o_ju_hachi: "จู ฮาจิ"
+ o_ju_kyu: "จู คิว"
+ o_ni_ju: "นิ-จู"
+ o_ni_ju_ichi: "นิ-จู อิจิ"
+ o_ni_ju_ni: "นิ-จู นิ"
+ o_ni_ju_san: "นิ-จู ซัง"
+ o_ni_ju_yon: "นิ-จู ยน"
+ o_ni_ju_ko: "นิ-จู โก"
+ o_ni_ju_roku: "นิ-จู โรกุ"
+ o_ni_ju_hachi: "นิ-จู ฮาจิ"
+ o_ni_ju_kyu: "นิ-จู คิว"
+ o_san_ju: "ซัง-จู"
+ o_san_ju_ichi: "ซัง-จู อิจิ"
+ o_san_ju_ni: "ซัง-จู นิ"
+ o_san_ju_san: "ซัง-จู ซัง"
+ o_san_ju_yon: "ซัง-จู ยน"
+ o_san_ju_ko: "ซัง-จู โก"
+ o_san_ju_roku: "ซัง-จู โรกุ"
+ o_san_ju_hachi: "ซัง-จู ฮาจิ"
+ o_san_ju_kyu: "ซัง-จู คิว"
+ o_yon_ju: "ยน-จู"
+ o_yon_ju_ichi: "ยน-จู อิจิ"
+ o_yon_ju_ni: "ยน-จู นิ"
+ o_yon_ju_san: "ยน-จู ซัง"
+ o_yon_ju_yon: "ยน-จู ยน"
+ o_yon_ju_ko: "ยน-จู โก"
+ o_yon_ju_roku: "ยน-จู โรกุ"
+ o_yon_ju_hachi: "ยน-จู ฮาจิ"
+ o_yon_ju_kyu: "ยน-จู คิว"
+ o_roku_ju: "โรกุ-จู"
+ o_roku_ju_ichi: "โรกุ-จู อิจิ"
+ o_roku_ju_ni: "โรกุ-จู นิ"
+ o_roku_ju_san: "โรกุ-จู ซัง"
+ o_roku_ju_yon: "โรกุ-จู ยน"
+ o_roku_ju_ko: "โรกุ-จู โก"
+ o_roku_ju_roku: "โรกุ-จู โรกุ"
+ o_roku_ju_hachi: "โรกุ-จู ฮาจิ"
+ o_roku_ju_kyu: "โรกุ-จู คิว"
+ o_go: "-โก"
+ o_fu: "F U"
+ o_ai: "A I"
+ o_e: "E"
+ o_b: "B"
+ o_de: "D E"
+ o_l: "L"
+ o_t: "T"
+ o_sr: "S R"
+ o_m: "M"
+ o_al: "A L"
+ o_d: "D"
+ o_j: "J"
+ o_fs: "F S"
+ o_mo: "M O"
+ o_ry: "R Y"
+ o_mi: "M I"
+ ###USA
+ o_bold: "องอาจ"
+ o_striking: "จูโจม"
+ o_cobra: "งูเหา"
+ 
+ #USA historical
+ o_musketeer: "ปฏิบัติการมัสคีเทียร" #Philippines
+ o_diplomat: "ปฏิบัติการนักการทูต"
+
+ #South Pacific
+ o_cartwheel: "ปฏิบัติการคารตวีล"
+ o_chronicle: "ปฏิบัติการโครนิเคิล"
+ o_postern: "ปฏิบัติการโพสเทิรน"
+ o_blissful: "ปฏิบัติการบลิสฟูล"
+ o_dexterity: "ปฏิบัติการเด็กซเทอริที"
+ o_cleanslate: "ปฏิบัติการคลีนสเลต"
+ o_cyclone: "ปฏิบัติการไซโคลน"
+ o_oboe: "ปฏิบัติการโอโบ"
+ o_watchtower: "ปฏิบัติการวอชทาวเวอร" #Guadalcanal
+
+ #central pacific
+ o_detachment: "ปฏิบัติการดีแทชเมนต" #Iwo Jima
+ o_flintlock: "ปฏิบัติการฟลินตล็อก" # marshall islands
+ o_catchpole: "ปฏิบัติการแคชโพล" #Eniwetok
+ o_forager: "ปฏิบัติการฟอเรจเจอร" #Marianas
+ o_galvanic: "ปฏิบัติการกัลวานิก" #gilberts
+ o_iceberg: "ปฏิบัติการไอซเบิรก" #okinawa
+ o_stalemate: "ปฏิบัติการสเตลเมต" #Peleliu
+
+ o_downfall: "ปฏิบัติการดาวนฟอล" #invasion of Japan
+ o_olympic: "ปฏิบัติการโอลิมปก"
+ o_coronet: "ปฏิบัติการโคโรเน็ต"
+ o_majestic: "ปฏิบัติการมาเจสติก"
+
+ o_cottage: "ปฏิบัติการคอตเทจ" #Alaska
+ o_sandcrab: "ปฏิบัติการแซนดแครบ"
+
+ o_causway: "ปฏิบัติการคอสเวย" #Taiwan
+
+ o_avalanche: "ปฏิบัติการอะวาลานช" #Italy
+ o_giant: "ปฏิบัติการไจแอนต"
+ o_buffalo: "ปฏิบัติการบัฟฟาโล"
+
+ o_anvil: "ปฏิบัติการแอนวิล" #south France
+ o_dragoon: "ปฏิบัติการดรากูน"
+
+ o_roundup: "ปฏิบัติการราวดอัป" #France
+ o_sledgehammer: "ปฏิบัติการสเลดจแฮมเมอร"
+ o_overlord: "ปฏิบัติการโอเวอรลอรด"
+
+ o_blackstone: "ปฏิบัติการแบล็กสโตน"
+ o_brushwood: "ปฏิบัติการบรัชวูด"
+ o_goalpost: "ปฏิบัติการโกลโพสต"
+
+ ###British
+
+ #Historical
+ o_abstention: "ปฏิบัติการแอบสเทนชัน"
+
+ o_acrobat: "ปฏิบัติการอะโครแบต" #Nafrica
+ o_agreement: "ปฏิบัติการอะกรีเมนต"
+ o_daffodil: "ปฏิบัติการแดฟโฟดิล"
+ o_snowdrop: "ปฏิบัติการสโนวดรอป"
+ o_battleaxe: "ปฏิบัติการแบทเทิลแอกซ"
+ o_brevity: "ปฏิบัติการเบรวิตี"
+ o_compass: "ปฏิบัติการคอมพาส"
+ o_crusader: "ปฏิบัติการครูเสด"
+ o_guillotine: "ปฏิบัติการกิโยติน"
+ o_lightfoot: "ปฏิบัติการไลตฟุต"
+ o_supercharge: "ปฏิบัติการซูเปอรชารจ"
+ o_pugilist: "ปฏิบัติการพิวจิลิสต"
+ o_vulcan: "ปฏิบัติการวัลแคน"
+
+ o_torch: "ปฏิบัติการทอรช" #Morroco
+
+ o_jubilee: "ปฏิบัติการจูบิลี" #France
+ o_bluecoat: "ปฏิบัติการบลูโคต"
+ o_Astonia: "ปฏิบัติการแอสโทเนีย"
+ o_charnwood: "ปฏิบัติการชารนวูด"
+ o_epsom: "ปฏิบัติการเอปซัม"
+ o_goodwood: "ปฏิบัติการกูดวูด"
+ o_greenline: "ปฏิบัติการกรีนไลน"
+ o_pomegranate: "ปฏิบัติการพอมกรานิต"
+ o_totalize: "ปฏิบัติการโททาไลซ"
+
+ o_plunder: "ปฏิบัติการพลันเดอร" #Germany
+ o_varsity: "ปฏิบัติการวารซิตี"
+
+ o_accolade: "ปฏิบัติการแอคโคเลด" #East Med
+ o_exporter: "ปฏิบัติการเอกซพอรเตอร"
+ o_mandibles: "ปฏิบัติการแมนดิเบิลส"
+ o_manna: "ปฏิบัติการมานนา"
+
+ o_baytown: "ปฏิบัติการเบยทาวน" #Italy
+ o_slapstick: "ปฏิบัติการสแลปสติก"
+ o_chesterfield: "ปฏิบัติการเชสเตอรฟลด"
+ o_diadem: "ปฏิบัติการไดอะเดม"
+ o_encore: "ปฏิบัติการอองกอร"
+ o_husky: "ปฏิบัติการฮัสกี" # Sicily
+ o_shingle: "ปฏิบัติการชิงเกิล"
+ o_olive: "ปฏิบัติการโอลีฟ"
+
+ o_anakim: "ปฏิบัติการอนาคิม" #India/Burma
+ o_capital: "ปฏิบัติการแคพิทอล"
+ o_dracula: "ปฏิบัติการแดร็กคิวลา"
+ o_longcloth: "ปฏิบัติการลองคลอท"
+ o_talon: "ปฏิบัติการทาลอน"
+ o_thursday: "ปฏิบัติการเธิรสเดย"
+
+ o_krohcol: "ปฏิบัติการโครหคอล" #Thailand
+ o_matador: "ปฏิบัติการมาทาดอร"
+
+ o_countenance: "ปฏิบัติการเคานเทแนนซ" #Iran
+
+ o_zipper: "ปฏิบัติการซิปเปอร" #Malaya
+ o_broadsword: "ปฏิบัติการบรอดซอรด"
+
+ o_fork: "ปฏิบัติการฟอรก" #Iceland
+ o_primrose: "ปฏิบัติการพริมโรส" #Norway
+ o_r4: "R 4" #Norway
+
+ o_infatuate: "ปฏิบัติการอินแฟทชูเอต" #Netherlands
+ o_comet: "ปฏิบัติการโคเม็ต"
+ o_market_garden: "ปฏิบัติการมารเก็ตการเดน"
+
+ o_constellation: "หมูดาว"
+ o_clipper: "คลิปเปอร"
+ o_aintree: "เอนทรี"
+ o_fusilade: "หากระสุน"

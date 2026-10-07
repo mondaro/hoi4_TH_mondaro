@@ -1,0 +1,22 @@
+﻿l_english:
+
+## CZECHOSLOVAKIA ARMY READINESS ##
+
+CZE_bop_army_readiness: "ความพรอมของกองทัพ"
+CZE_bop_army_readiness_of_power_category: "กองทัพเช็กเปนหนึ่งเดียวและพรอมเผชิญความทาทายที่รออยู อยางไรก็ตาม การเมืองภายในและเหตุการณระหวางประเทศอาจบั่นทอนความเชื่อมั่นของกองทัพในการปกปองประเทศอยางเหมาะสม"
+CZE_bop_army_readiness_of_power_category_desc: "กองทัพเช็กเปนหนึ่งเดียวและพรอมเผชิญความทาทายที่รออยู อยางไรก็ตาม การเมืองภายในและเหตุการณระหวางประเทศอาจบั่นทอนความเชื่อมั่นของกองทัพในการปกปองประเทศอยางเหมาะสม"
+CZE_bop_army_readiness_left_side: "กองทัพไมพรอม"
+CZE_bop_army_low_confidence: "กองทัพไมพรอม"
+CZE_bop_army_very_low_confidence: "กองทัพไมพรอมอยางยิ่ง"
+CZE_bop_army_readiness_right_side: "กองทัพพรอม"
+CZE_bop_army_high_confidence: "กองทัพพรอม"
+CZE_bop_army_very_high_confidence: "กองทัพพรอมอยางยิ่ง"
+CZE_bop_army_readiness_middle: "ความพรอมของกองทัพระดับปานกลาง"
+
+# CZECHOSLOVAKIA ARMY READINESS MODIFIERS #
+
+CZE_bop_modifier_czech_sovereignty_is_threatened: "เพื่อนบานที่คุกคาม"
+
+# CZECHOSLOVAKIA ARMY READINESS TOOLTIPS #
+
+CZE_bop_has_started_tt: "ดุลอํานาจ §Y$CZE_bop_army_readiness$§! ไดเริ่มขึ้นใน §Y[ROOT.GetName]§! แลว"

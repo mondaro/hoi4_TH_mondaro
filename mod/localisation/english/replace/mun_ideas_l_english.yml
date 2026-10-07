@@ -1,0 +1,281 @@
+﻿l_english:
+
+##CZECHOSLOVAKIA##
+
+#Army Spirits
+CZE_legacy_of_the_czechoslovak_legion_army_spirit: "มรดกแหงกองทหารเลเจียน"
+
+#CZE Concerns
+CZE_national_bank_of_czechoslovakia: "NBCS"
+CZE_national_bank_of_czechoslovakia_desc: "NBCS เปนชื่อยอของ 'ธนาคารแหงชาติเชโกสโลวาเกีย'"
+CZE_bata_corporation: "บรรษัท Bat'a"
+CZE_bata_corporation_tt: "§Y$CZE_bata_corporation$§! ซึ่งให:\nความเร็วการวิจัยหนวยสนับสนุน: §G+5%§!\n§Y$armor_research$§!: §R-5%§!\n$consumer_goods_conglomerate$\n§Y$infantry_equipment$§!:\n   $production_cost_tt$ [?-5|%%-]\n§Y$support_equipment$§!\n   $production_cost_tt$ [?-5|%%-]\n§Yขณะที่กลุมอุตสาหกรรมทํางานอยู§!:\n   เพิ่มการผลิต §Y6§!£resources_strip|3 ใน §Y[75.GetName]§!"
+consumer_goods_conglomerate: "กลุมบริษัทสินคาอุปโภคบริโภค"
+energy_supply_company_zse: "$energy_supply_company$"
+generic_effect_on_selection_tt: "§Yผลเมื่อเลือก§!:"
+CZE_muller_and_kapsa: "Müller & Kapsa"
+CZE_walter_co: "Walter Co"
+CZE_skoda_plzen_tank_destroyer: "Škoda Armor-Plzen"
+CZE_walter_co_desc: "Walter Co เปนชื่อยออยางไมเปนทางการที่มาจากชื่อเต็มอันยืดยาวของบริษัท: 'บริษัทมหาชน Walter โรงงานเครื่องยนตรถยนตและอากาศยาน'"
+CZE_zse: "Západoslovenská Elektrárna"
+CZE_apollo: "Apollo"
+CZE_trinec_ironworks: "โรงถลุงเหล็กตรชีเนตซ"
+CZE_anglo_czechoslovak_bank: "ธนาคารแองโกล-เชโกสโลวักและปรากเครดิต"
+CZE_anglo_czechoslovak_bank_desc: "เกิดจากการควบรวมธนาคารสามแหงในปรากเมื่อป 1930 ปจจุบันเปนธนาคารใหญอันดับสองของประเทศ"
+CZE_praga_aviation: "$CZE_praga_aviation_organization$"
+
+#Dynamic Modifiers National Spritits
+CZE_ceskoslovenska_armada_dynamic_modifier: "Československá Armáda"
+CZE_ceskoslovenska_armada_dynamic_modifier_desc: "กองทัพนี้ถูกสรางขึ้นจากซากหนวยทหารเช็กแหงออสเตรีย-ฮังการีและทหารผานศึกจากกองทหารเชโกสโลวัก มรดกของทั้งสองยังคงมีอิทธิพลตอวิธีบริหารกองทัพ" 
+CZE_ceskoslovenske_letectvo_dynamic_modifier: "Československé Letectvo"
+CZE_ceskoslovenske_letectvo_dynamic_modifier_desc: "เครื่องบินอาจไมพรอมเสมอไป แตนักบินของเราพรอมเสมอ ดวยภัยคุกคามทางอากาศที่อาจมาจากทุกทิศทาง เราตองทําใหทองฟาเปนทะเลของเรา นักบินทุกคนตองมีคาเทากับสามคน"
+CZE_a_divided_nation_dynamic_modifier: "ชาติที่แตกแยก" 
+CZE_a_divided_nation_dynamic_modifier_desc: "รัฐ[CZE.GetAdjective]ยืนหยัดเพียงลําพังในยุโรปกลางในฐานะรัฐพหุนิยมที่คุมครองทุกคนภายในพรมแดน แตภาวะเศรษฐกิจตกตํ่าครั้งใหญไดเปลี่ยนแปลงสิ่งนั้น ความยากลําบากทางเศรษฐกิจทําใหขบวนการตาง ๆ ในประเทศเกิดความขุนเคืองตอรัฐบาล และความขุนเคืองเหลานี้กําลังแบงแยกชาติอยางลึกซึ้ง"
+CZE_skoda_works_dynamic_modifier: "โรงงาน Škoda"
+CZE_skoda_works_dynamic_modifier_desc: "บริษัท Škoda ครอบคลุมทั้งการผลิต การกอสราง และการลงทุนในทุกภาคสวนของอุตสาหกรรมหนักของเรา อิทธิพลของบริษัทแผไปทั่วทุกหนแหงภายในพรมแดนของเรา"
+CZE_ceskoslovenske_alecne_lodstvo_dynamic_modifier: "Československé válečné loďstvo"
+
+#Dynamic State Modifiers
+CZE_sudetenland_german_state_modifier: "การแบงแยกดินแดนซูเดเทินลันด"
+CZE_sudetenland_german_state_modifier_desc: "ความยากลําบากทางเศรษฐกิจเมื่อไมนานมานี้ไดกระทบอุตสาหกรรมในซูเดเทินลันด ทําใหผูคนในภูมิภาคโทษรัฐบาล [ROOT.getname] สําหรับเคราะหกรรมที่เกิดขึ้น"
+CZE_tesinko_polish_state_modifier: "การแบงแยกดินแดนของชาวโปล"
+CZE_czech_state_modifier: "การขาดแคลนแรงงานฝมือชาวเช็ก"
+CZE_czech_state_modifier_desc: "การพัฒนาเศรษฐกิจอยางรวดเร็วในศตวรรษที่ 20 สรางภาระใหประชากรเช็กซึ่งสวนใหญเปนเกษตรกร การหาแรงงานเช็กที่มีทักษะและคุณสมบัติมาเติมตําแหนงงานเปนเรื่องยาก ตองมีความพยายามชวยเตรียมพลเมืองเช็กรุนใหมใหพรอมรับความตองการที่เปลี่ยนไปของเศรษฐกิจสมัยใหม"
+CZE_slovakia_state_modifier: "การพัฒนาเศรษฐกิจที่ไมสมดุล"
+CZE_hungarian_state_modifier: "การแบงแยกดินแดนของชาวฮังการี"
+CZE_ukrainian_state_modifier: "การพัฒนาเศรษฐกิจที่ไมสมดุล"
+CZE_economic_investment_in_state_modifier: "ความพยายามลงทุนทางเศรษฐกิจ"
+CZE_central_bohemia_modifier: "การวางแผนโบฮีเมียกลาง"
+CZE_balance_industrial_development: "การพัฒนาอุตสาหกรรมที่สมดุล"
+CZE_industrial_subsidies: "เงินอุดหนุนอุตสาหกรรม"
+CZE_czech_state_mines: "เหมืองแรของรัฐเช็ก"
+CZE_merged_consumer_good_plants: "โรงงานสินคาอุปโภคที่ควบรวมแลว"
+CZE_river_monitor_fleet: "กองเรือมอนิเตอรลํานํ้า"
+CZE_enemy_intelligence_collaborators: "ผูรวมมือกับหนวยขาวกรองขาศึก"
+CZE_enemy_intelligence_collaborators_no_lar: "ผูรวมมือกับหนวยขาวกรองขาศึก"
+CZE_first_sudetenland_fortification_program: "โครงการสรางปอมปราการซูเดเทินลันดระยะแรก"
+CZE_first_sudetenland_fortification_program_GD: "โครงการสรางปอมปราการซูเดเทินลันดระยะแรก"
+CZE_sudetenland_paramilitaries_modifier: "กิจกรรมกองกําลังกึ่งทหารในซูเดเทินลันด"
+CZE_sudetenland_paramilitaries_modifier_desc: "พลพรรคและกองกําลังกึ่งทหารในซูเดเทินลันดกําลังบอนทําลายกําลังของเราในภูมิภาคนี้ พวกเขาโจมตีทหารของเราอยางตอเนื่องและรวมมือกับศัตรูของเรา"
+CZE_nationalist_protests: "การประทวงของฝายชาตินิยม"
+CZE_rut_comprise_agreement_modifier: "สนธิสัญญาอํานาจปกครองตนเองของคารเพโธ-ยูเครน" #Can't use [RUT.Getname] in the context this is used in
+CZE_improve_cross_border_rail_connections_modifier: "ปรับปรุงการเชื่อมตอทางรถไฟขามพรมแดน"
+
+#National Spirits
+CZE_taticek_of_czechoslovakia: "Tatíček Masaryk"
+CZE_taticek_of_czechoslovakia_desc: "โตมาช มาซาริก ซึ่งมักถูกเรียกวา 'Tatíček Masaryk' หมายถึง 'พอ' หรือ 'บิดา' (แหงชาติ) เปนรากฐานของชาติเชโกสโลวาเกียมาตั้งแตกอตั้ง ยามที่คิดกันวาไมอาจจัดตั้งรัฐบาลผสมได และทางตันทางการเมืองยิ่งใหญเกินจะกาวขาม มาซาริกก็สามารถสรางปาฏิหาริยทางการเมืองไดครั้งแลวครั้งเลาเพื่อเสริมสรางและพัฒนาเชโกสโลวาเกีย แมจะเกษียณแลว ความเห็นและขอเสนอแนะของเขาตอผูนําทางการเมืองก็ยังถูกถือเปนคําสั่งมากกวาคําแนะนํา"
+CZE_industrialists_veto: "สิทธิยับยั้งของนักอุตสาหกรรม"
+CZE_industrialists_veto_desc: "นักอุตสาหกรรมมีอิทธิพลอยางมากตอการเมืองของประเทศ เพราะพวกเขาเปนผูนําของกลุมบริษัทที่ใหญที่สุดหลายแหงใน [CZE.GetNameDef] ขอกังวลของพวกเขาไมอาจถูกละเลยในเรื่องนโยบายเศรษฐกิจ และการระดมเศรษฐกิจเขาสูสงครามก็เปนหนึ่งในมาตรการที่พวกเขาจะตอตานอยางดุเดือดที่สุด"
+CZE_agrarian_politics_1: "การเมืองของเกษตรกร"
+CZE_agrarian_politics_1_desc: "แมประเทศของเราจะมีลักษณะเปนอุตสาหกรรม แตเกษตรกรและชาวนาในชนบทก็มีอิทธิพลทางการเมืองอยางมากในหลายพรรค ความรูสึกของพวกเขามักสงผลตอการตัดสินใจนโยบายเศรษฐกิจ และเปนอุปสรรคทางการเมืองอยูเสมอตอความกาวหนาทางอุตสาหกรรม"
+CZE_directorate_of_fortification_works_no_gd_idea: "กองอํานวยการงานปอมปราการ"
+CZE_directorate_of_fortification_works_no_gd_idea_desc: "$CZE_directorate_of_fortification_works_no_gd_idea$ หรือที่รูจักกันดีในชื่อ ROP เปนหนวยงานบริหารที่รับผิดชอบกํากับดูแลงานสรางปอมปราการในประเทศ"
+CZE_czech_corporatism: "ลัทธิบรรษัทนิยมเช็ก"
+CZE_broken_shield: "โลที่แตกสลาย"
+CZE_redirected_fortification_council_funds: "งบสภาปอมปราการที่ถูกโยกยาย"
+CZE_army_readiness_1: "กองทัพที่ไมพรอมรบ"
+CZE_army_readiness_1_desc: "ความพรอมรบของกองทัพไมไดขึ้นอยูกับทหารและยุทโธปกรณในสนามรบเทานั้น ความมั่นใจในการเตรียมการ และการหนุนหลังจากผูนําทางการเมืองและอุตสาหกรรมของประเทศก็สําคัญเมื่อตองเผชิญภัยคุกคาม การมีปจจัยในการสูรบเปนเรื่องหนึ่ง แตความสามารถที่จะสูรบอยางมีประสิทธิภาพเปนอีกเรื่องหนึ่ง"
+CZE_army_readiness_3: "กองทัพที่พรอมรบ"
+CZE_army_readiness_3_desc: "ความพรอมรบของกองทัพไมไดขึ้นอยูกับทหารและยุทโธปกรณในสนามรบเทานั้น ความมั่นใจในการเตรียมการ และการหนุนหลังจากผูนําทางการเมืองและอุตสาหกรรมของประเทศก็สําคัญเมื่อตองเผชิญภัยคุกคาม การมีปจจัยในการสูรบเปนเรื่องหนึ่ง แตความสามารถที่จะสูรบอยางมีประสิทธิภาพเปนอีกเรื่องหนึ่ง"
+CZE_ready_for_anything_idea: "พรอมรับทุกสถานการณ"
+CZE_sudeten_german_quandary: "ภาวะกลืนไมเขาคายไมออกแหงซูเดเทินลันด"
+CZE_sudeten_german_quandary_desc: "แมคนสวนใหญในซูเดเทินลันดตองการเพียงอํานาจปกครองตนเองที่มากขึ้นภายใตรัฐบาลปจจุบัน แตพรรคการเมืองซูเดเทินหลายพรรคและผูสนับสนุนอาจกลายเปนแนวรวมที่หาไดอยางรวดเร็ว หากรัฐเยอรมันใดตองการผนวกสวนใดสวนหนึ่งของภูมิภาค"
+CZE_sudeten_german_quandary_modifier_tt: "§Yผลแบบติดตัว§!:\nหาก §Y[AUS.GetFlag][AUS.GetNonIdeologyName]§!, §Y[GER.GetFlag][GER.GetNonIdeologyName]§! หรือ [BAY.GetFlag]§Yประเทศเยอรมัน§! อื่นใดที่มีพรมแดนติดเรา สรางหรือไดรับ §Rเปาหมายสงคราม§! ตอเรา ขณะที่ §Y[69.GetName]§!, §Y[972.GetName]§! หรือ §Y[74.GetName]§! อยูในการควบคุมของเรา:\n - (§Yทุกรัฐในซูเดเทินลันดที่ควบคุมอยู§!):\n    เพิ่ม §Y$CZE_sudetenland_paramilitaries_modifier$§! ซึ่งให:\n       $MODIFIER_LOCAL_INTEL_TO_ENEMIES$: §R+10%§!\n       $MODIFIERS_ARMY_CORE_DEFENCE_FACTOR$: §R-10.0%§!\n       $modifier_state_repair_speed_bunker_factor$: §R-10.00%§!\n\n - §Yผล§! นี้เกิดขึ้นไดเพียงครั้งเดียว"
+CZE_sudeten_challenge: "ความทาทายแหงซูเดเทิน"
+CZE_sudeten_challenge_desc: "ความเคลื่อนไหวลาสุดของกองกําลังกึ่งทหารในซูเดเทินลันดทําใหประชาคมระหวางประเทศจํานวนมากเชื่อวาการกระทําอันกาวราวตอเราในขณะนี้ชอบธรรมแลว! ตองใชเวลาในการโนมนาวโลกใหเห็นเปนอยางอื่น"
+CZE_sudeten_facde: "ฉากบังหนาซูเดเทิน"
+CZE_sudeten_facde_desc: "การที่เราไมหนุนหลังกองกําลังกึ่งทหารทองถิ่น ทําใหขออางในการดําเนินการตอ [CZE.getname] ของเราถูกมองวาเปนเพียงฉากบังหนาไปทั่วโลก"
+CZE_anti_rearmament_propaganda_idea: "$CZE_anti_rearmament_propaganda$" 
+CZE_anti_democratic_propaganda_idea: "$CZE_anti_democratic_propaganda$"
+CZE_revolutionary_brigades_idea: "กองพลนอยปฏิวัติ"
+CZE_state_sponsored_recruitment_idea: "การรับสมัครอาสาสมัครโดยรัฐสนับสนุน"
+CZE_trade_agreement: "ขอตกลงการคา[ROOT.GetAdjective]-[CZE.GetAdjective]"
+CZE_kickstart_rapid_rearmanent_aat_idea: "การสรางกําลังอาวุธอยางรวดเร็ว"
+CZE_influx_of_industrial_funds: "การหลั่งไหลของทุนอุตสาหกรรม"
+CZE_devaluate_the_koruna_idea: "คาเงินโครูนาที่ลดลง"
+CZE_the_freeway_project: "โครงการทางหลวงพิเศษ"
+CZE_double_tracking_efforts: "ความพยายามสรางทางรถไฟทางคู"
+CZE_railway_station_construction_effort: "ความพยายามกอสรางสถานีรถไฟ"
+CZE_religious_tolerance: "ขันติธรรมทางศาสนา"
+CZE_continue_industrial_relocation_schemes_idea: "การยายฐานอุตสาหกรรมที่ดําเนินอยู"
+CZE_communist_officers_training: "การฝกอบรมทางการเมือง"
+CZE_militarized_organizations: "สมาคมที่แปลงเปนกองกําลังทหาร"
+CZE_control_organizations: "สมาคมที่ยึดมั่นตามอุดมการณ"
+CZE_bohemian_imperial_claims: "การอางสิทธิ์แหงจักรวรรดิโบฮีเมีย"
+CZE_pro_rearmament_propaganda_idea: "$CZE_pro_rearmament_propaganda$"
+CZE_integration_efforts: "ความพยายามผนวกรวม"
+CZE_working_with_exiles: "การทํางานรวมกับผูลี้ภัย"
+CZE_czech_state_oil: "นํ้ามันของรัฐเช็ก"
+CZE_rural_education_efforts: "ความพยายามดานการศึกษาในชนบท"
+CZE_rural_education_efforts_modifier_tt: "เมื่อ §Yจิตวิญญาณแหงชาติ§! นี้ §Yถูกลบออก§!:\nไดรับชองการวิจัย §G1§! ชอง"
+CZE_vitkovice_mining_and_metallurgical_company: "บริษัทเหมืองแรและโลหะการวีตโควิตซเก"
+CZE_joint_stock_schemes_idea_aat: "โครงการรวมทุนแบบหุน"
+CZE_joint_stock_schemes_idea_aat_desc: "โครงการรวมทุนแบบหุนเปนวิธีที่บริษัทเช็กจํานวนมากใชกันทั่วไปเพื่อเติบโตตอไปแมเผชิญการขาดแคลนทางการเมืองหรือการคลัง"
+CZE_powerhouse_of_europe_idea_desc: "$CZE_giant_of_central_europe_industry_desc$"
+CZE_national_defense_act_idea: "พระราชบัญญัติการปองกันประเทศ"
+CZE_mobilize_the_reserves_idea: "การระดมกองพลสํารอง"
+CZE_rapid_response_divisions_idea: "กองพลตอบโตเร็ว"
+CZE_military_aeronautical_institute_idea: "สถาบันการบินทหาร"
+CZE_aristocratic_support: "การสนับสนุนจากชนชั้นสูง"
+CZE_nationalized_key_industries: "อุตสาหกรรมหลักที่โอนเปนของรัฐ"
+CZE_widespread_nationalization: "การโอนกิจการเปนของรัฐอยางกวางขวาง"
+CZE_secret_police: "กรมความมั่นคงแหงรัฐ"
+CZE_kramer_and_lobel_research: "การวิจัยและพัฒนาของ Kramer and Löbl"
+CZE_vladimirs_rocket_program: "โครงการจรวดของวลาดีมีร"
+CZE_invest_in_the_smaller_air_plants_idea: "การลงทุนโรงงานอากาศยานที่หลากหลาย"
+CZE_vtlu_idea: "VTLU"
+CZE_bribery_investigations_idea: "การสอบสวนการติดสินบนที่ดําเนินอยู"
+CZE_elevate_the_vsv_idea_1: "วิทยาลัยการทัพ"
+CZE_machine_tools: "เครื่องมือกลเชโกสโลวัก"
+CZE_aligned_church: "ศาสนจักรที่เขาขางรัฐ"
+CZE_army_questionable_loyalties: "ความภักดีของกองทัพที่นาสงสัย"
+CZE_outsourced_weapons_production: "การจางผลิตอาวุธภายนอก"
+CZE_heighten_resistance: "การตอตานที่เขมขนขึ้น"
+CZE_department_2_idea_lar: "กรมที่ 2"
+CZE_adminstrative_chaos: "ความโกลาหลทางการบริหาร"
+CZE_semi_constitutional_constitution: "รัฐธรรมนูญฉบับใหม"
+CZE_semi_constitutional_constitution_desc: "รัฐธรรมนูญฉบับใหมของ [ROOT.GetNameDef] รับประกันการแบงแยกระหวางฝายประชาธิปไตยของรัฐบาลซึ่งเปนตัวแทนของประชาชน กับชองทางการเขาแทรกแซงของกษัตริยเพื่อรักษาเสถียรภาพ"
+CZE_emergency_measures_idea: "$CZE_emergency_measures$"
+CZE_a_modern_navy_idea: "กองกําลังนาวีสมัยใหม"
+CZE_bastion_of_liberty_idea: "ปอมปราการแหงเสรีภาพ"
+CZE_wielding_the_hammer_idea: "การยึดกุมฝายนิติบัญญัติ"
+CZE_leveraged_sokol: "ใชประโยชนจากซอคอล"
+CZE_truth_prevails_idea: "ความจริงยอมชนะ"
+CZE_standing_against_the_storm_idea: "ยืนหยัดตานพายุ"
+CZE_coalition_building_idea: "การสรางแนวรวม"
+CZE_the_broad_coalition_idea_1: "แนวรวมกวางขวาง"
+CZE_widespread_protests: "การประทวงอยางกวางขวาง"
+CZE_widespread_protests_desc: "เกิดการประทวงอยางกวางขวางตอการตัดสินใจยกซูเดเทินลันดใหขาศึก ผูประทวงพากันตะโกนวา 'จงให [ROOT.getleader] แกเรา หรือไมก็ใหอาวุธแกเรา'"
+CZE_guardian_of_central_europe_idea: "ผูพิทักษแหงยุโรปกลาง"
+CZE_federalization_agreement_1: "ขอตกลงการแปลงเปนสหพันธรัฐ"
+CZE_federalization_agreement_1_desc: "การแปลงชาติของเราเปนสหพันธรัฐมีประโยชนบางประการ ทามกลางขอเสียที่เห็นไดชัด"
+CZE_federalization_agreement_puppets: "ขอตกลงการแปลงเปนสหพันธรัฐ"
+CZE_strike_at_the_heart_of_bolshevism_idea: "[THIS.GetAntiSovietFocusName]"
+CZE_form_the_government_army_idea: "กองทัพรัฐบาล"
+CZE_forgive_trading_debts_idea: "การยกหนี้การคา"
+CZE_forgive_trading_debts_idea_desc: "$CZE_forgive_trading_debts_desc$"
+CZE_soviet_influence: "อิทธิพลของ[SOV.GetAdjective]"
+CZE_mil_access_debuff_cancels_after_month_tt: "§Yแนวคิดนี้จะถูกยกเลิก 30 วันหลังสิทธิ์ผานแดนทางทหารสิ้นสุดลง\n§!"
+CZE_state_catholicism: "$POL_state_catholicism$"
+CZE_exiles_idea_POL: "ผูลี้ภัยชาว[CZE.GetAdjective]"
+
+##SLOVAKIA##
+
+#SLO Concerns
+SLO_CZE_skoda_works_2: "Škoda-Bratislava"
+SLO_CZE_elektra: "Elektra-Slovensko"
+SLO_CZE_elektra_improved: "Elektra-Slovensko"
+SLO_CZE_skoda_artillery: "$SLO_CZE_skoda_artillery_organization$"
+SLO_zbrojnica_roth: "Zbrojnica Roth"
+SLO_naval_manufacturer: "Prístav Bratislava"
+SLO_CZE_letov: "Letov-Bratislava"
+SLO_generic_light_aircraft_manufacturer: "Považské strojárne"
+SLO_generic_naval_manufacturer: "Prístav Bratislava"
+SLO_CZE_skoda_plzen_tank_destroyer: "Závody ťažkého strojárstva"
+SLO_CZE_skoda_armor: "Škoda-ดูบนีตซา นัด วาโฮม"
+
+#SLO National Spirits
+SLO_slovak_army: "Branná moc Slovenska"
+SLO_clerical_politics: "การเมืองของฝายศาสนา"
+SLO_rapid_brigades: "กองพลนอยเคลื่อนที่เร็ว"
+
+##CARPATHO-UKRAINIAN##
+
+#RUT National Spirits
+CZE_back_against_the_mountains_RUT: "หลังพิงภูเขา"
+CZE_back_against_the_mountains_RUT_desc: "ไมมีผูใดในประชาคมระหวางประเทศจะมาชวยเหลือ [ROOT.getname] ในยามสงคราม"
+CZE_back_against_the_mountains_RUT_player: "$CZE_back_against_the_mountains_RUT$"
+
+##GERMANY##
+
+#GER National Spirits
+CZE_integrate_czech_manufacturers_GER_idea_aat: "การผนวกรวมผูผลิตโบฮีเมีย"
+CZE_integrate_czech_manufacturers_GER_idea_aat_desc: "เมื่ออุตสาหกรรมขนาดมหึมาในโบฮีเมียอยูใตการควบคุมของเราแลว ผูผลิตของเราจะไดประโยชนอยางมากจากทรัพยากรอุตสาหกรรมเพิ่มเติมที่พวกเขานํามาสูอุตสาหกรรมอาวุธของเรา"
+
+#BELGIUM##
+
+#BEL Concerns
+BEL_ateliers_metallurgiques_sambre: "Ateliers Métallurgiques-Sambre"
+
+##GENERIC##
+
+#GEN National Spirits
+CZE_pfot_fortification_destruction_research: "การวิจัยการทําลายปอมปราการ"
+CZE_pfot_fortification_destruction_research_desc: "การรื้อถอนแนวปอมปราการนี้ทําใหเรามีโอกาสทดลองวิธีใหม ๆ ในการเจาะและทําลายปอมปราการที่กาวหนา"
+
+#Weapons Sales
+CZE_skoda_weapon_sales_dummy_idea: "กําไรจากการขายอาวุธ"
+CZE_skoda_offsite_factory_amount: "โรงงานพลเรือนนอกพื้นที่: [?weapon_sales_factory_var|+0]"
+CZE_skoda_weapons_buyer_idea: "การจัดซื้ออาวุธ"
+
+#Raid Ideas
+CZE_sokolov_raid_pfot_limited_success_ns: "การจูโจมฟลคนอฟที่สําเร็จบางสวน"
+CZE_sokolov_raid_pfot_limited_success_ns_desc: "การโจมตีที่วางแผนอยางรอบคอบตอแนวปอมที่ฟลคนอฟทําใหชาว[CZE.GetAdjective]เปดชองโหวตอการโจมตีของเรา นี่คือเวลาอันเหมาะสมที่จะเปดฉากการรุก"
+CZE_sokolov_raid_pfot_success_ns: "การจูโจมฟลคนอฟที่สําเร็จ"
+CZE_sokolov_raid_pfot_success_ns_desc: "$CZE_sokolov_raid_pfot_limited_success_ns_desc$"
+CZE_sokolov_raid_pfot_critical_success_ns: "การจูโจมฟลคนอฟที่สําเร็จอยางยอดเยี่ยม"
+CZE_sokolov_raid_pfot_critical_success_ns_desc: "$CZE_sokolov_raid_pfot_limited_success_ns_desc$"
+
+##TOOLTIPS##
+
+#MISC Tooltips
+generic_has_happen_tt: "§Yไดเกิดขึ้นแลว§!:"
+generic_can_only_happen_once_tt: "§Yผล§! นี้เกิดขึ้นไดเพียงครั้งเดียว"
+CZE_skoda_texticon_ref: "£GFX_CZE_skoda_text_icon"
+CZE_the_fall_of_the_republic_warning_tt: "§Rการเลือกทางนี้จะสงผลทางการเมืองอยางรายแรงตอชาติของเรา ผลกระทบที่เราไมอาจคาดการณไดเลย§!"
+CZE_the_fall_of_the_republic_warning_munich_tt: "§Rการตัดสินใจยกซูเดเทินลันดใหจะสงผลทางการเมืองอยางรายแรงตอชาติของเรา แตเรามีทางเลือกอื่นหรือ?§!"
+CZE_militias_officer_random_general_tt: "ผูนํากองทัพ §Yหนึ่ง§! คนที่ถูกสุมเลือกจะไดรับ §Yนายทหารกองอาสา§!:\n-การปองกันของกองอาสา: §G+5%§!\n-ความเร็วของกองอาสา: §G+5%§!\n-การจัดระเบียบของกองอาสา: §G+5%§!"
+CZE_winter_specialist_random_generals_tt: "ผูนํากองทัพ §Yสอง§! คนที่ถูกสุมเลือกจะไดรับ §Yผูเชี่ยวชาญฤดูหนาว§!:\n-การสูญเสียสะสมในฤดูหนาว: §G-50%§!"
+CZE_trait_mountaineer_random_generals_tt: "ผูนํากองทัพ §Yสอง§! คนที่ถูกสุมเลือกจะไดรับ §Yนักไตเขา§!:\n  -§Yภูเขา§!:\n การเคลื่อนที่:  §G+5.0%§!\n การโจมตี:  §G+10.0%§!\n การปองกัน:  §G+10.0%§!"
+CZE_trickster_random_general_tt: "ผูนํากองทัพ §Yหนึ่ง§! คนที่ถูกสุมเลือกจะไดรับ §Yนักลวงหลอก§!:\n -การลาดตระเวน: §G+25.0%§!"
+
+#Custom Trigger Tooltips 
+CZE_has_a_skoda_planes_focus_tt: "$CZE_skoda_texticon_ref$ §Yแผนดานเครื่องบิน§! คือ §Yลําดับความสําคัญ Škoda§! ปจจุบัน"
+CZE_has_a_skoda_no_focus_tt: "$CZE_skoda_texticon_ref$ §Yแผนดานอุตสาหกรรมหนัก§! คือ §Yลําดับความสําคัญ Škoda§! ปจจุบัน"
+CZE_has_a_skoda_no_focus_tt_NOT: "$CZE_skoda_texticon_ref$ §Yแผนดานอุตสาหกรรมหนัก§! ไมใช §Yลําดับความสําคัญ Škoda§! ปจจุบัน"
+CZE_has_a_skoda_infantry_focus_tt: "$CZE_skoda_texticon_ref$ §Yแผนดานทหารราบ§! คือ §Yลําดับความสําคัญ Škoda§! ปจจุบัน"
+CZE_has_a_skoda_tank_focus_tt: "$CZE_skoda_texticon_ref$ §Yแผนดานรถถัง§! คือ §Yลําดับความสําคัญ Škoda§! ปจจุบัน"
+CZE_has_a_skoda_naval_focus_tt: "$CZE_skoda_texticon_ref$ §Yแผนดานนาวี§! คือ §Yลําดับความสําคัญ Škoda§! ปจจุบัน"
+
+#Skoda Focus Effects Tooltips - NOTE: These are used on the Skoda Works in focus tree/event context and not the GUI!!!
+CZE_start_skoda_GUI_tt: "ระบบ $CZE_skoda_texticon_ref$ §Yลําดับความสําคัญ Škoda§! จะเริ่มทํางาน ซึ่งให:\n$CZE_skoda_works_dynamic_custom_modifier_tt$"
+CZE_start_skoda_GUI_event_tt: "$CZE_skoda_texticon_ref$ §Yลําดับความสําคัญ Škoda§! เริ่มทํางาน"
+CZE_start_skoda_GUI_focus_tt: "£GFX_CZE_skoda_text_icon §Yลําดับความสําคัญ Škoda§! จะเริ่มทํางาน" 
+CZE_start_skoda_raise_more_industrial_funds_tt: "เพิ่ม §Y$CZE_skoda_works_dynamic_modifier$§! ซึ่งให: \nผลผลิตโรงงาน: §G+5%§!"
+
+#Dynamic modifier intro Tooltips
+CZE_modify_a_divided_nation_ns_intro_tt: "§Wปรับ§! §Y$CZE_a_divided_nation_dynamic_modifier$§! §Wดวย:§!"
+CZE_ceskoslovenska_armada_ns_intro_tt: "§Wปรับ§! §Y$CZE_ceskoslovenska_armada_dynamic_modifier$§! §Wดวย:§!"
+CZE_ceskoslovenske_letectvo_ns_intro_tt: "§Wปรับ§! §Y$CZE_ceskoslovenske_letectvo_dynamic_modifier$§! §Wดวย:§!"
+CZE_modify_skoda_works_ns_intro_tt: "£GFX_CZE_skoda_text_icon §Wปรับ§! §Y$CZE_skoda_works_dynamic_modifier$§! §Wดวย:§!\n"
+CZE_modify_ceskoslovenske_alecne_lodstvo_dynamic_modifier_tt: "§Y$CZE_ceskoslovenske_alecne_lodstvo_dynamic_modifier$§! §Wดวย:§!\n"
+
+#Skoda Works Dynamic Local Tooltips - NOTE: These are used on the Skoda Works Dynamic Modifier and not the GUI!!!
+CZE_current_skoda_priority_dynamic_local: "[CZE_current_skoda_priority_dynamic_local]"
+CZE_current_skoda_priority_dynamic_local_start: "ลําดับความสําคัญปจจุบัน:"
+CZE_current_skoda_priority_dynamic_local_no_focus: "$CZE_current_skoda_priority_dynamic_local_start$ §Yแผนดานอุตสาหกรรมหนัก§!"
+CZE_current_skoda_priority_dynamic_local_infantry_focus: "$CZE_current_skoda_priority_dynamic_local_start$ §Yแผนดานทหารราบ§!"
+CZE_current_skoda_priority_dynamic_local_tanks_focus: "$CZE_current_skoda_priority_dynamic_local_start$ §Yแผนดานรถถัง§!"
+CZE_current_skoda_priority_dynamic_local_planes_focus: "$CZE_current_skoda_priority_dynamic_local_start$ §Yแผนดานเครื่องบิน§!"
+CZE_current_skoda_priority_dynamic_local_naval_focus: "$CZE_current_skoda_priority_dynamic_local_start$ §Yแผนดานนาวี§!"
+CZE_current_skoda_priority_dynamic_local_no_core: "$CZE_current_skoda_priority_dynamic_local_start$ §Yไมทราบ§!"
+CZE_current_skoda_priority_current_optimization_tier_tt: "ระดับการปรับใหเหมาะสมปจจุบัน: §Y$CZE_skoda_optimization_tier_var_text$§!" #$CZE_skoda_optimization_tier_var_text$ is in the 'mun_decisions_l_english' file
+CZE_skoda_fast_optimization_tt_dynamic_local: "[CZE_skoda_fast_optimization_tt_dynamic_local]"
+CZE_skoda_fast_optimization_tt_on_dynamic: "อัตราที่ระดับการปรับใหเหมาะสมของ §YŠkoda Focus§! £GFX_prod_eff_cap เพิ่มขึ้นตามเวลาสูระดับสูงสุด: §G+100.0%§! \n\n" 
+CZE_skoda_fast_optimization_tt_off_dynamic: "\n"
+CZE_current_skoda_max_optimization_tier_start_tt: "ระดับการปรับใหเหมาะสมสูงสุด:"
+CZE_current_skoda_max_optimization_tier_tt: "$CZE_current_skoda_max_optimization_tier_start_tt$ [?skoda_max_optimization_tier|G0]"
+CZE_skoda_works_dynamic_custom_modifier_space_tt: "\n"
+CZE_skoda_works_dynamic_custom_modifier_tt: "$CZE_current_skoda_priority_dynamic_local$ \n$CZE_current_skoda_priority_current_optimization_tier_tt$ \n$CZE_current_skoda_max_optimization_tier_tt$\n$CZE_skoda_fast_optimization_tt_dynamic_local$"
+skoda_optimization_tier_greater_than_three_tt: "$CZE_skoda_texticon_ref$ £GFX_prod_eff_cap §Wระดับการปรับใหเหมาะสม§! ของ §Yลําดับความสําคัญ Škoda§! ปจจุบันมากกวา §G3§!"
+skoda_optimization_tier_greater_than_four_tt: "$CZE_skoda_texticon_ref$ £GFX_prod_eff_cap §Wระดับการปรับใหเหมาะสม§! ของ §Yลําดับความสําคัญ Škoda§! ปจจุบันมากกวา §G4§!"
+
+#Skoda Works Scripted Effects Tooltips
+CZE_increase_skoda_max_optimization_tier_var_tt: "$CZE_modify_skoda_works_ns_intro_tt$ £GFX_prod_eff_cap §Wระดับการปรับใหเหมาะสม§!สูงสุด: §Y+1§!"
+
+#Hidden ideas of Skoda, localized for when shown in research/production bonus tab/tooltips
+CZE_skoda_no_focus_optimization_idea: "ลําดับความสําคัญ Škoda: แผนดานอุตสาหกรรมหนัก"
+CZE_skoda_infantry_focus_optimization_idea: "ลําดับความสําคัญ Škoda: แผนดานทหารราบ"
+CZE_skoda_tanks_focus_optimization_idea: "ลําดับความสําคัญ Škoda: แผนดานรถถัง"
+CZE_skoda_planes_focus_optimization_idea: "ลําดับความสําคัญ Škoda: แผนดานเครื่องบิน"
+CZE_skoda_naval_focus_optimization_idea: "ลําดับความสําคัญ Škoda: แผนดานนาวี"

@@ -1,0 +1,43 @@
+﻿l_english:
+
+ 
+ ####### JAPAN #######
+ JAP_military_power_balance: "การแขงขันระหวางเหลาทัพ"
+ JAP_imperial_army_side: "กองทัพบกจักรวรรดิ"
+ JAP_imperial_navy_side: "กองทัพเรือจักรวรรดิ"
+
+ JAP_balance_range: "ดุลยภาพ"
+ JAP_imperial_army_low_control_range: "อิทธิพลกองทัพบกที่เพิ่มขึ้น"
+ JAP_imperial_army_medium_control_range: "อิทธิพลกองทัพบกที่แข็งแกรง"
+ JAP_imperial_army_high_control_range: "อิทธิพลกองทัพบกที่ครอบงํา"
+ JAP_imperial_army_total_control_range: "กองทัพบกควบคุมเบ็ดเสร็จ"
+ JAP_imperial_navy_low_control_range: "อิทธิพลกองทัพเรือที่เพิ่มขึ้น"
+ JAP_imperial_navy_medium_control_range: "อิทธิพลกองทัพเรือที่แข็งแกรง"
+ JAP_imperial_navy_high_control_range: "อิทธิพลกองทัพเรือที่ครอบงํา"
+ JAP_imperial_navy_total_control_range: "กองทัพเรือควบคุมเบ็ดเสร็จ"
+ 
+
+ ####### PEOPLE'S REPUBLIC OF CHINA ########
+ 
+ PRC_communist_power_struggle: "การแยงชิงอํานาจในคณะกรรมการกลาง"
+ PRC_bop_left_side: "เหมา เจอตง"
+ PRC_bop_right_side: "28½ บอลเชวิค"
+ PRC_bop_right_side_guotao: "จาง กั๋วเทา"
+
+
+ PRC_unstable_cooperation: "ความรวมมือที่ไมมั่นคง"
+ PRC_slight_mao_support_range: "สนับสนุนเหมาเล็กนอย"
+ PRC_noteable_mao_support_range: "สนับสนุนเหมาอยางเห็นไดชัด"
+ PRC_strong_mao_support_range: "สนับสนุนเหมาอยางแข็งขัน"
+ PRC_total_mao_support_range: "สนับสนุนเหมาเต็มที่"
+ PRC_slight_28_support_range: "สนับสนุน 28½ บอลเชวิคเล็กนอย"
+ PRC_noteable_28_support_range: "สนับสนุน 28½ บอลเชวิคอยางเห็นไดชัด"
+ PRC_strong_28_support_range: "สนับสนุน 28½ บอลเชวิคอยางแข็งขัน"
+ PRC_total_28_support_range: "สนับสนุน 28½ บอลเชวิคเต็มที่"
+
+ PRC_slight_guotao_support_range: "สนับสนุนจาง กั๋วเทาเล็กนอย"
+ PRC_noteable_guotao_support_range: "สนับสนุนจาง กั๋วเทาอยางเห็นไดชัด"
+ PRC_strong_guotao_support_range: "สนับสนุนจาง กั๋วเทาอยางแข็งขัน"
+ PRC_total_guotao_support_range: "สนับสนุนจาง กั๋วเทาเต็มที่"
+
+

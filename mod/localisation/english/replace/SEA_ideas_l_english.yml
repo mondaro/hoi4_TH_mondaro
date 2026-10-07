@@ -1,0 +1,1267 @@
+﻿l_english:
+
+### MISC ###
+
+ TIB_tibetan_politics_idea: "คันเดน โพดรัง"
+ TIB_tibetan_politics_idea_desc: "เมื่อครั้งรวบรวมดินแดนใจกลางทิเบตภายใตการปกครองของนิกายเกลุก หลังจากเอาชนะเจาชายแหงซังปาผูเปนคูแขงในสงครามกลางเมืองอันยืดเยื้อ ดาไลลามะองคที่ 5 ไดสถาปนารัฐบาลซึ่งเปนตนแบบของรัฐบาลปจจุบันของเรา แมจะเปนแบบโดดเดี่ยวตนเอง แตก็ทําใหรัฐมั่นคงยิ่งขึ้น"
+ TIB_tibetan_army_idea: "มักปุง เพอ"
+ TIB_tibetan_army_idea_desc: "แมจะขาดแคลนยุทโธปกรณและลาสมัยอยางมาก แตกองทัพของเราก็ชวยปราบกบฏไปหลาง และรักษาอํานาจปกครองในนามเหนือแผนดินไวได เราตองขยายกองทัพตอไปเพื่อปกปองรัฐจากการรุกลํ้าของขุนศึกคูแขง"
+
+ MEN_mongol_banners_idea: "กองธงมองโกล"
+ MEN_pailingmiao_council_idea: "สภาไปหลิงเมี่ยว"
+ MEN_stretched_administration_idea: "การบริหารที่ตึงมือ"
+ MEN_communist_revolutionaries_idea: "นักปฏิวัติคอมมิวนิสต"
+ MEN_mongol_banners_idea_tt: "สามารถระดม§Yกองพลทหารนอกแบบ§!ไดเมื่ออยูในภาวะสงคราม"
+ MEN_stretched_administration_idea_3: "สภาการเมืองคาลกัน"
+ MEN_disorganized_army_idea: "กองทัพที่ไรระเบียบ"
+ MEN_disorganized_army_idea_4: "กองทัพแหงชาติเหมิงเจียง"
+ 
+ MON_income_from_hulunbuir_idea: "รายไดจาก[761.GetName]"
+
+###################
+###### JAPAN ######
+###################
+
+### Imperial Influence ###
+ JAP_imperial_influence_dm: "อิทธิพลในราชสํานัก"
+ JAP_imperial_influence_dm_desc: "กลุมตาง ๆ ภายในประเทศตางแยงชิงอํานาจและอิทธิพลเหนือ[GetImperialInfluenceRulerTitle] ซึ่งเปนธรรมเนียมที่สืบยอนไปถึงคณาธิปไตยและกลุมทหารที่กอตั้งขึ้นในยุคเมจิและไทโช"
+
+ JAP_imperial_influence_communist_dm: "อิทธิพลในชาติ"
+ JAP_imperial_influence_communist_dm_desc: "กลุมตาง ๆ ภายในประเทศตางแยงชิงอํานาจและอิทธิพลเหนือ[GetImperialInfluenceRulerTitle] ซึ่งเปนธรรมเนียมที่สืบยอนไปถึงคณาธิปไตยและกลุมทหารที่กอตั้งขึ้นในยุคเมจิและไทโช"
+
+ JAP_imperial_influence_dm_tt: "ระดับของกลุมในปจจุบัน: \n[GetArmyFactionDesc] \n[GetNavalFactionDesc] \n[GetZaibatsuFactionDesc] \n[GetGovernmentFactionDesc]"
+ JAP_army_faction: "§Yกลุมกองทัพบก§!"
+ JAP_naval_faction: "§Yกลุมกองทัพเรือ§!"
+ JAP_zaibatsu_faction: "§Yกลุมไซบัตสึ§!"
+ JAP_government_faction: "§Yกลุมพลเรือน§!"
+ JAP_imperial_influence_tier_1: "§Rถูกกดไว§!"
+ JAP_imperial_influence_tier_2: "§Rแทรกแซง§!"
+ JAP_imperial_influence_tier_3: "§Rมีอิทธิพล§!"
+ JAP_imperial_influence_tier_4: "§Rครอบงํา§!"
+
+ JAP_army_faction_tier_1_equal_navy: "$JAP_imperial_influence_tier_1$ $JAP_army_faction$"
+ JAP_army_faction_tier_1_lesser_1: "$JAP_imperial_influence_tier_1$ $JAP_army_faction$"
+ JAP_army_faction_tier_1_lesser_2: "$JAP_imperial_influence_tier_1$ $JAP_army_faction$"
+ JAP_army_faction_tier_1_lesser_3: "$JAP_imperial_influence_tier_1$ $JAP_army_faction$"
+ JAP_army_faction_tier_2_equal_navy: "$JAP_imperial_influence_tier_2$ $JAP_army_faction$"
+ JAP_army_faction_tier_2_greater_1: "$JAP_imperial_influence_tier_2$ $JAP_army_faction$"
+ JAP_army_faction_tier_2_lesser_1: "$JAP_imperial_influence_tier_2$ $JAP_army_faction$"
+ JAP_army_faction_tier_2_lesser_2: "$JAP_imperial_influence_tier_2$ $JAP_army_faction$"
+ JAP_army_faction_tier_3_equal_navy: "$JAP_imperial_influence_tier_3$ $JAP_army_faction$"
+ JAP_army_faction_tier_3_greater_1: "$JAP_imperial_influence_tier_3$ $JAP_army_faction$"
+ JAP_army_faction_tier_3_greater_2: "$JAP_imperial_influence_tier_3$ $JAP_army_faction$"
+ JAP_army_faction_tier_3_lesser_1: "$JAP_imperial_influence_tier_3$ $JAP_army_faction$"
+ JAP_army_faction_tier_4_greater_1: "$JAP_imperial_influence_tier_4$ $JAP_army_faction$"
+ JAP_army_faction_tier_4_greater_2: "$JAP_imperial_influence_tier_4$ $JAP_army_faction$"
+ JAP_army_faction_tier_4_greater_3: "$JAP_imperial_influence_tier_4$ $JAP_army_faction$"
+
+ JAP_army_faction_tier_4: "$JAP_imperial_influence_tier_4$ $JAP_army_faction$"
+ JAP_army_faction_tier_3: "$JAP_imperial_influence_tier_3$ $JAP_army_faction$"
+ JAP_army_faction_tier_2: "$JAP_imperial_influence_tier_2$ $JAP_army_faction$"
+ JAP_army_faction_tier_1: "$JAP_imperial_influence_tier_1$ $JAP_army_faction$" 
+ 
+ JAP_naval_faction_tier_1_equal_army: "$JAP_imperial_influence_tier_1$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_1_lesser_1: "$JAP_imperial_influence_tier_1$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_1_lesser_2: "$JAP_imperial_influence_tier_1$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_1_lesser_3: "$JAP_imperial_influence_tier_1$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_2_equal_army: "$JAP_imperial_influence_tier_2$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_2_greater_1: "$JAP_imperial_influence_tier_2$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_2_lesser_1: "$JAP_imperial_influence_tier_2$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_2_lesser_2: "$JAP_imperial_influence_tier_2$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_3_equal_army: "$JAP_imperial_influence_tier_3$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_3_greater_1: "$JAP_imperial_influence_tier_3$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_3_greater_2: "$JAP_imperial_influence_tier_3$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_3_lesser_1: "$JAP_imperial_influence_tier_3$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_4_greater_1: "$JAP_imperial_influence_tier_4$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_4_greater_2: "$JAP_imperial_influence_tier_4$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_4_greater_3: "$JAP_imperial_influence_tier_4$ $JAP_naval_faction$"
+
+ JAP_naval_faction_tier_4: "$JAP_imperial_influence_tier_4$ $JAP_naval_faction$" 
+ JAP_naval_faction_tier_3: "$JAP_imperial_influence_tier_3$ $JAP_naval_faction$" 
+ JAP_naval_faction_tier_2: "$JAP_imperial_influence_tier_2$ $JAP_naval_faction$"
+ JAP_naval_faction_tier_1: "$JAP_imperial_influence_tier_1$ $JAP_naval_faction$"
+ 
+ JAP_zaibatsu_faction_tier_1: "$JAP_imperial_influence_tier_1$ $JAP_zaibatsu_faction$"
+ JAP_zaibatsu_faction_tier_2: "$JAP_imperial_influence_tier_2$ $JAP_zaibatsu_faction$"
+ JAP_zaibatsu_faction_tier_3: "$JAP_imperial_influence_tier_3$ $JAP_zaibatsu_faction$"
+ JAP_zaibatsu_faction_tier_4: "$JAP_imperial_influence_tier_4$ $JAP_zaibatsu_faction$"
+ JAP_government_faction_tier_1: "$JAP_imperial_influence_tier_1$ $JAP_government_faction$"
+ JAP_government_faction_tier_2: "$JAP_imperial_influence_tier_2$ $JAP_government_faction$"
+ JAP_government_faction_tier_3: "$JAP_imperial_influence_tier_3$ $JAP_government_faction$"
+ JAP_government_faction_tier_4: "$JAP_imperial_influence_tier_4$ $JAP_government_faction$"
+
+ JAP_small_influence_gain: "ไดรับ§Yอิทธิพล§!ใน§Yปริมาณเล็กนอย§!"
+ JAP_big_influence_gain: "ไดรับ§Yอิทธิพล§!ใน§Yปริมาณมาก§!"
+ JAP_small_influence_loss: "สูญเสีย§Yอิทธิพล§!ใน§Yปริมาณเล็กนอย§!"
+ JAP_big_influence_loss: "สูญเสีย§Yอิทธิพล§!ใน§Yปริมาณมาก§!"
+ 
+ JAP_small_army_faction_gain_tt: "£imperial_influence_texticon $JAP_army_faction$ $JAP_small_influence_gain$"
+ JAP_big_army_faction_gain_tt: "£imperial_influence_texticon $JAP_army_faction$ $JAP_big_influence_gain$"
+ JAP_small_army_faction_loss_tt: "£imperial_influence_texticon $JAP_army_faction$ $JAP_small_influence_loss$"
+ JAP_big_army_faction_loss_tt: "£imperial_influence_texticon $JAP_army_faction$ $JAP_big_influence_loss$"
+ JAP_small_naval_faction_gain_tt: "£imperial_influence_texticon $JAP_naval_faction$ $JAP_small_influence_gain$"
+ JAP_big_naval_faction_gain_tt: "£imperial_influence_texticon $JAP_naval_faction$ $JAP_big_influence_gain$"
+ JAP_small_naval_faction_loss_tt: "£imperial_influence_texticon $JAP_naval_faction$ $JAP_small_influence_loss$"
+ JAP_big_naval_faction_loss_tt: "£imperial_influence_texticon $JAP_naval_faction$ $JAP_big_influence_loss$"
+ JAP_small_zaibatsu_faction_gain_tt: "£imperial_influence_texticon $JAP_zaibatsu_faction$ $JAP_small_influence_gain$"
+ JAP_big_zaibatsu_faction_gain_tt: "£imperial_influence_texticon $JAP_zaibatsu_faction$ $JAP_big_influence_gain$"
+ JAP_small_zaibatsu_faction_loss_tt: "£imperial_influence_texticon $JAP_zaibatsu_faction$ $JAP_small_influence_loss$"
+ JAP_big_zaibatsu_faction_loss_tt: "£imperial_influence_texticon $JAP_zaibatsu_faction$ $JAP_big_influence_loss$"
+ JAP_small_government_faction_gain_tt: "£imperial_influence_texticon $JAP_government_faction$ $JAP_small_influence_gain$"
+ JAP_big_government_faction_gain_tt: "£imperial_influence_texticon $JAP_government_faction$ $JAP_big_influence_gain$"
+ JAP_small_government_faction_loss_tt: "£imperial_influence_texticon $JAP_government_faction$ $JAP_small_influence_loss$"
+ JAP_big_government_faction_loss_tt: "£imperial_influence_texticon $JAP_government_faction$ $JAP_big_influence_loss$"
+ JAP_interservice_rivalry_effects: "£imperial_influence_texticon เนื่องจาก§Y$JAP_interservice_rivalry$§!ระหวางกองทัพบกกับกองทัพเรือ:"
+ JAP_pending_imperial_influence_decision: "ไมใช: มีการตัดสินใจดานอิทธิพลในราชสํานักที่คางอยู"
+
+ #Imperial Influence Triggers
+ JAP_army_faction_is_at_least_influential_tt: "£imperial_influence_texticon $JAP_army_faction$ อยูในระดับอยางนอย $JAP_imperial_influence_tier_3$"
+ JAP_army_faction_is_not_subdued_tt: "£imperial_influence_texticon ไมใช: $JAP_army_faction$ อยูในระดับ $JAP_imperial_influence_tier_1$"
+ JAP_army_faction_is_at_most_meddling_tt: "£imperial_influence_texticon $JAP_army_faction$ อยูในระดับ§Yไมเกิน§! $JAP_imperial_influence_tier_2$"
+ JAP_army_faction_is_greater_than_naval_tt: "£imperial_influence_texticon $JAP_army_faction$ มี§Yอิทธิพล§!มากกวา $JAP_naval_faction$"
+ JAP_army_faction_is_not_dominant_tt: "£imperial_influence_texticon ไมใช: $JAP_army_faction$ อยูในระดับ $JAP_imperial_influence_tier_4$"
+ JAP_naval_faction_is_at_least_influential_tt: "£imperial_influence_texticon $JAP_naval_faction$ อยูในระดับอยางนอย $JAP_imperial_influence_tier_3$"
+ JAP_naval_faction_is_not_subdued_tt: "£imperial_influence_texticon ไมใช: $JAP_naval_faction$ อยูในระดับ $JAP_imperial_influence_tier_1$"
+ JAP_naval_faction_is_at_most_meddling_tt: "£imperial_influence_texticon $JAP_naval_faction$ อยูในระดับ§Yไมเกิน§! $JAP_imperial_influence_tier_2$"
+ JAP_naval_faction_is_greater_than_army_tt: "£imperial_influence_texticon $JAP_naval_faction$ มี§Yอิทธิพล§!มากกวา $JAP_army_faction$"
+ JAP_naval_faction_is_not_dominant_tt: "£imperial_influence_texticon ไมใช: $JAP_naval_faction$ อยูในระดับ $JAP_imperial_influence_tier_4$"
+ JAP_naval_faction_is_same_as_army_tt: "£imperial_influence_texticon $JAP_naval_faction$ และ $JAP_army_faction$ อยูในภาวะสมดุล"
+ JAP_zaibatsu_faction_is_at_most_meddling_tt: "£imperial_influence_texticon $JAP_zaibatsu_faction$ อยูในระดับ§Yไมเกิน§! $JAP_imperial_influence_tier_2$"
+ JAP_civilian_government_faction_is_not_subdued_tt: "£imperial_influence_texticon ไมใช: $JAP_government_faction$ อยูในระดับ $JAP_imperial_influence_tier_1$"
+ JAP_zaibatsu_faction_is_at_least_influential_tt: "£imperial_influence_texticon $JAP_zaibatsu_faction$ อยูในระดับอยางนอย $JAP_imperial_influence_tier_3$"
+ JAP_zaibatsu_faction_is_not_subdued_tt: "£imperial_influence_texticon ไมใช: $JAP_zaibatsu_faction$ อยูในระดับ $JAP_imperial_influence_tier_1$"
+ JAP_civilian_government_is_at_least_influential_tt: "£imperial_influence_texticon $JAP_government_faction$ อยูในระดับอยางนอย $JAP_imperial_influence_tier_3$"
+
+ JAP_blocked_from_favoring_the_army_flag: " §Y$JAP_army_faction$§! §Rสูญเสียความโปรดปรานโดยสิ้นเชิง§!จาก$JAP_imperial_influence_ruler_title$"
+ JAP_blocked_from_favoring_the_navy_flag: " §Y$JAP_naval_faction$§! §Rสูญเสียความโปรดปรานโดยสิ้นเชิง§!จาก$JAP_imperial_influence_ruler_title$"
+ JAP_blocked_from_favoring_the_zaibatsus_flag: " §Y$JAP_zaibatsu_faction$§! §Rสูญเสียความโปรดปรานโดยสิ้นเชิง§!จาก$JAP_imperial_influence_ruler_title$"
+ JAP_blocked_from_favoring_the_government_flag: " §Y$JAP_government_faction$§! §Rสูญเสียความโปรดปรานโดยสิ้นเชิง§!จาก$JAP_imperial_influence_ruler_title$"
+
+#####################################################
+
+ JAP_state_shinotism_dm: "ลัทธิชินโตแหงรัฐ"
+ JAP_state_shinotism_dm_desc: "นับตั้งแตการปฏิรูปเมจิ เราไดใชการสักการะที่ศาลเจาชินโตเพื่อสงเสริมความจงรักภักดีตอองคจักรพรรดิและชวยในการสรางชาติ สิ่งนี้ทําใหเราสรางประเทศที่พรอมจะเสียสละอยางมากในนามของรัฐ"
+ JAP_modify_state_shinotism_modifier_tt: "ปรับ §Y$JAP_state_shinotism_dm$§! ดังนี้:"
+ JAP_add_state_shinotism_modifier_tt: "เพิ่ม §Y$JAP_state_shinotism_dm$§! ซึ่งใหผล:\n"
+
+ JAP_imperial_army_dm: "กองทัพบกจักรวรรดิ"
+ JAP_imperial_army_dm_desc: "กองทัพบกจักรวรรดิญี่ปุนคือกําลังรบภาคพื้นดินหลักของเรา มีบทบาทสําคัญในการทําใหประเทศทันสมัยอยางรวดเร็วในยุคเมจิ และไดผานสงครามมาแลวมากมาย ทั้งสงครามญี่ปุน–ชิง สงครามรัสเซีย-ญี่ปุน และมหาสงคราม เดิมกอตั้งขึ้นจากกองทัพของแควนตาง ๆ หลังการปฏิรูปเมจิ กอนจะพัฒนาเปนกองทัพสมัยใหมอันทรงพลังที่ไดรับอิทธิพลจากแบบอยางของฝรั่งเศสและเยอรมนี"
+ JAP_japanese_armor_doctrine_tt: "[GetJapaneseArmorDoctrineDesc]\n"
+ JAP_japanese_armor_doctrine_blankspace_tt: "[GetJapaneseArmorDoctrineBlankSpace]"
+ JAP_japanese_armor_doctrine: "หลักนิยมยานเกราะญี่ปุน"
+ JAP_blanskspace_tt: "\n"
+ JAP_japanese_armor_doctrine_equipment_tt: "§Yรถถังทุกประเภท§!:\n  $production_cost_tt$ §R+10.00%§!" #WARNING! If these numbers are changed, the numbers in JAP_japanese_armor_doctrine_equipment need to change to!
+ JAP_national_army_dm: "กองทัพแหงชาติ"
+ JAP_national_army_dm_desc: "กองกําลังปองกันภาคพื้นดินแหงชาติญี่ปุนคือกําลังรบภาคพื้นดินหลักของเรา มีบทบาทสําคัญในการทําใหประเทศทันสมัยอยางรวดเร็วในยุคเมจิ และไดผานสงครามมาแลวมากมาย ทั้งสงครามญี่ปุน–ชิง สงครามรัสเซีย-ญี่ปุน และมหาสงคราม เดิมกอตั้งขึ้นจากกองทัพของแควนตาง ๆ หลังการปฏิรูปเมจิ กอนจะพัฒนาเปนกองทัพสมัยใหมอันทรงพลังที่ไดรับอิทธิพลจากแบบอยางของฝรั่งเศสและเยอรมนี"
+ JAP_jungle_armor_tt: "\n§Y$category_all_armor$§!:\n§Yปาดงดิบ§!:\n การเปลี่ยนแปลงประสิทธิภาพการโจมตี: §G+10%§!\n การเปลี่ยนแปลงประสิทธิภาพการปองกัน: §G+10%§!"
+
+ JAP_modify_imperial_army_modifier_tt: "ปรับ §Y$JAP_imperial_army_dm$§! ดังนี้:"
+ JAP_add_imperial_army_modifier_tt: "เพิ่ม §Y$JAP_imperial_army_dm$§! ซึ่งใหผล:\n"
+ JAP_modify_national_army_modifier_tt: "ปรับ §Y$JAP_national_army_dm$§! ดังนี้:"
+
+ JAP_imperial_navy_dm: "กองทัพเรือจักรวรรดิ"
+ JAP_imperial_navy_dm_desc: "กองทัพเรือจักรวรรดิญี่ปุนกอตั้งขึ้นในป 1868 ณ จุดเริ่มตนของการปฏิรูปเมจิ และภายในป 1920 ก็กลายเปนกองทัพเรือที่ใหญเปนอันดับสามของโลกแลว บัดนี้กองทัพเรืออันเกรียงไกรของเรากําลังขยายตัวอยางรวดเร็ว เพื่อใหชาติของเราพรอมเผชิญกับกาลเวลาขางหนา"
+ JAP_modify_imperial_navy_modifier_tt: "ปรับ §Y$JAP_imperial_navy_dm$§! ดังนี้:"
+ JAP_add_imperial_navy_modifier_tt: "เพิ่ม §Y$JAP_imperial_navy_dm$§! ซึ่งใหผล:\n"
+ JAP_japanese_navy_dm: "กองทัพเรือญี่ปุน"
+ JAP_japanese_navy_dm_desc: "กองทัพเรือจักรวรรดิญี่ปุนกอตั้งขึ้นในป 1868 ณ จุดเริ่มตนของการปฏิรูปเมจิ และภายในป 1920 ก็กลายเปนกองทัพเรือที่ใหญเปนอันดับสามของโลกแลว บัดนี้กองทัพเรืออันเกรียงไกรของเรากําลังขยายตัวอยางรวดเร็ว เพื่อใหชาติของเราพรอมเผชิญกับกาลเวลาขางหนา"
+ JAP_modify_japanese_navy_modifier_tt: "ปรับ §Y$JAP_japanese_navy_dm$§! ดังนี้:"
+
+ JAP_army_and_naval_air_services_dm: "หนวยบินกองทัพบกและกองทัพเรือ"
+ JAP_army_and_naval_air_services_dm_desc: "กองทัพอากาศของเราในขณะนี้ถูกแบงออกเปนหนวยบินกองทัพบกจักรวรรดิญี่ปุนและหนวยบินกองทัพเรือจักรวรรดิญี่ปุน ซึ่งแยกกันทั้งดานปฏิบัติการ การผลิต ตลอดจนการวิจัยและพัฒนาระหวางกองทัพเรือและกองทัพบก ดวยเหตุนี้จึงเผชิญคอขวดดานการสงกําลังบํารุงอยางหนัก ซึ่งบางสวนจะแกไขไดก็ดวยการรวมกองทัพอากาศของเราเขาดวยกันเทานั้น"
+ JAP_separate_air_services_tt: "[GetSeparateAirforcesDesc]\n"
+ JAP_lightweight_fighters_tt: "[GetLighweightFightersDesc]"
+ JAP_7075_aluminium_alloy_tt: "§Y$small_plane_airframe$§! และ §Y$cv_small_plane_airframe$§! $MODIFIER_AIR_AGILITY$: §G+10%§!"
+ JAP_modify_army_and_naval_air_services_modifier_tt: "ปรับ §Y$JAP_army_and_naval_air_services_dm$§! ดังนี้:"
+ JAP_add_army_and_naval_air_services_modifier_tt: "เพิ่ม §Y$JAP_army_and_naval_air_services_dm$§! ซึ่งใหผล:\n"
+ JAP_modify_japanese_airforce_modifier_tt: "ปรับ §Y$JAP_japanese_airforce_dm$§! ดังนี้:"
+ JAP_japanese_airforce_dm: "กองทัพอากาศญี่ปุน"
+
+ JAP_early_industrialization_efforts_dm: "ความพยายามสรางอุตสาหกรรมในยุคแรก"
+ JAP_early_industrialization_efforts_dm_desc: "การปฏิวัติอุตสาหกรรมของเราเพิ่งเริ่มตนอยางจริงจังในทศวรรษ 1870 ระหวางการปฏิรูปเมจิ หลังจากคณะทูตอิวากุระนําความรูที่จําเปนกลับมาเพื่อผลักดันโครงการสรางอุตสาหกรรมใหเริ่มตนได นับแตนั้นเศรษฐกิจของเราก็ขยายตัวอยางมาก และมีการกอตั้งอุตสาหกรรมสมัยใหมขึ้น ถึงกระนั้นเศรษฐกิจของเราก็ยังตามหลังโลกตะวันตกอยูมาก สวนใหญเปนเพราะเราขาดแคลนทรัพยากรธรรมชาติ"
+ JAP_modify_early_industrialization_modifier_tt: "ปรับ §Y$JAP_early_industrialization_efforts_dm$§! ดังนี้:"
+ JAP_add_early_industrialization_modifier_tt: "เพิ่ม §Y$JAP_early_industrialization_efforts_dm$§! ซึ่งใหผล:\n"
+ JAP_modify_economic_mirale_modifier_tt: "ปรับ §Y$JAP_the_economic_mirale_dm$§! ดังนี้:"
+ JAP_the_economic_mirale_dm: "ปาฏิหาริยทางเศรษฐกิจ"
+ JAP_the_economic_mirale_dm_desc: "อุตสาหกรรมเบาและเกษตรกรรมไมไดเปนกระดูกสันหลังของเศรษฐกิจอีกตอไป เพราะอุตสาหกรรมหนักไดกาวขึ้นมาแทนที่ ยิ่งไปกวานั้น ความยากจนและการวางงานยังลดลงอยางมากจากการปฏิรูปเศรษฐกิจอันชาญฉลาดของโอซามุ ชิโมมูระ อีกไมนานเราจะเปนหนึ่งในเศรษฐกิจที่ใหญที่สุดของโลก!"
+
+ JAP_showa_statism_modifier: "ลัทธิรัฐนิยมโชวะ"
+ JAP_modify_showa_statism_modifier_tt: "ปรับ §Y$JAP_showa_statism_modifier$§! ดังนี้:"
+ JAP_add_showa_statism_modifier_tt: "เพิ่ม §Y$JAP_showa_statism_modifier$§! ซึ่งใหผล:\n"
+
+ JAP_civilian_cabinet_modifier: "คณะรัฐมนตรีพลเรือน"
+ JAP_modify_civilian_cabinet_modifier_tt: "ปรับ §Y$JAP_civilian_cabinet_modifier$§! ดังนี้:"
+ JAP_add_civilian_cabinet_modifier_tt: "เพิ่ม §Y$JAP_civilian_cabinet_modifier$§! ซึ่งใหผล:\n"
+
+ JAP_communist_party_modifier: "พรรคคอมมิวนิสตญี่ปุน"
+ JAP_modify_communist_party_modifier_tt: "ปรับ §Y$JAP_communist_party_modifier$§! ดังนี้:"
+ JAP_add_communist_party_modifier_tt: "เพิ่ม §Y$JAP_communist_party_modifier$§! ซึ่งใหผล:\n"
+
+ JAP_rounouha_modifier: "รัฐบาลสายโรโนฮะ"
+ JAP_modify_rounouha_modifier_tt: "ปรับ §Y$JAP_rounouha_modifier$§! ดังนี้:"
+ JAP_add_rounouha_modifier_tt: "เพิ่ม §Y$JAP_rounouha_modifier$§! ซึ่งใหผล:\n"
+
+ JAP_east_asia_co_prosperity_sphere_dm: "ไดโทอะ เคียวเอเค็ง"
+ JAP_modify_east_asia_co_prosperity_sphere_modifier_tt: "ปรับ §Y$JAP_east_asia_co_prosperity_sphere_dm$§! ดังนี้:"
+ JAP_add_east_asia_co_prosperity_sphere_modifier_tt: "เพิ่ม §Y$JAP_east_asia_co_prosperity_sphere_dm$§! ซึ่งใหผล:\n"
+
+ JAP_tokko_idea_lar: "โทกโก"
+ JAP_tokko_idea_lar_desc: "ตํารวจระดับสูงพิเศษเปนองคกรที่ตั้งขึ้นเพื่อบังคับใชกฎหมายพลเรือน และควบคุมกลุมการเมืองและอุดมการณที่ถูกมองวาเปนภัยตอความสงบเรียบรอยของชาติ พวกเขาจับตาดูผูคนภายในประเทศอยางใกลชิด และทําหนาที่เปนดานหนาตอตานสายลับตางชาติตลอดจนผูเห็นตางทางการเมือง"
+
+ JAP_revisited_21_demands_neg_op_mod: "ทบทวนขอเรียกรอง 21 ขอ"
+
+ JAP_operation_an_idea: "ปฏิบัติการ AN"
+
+ JAP_central_economic_council_idea: "สภาเศรษฐกิจกลาง"
+
+ JAP_german_tech_exchange: "การแลกเปลี่ยนเทคโนโลยีกับเยอรมนี"
+ JAP_german_tech_exchange_desc: "ความกาวหนาทางเทคโนโลยีของเยอรมนีเพิ่มเติมจะเปนประโยชนอยางยิ่งตอความพยายามทําสงครามของเรา เราตองไดแบบพิมพเขียวเหลานี้มาใหได ไมวาจะตองแลกดวยอะไรก็ตาม"
+
+ JAP_air_defence_surveilance_corps_idea: "หนวยเฝาระวังการปองกันภัยทางอากาศ"
+
+ JAP_national_defense_brotherhood_idea: "ภราดรภาพปองกันชาติ"
+
+ JAP_expel_the_barbarians: "ขับไลพวกอนารยชน"
+
+ JAP_utilizing_ainu_expertize: "ใชความเชี่ยวชาญของชาวไอนุ"
+
+ JAP_battle_for_oceania: "ศึกชิงโอเชียเนีย"
+
+ JAP_operation_MO_military_offensive: "ปฏิบัติการ MO"
+ JAP_chinese_offensive_military_offensive: "การรุกของญี่ปุนที่กําลังดําเนินอยู"
+
+ JAP_senbu_idea: "องคกรเซ็มบุ"
+
+ MEN_true_mongol_state: "รัฐมองโกลที่แทจริง"
+
+ JAP_press_association_idea: "สมาคมหนังสือพิมพมหาญี่ปุน"
+
+ JAP_japanese_influence_growing_tibet: "อิทธิพลญี่ปุนที่เพิ่มขึ้น"
+ JAP_smaller_japanese_influence_growing_tibet: "ความพยายามแทรกซึมของญี่ปุน"
+
+ senbu_occupation_law_fake_idea: "เซ็มบุ"
+
+ JAP_new_order_in_east_asia_idea: "ระเบียบใหมในเอเชียตะวันออก"
+
+ JAP_distributing_rations: "แจกจายเสบียงปนสวน"
+
+ JAP_subject_tonarigumi_idea: "โทนาริกูมิ"
+
+ SHX_suiyuan_campaign_idea: "ปองกันการบุกสุยหยวน"
+
+ JAP_sufu_materials: "วัตถุดิบซูฟุ"
+
+ JAP_boeitai_idea: "โบเอไต"
+
+ JAP_is_home_islands_state_tt: "รัฐใดก็ไดใน§Yหมูเกาะแม§!"
+
+ JAP_collapsing_government_idea: "คณะรัฐมนตรีที่กําลังลมสลาย"
+
+ JAP_advance_one_hundred_million_fireballs_idea: "รุดหนา หนึ่งรอยลานดวงไฟ!"
+
+ JAP_the_eternal_kingdom_idea: "จักรวรรดินิรันดร"
+
+ MAN_kyousakusha_uplifted: "ยกระดับกัสซากุชะ"
+
+ JAP_increased_national_security_no_lar: "ความมั่นคงแหงชาติที่เพิ่มขึ้น"
+
+ ENG_cox_incident_opm: "กรณีคอกซ"
+ SOV_sorge_incident_opm: "กรณีซอรเก"
+ CHI_rejected_our_proposal_for_cooperation_opm: "ปฏิเสธขอเสนอความรวมมือตอตานคอมมิวนิสตของเรา"
+ CHI_denounced_feudalism: "ประณามระบบศักดินา"
+ CHI_nine_power_treaty_sea: "สนธิสัญญาเกามหาอํานาจ"
+ CHI_nine_power_treaty_modify: "ปรับ $CHI_nine_power_treaty_sea$:"
+
+ JAP_anti_communist_crackdowns_idea: "การกวาดลางคอมมิวนิสต"
+
+ CHI_suppression_of_anti_japanese_sentiments_idea: "การปราบปรามกระแสตอตานญี่ปุน"
+
+ JAP_pro_japanese_sentiments_for_usa_idea: "กระแสนิยมญี่ปุนในหมูพลเรือน"
+ JAP_has_recently_tried_to_block_usa_support_for_china_flag: "ญี่ปุนเพิ่งใชคณะกรรมการการคาและขอมูลขาวสารแหงญี่ปุนโนมนาวสหรัฐอเมริกาใหเลิกสนับสนุนจีน"
+
+ JAP_supported_pro_japanese_sentiments_idea: "กระแสนิยมญี่ปุนที่เพิ่มขึ้น"
+ JAP_growing_pro_japanese_sentiment_opm: "กระแสนิยมญี่ปุนที่เพิ่มขึ้น"
+ JAP_cracked_down_on_growing_pro_japanese_sentiment_opm: "ปราบปรามกระแสนิยมญี่ปุนที่เพิ่มขึ้น"
+ JAP_currently_spreading_pro_japanese_sentiments_flag: " กําลังสนับสนุนกระแสนิยมญี่ปุนในประเทศหนึ่งอยู"
+ JAP_currently_investing_in_states_natural_resources_flag: " กําลังลงทุนในทรัพยากรธรรมชาติของประเทศหนึ่งอยู"
+
+ JAP_resource_extraction_investments_dm: "การลงทุนสกัดทรัพยากรของญี่ปุน"
+
+ GEACPS_exploitation_occupation_law: "การขูดรีดเอเชียตะวันออก"
+ GEACPS_prosperity_occupation_law: "ความรุงเรืองแหงเอเชียตะวันออก"
+ GEACPS_exploitation_occupation_law_fake_idea: "การขูดรีดเอเชียตะวันออก"
+ GEACPS_prosperity_occupation_law_fake_idea: "ความรุงเรืองแหงเอเชียตะวันออก"
+
+ JAP_MAN_joint_economic_block_idea: "กลุมเศรษฐกิจญี่ปุน-แมนจูเรีย"
+
+ JAP_mongolian_independence_army_reestablished_idea: "กองทัพเอกราชมองโกเลียใหม"
+
+ JAP_surprise_invasion_idea: "การบุกโจมตีแบบไมทันตั้งตัว"
+ JAP_surprise_invasion_idea_desc: "การบุกที่กองทัพคันโตเพิ่งเปดฉากขึ้นไมเพียงทําใหขาศึกไมทันตั้งตัว แตยังทําใหรัฐบาลและกองทัพของเราเองตั้งตัวไมทันดวย ตองใชเวลาอีกสักพักกวากองทัพจะระดมพลไดเต็มที่และพรอมรบกับศัตรูรายใหม"
+
+ JAP_japanese_chinese_friendship: "กติกาสัญญาความรวมมือจีน-ญี่ปุน"
+ JAP_dimantle_faction_tt: "§Rเมื่อ §Y$JAP_japanese_chinese_friendship$§! ถูกลบออก §Y$JAP_sino_japanese_pact$§! จะถูกยุบเลิก§!"
+ sino_japanese_alliance_threat: "ถูกคุกคามโดยพันธมิตรจีน-ญี่ปุน"
+ signed_the_sino_japanese_pact_opm: "ลงนามกติกาสัญญาจีน-ญี่ปุนแลว"
+ 
+ JAP_yen_bloc_idea: "สมาชิกกลุมเงินเยน"
+
+ JAP_invesments_into_minor_asian_states_cost: "คาใชจายในการพัฒนาเอเชียตะวันออก"
+ JAP_industrial_development_support: "การสนับสนุนดานอุตสาหกรรมจากญี่ปุน"
+
+ JAP_ministry_of_greater_east_asia_idea: "บริหารโดยกระทรวงมหาเอเชียบูรพา"
+
+ JAP_second_russo_japanese_war_fervor_idea: "กระแสคลั่งสงครามรัสเซีย-ญี่ปุนครั้งที่สอง"
+
+ SOV_full_focus_on_the_west: "มุงความสนใจทั้งหมดไปทางตะวันตก"
+
+ JAP_japanese_investments: "การลงทุนของ[JAP.GetAdjective]"
+
+ JAP_sent_back_genrikh_lyushkov_opm: "สงตัวเกนริค ลิวชคอฟกลับไปแลว"
+ JAP_hosting_genrikh_lyushkov_opm: "ใหที่พักพิงแกเกนริค ลิวชคอฟ"
+
+ JAP_the_imperial_way_dm: "วิถีแหงจักรพรรดิ"
+ JAP_modify_the_imperial_way_modifier_tt: "ปรับ §Y$JAP_the_imperial_way_dm$§! ดังนี้:"
+ JAP_add_the_imperial_way_modifier_tt: "เพิ่ม §Y$JAP_the_imperial_way_dm$§! ซึ่งใหผล:\n"
+
+ JAP_regional_development: "การพัฒนาภูมิภาค"
+ 
+ JAP_first_strike_principle_dm: "หลักการโจมตีกอน"
+ JAP_first_strike_principle_dm_desc: "นโยบายปองกันประเทศฉบับปรับปรุงที่ใชในป 1936 ไดวางหลักนิยมที่ยึดหลักการโจมตีกอนและการปฏิบัติการระยะสั้นเปนแนวทางปฏิบัติทางทหารเมื่อเกิดเหตุฉุกเฉิน การเตรียมกําลังทหารในยามสงบจึงจําเปนสําหรับปฏิบัติการระยะสั้นที่เนนยํ้า โดยคํานึงถึงสงครามยืดเยื้อและสงครามเต็มรูปแบบดวย เราจะชนะสงครามนี้อยางรวดเร็ว มิฉะนั้นเราอาจไมชนะเลย!"
+ JAP_first_strike_principle_dm_tt: "[GetFirstStrikePrincipleTarget1]\n[GetFirstStrikePrincipleTarget2]\n[GetFirstStrikePrincipleTarget3]"
+ GetFirstStrikeString: "โจมตีกอนตอ"
+ JAP_first_strike_principle_1: "$GetFirstStrikeString$ [?JAP.JAP_first_strike_principle_target_1.GetNameDef] §Wเปนเวลา [?JAP_first_strike_principle_remaining_days_1:days_left|Y0] วัน§!"
+ JAP_first_strike_principle_2: "$GetFirstStrikeString$ [?JAP.JAP_first_strike_principle_target_2.GetNameDef]  §Wเปนเวลา [?JAP_first_strike_principle_remaining_days_2:days_left|Y0] วัน§!"
+ JAP_first_strike_principle_3: "$GetFirstStrikeString$ [?JAP.JAP_first_strike_principle_target_3.GetNameDef]  §Wเปนเวลา [?JAP_first_strike_principle_remaining_days_3:days_left|Y0] วัน§!"
+
+ JAP_kantai_kessen_dm: "คันไต เคสเซ็น"
+ JAP_kantai_kessen_dm_desc: "ดวยชัยชนะเด็ดขาดเหนือกองทัพเรือรัสเซียในยุทธนาวีสึชิมะ บัดนี้กองทัพเรือเชื่อมั่นเต็มที่ในหลักนิยมที่วาสามารถชนะสงครามไดดวยการรบและชนะยุทธนาวีชี้ขาดเพียงครั้งเดียว แผนปจจุบันเพื่อสรางชัยชนะเชนนั้นซํ้าคือการตั้งรับและรอใหกองเรือขาศึกเขามาใกล จากนั้นจึงทําลายเสียในการรบอันดุเดือดนอกชายฝงแผนดินใหญญี่ปุน"
+ JAP_kantai_kessen_dm_tt: "[GetKantaiKessenTarget1]\n[GetKantaiKessenTarget2]\n[GetKantaiKessenTarget3]"
+ GetKantaiKessenString: "ยุทธนาวีชี้ขาดตอ"
+ JAP_kantai_kessen_1: "$GetKantaiKessenString$ [?JAP.JAP_kantai_kessen_target_1.GetNameDef] §Wเปนเวลา [?JAP_kantai_kessen_remaining_days_1:days_left|Y0] วัน§!"
+ JAP_kantai_kessen_2: "$GetKantaiKessenString$ [?JAP.JAP_kantai_kessen_target_2.GetNameDef]  §Wเปนเวลา [?JAP_kantai_kessen_remaining_days_2:days_left|Y0] วัน§!"
+ JAP_kantai_kessen_3: "$GetKantaiKessenString$ [?JAP.JAP_kantai_kessen_target_3.GetNameDef]  §Wเปนเวลา [?JAP_first_strike_principle_remaining_days_3:days_left|Y0] วัน§!"
+
+ JAP_strike_south_idea: "รุกลงใต"
+ JAP_strike_south_idea_desc: "มีเพียงการลงมืออยางเด็ดขาดและโจมตีอยางรวดเร็วเทานั้น เราจึงจะหวังใหเอเชียตะวันออกเฉียงใตทั้งหมดมาสยบแทบเทาได กองเรือของเราตองฝาคลื่นลม เพื่อใหทหารของเราบุกฝาชายหาดของขาศึกและพิชิตภูมิภาคนี้"
+
+ JAP_advanced_weapon_projects_dm: "โครงการอาวุธขั้นสูง"
+ JAP_advanced_weapon_projects_dm_desv: "TODO"
+ JAP_add_advanced_weapon_projects_dm: "เพิ่ม §Y$JAP_advanced_weapon_projects_dm$§! ซึ่งใหผล:\n"
+ JAP_modify_advanced_weapon_projects_dm: "ปรับ §Y$JAP_advanced_weapon_projects_dm$§! ดังนี้:"
+
+ JAP_support_ethiopia_static_modifier: "สนับสนุนเอธิโอเปย"
+ JAP_aid_ETH: "ความชวยเหลือแกเอธิโอเปย"
+ JAP_sent_eth_aid_opm: "สงความชวยเหลือมาใหเรา"
+
+ JAP_kempeitai_idea_lar: "เค็มเปไต"
+
+ JAP_the_great_spiritual_evil_opm: "จุดยืนตอตานคอมมิวนิสตอยางแข็งกราว"
+
+ JAP_kenkokukai: "สมาคมรากฐานแหงชาติ"
+
+ JAP_double_leaf_society_idea: "ดอกผลของสมาคมใบคู"
+
+ JAP_restructing_the_industrial_conglomerates: "ปรับโครงสรางกลุมทุนอุตสาหกรรม"
+
+ JAP_enemy_of_our_enemy_opm: "ศัตรูของศัตรู"
+
+ JAP_POL_anti_soviet_pact: "กติกาสัญญาโปแลนด-ญี่ปุนตอตาน[SOV.GetAdjective]"
+ JAP_POL_anti_soviet_pact_refused_call: "ปฏิเสธที่จะปฏิบัติตามกติกาสัญญาโปแลนด-ญี่ปุนตอตาน[SOV.GetAdjective]"
+ POL_JAP_pact_tt: "หากชาติใดที่มีจิตวิญญาณ §Y$JAP_POL_anti_soviet_pact$§! ตกอยูในสงครามกับ §Y[SOV.GetNameDef]§! ชาติอื่น ๆ จะถูกเรียกเขารวมสงคราม"
+ JAP_POL_anti_soviet_pact_2_tt: "หากชาติใดที่มีจิตวิญญาณ §Y$JAP_POL_anti_soviet_pact$§! ตกอยูในสงครามปองกันตนเองกับ §Y[SOV.GetNameDef]§! ชาติอื่น ๆ จะถูกเรียกเขารวมสงคราม"
+
+ JAP_in_the_footsteps_of_jimmu: "ตามรอยจักรพรรดิจิมมุ"
+
+ JAP_kokutai_idea: "โคกุไต"
+
+ JAP_yatagarasus_guidance_idea: "การนําทางของยาตางาราสุ"
+
+ JAP_amaterasus_weapons_idea: "อาวุธแหงอารามิตามะของอามาเตราสึ"
+
+ JAP_intense_anti_guerilla_operation: "ปฏิบัติการปราบกองโจรอยางเขมขน"
+ JAP_intense_anti_guerilla_operation_desc: "ขณะนี้กองทัพญี่ปุนกําลังทุมเทกวาดลางกองโจรและผูแทรกซึมในภูมิภาคนี้ โดยใชนโยบายเผาทําลายลางแบบใหม"
+
+ MAN_hydroelectric_power: "พลังงานไฟฟาพลังนํ้า"
+ MAN_hydroelectric_power_desc: "ดวยเงินลงทุนที่หลั่งไหลเขามาในประเทศ ในที่สุดเราก็ไดสรางเครือขายเขื่อนที่ผลิตกระแสไฟฟาและควบคุมการไหลของแมนํ้า"
+
+ JAP_the_divine_wind_idea: "ลมศักดิ์สิทธิ์"
+
+ KOR_resistance_against_colonial_rule_dm: "การตอตานการปกครองปจจุบันของประชาชน"
+
+ JAP_metabolism_idea: "เมแทบอลิซึม"
+
+ JAP_danchi_idea: "ดันจิ"
+
+ JAP_taiheyo_belt_modifier: "แถบไทเฮโย"
+
+ JAP_low_popular_support_idea: "ขาดการสนับสนุนจากประชาชน"
+
+ JAP_military_strike_idea: "กองทัพผละงาน"
+ JAP_cannot_train_due_to_military_strike: "ไมสามารถฝกหนวยใหมไดขณะที่ §Y$JAP_military_strike_idea$§! ยังมีผลอยู"
+ JAP_must_take_revoke_ppl_focus_tt: "แกไขไดดวยการ§Yยกเลิกกฎหมายรักษาความสงบ§!เทานั้น"
+
+ JAP_low_on_funds_idea: "ขาดแคลนเงินทุน"
+
+ JAP_state_under_army_control: "ควบคุมโดยกองทัพบกจักรวรรดิ"
+ JAP_state_under_army_control_tt: "รัฐนี้จะเขารวมกับฝาย§Yฟาสซิสต§!เมื่อสงครามกลางเมืองเริ่มตน"
+
+ JAP_state_under_rebel_control: "ยึดครองโดยฝายตอตานกองทัพบกจักรวรรดิ"
+ JAP_state_under_rebel_control_tt: "รัฐนี้จะเขารวมกับฝาย§Yประชาธิปไตย§!เมื่อสงครามกลางเมืองเริ่มตน เวนแตจะ§Yถูกพรรคคอมมิวนิสตญี่ปุนแทรกซึม§!ดวย"
+
+ JAP_state_infiltrated_by_the_jcp: "ถูกพรรคคอมมิวนิสตญี่ปุนแทรกซึม"
+ JAP_state_infiltrated_by_the_jcp_tt: "รัฐนี้จะเขารวมกับฝาย§Yคอมมิวนิสต§!เมื่อสงครามกลางเมืองเริ่มตน"
+
+ JAP_royal_support_for_civilian_government_idea: "การสนับสนุนจากราชสํานักตอรัฐบาลพลเรือน"
+
+ JAP_amakudari_idea: "อามาคูดาริ"
+
+ JAP_agricultural_protectionism_idea: "การกีดกันทางการคาเพื่อปกปองเกษตรกรรม"
+
+ JAP_industrial_meritocracy_idea: "ระบบคุณธรรมทางอุตสาหกรรม"
+
+ JAP_strong_unions_idea: "สหภาพแรงงานที่เขมแข็ง"
+
+ JAP_shinkansen_construction_idea: "ชินคันเซ็นสายแรกกําลังกอสราง"
+
+ JAP_shinkansen_in_operation_idea: "ชินคันเซ็นเปดใหบริการ"
+
+ JAP_industrial_relocation_resources: "การลงทุนทางอุตสาหกรรมแลกทรัพยากร"
+
+ JAP_usa_jap_trade_agreement_idea: "ขอตกลงการคาอเมริกา-ญี่ปุน"
+
+ JAP_pacific_customs_union_member: "สมาชิกสหภาพเงินตราแปซิฟก"
+
+ JAP_customs_union_trade_idea: "ขอตกลงการคาแปซิฟกตะวันตก"
+ JAP_trading_partners: "คูคา"
+ JAP_pacific_trade_offshore_tt: "([ROOT.GetFlag]§Y[ROOT.GetNameDefCap]§!) เพิ่ม §Y$industrial_complex$§! นอกแผนที่ §G1§! แหง"
+ JAP_form_greater_east_asian_customs_union_tt: "ปลดล็อกการตัดสินใจเพื่อ§Yสรางเสนทางการคาที่ถูกลง§!กับพันธมิตรของเรา"
+ JAP_pacific_integrated_customs_union_member_tt: "§Y[JAP.GetNameDefCap]§! จะสามารถ§Rพยายามบีบใหเรายอมสยบทางการทูตได!§!"
+
+ JAP_state_supporting_resistance_modifier: "การตอตานที่ญี่ปุนหนุนหลัง"
+ JAP_state_supporting_resistance_modifier_desc: "ญี่ปุนกําลังลักลอบสงอาวุธและยุทโธปกรณ รวมถึงการฝกทางทหารใหแกกลุมตอตานในทองถิ่น"
+
+ JAP_pro_japanese_sentiment_in_state: "มีกระแสนิยมญี่ปุนอยู"
+
+ JAP_influx_of_socialist_industrial_expertise_idea: "ความเชี่ยวชาญดานอุตสาหกรรมสังคมนิยมหลั่งไหลเขามา"
+
+ JAP_widespread_protests_and_sabotage_idea: "การประทวงและการกอวินาศกรรมแพรสะพัด"
+
+ JAP_stolen_equipment_idea: "คลังทหารถูกปลนสะดม"
+
+ JAP_army_arsenals_emptied_idea: "คลังแสงกองทัพถูกขนจนวางเปลา"
+
+ JAP_buddhist_socialism_idea: "สังคมนิยมแบบพุทธ"
+
+ JAP_modern_ashigaru_idea: "อาชิงารุยุคใหม"
+
+ JAP_modern_ikko_ikki_idea: "อิกโก-อิกกิยุคใหม"
+
+ JAP_socialist_pioneers_idea: "ผูบุกเบิกสังคมนิยม"
+
+ JAP_syndicalism_idea: "โอบรับลัทธิสหการนิยม"
+
+ JAP_women_in_industry_idea: "สตรีในภาคอุตสาหกรรม"
+ JAP_women_in_industry_idea_desc: "การที่[JAP.GetNameDef]มีผูนําเปนสตรี ไดวางบรรทัดฐานวาสตรีควรมีสิทธิ์ทํางานในอุตสาหกรรมอื่น ๆ ดวย ดวยแรงงานจํานวนมากที่เพิ่มเขามานี้ เราคาดหวังความกาวหนาทางเศรษฐกิจครั้งใหญใหแกประเทศได"
+
+ JAP_reorganization_of_society_idea: "การจัดระเบียบสังคมใหม"
+ JAP_reorganization_of_society_idea_desc: "ขณะนี้เรากําลังกําจัดเศษซากของระบบศักดินา ชาตินิยม และขนบอนุรักษนิยม พรอมกับสงเสริมอุดมการณคอมมิวนิสต ลมเลิกอุดมคติซามูไรและลําดับชั้นศักดินา ถอดบูชิโดออกจากการศึกษาและสังคม ตลอดจนสงเสริมความเทาเทียมทางเพศดวยการมอบสิทธิทางกฎหมายและเศรษฐกิจอยางเต็มที่แกสตรี"
+
+ JAP_learn_from_the_nkvd_lar: "เรียนรูจาก NKVD"
+
+ JAP_ainu_revoluton_theory_implemented_dm: "นําทฤษฎีการปฏิวัติไอนุมาใช"
+
+ JAP_war_communism_idea: "คอมมิวนิสตยามสงคราม"
+
+ JAP_the_five_year_plan_idea: "แผนหาป"
+
+ JAP_anti_kwantung_army_maneuvers_idea: "การซอมรบตอตานกองทัพคันโต"
+
+ JAP_anti_breakway_navy_maneuvers_idea: "การซอมรบทางทะเลเชิงรุก"
+
+ JAP_mobilizing_the_proletariat: "ระดมชนชั้นกรรมาชีพ"
+
+ JAP_the_long_march_to_victory_idea: "การเดินทัพทางไกลสูชัยชนะ"
+
+ JAP_fifth_international_agitation: "การปลุกระดมของสากลที่หา"
+
+ JAP_free_asia_pacific_idea: "เอเชีย-แปซิฟกที่เสรี"
+
+ JAP_pan_asian_union_idea: "สหภาพแพนเอเชีย"
+
+ JAP_red_dawn_over_asia_idea: "รุงอรุณสีแดงเหนือเอเชีย"
+
+ JAP_ministry_of_pan_asian_development_idea: "บริหารโดยกระทรวงพัฒนาแพนเอเชีย"
+
+ JAP_educating_the_peasants_modifier: "ใหการศึกษาแกชาวนา"
+
+ JAP_peoples_liberation_army_of_monglia_idea: "กองทัพปลดปลอยประชาชนมองโกล"
+
+ JAP_striking_the_sleeping_bear: "จูโจมหมีที่หลับใหล"
+
+ JAP_day_of_infamy: "วันแหงความอัปยศ"
+
+ JAP_temporary_factory_output_bonus_idea: "เพิ่มโควตาการผลิต"
+
+ JAP_temporary_dockyard_output_bonus_idea: "เพิ่มโควตาการผลิตทางทะเล"
+
+ JAP_temporary_manpower_growth_bonus_idea: "การระดมพลอยางรวดเร็ว"
+
+ JAP_temporary_better_supply_lines_bonus_idea: "เสริมกําลังเสนทางเสบียง"
+
+ JAP_temporary_construction_bonus_idea: "การขยายตัวทางอุตสาหกรรมอยางรวดเร็ว"
+
+ JAP_temporary_infra_construction_bonus_idea: "การขยายโครงสรางพื้นฐานอยางรวดเร็ว"
+
+ JAP_looked_the_other_way_opm: "ทําเปนมองไมเห็น"
+
+ JAP_crumbling_military_cabinet_idea: "คณะรัฐมนตรีที่กําลังพังทลาย"
+ JAP_crumbling_military_cabinet_idea_2: "สถานการณปจจุบันของจักรวรรดิ"
+ JAP_crumbling_military_cabinet_idea_5: "เค็ตสึโง ซากูเซ็น"
+
+ JAP_accepted_the_potsdam_agreement: "ยอมรับปฏิญญาพอทสดัม"
+
+ JAP_the_final_war_theory_idea: "ทฤษฎีสงครามครั้งสุดทาย"
+
+ USA_wounded_national_pride_idea: "ศักดิ์ศรีของชาติที่บอบชํ้า"
+
+
+ #### PEOPLE'S REPUBLIC OF CHINA ####
+
+ PRC_the_chinese_red_army: "กองทัพแดงจีน" #No scripted loc in idea names and sadly that means no ROOT.GetAdjective in the title :(
+ PRC_the_chinese_red_army_desc: "[GetArmyRecoveryStage]"
+ PRC_the_chinese_red_army_modify_tt: "ปรับ §Y$PRC_the_chinese_red_army$§! ดังนี้:"
+ PRC_no_army_recovery: "ยังคงออนลาและออนแอจากการเดินทัพทางไกล กองทัพแดง[ROOT.GetAdjective]ยังคงดิ้นรนที่จะลุกขึ้นยืนอีกครั้งตอหนาศัตรูที่ดูเหนือกวา"
+ PRC_some_army_recovery: "แมจะยังหางไกลจากกําลังในชวงรุงเรืองที่สุด แตกองทัพแดง[ROOT.GetAdjective]ก็ฟนตัวจากการเดินทัพทางไกลไดบางแลว"
+ PRC_lots_of_army_recovery: "แมจะผานความยากลําบากมามาก กองทัพแดง[ROOT.GetAdjective]ก็กลับมามีกําลังใกลเคียงกับในอดีต และพรอมจะสูเพื่อประชาชนอีกครั้ง"
+ PRC_the_chinese_red_army_1936_fake: "$PRC_the_chinese_red_army$"
+ PRC_the_chinese_red_army_1936_fake_desc: "$PRC_no_army_recovery$"
+ PRC_the_chinese_red_army_1939_fake: "$PRC_the_chinese_red_army$"
+ PRC_the_chinese_red_army_1939_fake_desc: "$PRC_some_army_recovery$"
+ PRC_agrarian_society: "สังคมเกษตรกรรม"
+ PRC_agrarian_society_desc: "ดวยชุมชนสวนใหญที่เปนชนบท การพัฒนาอุตสาหกรรมที่นอยนิด และประชาชนแทบไมไดรับการศึกษาเลย [FROM.GetNameDef]จึงตองเผชิญความทาทายในหลายดาน"
+ PRC_agrarian_society_modifiy_tt: "ปรับ §Y$PRC_agrarian_society$§! ดังนี้:"
+ PRC_agrarian_reform: "การปฏิรูปเกษตรกรรม"
+ PRC_agrarian_reform_desc: "แมสวนใหญจะยังเปนชนบท แต[FROM.GetNameDef]ก็ไดเริ่มตนความพยายามสรางอุตสาหกรรมอยางชา ๆ แลว"
+ PRC_agrarian_reform_modify_tt: "ปรับ §Y$PRC_agrarian_reform$§! ดังนี้:"
+ PRC_urban_society: "สังคมเมือง"
+ PRC_urban_society_desc: "หลังจากความพยายามอยางยิ่งยวด [FROM.GetNameDef]ไดเปลี่ยนจากสังคมชนบทเปนหลักมาเปนสังคมที่กลายเปนเมืองอยางรวดเร็ว เมืองตาง ๆ ของ[FROM.GetAdjective]จะกลายเปนมหานครอันยิ่งใหญแหงอนาคต"
+ PRC_urban_society_modify_tt: "ปรับ §Y$PRC_urban_society$§! ดังนี้:"
+ PRC_central_committee: "คณะกรรมการกลาง"
+ PRC_central_committee_desc: "คณะกรรมการกลางพรรคคอมมิวนิสตจีนเปนองคกรทางการเมืองสูงสุดของพรรค กอตั้งขึ้นในทศวรรษ 1920 และนําโดยเลขาธิการใหญ สวนกรมการเมืองคือคณะกรรมการบริหารที่ประกอบดวยผูนําระดับสูงของพรรค $PRC_zhang_wentian$ รับตําแหนงเลขาธิการใหญตอจาก $PRC_bo_gu$ ในเดือนมกราคม 1935"
+ PRC_modify_central_committee_modifier: "ปรับ §Y$PRC_central_committee$§! ดังนี้:"
+ PRC_bolshevik_volunteers: "อาสาสมัครบอลเชวิค"
+ PRC_bolshevik_dominance: "การครอบงําของฝายบอลเชวิค"
+ PRC_bolshevik_dominance_tt: "ปรับ §Y$PRC_bolshevik_dominance$§! ดังนี้:"
+ PRC_maoism_dynamic_modifier: "ลัทธิเหมา"
+
+ PRC_asian_democratic_union_modifier: "$PRC_asian_democratic_union$"
+ PRC_asian_democratic_union_modifier_modify_tt: "ปรับ §Y$PRC_asian_democratic_union_modifier$§! ดังนี้:"
+ PRC_asian_democratic_union_modifier_desc: "$PRC_asian_democratic_union_desc$"
+
+ PRC_28_bolshevik_faction_dynamic_modifier: "ความพยายามของฝายการทูต"
+ PRC_28_bolshevik_faction_dynamic_modifier_tt: "ปรับ §Y$PRC_28_bolshevik_faction_dynamic_modifier$§! ดังนี้:"
+
+ PRC_the_great_production_movement: "ขบวนการผลิตครั้งใหญ"
+ PRC_the_great_production_movement_modify_tt: "ปรับ §Y$PRC_the_great_production_movement$§! ดังนี้:"
+
+ PRC_pla_ground_force: "กองกําลังภาคพื้นดินกองทัพปลดแอกประชาชน"
+ PRC_pla_ground_force_modify_tt: "ปรับ §Y$PRC_pla_ground_force$§! ดังนี้:"
+ PRC_pla_navy: "กองทัพเรือกองทัพปลดแอกประชาชน"
+ PRC_pla_navy_modify_tt: "ปรับ §Y$PRC_pla_navy$§! ดังนี้:"
+ PRC_pla_air_force: "กองทัพอากาศกองทัพปลดแอกประชาชน"
+ PRC_pla_air_force_modify_tt: "ปรับ §Y$PRC_pla_air_force$§! ดังนี้:"
+ PRC_rename_red_army_tt: "เปลี่ยนชื่อ §Y$PRC_the_chinese_red_army$§! เปน §Y$PRC_pla_ground_force$§!" 
+ PRC_pla_air_force_fake_idea: "$PRC_pla_air_force$"
+ PRC_central_military_commission_idea: "คณะกรรมาธิการการทหารกลาง"
+ PRC_defunct_state_bank: "ธนาคารรัฐที่หยุดดําเนินการ"
+ PRC_defunct_state_bank_desc: "การขนเครื่องผลิตเงินตราเกาไปดวยระหวางการเดินทัพทางไกลเปนไปไมไดเลย ผลก็คือธนาคารรัฐของเราในตอนนี้ตองดิ้นรนตั้งหลักในสถานการณใหมอันยากลําบากนี้"
+ PRC_land_revolution_expedited: "เรงการปฏิวัติที่ดิน"
+ PRC_land_revolution_halted: "ระงับการปฏิวัติที่ดิน"
+ PRC_recovering_from_the_sufan: "ฟนตัวจากการกวาดลางซูฝาน" 
+
+
+ PRC_silver_dollar_promoted: "สงเสริมเหรียญเงิน"
+ PRC_paper_bills_promoted: "สงเสริมธนบัตร"
+ PRC_paper_bills_promoted_tt: "§Rไมสามารถยกระดับกฎหมายการคาใหสูงกวา§! §Yสงออกจํากัด§!"
+ PRC_trade_of_special_goods_allowed: "อนุญาตการคาสินคาพิเศษ"
+ PRC_trade_of_special_goods_banned_uprising: "การหามคาสินคาพิเศษที่ไมเปนที่นิยม"
+ PRC_trade_of_special_goods_banned_uprising_tt: "ภายใน §Y1 ป§! ประชาชนจะยอมรับการหามนี้ได และจิตวิญญาณแหงชาติจะไดรับการยกระดับ"
+ PRC_trade_of_special_goods_banned_stabilised: "ยอมรับการหามคาสินคาพิเศษแลว"
+ PRC_connecting_the_country_idea: "เชื่อมโยงประเทศ"
+ PRC_army_education_efforts: "ความพยายามดานการศึกษาในกองทัพ"
+ PRC_three_rules_of_discipline_idea: "วินัยสามประการ"
+ PRC_five_year_plan: "แผนหาป"
+ PRC_five_year_plan_completed: "แผนหาป - สําเร็จแลว"
+ PRC_five_year_plan_failed: "พลาดเปาหมายแผนหาป"
+ PRC_shorter_market_plan: "แผนตลาดระยะสั้น"
+ PRC_shorter_market_plan_completed: "แผนตลาดระยะสั้น - สําเร็จแลว"
+ PRC_shorter_market_plan_failed: "พลาดเปาหมายแผนตลาดระยะสั้น"
+
+ PRC_finalize_industrial_plan_idea: "แผนอุตสาหกรรมที่สรุปแลว"
+ PRC_soviet_produces_tanks_timed_idea: "ผลิตรถถังให[PRC.GetName]"
+
+ PRC_western_expedition_idea: "การยกทัพตะวันตก"
+ PRC_eastern_expedition_idea: "การยกทัพตะวันออก"
+ PRC_usurp_control_over_yanan_idea: "การยกทัพใต"
+ PRC_mediating_general_secretary_idea: "เลขาธิการใหญผูไกลเกลี่ย"
+ PRC_mediating_general_secretary_idea_tt: "\n§Y$PRC_zhang_wentian$§! จะไกลเกลี่ยระหวาง §Y$PRC_mao_zedong$§! และ[GetGuotaoOrBolsheviks] เพื่อไมใหฝายใดมีอํานาจมากเกินไปใน §Y$PRC_communist_power_struggle$§! §Rดุลอํานาจจะคอย ๆ เคลื่อนเขาสูจุดกึ่งกลาง§!"
+ PRC_mediating_general_secretary_idea_guotao_tt: "\n§Y$PRC_zhang_wentian$§! จะไกลเกลี่ยระหวาง §Y$PRC_mao_zedong$§! และ §Y$PRC_zhang_guotao$§! เพื่อไมใหฝายใดมีอํานาจมากเกินไปใน §Y$PRC_communist_power_struggle$§! §Rดุลอํานาจจะคอย ๆ เคลื่อนเขาสูจุดกึ่งกลาง§!"
+ 
+ PRC_GetGuotaoOrBolsheviks_Guotao: "§Y$PRC_zhang_guotao$§!"
+ PRC_GetGuotaoOrBolsheviks_Bolsheviks: "§Yกลุมบอลเชวิค 28 คนครึ่ง§!" 
+
+ PRC_central_committee_fake_idea: "$PRC_central_committee$"
+ PRC_hundred_regiments_offensive_idea: "การรุกรอยกรมทหาร"
+ PRC_passive_revolutionaries_idea: "นักปฏิวัติผูนิ่งเฉย"
+ PRC_passive_revolutionaries_idea_desc: "$PRC_the_peoples_doubt_desc$"
+ PRC_passive_revolutionaries_idea_tt: "\n§Y$PRC_passive_revolutionaries_idea$§! §Rจะถูกลบออกเมื่อ §Y[PRC.GetNameWithFlag]§! เขารวมสงครามตอตานผูรุกรานตางชาติ หรือเมื่อผูรุกรานตางชาติอยูในภาวะสงบกับ§Yจีน§!ทั้งหมด§!"
+ PRC_crossing_the_taiwanese_strait: "ขามชองแคบไตหวัน"
+ PRC_guerilla_warfare: "สงครามกองโจร"
+ #PRC_the_internal_enemy: "The Internal Enemy"
+ PRC_the_internal_enemy_tt: "โบนัสการโจมตีตอ§Yประเทศจีน§!ทั้งหมด: §G+5%§!\nโบนัสการเจาะแนวตอ§Yประเทศจีน§!ทั้งหมด: §G+5%§!"
+ PRC_the_internal_enemy_upgrade_tt: "โบนัสการโจมตีตอ§Yประเทศจีน§!ทั้งหมด: §G+10%§!\nโบนัสการเจาะแนวตอ§Yประเทศจีน§!ทั้งหมด: §G+10%§!"
+ PRC_add_the_internal_enemy_idea_upgrade_tt: "ปรับ §Y$PRC_the_internal_enemy$§! ดังนี้:\nโบนัสการโจมตีตอ§Yประเทศจีน§!ทั้งหมด: §G+5%§!\nโบนัสการเจาะแนวตอ§Yประเทศจีน§!ทั้งหมด: §G+5%§!"
+ PRC_spread_world_revolution: "เผยแพรการปฏิวัติโลก"
+ PRC_urbanization_completed_timed_idea: "การกลายเปนเมืองเสร็จสมบูรณ"
+ PRC_SOV_lend_lease_idea_1: "ความชวยเหลือใหยืม-เชาจาก[SOV.GetName]"
+ PRC_SOV_lend_lease_idea_1_tt: "มีผลเฉพาะเมื่อ §Y[ROOT.GetNameWithFlag]§! หรือสมาชิกฝาย มี§Yพรมแดนทางบก§!ติดกับ §Y[SOV.GetNameWithFlag]§! หรือสมาชิกฝาย"
+ PRC_to_supply_an_army_idea: "สงเสบียงใหกองทัพ"
+ PRC_to_equip_an_army: "ติดอาวุธใหกองทัพ"
+
+ PRC_the_party_builds_the_nation_timed_idea: "ความกาวหนาอยางรวดเร็ว"
+
+ ## Industiral Concerns
+ PRC_peoples_bank_of_china: "ธนาคารประชาชน[ROOT.GetName]"
+ PRC_publicity_department_of_central_committee: "แผนกโฆษณาการของคณะกรรมการกลางพรรคคอมมิวนิสตจีน"
+ PRC_sinochem: "ซิโนเคม"
+ PRC_nanjing_wireless_electronics_plant: "โรงงานอิเล็กทรอนิกสไรสายหนานจิง"
+ PRC_china_state_construction_engineering_corporation: "บริษัทวิศวกรรมการกอสรางแหงรัฐจีน"
+ PRC_china_state_construction_engineering_corporation_civ_improved: "$PRC_china_state_construction_engineering_corporation$"
+  PRC_china_state_construction_engineering_corporation_mil_improved: "$PRC_china_state_construction_engineering_corporation$"
+ PRC_china_railway_construction_corporation: "บริษัทกอสรางการรถไฟจีน"
+ PRC_china_national_nuclear_corporation: "บริษัทนิวเคลียรแหงชาติจีน"
+ 
+ ## Non AAT manufacturers 
+ PRC_first_tractor_company: "บริษัทรถแทรกเตอรที่หนึ่ง"
+ PRC_ordenance_bureau: "สํานักสรรพาวุธ"
+ PRC_huangyadong_arsenal: "คลังแสงหวงหยาตง"
+ PRC_cmc_military_industry_bureau: "สํานักอุตสาหกรรมการทหารแหงคณะกรรมาธิการการทหารกลาง"
+ PRC_first_automative_works: "โรงงานยานยนตที่หนึ่ง"
+ PRC_factory_617: "โรงงาน 617"
+ PRC_peoples_aviation_company_of_china: "บริษัทการบินประชาชนจีน" 
+ PRC_shenyang_aircraft_corporation: "บริษัทอากาศยานเสิ่นหยาง"
+ PRC_harbin_aircraft: "กลุมอุตสาหกรรมอากาศยานฮารบิน"
+ PRC_shipbuilding_industry_bureau: "สํานักอุตสาหกรรมตอเรือ"
+ PRC_dalian_shipbuilding_company: "บริษัทตอเรือตาเหลียน"  
+
+ ## State Modifiers
+ PRC_guerilla_cells_active_1: "ตั้งเซลลกองโจรแลว"
+ PRC_guerilla_cells_active_1_desc: "เซลลกองโจรฝายศัตรูไดตั้งฐานในรัฐนี้แลว"
+ PRC_guerilla_cells_active_1_tt: "\n§Y$PRC_guerilla_cells_active_1$§! จะถูกลบออกหากรัฐมี§Yการยอมรับปกครอง§!มากกวา §G60.00%§!"
+ PRC_guerilla_cells_active_2: "ความเคลื่อนไหวของเซลลกองโจร"
+ PRC_guerilla_cells_active_2_desc: "เซลลกองโจรฝายศัตรูไดตั้งฐานและเริ่มปฏิบัติการอยางเปนระบบเพื่อบอนทําลายเสถียรภาพของรัฐนี้"
+ PRC_guerilla_cells_active_2_tt: "\n§Y$PRC_guerilla_cells_active_2$§! จะถูกลบออกหากรัฐมี§Yการยอมรับปกครอง§!มากกวา §G60.00%§!"
+ PRC_anti_japanese_base: "ปฏิบัติการกอวินาศกรรม"
+ PRC_anti_japanese_base_desc: "นักรบกองโจรไดรวมตัวกันและกําลังกอวินาศกรรมโครงสรางพื้นฐานในรัฐนี้อยางแข็งขัน"
+ PRC_infiltrated_state_1: "ความพยายามแทรกซึม"
+ PRC_infiltrated_state_2: "การแทรกซึมอยางกวางขวาง"
+ PRC_infiltrated_state_3: "การแทรกซึมโดยสมบูรณ"
+ PRC_infiltrated_state_3_tt: "§Rรัฐนี้จะแปรพักตรไปอยูกับ [PRC.GetNameWithFlag] หากเกิดสงครามระหวางสองประเทศ§!"
+ PRC_infiltrated_state_2_tt: "§Y[PRC.GetNameWithFlag] จะยึดรัฐนี้ไดในราคาที่ถูกลงในการประชุมสันติภาพ§!"
+ PRC_urbanization_state_modifier_bonus: "ความกาวหนาของการกลายเปนเมือง"
+ PRC_rural_development_state_modifier_bonus: "การพัฒนาชนบท"
+ PRC_probed_border_defenses: "หยั่งเชิงแนวปองกันชายแดนแลว"
+ PRC_probed_border_defenses_victim: "ถูกจูโจมไมทันตั้งตัว"
+ PRC_probed_border_defenses_victim_massive: "การตอบโตอยางฉุกละหุก"
+ PRC_infiltrated_border_defenses: "แทรกซึมแนวปองกันชายแดนแลว"
+ PRC_sabotaged_border_defenses: "กอวินาศกรรมแนวปองกันชายแดนแลว"
+
+ #Opinion Modifiers
+ PRC_approached_the_west_opinion: "เขาหาฝายตะวันตกแลว"
+ PRC_dixie_mission_opinion: "คณะผูแทนดิกซี"
+ PRC_deepened_communist_ties_opinion: "กระชับความรวมมือคอมมิวนิสต"
+ PRC_approached_the_soviets_opinion: "เขาหาโซเวียตแลว"
+ PRC_soviet_technological_cooperation_opinion: "ความรวมมือทางเทคนิคจีน-โซเวียต"
+
+############################
+ ### Nationalist China ####
+############################
+
+ #### TOOLTIPS ###
+ CHI_modify_corruption_in_the_administration_tt: "ปรับ §Y$CHI_corruption_in_the_administration$§! ดังนี้:" 
+ CHI_modify_reorganized_administration_tt: "ปรับ §Y$CHI_reorganized_administration$§! ดังนี้:" 
+ CHI_modify_illicit_trade_tt: "ปรับ §Y$CHI_illicit_trade$§! ดังนี้:" 
+ CHI_modify_inefficient_economy_tt: "ปรับ §Y$CHI_inefficient_economy$§! ดังนี้:"
+ CHI_modify_neglected_countryside_tt: "ปรับ §Y$CHI_neglected_countryside$§! ดังนี้:" 
+ CHI_modify_corruption_in_the_armed_forces_tt: "ปรับ §Y$CHI_corruption_in_the_armed_forces$§! ดังนี้:" 
+ CHI_modify_ROCAF_tt: "ปรับ §Y$CHI_ROCAF$§! ดังนี้:" 
+ CHI_modify_ROCN_tt: "ปรับ §Y$CHI_ROCN$§! ดังนี้:" 
+ CHI_modify_protracted_warfare_idea_tt: "ปรับ §Y$CHI_protracted_warfare_idea$§! ดังนี้:"
+ CHI_modify_decisive_battle_idea_tt: "ปรับ §Y$CHI_decisive_battle_idea$§! ดังนี้:" 
+ CHI_modify_blue_shirt_society_tt: "ปรับ §Y$CHI_blue_shirt_society$§! ดังนี้:" 
+ CHI_modify_gung_ho_idea_tt: "ปรับ §Y$CHI_gung_ho_idea$§! ดังนี้:" 
+ CHI_modify_new_life_movement_tt: "ปรับ §Y$CHI_new_life_movement$§! ดังนี้:"  
+ CHI_modify_soviet_support_tt: "ปรับ §Y$CHI_soviet_support$§! ดังนี้:" 
+ CHI_modify_american_support_tt: "ปรับ §Y$CHI_american_support$§! ดังนี้:"  
+ CHI_modify_declare_war_zone_tt: "ปรับ §Y$CHI_declare_war_zone$§! ดังนี้:" 
+
+ CHI_the_political_tutelage_upgraded_dm: "สาธารณรัฐที่ฟนคืน"
+
+ CHI_corruption_in_the_administration: "การทุจริตในฝายบริหาร"
+ CHI_corruption_in_the_administration_desc: "ลอที่หยอดนํ้ามันยอมหมุนงายกวา แตนั่นไมไดหมายถึงประสิทธิภาพ บุคคลเพียงไมกี่คนใชอํานาจอยางไมไดสัดสวน ซึ่งสงผลกระทบตอรัฐชาติ"
+ CHI_reorganized_administration: "การบริหารที่จัดระเบียบใหม"
+ CHI_reorganized_administration_desc: "เราไดหลอลื่นกลไกการบริหารใหทํางานไดอยางมีประสิทธิภาพยิ่งขึ้น ดวยการขจัดอุปสรรคที่ขวางทางเรา"
+ CHI_switch_administration_modifiers_tt: "ยกระดับ §Y$CHI_corruption_in_the_administration$§! เปน §Y$CHI_reorganized_administration$§!"
+ CHI_illicit_trade: "การคาผิดกฎหมาย"
+ CHI_illicit_trade_desc: "ตลาดมืดและเครือขายลักลอบขนสินคาบอนทําลายอํานาจรัฐและรบกวนเสถียรภาพทางเศรษฐกิจ ความพยายามปราบปรามกิจกรรมเหลานี้ยังคงเปนไปอยางไรระบบ และอิทธิพลของการคาผิดกฎหมายยังคงขัดขวางความเปนเอกภาพของชาติและการปฏิรูป"
+ CHI_inefficient_economy: "เศรษฐกิจที่ไรประสิทธิภาพ"
+ CHI_inefficient_economy_desc: "อุตสาหกรรมของเรายังอยูในระยะเริ่มตน เพราะรัฐบาลชุดกอน ๆ ไมไดสนับสนุนการเติบโตอยางเหมาะสม อยางไรก็ตาม เราสามารถแกไขปญหานี้ไดดวยมาตรการทั้งภายในและภายนอก ศักยภาพของเรานั้นไรขีดจํากัดอยางแทจริง"
+ CHI_neglected_countryside: "ชนบทที่ถูกละเลย"
+ CHI_neglected_countryside_desc: "ทศวรรษหนานจิงไดนําความเปลี่ยนแปลงอันนาประทับใจมาสูสังคมของเรา แตความทันสมัยสวนใหญจํากัดอยูในเขตเมือง สวนชนบทถูกมองขาม ซึ่งอาจกลายเปนแหลงเพาะความคิดหัวรุนแรงได"
+ CHI_corruption_in_the_armed_forces: "การทุจริตในกองทัพ"
+ CHI_corruption_in_the_armed_forces_desc: "กองทัพปฏิวัติแหงชาติกําเนิดมาจากสมาชิกพรรค จึงแบกรับปญหาเดียวกับที่พรรคมี ระบบเสนสาย การติดสินบน และการยักยอกทรัพยแพรระบาด และหากเราจะเอาชนะ สิ่งเหลานี้ตองถูกกําจัดใหหมดสิ้น"
+ CHI_blue_shirt_society: "สมาคมเสื้อนํ้าเงิน"
+ CHI_blue_shirt_society_desc: "สมาคมปฏิบัติตามหลักไตรราษฎร หรือกลุมเสื้อนํ้าเงิน จะสองสวางเสนทางพิเศษของเรา และจะโคนลมผูที่ขวางทาง"
+ CHI_ROCAF: "คณะกรรมาธิการกิจการการบิน"
+ CHI_ROCAF_desc: "นับตั้งแตกอตั้งขึ้นในทศวรรษที่แลว คณะกรรมาธิการกิจการการบินคือองคกรที่เราจะใชยึดครองนานฟาของเรา แมจะยังไมใชกองทัพอากาศแบบรวมศูนย แตความกาวหนายังคงเดินหนาตอไป และดวยความวิริยะอุตสาหะ เราจะมีชัย"
+ CHI_an_appropriate_design_tt: "[GetAppropriateDesign]"
+ CHI_appropriate_design_offensive_idea: "การออกแบบเชิงรุก"
+ CHI_appropriate_design_defensive_idea: "การออกแบบเชิงรับ"
+ CHI_protracted_warfare_idea: "สงครามยืดเยื้อ"
+ CHI_protracted_warfare_idea_desc: "กองทัพบางแหงเชื่อวาการโจมตีอยางรวดเร็วชนะไดทุกสงคราม แตบางแหงเขาใจวาการไมยอมใหพวกเขาไดสิ่งนั้นจะทําใหขวัญกําลังใจของพวกเขาพังทลาย ดวยการยืนหยัดใหนานกวาในทาทีตั้งรับ ผูรุกรานใดก็จะถูกตีถอยกลับไป"
+ CHI_decisive_battle_idea: "ยุทธการชี้ขาด"
+ CHI_decisive_battle_idea_desc: "ไมเคยมีชาติใดไดประโยชนจากสงครามยืดเยื้อ เราจึงตองเอาชนะศัตรูอยางรวดเร็วดวยการหาจุดที่จะทุมกําลังรุก การโจมตีจะตองรวดเร็วและหนักหนวง"
+ CHI_gung_ho_idea: "ขบวนการกงเหอ"
+ CHI_gung_ho_idea_desc: "ทรัพยากรอยางหนึ่งที่เรามีคือผูคน และเราไดจัดตั้งพวกเขาเปนสหกรณอุตสาหกรรมขนาดเล็ก องคกรระดับรากหญาเหลานี้จะใหความไดเปรียบทางเศรษฐกิจแกเราในความขัดแยงปจจุบัน"
+ CHI_ROCN: "กองทัพเรือสาธารณรัฐจีน"
+ CHI_ROCN_desc: "ดวยธรรมเนียมที่สืบยอนไปถึงสมัยราชวงศชิง กองทัพเรือกลางซึ่งหันมาสวามิภักดิ์ตอกกมินตั๋งหลังการยกทัพขึ้นเหนือ บัดนี้จะชวยใหเราแผอํานาจออกไปนอกแผนดินใหญได"
+ CHI_ROCN_tt: "[GetEarlyDetectionsTooltip][GetDefendOurCoastsTooltip][GetConcertedPushIdeaTooltip][GetStrikeFromBelowTooltip][GetLongRangeTooltip][GetCoastalDefenceTooltip][GetMobileBasesTooltip][GetLocalAlloyCommissionTooltip]"
+ CHI_early_detections_hidden: "$CHI_early_detections$"
+ CHI_defend_our_coasts_hidden: "$CHI_defend_our_coasts$"
+ CHI_concerted_push_idea: "$CHI_concerted_push$"
+ CHI_chinese_economic_support_idea: "การสนับสนุนทางเศรษฐกิจจาก[CHI.GetName]"
+ CHI_chinese_economic_support_idea_tt: "ขีดความสามารถทางเศรษฐกิจสวนเกิน [?CHI.CHI_economic_support_cic_amount|Y0] ทุกเดือน"
+ CHI_chinese_economic_support_idea_desc: "เรากําลังไดรับการสนับสนุนทางเศรษฐกิจจาก[CHI.GetNameDef]เพื่อเสริมสรางอุตสาหกรรมของเรา แตก็ตองยอมสละอธิปไตยเปนการตอบแทน"
+ CHI_chinese_industrial_support_idea: "การสนับสนุนทางอุตสาหกรรมจาก[CHI.GetName]"
+ CHI_chinese_industrial_support_idea_desc: "เรากําลังไดรับการสนับสนุนทางอุตสาหกรรมจาก[CHI.GetNameDef]เพื่อเสริมสรางอุตสาหกรรมของเรา แตก็ตองยอมสละอธิปไตยเปนการตอบแทน"
+ CHI_strike_from_below_hidden: "$CHI_strike_from_below$"
+ CHI_long_range_hidden: "$CHI_long_range$"
+ CHI_coastal_defence_hidden: "$CHI_coastal_defence$"
+ CHI_mobile_bases_hidden: "$CHI_mobile_bases$"
+ CHI_local_alloy_commission_hidden: "$CHI_local_alloy_commission$"
+ CHI_empowered_nbis: "NBIS ที่ไดรับอํานาจเต็ม"
+ CHI_empowered_nbis_desc: "หนวยรวบรวมขาวกรองภายใต NBIS หรือที่รูจักกันในชื่อจวินถง ไดรับอํานาจใหตามลาศัตรูทั้งหมดไมวาจากตางชาติหรือภายในประเทศ"
+ CHI_tongzi_jun: "ถงจื่อจวิน"
+ CHI_tongzi_jun_desc: "กองกําลังเยาวชนของเราจะนําชาติไปสูชัยชนะและกาวตอไปสูอนาคต"
+ CHI_baojia: "เปาเจี่ย"
+ CHI_baojia_desc: "องคกรแบบกระจายอํานาจนี้จะชวยใหเราเพิ่มกําลังพลได โดยมอบหมายการเกณฑใหหัวหนากลุมทองถิ่นที่เรียกวาเปาจาง"
+
+ CHI_soviet_support: "การสนับสนุนจากโซเวียต"
+ CHI_soviet_support_dm_tt: "[GetBaseSovietTooltip][GetFacilitateOperationZetTooltip][GetNorthwestHighwayTooltip][GetSellLendLeaseSovietTooltip]"
+ CHI_sell_lend_lease_soviet_tt: "ขีดความสามารถทางเศรษฐกิจสวนเกิน [?CHI_soviet_support_cic_amount|Y0] ทุกเดือน"
+ CHI_facilitate_operation_zet_tt: "\n  $small_plane_airframe$ จํานวน [?CHI_facilitate_operation_zet_fighter|Y0] หนวย \n  $medium_plane_airframe$ จํานวน [?CHI_facilitate_operation_zet_bomber|Y0] หนวย"
+ CHI_the_northwest_highway_tt: "\n  $support_equipment$ จํานวน [?CHI_facilitate_the_northwest_highway_support_equipment|Y0] หนวย \n  $motorized_equipment$ จํานวน [?CHI_facilitate_the_northwest_highway_motorized_equipment|Y0] หนวย"
+
+ CHI_delivery_tt: "ซึ่งจะถูกสงมอบทุกเดือน"
+
+ idea_CHI_central_government_minquan_pressure_democratic: "การนําหลักหมินฉวีนมาใช"
+
+ CHI_american_aid: "ความชวยเหลือแกสาธารณรัฐจีน"
+ CHI_USA_aid_for_republic: "$CHI_american_aid$"
+ CHI_broke_the_nine_powers_treaty_opm: "ละเมิดขอตกลงเกามหาอํานาจ"
+
+ CHI_electrification_and_mass_education_modifier: "การไฟฟาและการศึกษามวลชน"
+ CHI_infiltrated_state_1: "มีสาขาทองถิ่นอยู"
+ CHI_infiltrated_state_2: "ตั้งสาขาทองถิ่นแลว"
+ CHI_infiltrated_state_3: "สาขาทองถิ่นที่มั่นคง"
+
+ CHI_three_princpals_idea: "หลักไตรราษฎร"
+ CHI_three_princpals_idea_desc: "ผูกอตั้งสาธารณรัฐ ดร.ซุน ยัตเซ็น ไดวางหลักการพื้นฐานสามประการที่ควรใชหลอหลอมสาธารณรัฐ ไดแก หมินจู หมินฉวีน และหมินเซิง หรือชาตินิยม ประชาธิปไตย และสวัสดิการสังคม เราควรมุงมั่นนําหลักการเหลานี้มาใชในรัฐบาลของเรา"
+
+ CHI_three_princpals_reorganized_idea: "หลักไตรรัฐ"
+ CHI_three_princpals_reorganized_idea_desc: "ผูกอตั้งสาธารณรัฐ ดร.ซุน ยัตเซ็น ไดวางหลักการพื้นฐานสามประการที่ควรใชหลอหลอมสาธารณรัฐ ไดแก หมินจู หมินฉวีน และหมินเซิง หรือชาตินิยม ประชาธิปไตย และสวัสดิการสังคม แมจะไมสอดคลองกับแนวทางหลักไตรราษฎรของเราทั้งหมด แตเราก็ควรพยายามใชหลักการเหลานี้ใหเปนประโยชน"
+
+ CHI_tewu_idea: "เทอู"
+
+ CHI_academy_of_sciences_dm: "สถาบันวิทยาศาสตรจีน"
+
+ CHI_american_support: "การสนับสนุนจากอเมริกา"
+ CHI_american_support_dm_tt: "ขีดความสามารถทางเศรษฐกิจสวนเกิน [?CHI_american_support_cic_amount|Y0] ทุกเดือน\n[GetHanoiRouteTooltip][GetBurmaRoadTooltip][GetHumpTooltip]"
+ CHI_american_support_reconstruction_dm_tt: "ขีดความสามารถทางเศรษฐกิจสวนเกิน [?CHI_american_reconstruction_support_cic_amount|Y0] ทุกเดือน"
+ CHI_foreign_economic_support: "การสนับสนุนทางเศรษฐกิจจากตางชาติ"
+ CHI_foreign_economic_support_dm_tt: "ขีดความสามารถทางเศรษฐกิจสวนเกิน [?CHI_foreign_economic_support_cic_amount|Y0] ทุกเดือน"
+ CHI_american_reconstruction_support: "คณะกรรมาธิการรวมจีน-อเมริกันวาดวยการฟนฟูชนบท"
+ CHI_american_support_equipment_tt: "\nเพิ่มยุทโธปกรณ[USA.GetAdjective]เขาคลัง:" #TODO_JNS Change to getting the proper sender
+ CHI_the_hanoi_route_tt: "\n  $support_equipment$ จํานวน [?CHI_the_hanoi_route_support_equipment|Y0] หนวย"
+ CHI_the_burma_road_tt: "\n  $motorized_equipment$ จํานวน [?CHI_the_burma_road_motorized_equipment|Y0] หนวย"
+ CHI_the_hump_sea_tt: "\n  $infantry_equipment$ จํานวน [?CHI_the_hump_sea_infantry_equipment|Y0] หนวย"
+ CHI_soviet_support_hidden: "การสงมอบที่รับประกัน"
+ CHI_operation_zet_hidden: "$CHI_facilitate_operation_zet$"
+ CHI_northwest_highway_hidden: "$CHI_the_northwest_highway$"
+ CHI_the_hanoi_route_hidden: "$CHI_the_hanoi_route$"
+ CHI_the_burma_road_hidden: "$CHI_the_burma_road$"
+ CHI_the_hump_sea_hidden: "$CHI_the_hump_sea$"
+
+ idea_CHI_troop_inspection: "การตรวจพลทหาร"
+ idea_CHI_professional_army: "กองทัพอาชีพ"
+ idea_CHI_popular_army: "กองทัพประชาชน"
+ idea_CHI_production_efforts: "ความพยายามดานการผลิตแหงชาติ"
+ idea_CHI_central_government_integration_pressure: "แรงกดดันใหผนวกรวมกับรัฐบาลกลาง"
+ idea_CHI_central_government_integration_pressure_desc: "รัฐบาลกลางกําลังกดดันใหผูนําของเราผนวกรวมเขากับลําดับชั้นการบังคับบัญชาของตนอยางสมบูรณ ซึ่งเทากับการยอมสละอํานาจการปกครองทั้งหมด"
+ idea_CHI_ban_immoral_entertainment: "หามความบันเทิงที่ผิดศีลธรรม"
+ idea_CHI_expropriate_industrialists: "ยึดทรัพยนักอุตสาหกรรม"
+ idea_CHI_opposition_censured: "ตําหนิฝายคาน"
+ idea_CHI_sympathetic_judges: "รัฐบาลกลางแตงตั้งผูพิพากษาที่เห็นอกเห็นใจ"
+ idea_CHI_rooting_out_hardliners: "กวาดลางพวกหัวแข็ง"
+ idea_CHI_stabilized_government: "รัฐบาลที่มีเสถียรภาพ"
+ idea_CHI_punish_the_signatories: "$CHI_punish_the_signatories$"
+ idea_CHI_a_new_chapter: "บทใหม"
+ idea_CHI_a_new_middle_kingdom: "อาณาจักรกลางใหม"
+ idea_CHI_cradle_of_civilization: "แหลงกําเนิดอารยธรรม"
+ idea_CHI_eternal_revolution: "จุดเริ่มตนของการปฏิวัตินิรันดร"
+ idea_CHI_cult_of_shek: "ลัทธิบูชาเจียง ไคเช็ก"
+ idea_CHI_cult_of_shek_desc: "แมจะลวงลับไปแลว แตอิทธิพลของเจียง ไคเช็กยังคงกองกังวานไปทั่วชนชั้นสูงของฝายบริหารจีน ดั่งประภาคารแหงการตอตานและความไมยอมจํานนตอการรุกรานจากตางชาติ"
+ idea_CHI_our_place: "ที่ทางของเรา"
+ idea_CHI_our_place_desc: "การเปนสมาชิก[ROOT.GetFactionName]ทําใหเราแข็งแกรงขึ้น แตเราควรมุงสูการเปนผูนํา นั่นคือสิทธิ์อันชอบธรรมของเรา"
+
+ CHI_whampoa_military_academy_spirit: "ความเปนใหญของหวงผู"
+ CHI_whampoa_military_academy_spirit_desc: "โรงเรียนนายรอยหวงผูของกกมินตั๋งกุมอํานาจเหนือการรับทหารใหมและการเลื่อนยศในกองทัพ แมจะไมไรประสิทธิภาพเสียทีเดียว แตก็มีการทุจริตเชิงสถาบันอยูมาก"
+
+ CHI_the_political_tutelage_dm: "การกํากับดูแลทางการเมือง"
+ CHI_the_political_tutelage_dm_desc: "ถึงเวลาแลวที่จะนําแนวคิดของซุน ยัตเซ็นมาใชอยางเต็มที่ ยกระดับการรูหนังสือของชาวจีนและปลุกจิตสํานึกทางการเมืองของพวกเขา เพื่อใหสาธารณรัฐถือกําเนิดและอยูรอดไดบนแผนดินของเรา"
+
+ CHI_modify_CHI_the_political_tutelage_dm_tt: "ปรับ §Y$CHI_the_political_tutelage_dm$§! ดังนี้:"
+ CHI_modify_CHI_the_political_tutelage_upgraded_dm_tt: "ปรับ §Y$CHI_the_political_tutelage_upgraded_dm$§! ดังนี้:"
+
+ CHI_saco: "SACO"
+ CHI_saco_desc: "องคการความรวมมือจีน-อเมริกันเปนกลุมรวมที่เนนการแบงปนขาวกรอง ซึ่งเราจะไดเรียนรูจากกันและกัน"
+ CHI_women_in_the_war_effort_idea: "สตรีในการตอสูของชาติ"
+ CHI_women_in_the_war_effort_idea_desc: "ความทันสมัยมิใชเรื่องของผูชายเทานั้น สตรีของชาติเราไดลุกขึ้นและเขารับตําแหนงอันชอบธรรมในกองทัพและในกองพันของพวกเธอเอง"
+ CHI_chinese_womens_national_war_relief_society: "สมาคมบรรเทาภัยสงครามแหงชาติของสตรีจีน"
+ CHI_chinese_womens_national_war_relief_society_desc: "ชาติจะแข็งแกรงไดเพียงเทาจุดที่ออนแอที่สุด สมาคมจึงมุงเสริมความแข็งแกรงใหจุดนั้น"
+
+ CHI_local_rural_reconstruction_modifier: "โครงการขบวนการฟนฟูชนบท"
+
+ CHI_new_culture_movement_idea: "ขบวนการวัฒนธรรมใหม"
+
+ CHI_asian_bastion_of_liberty_idea: "ปอมปราการแหงเสรีภาพของเอเชีย"
+
+ CHI_republican_agitation: "การปลุกระดมของฝายสาธารณรัฐ"
+ CHI_republican_agitation_tt: "§Rสงครามกลางเมืองจะปะทุขึ้นหากการสนับสนุนฝาย§Yประชาธิปไตย§!สูงเกิน 40%!§!"
+
+ CHI_correcting_a_hisotrical_wrong_idea: "แกไขความผิดพลาดทางประวัติศาสตร"
+
+ CHI_liberated_by_democratic_china: "ไดรับการปลดปลอยโดย[CHI.GetNameDefCap]"
+ CHI_liberated_by_democratic_china_desc: "ในที่สุดประเทศของเราก็ไดรับเอกราชอันชอบธรรมจากนักลาอาณานิคม ดวยความชวยเหลือของ[CHI.GetNameDef] เรากลับมาเปนประเทศเสรีอีกครั้ง และดวยการกระทําที่ชวยเหลือเราอยางชัดแจง แนวคิดคอมมิวนิสตที่พวกเขาเผยแพรก็เริ่มหยั่งรากในหมูประชาชนของเรา"
+
+ # State modifiers
+ CHI_declared_war_zone_idea: "ประกาศเขตสงคราม"
+ CHI_bog_defensive_modifier: "การปองกันแบบประสานงาน"
+ CHI_shanghai_international_settlement: "นิคมนานาชาติเซี่ยงไฮ"
+ CHI_shanghai_international_settlement_desc: "มหาอํานาจตางชาติไดแผอํานาจควบคุมผานสนธิสัญญาตาง ๆ จนเซี่ยงไฮกลายเปนประตูที่เปดกวาง"
+ # General
+ add_cic_monthly_tt: "ขีดความสามารถทางเศรษฐกิจสวนเกิน $RIGHT|+=0$"
+
+ # Industrial Concerns
+ CHI_national_resource_commission: "คณะกรรมาธิการทรัพยากรแหงชาติ"
+ CHI_national_resource_commission_desc: "$CHI_mining_commission_desc$"
+ CHI_china_national_aviation_corporation: "บริษัทการบินแหงชาติจีน"
+ CHI_china_merchant_group: "กลุมไชนามะเชินต"
+ CHI_shanghai_power_company: "บริษัทไฟฟาเซี่ยงไฮ"
+ CHI_bank_of_china: "ธนาคารแหงประเทศจีน"
+ CHI_yongli_chemical_industries: "อุตสาหกรรมเคมีหยงลี่"
+
+ # Designers 
+ CHI_camco_SEA: "$CHI_camco_1$"
+ CHI_sinaw: "$CHI_sinaw_organization_sea$"
+ CHI_shanghai_arsenal_designer: "$CHI_shanghai_arsenal$"
+ 
+ CHI_neglected_countryside_fake_ns: "$CHI_neglected_countryside$"
+ CHI_corruption_in_the_armed_forces_fake_ns: "$CHI_corruption_in_the_armed_forces$"
+ CHI_nine_power_treaty_sea_fake_ns: "$CHI_nine_power_treaty_sea$"
+ CHI_corruption_in_the_administration_fake_ns: "$CHI_corruption_in_the_administration$"
+ CHI_protracted_warfare_idea_fake_ns: "$CHI_protracted_warfare_idea$"
+ CHI_gung_ho_idea_fake_ns: "$CHI_gung_ho_idea$"
+ 
+ #########################
+  ##### PHILIPPINES #####
+ #########################
+
+ ### Dynamic Modifiers ###
+
+ ## Defense Strategy
+ PHI_defense_strategy_dynamic_modifier: "ยุทธศาสตรการปองกัน"
+ PHI_defense_strategy_dynamic_modifier_desc: "ดวยความที่เปนหมูเกาะ ฟลิปปนสจึงปองกันไดงายโดยธรรมชาติ แตนั่นไมไดหมายความวาเราไมควรเพิ่มอุปสรรคใหผูรุกรานตองฝาฟนอีก"
+ PHI_defense_strategy_dynamic_modifier_tt: "ยุทธศาสตรการปองกัน"
+ PHI_modify_defense_strategy_dynamic_modifier_tt: "ปรับ §Y$PHI_defense_strategy_dynamic_modifier_tt$§! ดังนี้:"
+ PHI_add_defense_strategy_dynamic_modifier_tt: "เพิ่ม §Y$PHI_defense_strategy_dynamic_modifier_tt$§! ซึ่งใหผล:\n"
+
+ PHI_modify_economy_dynamic_modifier_tt: "[GetPHIEconomicModifier]"
+
+ ## Great Depression
+ PHI_the_great_depression_dynamic_modifier: "ภาวะเศรษฐกิจตกตํ่าครั้งใหญ"
+ PHI_the_great_depression_dynamic_modifier_desc: "ภาวะเศรษฐกิจตกตํ่าครั้งใหญไดกระหนํ่าสหรัฐอเมริกาอยางหนัก และในฐานะดินแดนในปกครองของพวกเขา เราก็ไมรอดพนจากหายนะทางการเงินนี้"
+ PHI_modify_the_great_depression_dynamic_modifier_tt: "ปรับ §Y$PHI_the_great_depression_dynamic_modifier$§! ดังนี้:"
+ PHI_the_great_depression_temp_construction_speed: "การกอสรางบูมชั่วคราว"
+
+ PHI_ruling_ideology_ideology_drift_tt: "การเปลี่ยนแปลงทางอุดมการณใด ๆ จะโนมเอียงไปทางพรรครัฐบาล"
+ PHI_ruling_ideology_ideology_drift_tt_2: " การเปลี่ยนแปลงไปทางพรรครัฐบาลรายวัน: $RIGHT|+=2$"
+
+ ##Shaken/Recovering Economy
+ PHI_shaken_economy_dynamic_modifier: "เศรษฐกิจที่สั่นคลอน"
+ PHI_shaken_economy_dynamic_modifier_desc: "ผลกระทบของภาวะเศรษฐกิจตกตํ่าครั้งใหญยังคงสะทอนไปทั่วประเทศ เศรษฐกิจยังคงสั่นคลอนและเปราะบางตอแรงกระแทก แตก็ไมไดเลวรายไปทั้งหมด เพราะเริ่มเห็นแสงริบหรี่ของการฟนตัวที่ขอบฟาแลว"
+ PHI_replace_depression_dynamic_modifier_tt: "แทนที่ §Y$PHI_the_great_depression_dynamic_modifier$§! ดวย §Y$PHI_shaken_economy_dynamic_modifier$§!\nการเปลี่ยนแปลงที่มีผล:"
+ PHI_replace_depression_dynamic_modifier_no_modifiers_tt: "แทนที่ §Y$PHI_the_great_depression_dynamic_modifier$§! ดวย §Y$PHI_shaken_economy_dynamic_modifier$§!"
+ PHI_modify_shaken_economy_dynamic_modifier_tt: "ปรับ §Y$PHI_shaken_economy_dynamic_modifier$§! ดังนี้:"
+
+ PHI_recovering_economy_dynamic_modifier: "เศรษฐกิจที่กําลังฟนตัว"
+ PHI_recovering_economy_dynamic_modifier_desc: "เศรษฐกิจของเราเริ่มฟนตัวจากความเคราะหรายทางการเงินที่ผานมา และการลงทุนก็เริ่มกลับมาอยางจริงจัง แมจะยังไมเห็นการเติบโตที่แทจริง แตอยางนอยเราก็กลับมาอยูในจุดเดิมกอนภาวะเศรษฐกิจตกตํ่าครั้งใหญจะเกิดขึ้นแลว"
+ PHI_replace_shaken_dynamic_modifier_tt: "แทนที่ §Y$PHI_shaken_economy_dynamic_modifier$§! ดวย §Y$PHI_recovering_economy_dynamic_modifier$§!\nการเปลี่ยนแปลงที่มีผล:"
+ PHI_modify_recovering_economy_dynamic_modifier_tt: "ปรับ §Y$PHI_recovering_economy_dynamic_modifier$§! ดังนี้:"
+
+ ## Economic Growth/Pearl of the Orient (Great Depression's lategame replacement)
+ PHI_economic_growth_dynamic_modifier: "การเติบโตทางเศรษฐกิจ"
+ PHI_economic_growth_dynamic_modifier_desc: "ในที่สุดเราก็เริ่มเห็นการเติบโตทางเศรษฐกิจที่แทจริง เมื่อธุรกิจขนาดเล็กและจิตวิญญาณผูประกอบการไดหยั่งราก นําพาชาติไปสูความรุงเรืองทางการคลัง"
+ PHI_modify_economic_recovery_dynamic_modifier_tt: "ปรับ §Y$PHI_economic_growth_dynamic_modifier$§! ดังนี้:"
+
+ PHI_replace_economic_dynamic_modifier_tt: "แทนที่ §Y$PHI_recovering_economy_dynamic_modifier$§! ดวย §Y$PHI_economic_growth_dynamic_modifier$§!\nการเปลี่ยนแปลงที่มีผล:\nขีดจํากัดความตึงเครียดในการเขารวมฝาย: §G-[?PHI_the_great_depression_join_faction_tension|%0]§!"
+
+ PHI_pearl_of_the_orient_dynamic_modifier: "$PHI_pearl_of_the_orient_seas$"
+ PHI_pearl_of_the_orient_dynamic_modifier_desc: "เศรษฐกิจของเรากําลังเฟองฟูอยางยิ่ง บัดนี้เมื่อหลุดพนจากเจาอาณานิคม เราก็มีอิสระที่จะตัดสินใจเอง และเปนประจักษพยานถึงความรุงเรืองทางเศรษฐกิจที่เกิดขึ้นไดในเอเชียตะวันออกเฉียงใต"
+ PHI_remove_economic_recovery_dynamic_modifier_tt: "แทนที่ §Y$PHI_economic_growth_dynamic_modifier$§! ดวย §Y$PHI_pearl_of_the_orient_dynamic_modifier$§!\n การเปลี่ยนแปลงที่มีผล:"
+ PHI_modify_pearl_of_the_orient_dynamic_modifier_tt: "ปรับ §Y$PHI_pearl_of_the_orient_dynamic_modifier$§! ดังนี้:"
+
+ ## Philippine Army
+ PHI_philippine_army_dynamic_modifier: "กองทัพบกฟลิปปนส"
+ PHI_philippine_army_dynamic_modifier_desc: "กองกําลังภาคพื้นดินของฟลิปปนส ซึ่งรับผิดชอบหลักในการปองกันหมูเกาะบานเกิดของเรา เดิมประกอบดวยหนวยลาดตระเวนจํานวนหนึ่ง และกําลังพลภายใตการบังคับบัญชาก็ยังคงเพิ่มขึ้นเรื่อย ๆ"
+ PHI_philippine_army_dynamic_modifier_tt: "ปรับ §Y$PHI_philippine_army_dynamic_modifier$§! ดังนี้:"
+ PHI_philippine_rule_cant_volunteer: "สงอาสาสมัครได: §Rไมได§!"
+
+ ## Philippine Army Air Corps
+ PHI_philippine_army_air_corps_dynamic_modifier: "หนวยบินกองทัพบกฟลิปปนส"
+ PHI_philippine_army_air_corps_dynamic_modifier_desc: "แมจะเปนกําลังที่ใหมมากในกองทัพฟลิปปนส แตความปรารถนาที่จะครองนานฟาก็มิไดลดนอยลงเพราะเหตุนั้น"
+ PHI_philippine_army_air_corps_dynamic_modifier_tt: "ปรับ §Y$PHI_philippine_army_air_corps_dynamic_modifier$§! ดังนี้:"
+
+ ## American Interference
+ PHI_american_interference_dynamic_modifier: "การแทรกแซงของอเมริกา"
+ PHI_american_interference_dynamic_modifier_desc: "มหาอํานาจตางชาติมีอิทธิพลอยางมากเหนือชาติของเรา หากเราปรารถนาจะไดสัมผัสเอกราชที่แทจริง การควบคุมอันกดขี่ที่พวกเขามีเหนือเราจะตองถูกทําลายลง"
+ PHI_american_interference_dynamic_modifier_tt: "ปรับ §Y$PHI_american_interference_dynamic_modifier$§! ดังนี้:"
+
+ ## Island Nation
+ PHI_island_nation_dynamic_modifier: "ชาติหมูเกาะ"
+ PHI_island_nation_dynamic_modifier_desc: "ฟลิปปนสเปนชาติหมูเกาะ ประชาชนของเราจึงมีความผูกพันกับทองทะเลโดยธรรมชาติ"
+ PHI_island_nation_dynamic_modifier_tt: "ปรับ §Y$PHI_island_nation_dynamic_modifier$§! ดังนี้"
+
+ ## Asian Trade
+ PHI_asian_trade_connections_dynamic_modifier: "เครือขายการคาเอเชีย"
+ PHI_asian_trade_connections_dynamic_modifier_desc: "การคาเปนรากฐานสําคัญของเศรษฐกิจฟลิปปนสมานานหลายศตวรรษ และเราไมควรลังเลที่จะเก็บเกี่ยวผลประโยชนจากมัน"
+ PHI_asian_trade_connections_dynamic_modifier_tt: "[GetAsianTradePartnersSiam] \n[GetAsianTradePartnersMalaya] \n[GetAsianTradePartnersDutchEastIndia]"
+ PHI_asian_trade_connections_siam: "ขอตกลงการคากับสยาม"
+ PHI_asian_trade_connections_malaya: "ขอตกลงการคามลายา"
+ PHI_asian_trade_connections_dutch_east_india: "ขอตกลงการคาหมูเกาะอินเดียตะวันออกของดัตช"
+ PHI_japanese_investors_mod: "นักลงทุนญี่ปุน"
+ PHI_japanese_trade_connections: "เครือขายการคาญี่ปุน"
+
+ ## Preemtive Strike
+ PHI_preemptive_strikes_dynamic_modifier: "การโจมตีชิงลงมือกอน"
+ PHI_preemptive_strikes_dynamic_modifier_desc: "มีทางเดียวที่จะมั่นใจไดวาเราจะไมถูกรุกราน นั่นคือบุกคนอื่นใหหมดกอน!"
+ PHI_preemptive_strikes_dynamic_modifier_tt: "ปรับ §Y$PHI_preemptive_strikes_dynamic_modifier$§! ดังนี้:"
+
+ ## Resistance
+ PHI_philippine_resistance_movement_dynamic_modifier: "การตอตานของฟลิปปนส"
+ PHI_philippine_resistance_movement_dynamic_modifier_tt: "ปรับ §Y$PHI_philippine_resistance_movement_dynamic_modifier$§! ดังนี้:"
+
+ PHI_strong_guerrilla_presence: "กองโจรที่เขมแข็ง"
+
+ PHI_no_gtd_concrete_battleship: "$PHI_the_concrete_battleship$"
+
+ ## Investment plan bonuses
+ PHI_investment_plan_1_building_bonus: "ลงทุนในโครงสรางพื้นฐานของรัฐแลว"
+
+ ### National Spirits ###
+
+ PHI_maritime_communism_idea: "คอมมิวนิสตทางทะเล"
+ PHI_struggle_conference_idea: "การประชุมแหงการตอสู"
+ PHI_encourage_chinese_immigration_idea: "สงเสริมการอพยพของชาวจีน"
+ PHI_asian_trade_connections: "เครือขายการคาเอเชีย"
+ PHI_cobalt_supremacy_idea: "ความเปนใหญดานโคบอลต"
+ PHI_submarine_supply: "การสงเสบียงทางเรือดํานํ้า"
+ PHI_add_bell_trade_act_opinion_modifier_tt: "ความสัมพันธทางการคากับ §Y[ROOT.GetName]§! เปลี่ยนแปลง §G+30§!"
+ PHI_rehabilitation_finance_corporation_idea: "$PHI_rehabilitation_finance_corporation$" #inconsistency with using name = on other ideas is intentional, as name = also copies the focus description
+ PHI_development_bank: "ธนาคารพัฒนาแหงฟลิปปนส"
+ PHI_dockworker_infiltration: "รวมมือกับคนงานทาเรือ"
+ PHI_unified_naval_command: "กองบัญชาการทางเรือรวม"
+ PHI_unified_naval_command_desc: "แผนสงครามของ[USA.GetNameDef]ไดถูกใชเปนพื้นฐานในการประสานงานระหวางกองทัพเรือของ[ROOT.GetFactionName] ตามความริเริ่มของ[PHI.GetAdjective]"
+ PHI_government_reform: "การปฏิรูปรัฐบาล"
+ PHI_mosquito_fleet_ns: "กองเรือยุง"
+ PHI_devil_boats_ns: "เรือปศาจ"
+ PHI_coastal_defense_ships_ns: "$ROM_coastal_defense_ships$"
+ PHI_volunteers_to_nationalists: "อาสาสมัครสูสเปนฝายชาตินิยม"
+ PHI_volunteers_to_republicans: "อาสาสมัครสูสเปนฝายสาธารณรัฐ"
+ PHI_ties_with_nationalist_spain: "สายสัมพันธกับสเปนฝายชาตินิยม"
+ PHI_ties_with_republican_spain: "สายสัมพันธกับสเปนฝายสาธารณรัฐ"
+ PHI_ties_with_carlist_spain: "สายสัมพันธกับสเปนฝายคารลิสต"
+ PHI_ties_with_anarchist_spain: "สายสัมพันธกับสเปนฝายอนาธิปไตย"
+ PHI_reignited_independence_struggle: "จุดประกายการตอสูเพื่ออิสรภาพอีกครั้ง"
+ considered_as_extremist_for_war_economy_tt: "§Y[ROOT.GetNameDefCap]§! จะไดรับการผอนปรนขอจํากัดดาน §Y$war_economy$§! เชนเดียวกับระบอบ§Yฟาสซิสต§!/§Yคอมมิวนิสต§!"
+ considered_as_extremist_for_manpower_laws_tt: "§Y[ROOT.GetNameDefCap]§! จะไดรับการผอนปรนขอจํากัดดาน §Y$extensive_conscription$§! และ §Y$service_by_requirement$§! เชนเดียวกับระบอบ§Yฟาสซิสต§!/§Yคอมมิวนิสต§!"
+ PHI_integration_efforts: "ความพยายามผนวกรวม"
+
+ ### Timed Spirits ###
+
+ PHI_government_filipinization_surrender_limit_timed_idea: "การทําใหเปนฟลิปปนส"
+ PHI_petition_the_supreme_court_communism_timed_idea: "แรงกดดันจากคอมมิวนิสต"
+ PHI_recognize_unions_timed_idea: "รับรองสหภาพแรงงาน - คนงานมีความสุข"
+ PHI_subsidies_timed_idea: "เงินอุดหนุน"
+ PHI_sakdalistas_timed_idea: "ฟนฟูกลุมศักดาลิสตา"
+ PHI_slippery_slope_timed_idea: "ทางลาดลื่น"
+ PHI_restore_order_timed_idea: "ฟนฟูความสงบเรียบรอย"
+ PHI_japanese_investment: "การลงทุนของ[JAP.GetAdjective]"
+
+ ### MIO / Design Company ###
+
+ PHI_san_miguel_company: "โรงเบียรซานมิเกล"
+ PHI_san_miguel_improved_tt: "ผลจาก§Y$PHI_san_miguel_company$ ผูประกอบการอุตสาหกรรม§!ไดรับการปรับปรุง"
+ PHI_south_seas_development_company: "บริษัทพัฒนาทะเลใต"
+ PHI_south_seas_development_company_tt: "§Y$PHI_south_seas_development_company$§! ซึ่งใหผล:\nความเร็วการวิจัยดานอุตสาหกรรม: §G+20%§!\nสัดสวนโรงงานสินคาอุปโภคบริโภค: §Y-5.0%§!"
+ PHI_manila_railroad_company: "บริษัทรถไฟมะนิลา"
+ PHI_philippine_long_distance_telephone_company: "บริษัทโทรศัพททางไกลฟลิปปนส"
+ PHI_benguet_corporation: "เบงเก็ตคอรปอเรชัน"
+ PHI_benguet_corporation_improved_tt: "ผลจาก§Y$PHI_benguet_corporation$ ผูประกอบการอุตสาหกรรม§!ไดรับการปรับปรุง"
+ PHI_marsman_and_company: "มารสแมนแอนดคอมพานี"
+ PHI_marsman_and_company_improved_tt: "ผลจาก§Y$PHI_marsman_and_company$ ผูประกอบการอุตสาหกรรม§!ไดรับการปรับปรุง"
+ PHI_compania_maritima_de_cebu: "กอมปาญีอามาริติมาเดเซบู"
+
+ ### Focus ###
+
+ PHI_japan_aligned_ideology: "อุดมการณที่สอดคลองกับญี่ปุน"
+ PHI_japan_aligned_ideology_tt: "ปรับใหสอดคลองกับพรรครัฐบาลปจจุบันของญี่ปุน"
+ PHI_japan_aligned_ideology_improved_tt: "ปรับ §Y$PHI_japan_aligned_ideology$§! ดังนี้:"
+ PHI_clock_tt: "แผนยุทธศาสตรที่เรงความเร็วแลวจะแสดงดวยไอคอนนาฬกาขนาดเล็ก"
+ PHI_reduce_national_defense_act_cost_tt: "การเลือกแผนยุทธศาสตรในสาย§Yเขาขางสหรัฐฯ§!หรือ§Yเขาขางญี่ปุน§!จะลดเวลาของแผนยุทธศาสตรนี้ลง เหลือขั้นตํ่า 35 วัน"
+
+ ### Misc ###
+
+ PHI_convoys_for_consumer_goods_idea: "ขายขบวนเรือลําเลียงในตลาดพลเรือน"
+ PHI_selling_convoys_fake_modifier_tt: "§Y$industrial_complex$§! นอกแผนที่ §Y2§! แหง"
+
+ PHI_recently_broke_USA_alliance: "เพิ่งตัดพันธมิตรกับ @USA§Y[USA.GetName]§!"
+
+ ### Fake Ideas ###
+ PHI_the_great_depression_ns_fake: "ภาวะเศรษฐกิจตกตํ่าครั้งใหญ"
+ PHI_the_great_depression_ns_fake_tt: "อํานาจทางการเมืองรายวัน: §R0.75%§! \nประสิทธิภาพการไดรับทรัพยากร: §R-25%§! \nสัดสวนโรงงานสินคาอุปโภคบริโภค: §Y50%§! \nความเร็วการกอสราง: §R-25%§! \nขีดจํากัดความตึงเครียดในการเขารวมฝาย: §R+100%§!"
+ PHI_philippine_army_ns_fake: "กองทัพบกฟลิปปนส"
+ PHI_philippine_army_ns_fake_tt: "การไดรับประสบการณกองทัพบก: §R-80%§! \nสัดสวนประชากรที่เกณฑได: §R-50%§! \nผลผลิตโรงงาน: §R-90%§! \nผลผลิตอูตอเรือ: §R-50%§! \nเวลาฝก: §R+40%§! \nตัวคูณการไดรับอํานาจบัญชาการรายวัน: §R-50%§!"
+ PHI_island_nation_ns_fake: "ชาติหมูเกาะ"
+ PHI_island_nation_ns_fake_tt: "ความเร็วขบวนเรือลําเลียงขณะลาถอย: §G+15%§! \nการมองเห็น: §G-5.00%§!"
+
+ 
+ #Nine Power Treaty
+ CHI_repudiated_nine_power_treaty_no_bba: "บอกเลิกสนธิสัญญาเกามหาอํานาจ"
+ CHI_repudiated_nine_power_treaty: "$CHI_repudiated_nine_power_treaty_no_bba$"
+ 
+ #### POST WARLORD
+ PRC_tsr_warlord_peoples_liberation_army: "กองทัพปลดแอกประชาชน"
+
+ ###################
+ ##### Generic #####
+ ###################
+ alternate_political_infiltrated_opposition: "ฝายคานที่บอนทําลาย"
+ alternate_political_dockworker_strike: "การนัดหยุดงานของคนงานทาเรือ"
+ alternate_political_dockworker_strike_demands_met: "ยอมตามขอเรียกรองของผูนัดหยุดงาน"
+ alternate_political_corruption_exposed: "เรื่องอื้อฉาวการทุจริต"
+ alternate_political_major_protest: "การประทวงครั้งใหญ"
+
+ ###################
+ ##### WARLORDS ####
+ ###################
+
+ SOV_cooperation_with_sinkiang: "ความรวมมือกับซินเจียง"
+ failed_revolutionaries: "นักปฏิวัติที่ลมเหลว"
+ criticized_our_intervention_opm: "วิจารณการแทรกแซงซินเจียงของเรา"
+ turned_a_blind_eye_opm: "ทําเปนมองไมเห็น"
+ tsr_fake_china_opm: "รัฐบาลอางสิทธิ์"
+ CHI_cooperating_with_republicans_dynamic_modifier: "ความรวมมือกับรัฐบาลสาธารณรัฐ"
+ tsr_anti_soviet_government_opm: "หันหลังใหเรา"
+ tsr_pro_soviet_government_opm: "รัฐบาลนิยมโซเวียต"
+ CHI_warlord_army_dynamic_modifier: "กองทัพ[ROOT.GetAdjective]"
+ add_warlord_army_tt: "เพิ่ม §Y$CHI_warlord_army_dynamic_modifier$§! ซึ่งใหผล:\n"
+ modify_warlord_army_tt: "ปรับ §Y$CHI_warlord_army_dynamic_modifier$§! ดังนี้:"
+ XSM_the_military_governor_dynamic_modifier: "ผูวาการทหาร"
+ add_military_governor_tt: "เพิ่ม §Y$XSM_the_military_governor_dynamic_modifier$§! ซึ่งใหผล:\n"
+ modify_military_governor_tt: "ปรับ §Y$XSM_the_military_governor_dynamic_modifier$§! ดังนี้:"
+ MAN_invite_japanese_investors_tt: "ทําแผนยุทธศาสตร §Y$MAN_invite_japanese_investors$§! สําเร็จแลว"
+ MAN_expand_the_railways_tt: "ทําแผนยุทธศาสตร §Y$MAN_expand_the_railways$§! สําเร็จแลว"
+ MAN_manchukuo_film_association_tt: "ทําแผนยุทธศาสตร §Y$MAN_obedience$§! สําเร็จแลว"
+ MAN_manchukuo_film_association_2_tt: "ทําแผนยุทธศาสตร §Y$MAN_reform_the_civil_service$§! สําเร็จแลว"
+ MAN_mamc_tt: "ทําแผนยุทธศาสตร §Y$MAN_mamc$§! สําเร็จแลว"
+ MAN_pacify_the_countryside_tt: "ทําแผนยุทธศาสตร §Y$MAN_pacify_the_countryside$§! สําเร็จแลว"
+ MAN_bolster_nationalism_tt: "ทําแผนยุทธศาสตร §Y$MAN_bolster_nationalism$§! สําเร็จแลว"
+ MAN_not_assertiveness_tt: "ยังไมไดทําแผนยุทธศาสตร §Y$MAN_assertiveness$§! ใหสําเร็จ"
+ MAN_independence_war_tt: "ทําแผนยุทธศาสตร §Y$MAN_independence_war$§! สําเร็จแลว"
+ MAN_local_arms_procurement_tt: "ทําแผนยุทธศาสตร §Y$MAN_local_arms_procurement$§! สําเร็จแลว"
+ MAN_purge_the_general_affairs_council_tt: "ทําแผนยุทธศาสตร §Y$MAN_purge_the_general_affairs_council$§! สําเร็จแลว"
+ MAN_nissan: "นิสสัน"
+ MAN_mangyo: "มังเงียว"
+ MAN_state_shintoism_dm: "ลัทธิชินโตแหงรัฐ"
+ MAN_add_state_shinotism_modifier_tt: "เพิ่ม §Y$MAN_state_shintoism_dm$§! ซึ่งใหผล:\n"
+ MAN_modify_state_shinotism_modifier_tt: "ปรับ §Y$MAN_state_shintoism_dm$§! ดังนี้:"
+ SIC_add_sichuan_clique_modifier_tt: "เพิ่ม §Y$SIC_sichuan_clique_dynamic_modifier$§! ซึ่งใหผล:\n"
+ SIC_modify_sichuan_clique_modifier_tt: "ปรับ §Y$SIC_sichuan_clique_dynamic_modifier$§! ดังนี้:"
+ SIC_sichuan_clique_dynamic_modifier: "กกเสฉวน"
+ tsr_bandit_suppresion_opm: "การปราบปรามโจร"
+ tsr_pro_soviet_stance_opm: "จุดยืนนิยมโซเวียต"
+ tsr_untrustworthy_ally_opm: "พันธมิตรที่ไวใจไมได"
+ XIC_inlux_of_funds_for_the_communists_idea: "เงินทุนจากจาง เซวียเหลียง"
+ tsr_rebellious_warlord_opm: "ขุนศึกผูแข็งขอ"
+ tsr_refused_our_relocation: "ปฏิเสธคําขอยายถิ่นของเรา"
+ XIC_new_fengtian_zhili_army_idea: "กองทัพเฟงเทียน-จื๋อลี่ใหม"
+ SIK_influx_of_soviet_supplies: "เสบียงจากโซเวียตหลั่งไหลเขามา"
+ KHM_confiscated_gold: "ยึดทองคําของหมา หูซาน"
+ CHI_tsr_reorganized_government_idea: "รัฐบาลแหงชาติที่จัดตั้งใหม"
+ RNG_state_shintoism_dm: "ลัทธิชินโตแหงรัฐ"
+ RNG_add_state_shinotism_modifier_tt: "เพิ่ม §Y$RNG_state_shintoism_dm$§! ซึ่งใหผล:\n"
+ RNG_modify_state_shinotism_modifier_tt: "ปรับ §Y$RNG_state_shintoism_dm$§! ดังนี้:"
+ CHI_tsr_low_legitimacy: "ความชอบธรรมตํ่า"
+ CHI_tsr_low_legitimacy_4: "ราชวงศที่ชอบธรรม"
+ CHI_tsr_a_new_empire_idea: "จักรวรรดิใหม"
+ idea_MAN_central_government_integration_pressure: "แรงกดดันใหผนวกรวมกับรัฐบาลจักรวรรดิ"
+
+ ### National Spirits ###
+ 
+ SIK_soviet_military_cooperation: "ความรวมมือทางทหารกับโซเวียต"
+ SIK_battle_for_sinkiang: "ศึกชิงซินเจียง"
+ SIK_battle_for_sinkiang_desc: "ดวยผูวาการทหารทางเหนือและกองพลที่ 36 ใหมทางใต มณฑลซินเจียงจึงเผชิญกับความขัดแยงที่ทวีความรุนแรงขึ้นเรื่อย ๆ หากรัฐที่อยูในการตอสูครั้งนี้จะหันไปสนใจความขัดแยงอื่น พวกเขาตองจบศึกของตนเองใหไดกอน"
+ KHM_unrest: "ความไมสงบแพรสะพัด"
+ KHM_unrest_desc: "ประชากรในมณฑลกําลังลุกฮือตอตานการปกครองของเราอยางแข็งขันและตอตานอยางหนัก สิ่งนี้อาจสรางความเสียหายแกเราหากไมจัดการโดยเร็ว"
+ KHM_influx_of_funds_idea: "ระดมเงินทุนเพิ่มเติม"
+ KHM_promoting_jadidist_movements_idea: "สงเสริมขบวนการจะดีด"
+ KHM_pushing_them_back_idea: "พลิกสถานการณ"
+ tsr_the_true_china: "จีนที่แทจริง"
+ prc_tsr_warlord_army: "กองทัพชนบท"
+ prc_tsr_agrarian_socialism: "สังคมนิยมเกษตรกรรม"
+ prc_tsr_urbanization_efforts: "ความพยายามสรางความเปนเมือง"
+ CHI_tsr_funding_public_research: "สนับสนุนทุนวิจัยสาธารณะ"
+ tsr_anti_communist_campaign: "การรณรงคตอตานคอมมิวนิสต"
+ XSM_tsr_diarchy: "ระบอบสองอํานาจ"
+ XSM_tsr_strike_the_traitors: "โจมตีพวกทรยศ"
+ tsr_united_ma_cliques: "กกหมาที่เปนหนึ่งเดียว"
+ MAN_tsr_illicit_trade: "การคาผิดกฎหมาย"
+ MAN_kempeitai_idea_lar: "เค็มเปไต"
+ MAN_kempeitai_idea_no_lar: "เค็มเปไต"
+ MAN_mobilization: "ความพยายามระดมพล"
+ MAN_strengthen_army: "เสริมความแข็งแกรงใหกองทัพ"
+ MAN_strong_army: "กองทัพที่พรอมรบ"
+ MAN_qing_army: "กองทัพชิงใหม"
+ MAN_beiyang_army: "กองทัพเปยหยางใหม"
+ MAN_illegitimate_government: "รัฐบาลที่ไมชอบธรรม"
+ MAN_illegitimate_government_desc: "ในสายตาของชาติตะวันตก และโดยเฉพาะในจีน เรายังคงถูกมองวาเปนรัฐนอกกฎหมายที่นําโดยโจรและกบฏ เราควรหาทางสรางความชอบธรรมใหตนเองเพื่อจะรวมงานกับพวกเขาไดดียิ่งขึ้น"
+ MAN_rising_republican_sentiments: "กระแสนิยมสาธารณรัฐที่เพิ่มขึ้น"
+ MAN_peoples_army: "กองทัพประชาชน"
+ MAN_peoples_liberation_army: "กองทัพปลดแอกประชาชน"
+ MAN_rival_government: "รัฐบาลคูแขง"
+ MAN_southern_expedition: "การยกทัพลงใต"
+ MAN_the_legitimate_successor: "ผูสืบทอดที่ชอบธรรม"
+ MAN_the_legitimate_successor_desc: "เมื่อจีนทั้งหมดอยูภายใตการควบคุมของเรา ในที่สุดเราก็เรียกตนเองไดวาเปนผูสืบทอดที่ชอบธรรมของสาธารณรัฐจีน"
+ MAN_finish_off_japan: "ปดฉากญี่ปุน"
+ MAN_an_industrial_power: "มหาอํานาจทางอุตสาหกรรม"
+ MAN_the_communist_party_triumphant: "ชัยชนะของพรรคคอมมิวนิสต"
+ MAN_battle_for_china: "ศึกชิงจีน"
+ MAN_the_revolution_triumphant: "ชัยชนะของการปฏิวัติ"
+ MAN_soviet_military_cooperation: "ความรวมมือทางทหารกับโซเวียต"
+ MAN_xingan_army_resigned: "กองทัพซิงอันยอมสละอํานาจแลว"
+ MAN_xingan_army_appeased: "กองทัพซิงอันไดรับการเอาใจแลว"
+ MAN_korean_liberation_army: "กองทัพปลดปลอยเกาหลี"
+ MAN_korean_liberation_army_desc: "หลังจากรวมตัวกับกลุมโจรแลว กองทัพปลดปลอยเกาหลีไดตัดสินใจชวยเหลือเราดวยความรูและความเชี่ยวชาญในการเอาชนะญี่ปุน"
+ MAN_yong_ying_idea: "หยงอิ๋ง"
+ SIC_drive_out_the_japanese_idea: "ขับไลญี่ปุน"
+ SIC_push_into_xikang_idea: "ผลักดันชาวทิเบตกลับไป"
+ SIC_a_loose_unity: "ความเปนเอกภาพที่หลวม ๆ"
+ SIC_a_loose_unity_desc: "แมในนามจะรวมตัวกันภายใตธง "กกเสฉวน" แตในมณฑลของเรามีผูปกครองหลายคนที่มีเปาหมายและความทะเยอทะยานของตนเอง บางคนอยางหลิว เหวินฮุย ถึงขั้นสรางอาณาจักรเล็ก ๆ ของตนเองที่แยกขาดจากสวนอื่นของมณฑลในทางปฏิบัติ ขณะที่คนอื่น ๆ ก็มีความคิดของตนเองวาควรจัดการกองทัพอยางไร"
+ GXC_scorched_earth_policy: "เผาผลาญทําลายลาง"
+ XSM_wool_and_hide_bureau: "สํานักขนสัตวและหนังสัตว"
+ XSM_salar_officers_idea: "นายทหารชาวซาลาร"
+ XSM_new_ninghai_army_idea: "กองทัพหนิงไหใหม"
+ GXC_uneasy_minds_idea: "ความกังวลในทองถิ่น"
+ GXC_uneasy_minds_idea_desc: "ทั้งประชาชนทองถิ่นและผูนําของมณฑลนี้ตางไมสบายใจกับทาทีออนขอตอญี่ปุนที่รัฐบาลกลางแสดงออกมา หากไมรีบดําเนินการเพื่อผลักดันประเด็นนี้และคลายความกังวลของประชาชน ปญหาอื่น ๆ ยอมตามมาอยางแนนอน"
+
+ SIK_the_nkvd_no_lar: "NKVD"
+
+ SIK_soviet_pilot_schools: "โรงเรียนการบินโซเวียต"
+
+ SIK_three_year_plan: "แผนสามป"
+
+ SIK_transformation_of_nature_idea: "การเปลี่ยนแปลงธรรมชาติ"
+
+ SIK_state_atheism_freedom_of_religion: "รัฐอเทวนิยม - เสรีภาพทางศาสนาของปจเจกบุคคล"
+
+ SIK_detracting_from_party_line: "เบี่ยงเบนจากแนวทางพรรค"
+
+ SIK_if_war_with_sov_this_disappears_tt: "§Rจะถูกลบออกหากเราเขาสูสงครามกับ[SOV.GetNameDef]§!"
+ YUN_will_be_removed_if_no_long_yun_tt: "§Rจะถูกลบออกหาก $YUN_long_yun$ ไมไดเปนผูนําประเทศของเราอีกตอไป§!"
+
+ SIK_a_modern_province: "มณฑลสมัยใหม"
+
+ SIK_the_six_policies: "หกนโยบายใหญ"
+
+ SIC_the_new_guominjun_idea: "กั๋วหมินจวินใหม"
+
+ CHI_warlord_looting_idea: "การปลนสะดมที่เกิดขึ้นทั่วไป"
+ CHI_warlord_looting_idea_desc: "ดวยขวัญกําลังใจที่ตกตํ่าและการขาดการควบคุมกองกําลังทหารทั้งหมดอยางทั่วถึง การปลนสะดมผลผลิตในทองถิ่นจึงเกิดขึ้นทั่วไป เราตองยุติเรื่องนี้หากตองการสรางมณฑลที่มีเสถียรภาพ"
+
+ CHI_ma_clique_collective: "กลุมกกหมา"
+ CHI_ma_clique_collective_desc: "ในฐานะสวนหนึ่งของกลุมที่ใหญกวา ขุนศึกในภูมิภาคนี้มีสายสัมพันธใกลชิดและรวมมือกับเครือญาติในภาคตะวันตกเฉียงเหนือ"
+ CHI_modify_ma_clique_collective_modifier_tt: "ปรับ §Y$CHI_ma_clique_collective$§! ดังนี้:"
+ MA_family_ties_opm: "สายสัมพันธตระกูลหมาที่แนนแฟน"
+ MA_family_ties_2_opm: "ทําใหกลุมกกหมาเปนทางการ"
+
+ ### state ###
+
+ SIK_state_autonomous_prefecture: "เขตปกครองตนเอง"
+ SIK_state_autonomous_prefecture_desc: "เขตนี้ปกครองโดยผูนําทองถิ่น การแทรกแซงของรัฐบาลจึงนอยลง และในยามสงคราม ผูนําเหลานี้อาจไมไดจงรักภักดีเสียทั้งหมด"
+
+ PRC_the_yulin_garrison: "กองรักษาการณยฺวีหลิน"
+ PRC_the_yulin_garrison_desc: "แมเราจะพยายามอยางเต็มที่ที่จะกวาดลาง แตกองพลที่ 86 และ 84 ภายใตจิ่ง เยวซิ่วและเกา กุยจือก็ยังตานทานการโจมตีของเราได และรักษาภาคเหนือไวภายใตการควบคุมของกกมินตั๋งไดอยางมีประสิทธิภาพ การกําจัดพวกเขาจะไมใชเรื่องงาย เพราะที่มั่นของพวกเขาไดรับการเสริมปอมปราการไวอยางแนนหนา"
+
+### military spirits  ###
+living_off_the_land_army_spirit: "หากินจากแผนดิน"
+living_off_the_land_army_spirit_desc: "การทําลายขาศึกดวยอาวุธของตนเองนั้นดี แตการทําลายเขาดวยอาวุธของเขาเองนั้นดียิ่งกวา"
+rapid_emplacement_army_spirit: "การตั้งฐานยิงอยางรวดเร็ว"
+rapid_emplacement_army_spirit_desc: "อํานาจการยิงทั้งหมดในโลกก็ไรความหมายหากมันอยูผิดที่"
+direct_fire_support_army_spirit: "การยิงสนับสนุนโดยตรง"
+direct_fire_support_army_spirit_desc: "กดมุมยิงลงจนเปนศูนย แลวเล็งยิงขาศึกดวยศูนยเล็งเปด!"
+subsidized_contracts_army_spirit: "สัญญาที่ไดรับการอุดหนุน"
+subsidized_contracts_army_spirit_desc: "แมการแทนที่มาดวยรถถังจะเปนสิ่งพึงปรารถนาในระยะยาว แตก็ไมอาจทําไดดวยการแลกกับความลมจมทางเศรษฐกิจของชาติ"
+subsidized_contracts_no_lar_army_spirit: "$subsidized_contracts_army_spirit$"
+subsidized_contracts_no_lar_army_spirit_desc: "$subsidized_contracts_army_spirit_desc$"
+all_arms_at_defense_army_spirit: "การปองกันรถถังดวยทุกเหลาทัพ"
+all_arms_at_defense_army_spirit_desc: "การเจาะแนวของยานเกราะเกิดขึ้นไดทุกเวลาและทุกสถานที่ เทพเจาแหงสงครามชวยผูที่ชวยตนเอง"
+spirit_of_defiance_army_spirit: "จิตวิญญาณแหงการขัดขืน"
+spirit_of_defiance_army_spirit_desc: "ประชาชนจะไมมีวันถูกพิชิต จนกวาพวกเขาจะยอมรับวาตนถูกพิชิตแลว"
+proxy_wars_army_spirit: "ผูเชี่ยวชาญการแทรกแซง"
+proxy_wars_army_spirit_desc: "ศัตรูของศัตรูคือมิตร"
+naval_tripwire_navy_spirit: "แนวสกัดกั้นทางทะเล"
+naval_tripwire_navy_spirit_desc: "เราอาจหยุดยั้งขาศึกไมใหเขาใกลชายฝงไดไมหมด แตเราทําใหเขาตองจายดวยเลือดและราคาแพงได"
+ship_to_shore_navy_spirit: "การฝกยิงจากเรือสูฝง"
+ship_to_shore_navy_spirit_desc: "ไมมีปนใหญภาคพื้นดินใดหวังจะเทียบชั้นอํานาจการยิงที่เหล็กกลาของกองทัพเรือหลายหมื่นตันนํามาสูสมรภูมิได"
+scouting_force_navy_spirit: "กองกําลังลาดตระเวน"
+scouting_force_navy_spirit_desc: "ทะเลนั้นกวางใหญ ชัยชนะในการรบมักตกเปนของฝายที่ตรวจพบและโจมตีอีกฝายอยางเด็ดขาดไดกอน"
+fleet_defense_navy_spirit: "การปองกันกองเรือ"
+fleet_defense_navy_spirit_desc: "การลาดตระเวนทางอากาศเพื่อการรบและเรือเบามีไวเพื่อใหเรือหมัดหนักของเราทําหนาที่ไดโดยไมถูกรบกวนอยางไรมารยาท"
+fleet_interoperability_navy_spirit: "การปฏิบัติการรวมของกองเรือ"
+fleet_interoperability_navy_spirit_desc: "การเติมเสบียงอยางรวดเร็วและการควบคุมความเสียหายอยางมีประสิทธิภาพไมไดชนะการรบดวยตัวเอง แตทําใหปนแหงชัยชนะยังคงยิงตอไปได"
+rapid_concentration_navy_spirit: "การรวมกําลังอยางรวดเร็ว"
+rapid_concentration_navy_spirit_desc: "รุมเขาหาขาศึกอยางรวดเร็วดั่งฝูงตั๊กแตน ยิงทุกอาวุธที่มีอยูในมือ นี่คือเสนทางสูชัยชนะที่เร็วที่สุด"
+aa_curtain_navy_spirit: "มานตอตานอากาศยาน"
+aa_curtain_navy_spirit_desc: "ดั่งกําแพงโลในสมัยโบราณ เรือทุกลําในกองเรือรบไมเพียงรับผิดชอบการปองกันตนเอง แตยังตองชวยเหลือเรือขางเคียงดวย"
+stay_at_your_posts_navy_spirit: "ประจําที่ของตน"
+stay_at_your_posts_navy_spirit_desc: "ตราบใดที่ใบจักรยังหมุนอยูหนึ่งใบและปนยังพนนํ้าอยูหนึ่งกระบอก เราก็ยังอยูในการรบ"
+selective_engagement_navy_spirit: "การเลือกเขาปะทะ"
+selective_engagement_navy_spirit_desc: "คนโงจะยืนนิ่งตอหนาศัตรูที่เหนือกวาและปลอยใหตนถูกทําลาย จงปฏิเสธการรบที่ไมอาจชนะ"
+sea_lane_denial_navy_spirit: "การปดกั้นเสนทางเดินเรือ"
+sea_lane_denial_navy_spirit_desc: "ไมมีอะไรกินเมนทะเล และมีเหตุผลที่ดีดวย"
+underdog_mentality_navy_spirit: "จิตใจของผูเสียเปรียบ"
+underdog_mentality_navy_spirit_desc: "ถาครั้งแรกไมสําเร็จ ก็ยิงตอรปโดอีกครั้ง"
+cult_of_heroism_army_spirit: "ลัทธิบูชาวีรกรรม"
+cult_of_heroism_army_spirit_desc: "ตลอดประวัติศาสตรจนถึงปจจุบัน ทั้งทหารและพลเมืองตางเชิดชูการเสียสละของสหายรวมรบ"

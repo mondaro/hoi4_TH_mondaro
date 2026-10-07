@@ -1,0 +1,222 @@
+﻿l_english:
+  #   /$$$$$$ /$$   /$$ /$$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$$  /$$$$$$  /$$$$$$  /$$$$$$ 
+  #  |_  $$_/| $$$ | $$| $$__  $$ /$$__  $$| $$$ | $$| $$_____/ /$$__  $$|_  $$_/ /$$__  $$
+  #    | $$  | $$$$| $$| $$  \ $$| $$  \ $$| $$$$| $$| $$      | $$  \__/  | $$  | $$  \ $$
+  #    | $$  | $$ $$ $$| $$  | $$| $$  | $$| $$ $$ $$| $$$$$   |  $$$$$$   | $$  | $$$$$$$$
+  #    | $$  | $$  $$$$| $$  | $$| $$  | $$| $$  $$$$| $$__/    \____  $$  | $$  | $$__  $$
+  #    | $$  | $$\  $$$| $$  | $$| $$  | $$| $$\  $$$| $$       /$$  \ $$  | $$  | $$  | $$
+  #   /$$$$$$| $$ \  $$| $$$$$$$/|  $$$$$$/| $$ \  $$| $$$$$$$$|  $$$$$$/ /$$$$$$| $$  | $$
+  #  |______/|__/  \__/|_______/  \______/ |__/  \__/|________/ \______/ |______/|__/  |__/
+
+  # Country Leaders
+  INS_sukarno: "ซูการโน"
+  INS_a_t_van_starkenborgh_stachouwer: "อา. ต. ฟน สตารเคินบอรค สตาเคาเวอร"
+  INS_bonifacius_cornelis_de_jonge: "โบนีฟาซียึส คอรเนลิส เดอ ยองเงอ"
+  INS_amir_sjarifuddin_harahap: "อามีร ชารีฟุดดิน"
+  INS_sutan_sjahrir: "ซูตัน ชาหรีร"
+  INS_tan_malaka: "ตัน มะละกา"
+  INS_mohammad_hatta: "โมฮัมหมัด ฮัตตา"
+  INS_national_committee: "คณะกรรมการแหงชาติ"
+
+  # Advisors - Dutch
+  INS_andries_cornelis_dirk_de_graeff: "อันดรีส คอรเนลิส ดิรก เดอ คราฟ"
+  INS_charles_welter: "ชารลส เวลเตอร"
+  INS_christian_willhelm_bodenhausen: "คริสเตียน โบเดินเฮาเซิน"
+  INS_harry_kuneman: "แฮรรี คูเนมัน"
+  INS_adipati_soejono: "อาดิปาตี ซูโยโน"
+  INS_mohammad_hunsi_tharmin: "โมฮัมหมัด ทารมิน"
+  INS_oto_iskandar_di_nata: "โอโต อิสกันดาร ดี นาตา"
+  INS_i_j_k_hendrowahyono: "อี.เย.คา. เฮินโดรวาโฮโย"
+  INS_dick_de_hoog: "ดิก เดอ โฮค"
+  INS_soetardjo_kartohadikusomo: "ซูตารโจ การโตฮาดีกูโซโม"
+  INS_hok_hoei_kan: "ฮก ฮุย กัน"
+
+  # Advisors - Republic
+  INS_sam_ratulangi: "ซัม ราตูลังงี"
+  INS_achmad_soebardjo: "อัคหมัด ซูบารโจ"
+  INS_wirantakusumah_v: "วีรานาตากูซูมาหที่ 5"
+  INS_surachman_tjokoadisurjo: "ซูรัคมัน จกโรอาดีซูรโย"
+  INS_supomo: "ซูโปโม"
+  INS_dr_samsi_sastrawidagda: "ดร.ซัมซี ซัสตราวิดักดา"
+  INS_ki_hajar_dewantara: "กี ฮาจาร เดวันตารา"
+  INS_iwa_kusuma_sumantri: "อีวา กูซูมา ซูมันตรี"
+  INS_dr_boentaran_martooatmodjo: "ดร.บุนตารัน มารโตอัตโมโจ"
+  INS_mohammad_natsir: "โมฮัมหมัด นัตซีร"
+  INS_mohammad_roem: "โมฮัมหมัด รุม"
+  INS_sjafruddin_prawiranegara: "ชาฟรุดดิน ปราวีราเนอการา"
+  INS_njono: "โญโน"
+  INS_setyadjit_soegondo: "เซตยาจิต ซูโกนโด"
+  INS_musso: "มุซโซ"
+
+  # Generals/MHC - Dutch
+  INS_murk_boersta: "มืรค บูรสตรา"
+  INS_henri_gerard_winkelman: "อ็องรี เครารด วิงเกิลมัน"
+  INS_gerardus_johannes_berenschot: "เครารดึส โยฮันเนส เบเรินสโคต"
+  INS_tjalling_bakker: "ชัลลิง บัคเคอร"
+  INS_gustav_adolf_ilgen: "กุสตาฟ อาดอลฟ อิลเกิน"
+  INS_jacob_jan_pesman: "ยาโคบ ยัน เปสมัน"
+  INS_pierre_antoine_cox: "ปแยร อ็องตวน ค็อกซ"
+  INS_ludolph_hendrik_van_oyen: "ลูดอลฟ เฮนดริก ฟน โอเยิน"
+  INS_conrad_helfrich: "คอนราด เฮลฟริช"
+  INS_dirk_reinhard_adelbert_van_langen: "ดิรก ไรนฮารด อาเดลแบรต ฟน ลังเงิน"
+  INS_simon_spoor: "ซีมอน สปอร"
+  INS_gustave_statius_muller: "กุสตาฟ สตาซีอึส มึลเลอร"
+
+  # Generals/MHC - Republic
+  INS_sudirman: "ซูดีรมัน"
+  INS_oerip_soemohardjo: "อูริป ซูโมฮารโจ"
+  INS_gatot_soebroto: "กาโตต ซูโบรโต"
+  INS_soengkono: "ซุงโกโน"
+  INS_moestopo: "มุสโตโป"
+  INS_sutomo: "ซูโตโม"
+  INS_supriyadi: "ซูปรียาดี"
+  INS_djatikoesoemo: "จาตีกุซูโม"
+  INS_maludin_simbolan: "มาลูดิน ซิมโบลัน"
+  INS_soerjadi_soerjadarma: "ซูรยาดี ซูรยาดารมา"
+  INS_mas_pardi: "มัส ปารดี"
+  INS_mohammad_nazir_isa: "โมฮัมหมัด นาซีร อีซา"
+  INS_t_b_simatupang: "ต. บ. ซีมาตูปง"
+  INS_kartosoewirjo: "การโตซูวีรโย"
+
+  # Releasable Leaders
+  INS_syarif_kasim: "ชารีฟ กาซิมที่ 2"
+  INS_iskandar_sjah: "สุลตานมุฮัมมัด ญาบีร ชาห"
+  INS_sultan_muhibuddin: "สุลตานมุฮัมมัด ตาฮีร มุฮิบบุดดีน"
+  INS_syarif_muhammad_alkadrie: "ชารีฟ ฮามิดที่ 2"
+  INS_alauddin_syah: "อะลาอุดดีน มุฮัมมัด ดาวูด ชาหที่ 2"
+  INS_dewa_geg: "อีดา อี เดวา อากุง เกอเด โอกา เกอก"
+  CPS_ratsadanay: "พระเจาราชดนัย"
+
+  # Malaysians 
+  MAL_onn_jaafar: "ออนน ญะอฟร"
+  MAL_shenton_thomas: "เชนตัน โทมัส"
+  MAL_lai_teck: "ไล เต็ก"
+  MAL_ibrahim_hj_yaacob: "อิบราฮิม ฮัจญี ยะอกูบ"
+  MAL_winston_tyron: "วินสตัน ไทรอน"
+
+  ############
+  ### SIAM ###
+  ############
+
+  SIA_phraya_songsuradet: "พระยาทรงสุรเดช"
+  SIA_plaek_phibunsongkhram: "แปลก พิบูลสงคราม"
+  SIA_pridi_banomyong: "ปรีดี พนมยงค"
+  SIA_rangsit_prayurasakdi: "พระองคเจารังสิตประยูรศักดิ์"
+  SIA_luang_wichitwathakan: "หลวงวิจิตรวาทการ"
+  SIA_charun_rattanakun_seriroengrit: "จรูญ รัตนกุล เสรีเริงฤทธิ์"
+  SIA_adul_aduldejajaras: "อดุล อดุลเดชจรัส"
+  SIA_phichit_kriangsakphichit: "พิชิต เกรียงศักดิ์พิชิต"
+  SIA_luang_haansongkhram: "หลวงหาญสงคราม"
+  SIA_mangkorn_phromyothi: "มังกร พรหมโยธี"
+  SIA_luang_chawengsaksongkhram: "หลวงเชวงศักดิ์สงคราม"
+  SIA_aditya_dibabha: "พระองคเจาอาทิตยทิพอาภา"
+  SIA_jira_wichitsongkhram: "จิร วิชิตสงคราม"
+  SIA_prince_subhasvasti: "พระองคเจาศุภสวัสดิ์วงศสนิท"
+  SIA_prajadhipok: "พระบาทสมเด็จพระปกเกลาเจาอยูหัว"
+  SIA_rambai_barni: "สมเด็จพระนางเจารําไพพรรณี"
+  SIA_ananda_mahidol: "พระบาทสมเด็จพระเจาอยูหัวอานันทมหิดล"
+  SIA_bowardej: "พระองคเจาบวรเดช"
+  SIA_josiah_crosby: "โจไซอาห ครอสบี"
+  SIA_puey_ungpakorn: "ปวย อึ๊งภากรณ"
+  SIA_seni_pramoj: "ม.ร.ว.เสนีย ปราโมช"
+  SIA_prayoon_pamornmontri: "ประยูร ภมรมนตรี"
+  SIA_direk_jayanama: "ดิเรก ชัยนาม"
+  SIA_phra_sitthi_ruang_dejpol: "พระสิทธิเรืองเดชพล"
+  SIA_pao_pienlert_boripanyutakit: "พระยาบริภัณฑยุทธกิจ (เผา เพียรเลิศ)"
+  SIA_sanguan_tularaksa: "สงวน ตุลารักษ"
+  SIA_chao_phraya_sri_dharmathibhet: "เจาพระยาศรีธรรมาธิเบศ"
+  SIA_vanich_pananont: "วณิช ปานะนนท"
+  SIA_manopakorn_nitithada: "พระยามโนปกรณนิติธาดา"
+  SIA_damrong_rajanubhab: "สมเด็จพระเจาบรมวงศเธอ กรมพระยาดํารงราชานุภาพ"
+  SIA_paribatra_sukhumbandhu: "สมเด็จพระเจาบรมวงศเธอ เจาฟาบริพัตรสุขุมพันธุ"
+  SIA_wan_waithayakon: "พระองคเจาวรรณไวทยากร"
+  SIA_vilas_osathanondh: "วิลาส โอสถานนท"
+  SIA_dhani_nivat: "พระองคเจาธานีนิวัต"
+  SIA_chamkat_phalangkun: "จํากัด พลางกูร"
+  SIA_phra_bisal_sukhumvit: "พระพิศาลสุขุมวิท"
+  SIA_kukrit_pramoj: "ม.ร.ว.คึกฤทธิ์ ปราโมช"
+  SIA_khuang_aphaiwong: "ควง อภัยวงศ"
+  SIA_tiang_sirikhan: "เตียง ศิริขันธ"
+  SIA_phin_choonhavan: "ผิน ชุณหะวัณ"
+  SIA_sindh_kamalanavin: "สินธุ กมลนาวิน"
+  SIA_prayoon_yuthasastrkosol: "ประยูร ยุทธศาสตรโกศล"
+  SIA_luang_subhachalasai: "หลวงศุภชลาศัย"
+  SIA_kuang_abhayavongsa: "ควง อภัยวงศ"
+  ###################
+  #### Australia ####
+  ###################
+
+  AST_joseph_lyons: "โจเซฟ ไลออนส"
+  AST_billy_hughes: "บิลลี ฮิวส"
+  AST_jack_miles: "แจ็ก ไมลส"
+  AST_fred_paterson: "เฟรด แพเทอรสัน"
+  AST_percy_stephensen: "พี.อาร. สตีเฟนเซน"
+  AST_adela_walsh: "อาเดลา แพงกเฮิสต วอลช"
+  AST_essington_lewis: "เอสซิงตัน ลูอิส"
+  AST_jacob_vouza: "เจคอบ วูซา"
+  AST_geoffrey_street: "เจฟฟรีย สตรีต"
+  AST_florence_v._mckenzie: "ฟลอเรนซ วี. แมกเคนซี"
+  AST_eric_l._lloyd: "เอริก แอล. ลอยด"
+  AST_jack_lang: "แจ็ก แลง"
+  AST_dorothy_tangney: "โดโรที แทงนีย"
+  AST_arthur_fadden: "อารเธอร แฟดเดน"
+  AST_james_scullin: "เจมส สกัลลิน"
+  AST_maurice_blackburn: "มอริส แบล็กเบิรน"
+  AST_alexander_rud_mills: "อเล็กซานเดอร รัด มิลส"
+  AST_rex_ingamells: "เร็กซ อิงกาเมลส"
+  AST_clare_stevenson: "แคลร สตีเวนสัน"
+  AST_gordon_bennett: "กอรดอน เบนเนตต"
+  AST_kenneth_eather: "เคนเนท อีเทอร"
+  AST_edward_milford: "เอ็ดเวิรด มิลฟอรด"
+  AST_herbert_lloyd: "เฮอรเบิรต ลอยด"
+  AST_stanley_savige: "สแตนลีย ซาวิจ"
+  AST_ivan_dougherty: "ไอแวน ดอเฮอรที"
+  AST_frank_berryman: "แฟรงก เบอรรีแมน"
+  AST_george_wootten: "จอรจ วูตเทน"
+  AST_gwynydd_meredith: "กวินิดด เมอเรดิท"
+  AST_reginald_saunders: "เรจินัลด ซอนเดอส"
+  AST_joseph_burnett: "โจเซฟ เบอรเนตต"
+  AST_eric_feldt: "เอริก เฟลต"
+  AST_james_mcmanus: "เจมส แมกแมนัส"
+  AST_leighton_bracegirdle: "เลยตัน เบรสเกอรเดิล"
+  AST_brudenell_white: "บรูเดเนลล ไวต"
+  AST_percival_mcneil: "เพอรซิวัล แมกนีล"
+  AST_guy_royle: "กาย รอยล"
+  AST_george_jones: "จอรจ โจนส"
+  AST_stanley_goble: "สแตนลีย โกเบิล"
+  AST_george_mackinolty: "จอรจ แมกคินอลตี"
+  AST_james_cannan: "เจมส แคนนัน"
+  AST_peter_jeffrey: "ปเตอร เจฟฟรีย"
+  AST_mark_oliphant: "มารก โอลิแฟนต"
+  AST_jack_piddington: "แจ็ก พิดดิงตัน"
+  AST_lawrence_wackett: "ลอวเรนซ แวกเคตต"
+
+  AST_uap_advisor_tt: "พรรครัฐบาลปจจุบันคือ §YU.A.P§!"
+  AST_alp_advisor_tt: "พรรครัฐบาลปจจุบันคือ §YA.L.P§!"
+
+  ###################
+  ### New Zealand ###
+  ###################
+
+  NZL_bob_semple: "บ็อบ เซมเพิล"
+  NZL_leslie_lefeaux: "เลสลี เลอโฟ"
+  NZL_thomas_leech: "โทมัส ลีช"
+  NZL_william_polson: "วิลเลียม โพลสัน"
+  NZL_alexander_galbraith: "อเล็กซานเดอร กัลเบรท"
+  NZL_john_a_lee: "จอหน เอ. ลี"
+  NZL_bernard_ashwin: "เบอรนารด แอชวิน"
+  NZL_vic_wilcox: "วิก วิลค็อกซ"
+
+  ################################
+  ### Historical Ship Captains ###
+  ################################
+
+  GER_gunther_prien: "กึนเทอร พรีน"
+  USA_slade_cutter: "สเลด คัตเตอร"
+  ENG_frederic_john_walker: "เฟรเดอริก จอหน วอลกเกอร"
+  ITA_salvatore_todaro: "ซัลวาโตเร โตดาโร"
+  JAP_kosaku_aruga: "โคซากุ อาริงะ"
+  SOV_ivan_travkin: "อีวาน ตราฟกิน"
+  AST_hector_waller: "เฮกเตอร วอลเลอร"
+  FRA_raymond_fenard: "เรยมงด เฟนาร"
+

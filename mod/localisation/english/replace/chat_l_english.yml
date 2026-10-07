@@ -1,0 +1,6 @@
+﻿l_english:
+ CHAT_USERJOINEDCHANNEL: "$NAME$ เขารวมแลว"
+ CHAT_USERDISCONNECTED: "$NAME$ ขาดการเชื่อมตอ"
+ CHAT_USERWASBANNED: "$NAME$ ถูกแบน"
+ CHAT_USERLEFTCHANNEL: "$NAME$ ออกจากชองแชตแลว"
+ CHAT_CHANNEL_GENERAL: "ทั่วไป"

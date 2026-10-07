@@ -1,0 +1,107 @@
+﻿l_english:
+
+ ## CZECHOSLOVAKIA ##
+
+ CZE_milan_hodza: "มีลัน ฮอดชา"
+ CZE_emil_hacha: "เอมิล ฮาคา"
+ CZE_karel_schwarzenberg: "คาเรลที่ 6 ชวารเซนแบรก"
+ CZE_radola_gajda: "ราดอลา ไกดา"
+ CZE_bohumir_smeral: "โบฮูมีร ชเมรัล"
+ CZE_kamil_krofta: "คามิล ครอฟตา"
+ CZE_emil_kolben: "เอมิล คอลเบน"
+ CZE_josef_guttman: "โยเซฟ กุทมัน"
+ CZE_bohumil_lausman: "โบฮูมิล เลาชมัน"
+ CZE_milada_horakova: "มิลาดา โฮราโควา"
+ CZE_zdenek_fierlinger: "ซเดเญก ฟรลิงเกร"
+ CZE_bedrich_homola: "เบดชิค โฮโมลา"
+ CZE_emil_linhart: "เอมิล ลินฮารต"
+ CZE_frantisek_hrabcik: "ฟรานติเชก ฮราบชีก"
+ CZE_antonin_hasal_new: "อันโตนีน ฮาซัล"
+ CZE_josef_votruba: "โยเซฟ วอตรูบา"
+ CZE_jan_syrovy: "ยัน ซีโรวี"
+ CZE_melichar_frantisek: "เมลิคาร ฟรานติเชก"
+ CZE_antonin_pavlik: "อันโตนีน ปาฟลีก"
+ CZE_vladimir_prikryl: "วลาดิมีร ปชีกรึล"
+ CZE_mikulas_dolezal: "มิกูลาช โดเลชาล"
+ CZE_karel_husarek: "คาเรล ฮูซาเร็ก"
+ CZE_alois_elias: "อาลอยส เอลิยาช"
+ CZE_josef_vana: "โยเซฟ วาญา"
+ CZE_lev_prchala: "เลฟ ปรึคาลา"
+ CZE_karel_domin: "คาเรล โดมิน"
+ CZE_ferdinand_peroutka: "แฟรดีนันด เปโรตกา"
+ CZE_karel_pavala: "คาเรล ปาวาลา"
+ CZE_frantisek_placak: "ฟรานติเชก ปลาตซาก"
+ CZE_zdenko_hudecek: "ซเดนโก ฮูเดเชก"
+ CZE_emanuel_moravec: "เอมานูเอล โมราเวตส"
+ CZE_jan_dostalek: "ยัน ดอสตาเลก"
+ CZE_emil_franke: "ดร. เอมิล ฟรังเกอ"
+ CZE_jan_krcmar: "ยัน เคิรชมารช"
+ CZE_pavel_reiman: "ปาเวล ไรมัน"
+ CZE_vaclav_kopecky: "วาตสลัฟ โคเปตสกี"
+ CZE_josef_rozsevac: "โยเซฟ รอเซวาช"
+ CZE_jan_ruckl: "ยัน ยีชี รึคเคิล"
+ CZE_jaroslav_kejla: "ยาโรสลัฟ เคยลา"
+ CZE_vladimir_mandl: "วลาดิมีร มันเดิล"
+ CZE_stefan_jurech: "ชเตฟน ยูเรค"
+ CZE_karel_prochazka: "คาเรล โปรฮาซกา"
+ AUS_ernst_fischer: "แอรนสท ฟชเชอร"
+ CZE_frantisek_moravec: "ฟรานติเชก โมราเวตส"
+ CZE_simon_drgac: "ชิมอน ดรกาช"
+ CZE_andrej_hlinka: "อันเดรย ฮลินกา"
+ CZE_robert_rychtrmoc: "โรแบรต ริคเทิรมอตส"
+ CZE_frantisek_machnik: "ฟรานติเชก มาคนีก"
+ CZE_ludwig_czech: "ลุดวิก เช็ก"
+ CZE_jan_sramek: "ยัน ชราเมก"
+ CZE_bozena_machacova_dostalova: "โบเชนา มาคาโชวา-ดอสตาโลวา"
+ CZE_josef_cerny: "โยเซฟ เชรนี"
+ CZE_rudolf_mlcoch: "รูดอลฟ มลโชค"
+ CZE_josef_kalfus: "โยเซฟ คาลฟุส"
+ CZE_alois_tucny: "อาลอยส ตุชนี"
+ CZE_rudolf_bechyne: "รูดอลฟ เบคีเญ"
+ CZE_frantisek_chvalkovsky: "ฟรานติเชก ควัลคอฟสกี"
+ CZE_stanislav_bukovsky: "สตานิสลาฟ บูคอฟสกี"
+ CZE_antonin_hampl: "อันโตนีน ฮัมเพิล"
+ CZE_karel_englis: "คาเรล เอ็งกลิช"
+ CZE_jaroslav_slechta: "ยาโรสลัฟ ชเลคตา"
+ CZE_hugo_vavrecka: "ฮูโก วาวเรตชกา"
+ CZE_jan_antonin_bata: "ยัน อันโตนีน บาตยา"
+ CZE_dominik_cipera: "โดมินิก ชีเปรา"
+ CZE_sergej_ingr: "เซรเกย อินเกร"
+ CZE_louis_eugene_faucher: "หลุยส-เออแฌน โฟเช"
+
+ #Scientists
+ CZE_alexej_surin: "อาเล็กเซย ซูริน"
+ CZE_antonin_husnik: "อันโตนีน ฮุสนีก"
+ CZE_georg_placzek: "เกออรก ปลาตเซ็ก"
+
+ #Division commanders - due to technical limitations they cant be put on divisions and then turned into commanders
+ CZE_ruml_bedrich: "รุมล เบดชิค"
+ CZE_josef_janacek: "โยเซฟ ยานาเชก"
+ CZE_karel_kutlvasr: "คาเรล คุทลวาชร"
+ CZE_emil_fiala: "เอมิล ฟยาลา"
+
+ #CZE Character Related Flags
+ CZE_released_from_prison: "ไดรับการปลอยตัวจากเรือนจําแลว"
+ CZE_unlock_zdenko_hudecek_flag: "§Y$CZE_zdenko_hudecek$§! ถูกเรียกกลับเขาประจําการแลว"
+
+ ## SLOVAKIA ##
+
+ SLO_karol_smidke: "คารอล ชมิดเก"
+ SLO_jan_ursiny: "ยาน อูรซีนี"
+ SLO_stefan_jurech: "ชเตฟน ยูเรค"
+ SLO_julius_thorzo: "ยูลิอุส ทูรโซ"
+ SLO_augustin_malar: "เอากุสตีน มาลาร"
+
+ ## CARPATHO-UKRAINIAN ##
+
+ RUT_augustin_voloshyn: "เอากุสติน โวโลชิน"
+ RUT_vasil_bilak: "วาซิล บิลัก"
+ RUT_sergei_fedorovich_efremov: "เซียรเกย เยฟเรมอฟ"
+ RUT_vasily_zakharovich_filonovich: "วาซีลี ฟโลโนวิช"
+
+ ## REICHSPROTEKTORAT BOHMEN-MAHREN ##
+
+ RKH_erich_friderici: "เอริช ฟรีเดอริซี"
+ RKH_jaroslav_eminger: "ยาโรสลัฟ เอมิงเกร"
+
+

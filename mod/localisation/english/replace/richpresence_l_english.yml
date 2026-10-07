@@ -1,0 +1,11 @@
+﻿l_english:
+ SOCIAL_DSTATUS_IN_MAIN_MENU: "อยูในเมนูหลัก"
+ SOCIAL_DSTATUS_IN_SP_LOBBY: "อยูในล็อบบี้ผูเลนคนเดียว"
+ SOCIAL_DSTATUS_IN_MP_LOBBY: "อยูในล็อบบี้ผูเลนหลายคน"
+ SOCIAL_DSTATUS_PLAYING: "กําลังเลน"
+ SOCIAL_DSTATUS_PLAYING_AS: "กําลังเลนเปน $COUNTRY$ ในป $YEAR$"
+ SOCIAL_DSTATUS_PLAYING_GAME: "กําลังเลน $GAME$"
+ SOCIAL_DSTATUS_PLAYING_SOME_GAME: "กําลังเลนเกมอื่น"
+ SOCIAL_DSTATUS_OBSERVING: "กําลังสังเกตการณ"
+ SOCIAL_DSTATUS_OBSERVING_AS: "กําลังสังเกตการณในฐานะ $COUNTRY$ ในป $YEAR$"
+ SOCIAL_DSTATUS_BLOCKED_STATUS: " "

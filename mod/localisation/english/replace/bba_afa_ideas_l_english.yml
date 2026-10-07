@@ -1,0 +1,18 @@
+﻿l_english:
+ 
+ bba_AFA_skilled_desert_warriors: "นักรบผูชํานาญการรบในทะเลทราย"
+ bba_AFA_skilled_desert_warriors_desc: "นักรบชาวอาฟารขึ้นชื่อเสมอมาในเรื่องทักษะการรบในทะเลทรายอันดุดัน และดวยเหตุนี้ ประกอบกับภูมิประเทศอันโหดรายของทะเลทรายดานากิล ทําใหอาวซาสามารถรอดพนจากการถูกผนวกโดยจักรวรรดิเอธิโอเปยมาไดเปนเวลานาน"
+ HOA_state_bank_idea: "ธนาคารแหงรัฐของ [ROOT.GetNameDef]"
+ HOA_state_funded_projects_idea: "โครงการที่รัฐใหทุน"
+ HOA_improved_irregulars_idea: "ยุทธวิธีนอกแบบที่พัฒนาขึ้น"
+ HOA_every_man_a_warrior_idea: "ชายทุกคนคือนักรบ"
+ HOA_our_finest_idea: "ยอดฝมือของเรา"
+ HOA_our_strength_idea: "จุดแข็งของประชาชน[ROOT.GetAdjective]"
+ HOA_education_idea: "การศึกษาที่ดีขึ้น"
+ HOA_volunteers_idea: "กองกําลังอาสาสมัคร[ROOT.GetAdjective]"
+ HOA_jagged_alliance_idea: "ความปลอดภัยในพันธมิตร"
+ HOA_rallying_the_people_idea: "ปลุกระดมประชาชน"
+ HOA_rightfully_ours_idea: "ทวงคืนจักรวรรดิ"
+
+
+

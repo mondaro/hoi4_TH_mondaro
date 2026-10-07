@@ -1,0 +1,2606 @@
+﻿l_english:
+
+###################################################################################################
+#### Code and UX localization
+###################################################################################################
+
+INDUSTRIAL_ORG_PP_COST: "£GFX_pol_power_icon $VALUE|H$/วัน"
+INDUSTRIAL_ORG_PP_COST_KEEP_COLOR: "£GFX_pol_power_icon $VALUE|H$/วัน"
+INDUSTRIAL_ORG_ARMY_XP_COST: "£GFX_army_experience $VALUE$"
+INDUSTRIAL_ORG_AIR_XP_COST: "£GFX_air_experience $VALUE$"
+INDUSTRIAL_ORG_NAVY_XP_COST: "£GFX_navy_experience $VALUE$"
+INDUSTRIAL_ORG_ANY_XP_COST: "£GFX_neutral_experience $VALUE$"
+INDUSTRIAL_ORG_POLICY_PP_COST: "£GFX_pol_power_icon $VALUE|H$"
+
+#SORTING
+mio_sorting_name: "ชื่อ"
+mio_sorting_task_capacity: "ขีดความสามารถ"
+mio_sorting_task_cost: "ตนทุน"
+
+INDUSTRIAL_ORG_LIST_WINDOW_TITLE: "องคกรอุตสาหกรรมทหาร"
+INDUSTRIAL_ORG_DETAIL_WINDOW_TITLE: "รายละเอียดองคกร"
+INDUSTRIAL_ORG_OPEN_DETAILS_WINDOW: "รายละเอียด"
+INDUSTRIAL_ORG_OPEN_DETAILS_WINDOW_TOOLTIP: "เปดรายละเอียดองคกรอุตสาหกรรมทหาร"
+INDUSTRIAL_ORG_OPEN_DETAILS_WINDOW_TOOLTIP_DELAYED: "$NAME|Y$ มีแตมคุณลักษณะ $NUMBER|Y0$ แตมใหใช"
+INDUSTRIAL_ORG_LIST_INITIAL_TRAIT_NAME: "$NAME|Y$"
+INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON: "คิวคุณลักษณะ"
+INDUSTRIAL_ORG_DETAIL_WINDOW_SAVE_QUEUE_DESCRIPTION: "§Hบันทึกเปนไฟล§!\nบันทึกคิวคุณลักษณะนี้เปนไฟล เพื่อใหคุณเรียกใชไดในการเลนครั้งตอๆ ไป"
+INDUSTRIAL_ORG_DETAIL_WINDOW_DELETE_QUEUE_DESCRIPTION: "§Hลบคิวที่บันทึกไว§!\nคลิกเพื่อลางคิวคุณลักษณะปจจุบันและลบคิวคุณลักษณะที่บันทึกไวที่เลือกอยู หากเลือกคิวที่บันทึกไวอยู การกระทํานี้จะ §Rลบคิวที่บันทึกไวอยางถาวร§!"
+INDUSTRIAL_ORG_DETAIL_WINDOW_DELETE_SPECIFIC_QUEUE_DESCRIPTION: "§Hลบคิวที่บันทึกไว§!\n§Rคลิกเพื่อลบคิวคุณลักษณะที่บันทึกไวอยางถาวร§!"
+INDUSTRIAL_ORG_DETAIL_WINDOW_IMPORT_FROM_OTHER_MIO_TOOLTIP: "นําเขาคุณลักษณะที่ใชไดจากคิวคุณลักษณะขององคกรอุตสาหกรรมทหารอื่น: $ORG|Y$"
+INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON_WITH_ITEMS: "$INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON$ ($NUMBER_ITEMS$)"
+INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION: "เมื่อองคกรนี้มีแตมคุณลักษณะ คุณลักษณะแรกที่ใชไดในคิวนี้จะถูกปลดล็อก\n§GShift + คลิก§! ที่คุณลักษณะเพื่อ §Yเพิ่มเขาคิวนี้§!\n§Gลากและวาง§! เพื่อ §Yเปลี่ยนลําดับคิว§!"
+INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM: "§Gเสร็จสิ้นแลว§!"
+INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM_DRAGDROP: "§Gลากและวาง§! เพื่อเปลี่ยนลําดับในคิว"
+INDUSTRIAL_ORG_QUEUE_WINDOW_REMOVE_TOOLTIP: "นําออกจากคิว"
+INDUSTRIAL_ORG_DETAIL_WINDOW_TRAITS_TAB: "คุณลักษณะ"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_TAB: "ประวัติ"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_VARIANTS_HEADER: "ประวัติการวิจัยและการออกแบบ"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_PRODUCTION_HEADER: "ประวัติสายการผลิต"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_OUTDATED_TOOLTIP: "§gยุทโธปกรณนี้ลาสมัยแลว§!"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_NO_UPGRADE_TOOLTIP: "§gยุทโธปกรณนี้ไดรับโบนัสจากคุณลักษณะลาสุดแลว ไมจําเปนตองอัปเกรดรุนยอย§!"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_UPGRADE_VARIANTS_TOOLTIP_CANT_AFFORD: "§Rคุณมีประสบการณไมเพียงพอที่จะอัปเกรดรุนยอย§!"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_ENTRY_EQUIMENT_NAME: "$NAME|H$"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_ENTRY_ARCHETYPE_NAME: "$NAME$"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_ENTRY_FLAVOR_RESEARCH_DATE: "วิจัยเมื่อ: $DATE$"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_ENTRY_FLAVOR_DESIGN_DATE: "ออกแบบเมื่อ: $DATE$"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_ENTRY_FLAVOR_UNITS_PRODUCED: "หนวยที่ผลิตแลว: $NUMBER|0H$"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_UPGRADE_VARIANTS_CONFIRM_POPUP_HEADER: "อัปเกรดดวยคุณลักษณะลาสุด"
+INDUSTRIAL_ORG_DETAIL_WINDOW_HISTORY_UPGRADE_VARIANTS_CONFIRM_POPUP_DESC: "คุณแนใจหรือไมวาตองการอัปเกรด $EQUIPMENT_NAME|Y$ ดวยคุณลักษณะลาสุด?\n\nการอัปเกรดจะใช $XPCOST|Y$"
+
+INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_PROD_LINE_TOOLTIP: "§Gคลิก§! เพื่อ §Yมอบหมาย§! ใหสายการผลิตนี้"
+INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_SHIP_REFIT_TOOLTIP: "§Gคลิก§! เพื่อ §Yมอบหมาย§! ใหการปรับปรุงเรือ"
+INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_VARIANT_TOOLTIP: "§Gคลิก§! เพื่อ §Yมอบหมาย§! ใหยุทโธปกรณรุนยอยนี้"
+INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_RESEARCH_TOOLTIP: "§Gคลิก§! เพื่อ §Yมอบหมาย§! ใหเทคโนโลยีนี้"
+INDUSTRIAL_ORG_LIST_WINDOW_UNASSIGN_DESIGN_TEAM_TOOLTIP: "§Gคลิก§! เพื่อ §Rยกเลิกการมอบหมาย§! จากแบบนี้"
+INDUSTRIAL_ORG_LIST_WINDOW_UNASSIGN_MANUFACTURER_TOOLTIP: "§Gคลิก§! เพื่อ §Rยกเลิกการมอบหมาย§! จากสายการผลิตนี้"
+
+INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_TANK: "รถถัง"
+INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_SHIP: "เรือ"
+INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_PLANE: "เครื่องบิน"
+INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_MATERIEL: "ยุทโธปกรณทั่วไป"
+INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_TOOLTIP: "แสดงเฉพาะองคกรอุตสาหกรรมทหารสําหรับ $CATEGORY|Y$"
+INDUSTRIAL_ORG_POLITICAL_SCREEN_OPEN_ROSTER_WITH_FILTER: "§Gคลิกเพื่อแสดงองคกรอุตสาหกรรมทหารสําหรับ§! $CATEGORY|Y$"
+INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CAN_UNLOCK_TOOLTIP: "แสดงเฉพาะองคกรอุตสาหกรรมทหารที่มีแตมคุณลักษณะใหใช"
+
+INDUSTRIAL_ORG_DETAIL_MIO_MODIFIERS: "คุณสมบัติ"
+INDUSTRIAL_ORG_DETAIL_MIO_MODIFIERS_TOTAL: "รวม: $VALUE$"
+INDUSTRIAL_ORG_DETAIL_MIO_MODIFIERS_BASE: "  พื้นฐาน: $VALUE$"
+INDUSTRIAL_ORG_DETAIL_MIO_MODIFIERS_FROM_TRAITS: "  จากคุณลักษณะและนโยบาย: $VALUE$"
+INDUSTRIAL_ORG_DETAIL_MIO_MODIFIERS_FROM_COUNTRY: "  จากประเทศ: $VALUE$"
+INDUSTRIAL_ORG_DETAIL_MIO_MODIFIERS_VALUE: "$VALUE$"
+INDUSTRIAL_ORG_DETAIL_MIO_FUND_GAIN_MODIFIER_VALUE: "$VALUE|+=0%$"
+INDUSTRIAL_ORG_DETAIL_EQUIPMENT_BONUSES: "โบนัสยุทโธปกรณ"
+INDUSTRIAL_ORG_DETAIL_INITIAL_TRAIT_BONUSES: "คุณลักษณะเริ่มตน"
+INDUSTRIAL_ORG_DETAIL_TRAIT_POINTS: "แตมคุณลักษณะ: $VALUE|H$"
+INDUSTRIAL_ORG_DETAIL_TRAIT_POINTS_DELAYED: "แตมคุณลักษณะใชสําหรับปลดล็อกคุณลักษณะให §Yองคกรอุตสาหกรรมทหาร§! ของคุณ ไดมาจากการสะสม §Yทุน§! ใหเพียงพอจากการทํา §Yการวิจัย§! ใหเสร็จ หรือจากการไดรับมอบหมายให §Yสายการผลิต§!"
+INDUSTRIAL_ORG_DETAIL_RESEARCH_BONUS: "โบนัสการวิจัย: $VALUE|0%$"
+INDUSTRIAL_ORG_DETAIL_TASK_CAPACITY: "ขีดความสามารถรับงาน: $VALUE|0%$"
+INDUSTRIAL_ORG_DETAIL_MIO_MODIFIER_ITEM: "$NAME$: $VALUE$"
+INDUSTRIAL_ORG_DETAIL_MIO_INITIAL_TRAIT_ITEM: "$NAME|Y$"
+INDUSTRIAL_ORG_DETAIL_TOOLTIP_FUNDS_HEADER: "§Yทุน§!"
+INDUSTRIAL_ORG_DETAIL_TOOLTIP_FUNDS_VALUES: "$VALUE|H0$ / $LIMIT|H0$ ($PERCENT|0%$)"
+INDUSTRIAL_ORG_DETAIL_TOOLTIP_FUNDS_VALUES_DELAYED: "§Yทุน§! แสดงความคืบหนาของ §Yองคกรอุตสาหกรรมทหาร§! ในการเพิ่ม §Yขนาด§! เมื่อขนาดเพิ่มขึ้น คุณจะไดแตมคุณลักษณะหนึ่งแตมเพื่อใชปลดล็อกคุณลักษณะ"
+INDUSTRIAL_ORG_DETAIL_TOOLTIP_FUNDS_FROM_PRODUCING: "กําลังผลิต:"
+INDUSTRIAL_ORG_DETAIL_TOOLTIP_FUNDS_PER_PROD_LINE: "$EQUIPMENT_NAME|Y$ ($FUNDS|+2$ ทุน/วัน)"
+INDUSTRIAL_ORG_DETAIL_TOOLTIP_FUNDS_FROM_RESEARCHING: "กําลังวิจัย:"
+INDUSTRIAL_ORG_DETAIL_TOOLTIP_FUNDS_PER_RESEARCH_SLOT: "$TECH_NAME|Y$ ($FUNDS|+0$ ทุนใน $DAYS|Y$ วัน)"
+INDUSTRIAL_ORG_DETAIL_TOOLTIP_DESIGN_TEAM_CHANGE_COST_DELAYED: "เมื่อคุณเพิ่ม §Yองคกรอุตสาหกรรมทหาร§! ใหยุทโธปกรณรุนยอย จะตองใช §Yประสบการณ§! ขึ้นอยูกับประเภทยุทโธปกรณ ซึ่งจะเปน £GFX_army_experience ประสบการณกองทัพบก, £GFX_navy_experience ประสบการณกองทัพเรือ หรือ £GFX_air_experience ประสบการณกองทัพอากาศ"
+
+INDUSTRIAL_ORGANIZATION_TOOLTIP_NAME: "$NAME|H$"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_EQUIPMENT_WILL_GET: "$EQUIPMENT|H$ จะไดรับ:"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_TASK_CAPACITY: "ขีดความสามารถรับงาน: $USED|Y0$/$TOTAL|Y0$"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_REFIT_CAPACITY: "§Rผูผลิตทางอุตสาหกรรมรายนี้สามารถมอบหมายไดเพียง $NUM$ จาก $TOTAL$ สายการปรับปรุง§!"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_CANT_ASSIGN_TASK_CAPACITY: "องคกรนี้ §Rถึง§! §Yขีดความสามารถรับงาน§! แลว และไมสามารถรับมอบหมายงานเพิ่มไดในขณะนี้"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_SIZE: "ขนาด: $SIZE|Y0$ ($PERCENT|Y%0$)"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_SIZE_DELAYED: "ทุกครั้งที่ §Yองคกรอุตสาหกรรมทหาร§! ของคุณเพิ่ม §Yขนาด§! คุณจะไดแตมคุณลักษณะหนึ่งแตมเพื่อใชปลดล็อกคุณลักษณะ"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_COST: "ตนทุน:"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_RESEARCH_BONUS: "โบนัสการวิจัย: $VALUE|0%+=$"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_GAINED_FUNDS_PROD_LINE: "ทุน: $VALUE|+2$/§Hขีดความสามารถทางอุตสาหกรรม§! ที่ผลิตได"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_MAX_FUNDS_PROD_LINE: "(สูงสุด $MAX|Y0$/วัน)"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_GAINED_FUNDS_DESIGNER: "ทุน: $VALUE|+0$"
+INDUSTRIAL_ORGANIZATION_TOOLTIP_GAINED_FUNDS_RESEARCH: "ทุน: $VALUE|+0$ (เมื่อเสร็จสิ้น)"
+
+INDUSTRIAL_ORG_TOOLTIP_HEADER: "§Yองคกรอุตสาหกรรมทหาร§!"
+INDUSTRIAL_ORG_MANUFACTURER: "ผูผลิตทางอุตสาหกรรม"
+INDUSTRIAL_ORG_DESIGN_TEAM: "ทีมออกแบบ"
+INDUSTRIAL_ORG_MANUFACTURER_TOOLTIP_NAME: "$NAME|H$"
+INDUSTRIAL_ORG_TOOLTIP_CLICK_TO_ASSIGN: "§Gคลิก§! เพื่อมอบหมาย"
+INDUSTRIAL_ORG_TOOLTIP_CLICK_TO_CHANGE: "§Gคลิก§! เพื่อเปลี่ยน"
+INDUSTRIAL_ORG_TOOLTIP_RIGHT_CLICK_TO_UNASSIGN: "§Gคลิกขวา§! เพื่อ §Rนําออก§!"
+INDUSTRIAL_ORG_TOOLTIP_UPGRADE_ALREADY_ASSIGNED_MIO_HEADER: "§Yอัปเกรดดวยคุณลักษณะลาสุด§!"
+INDUSTRIAL_ORG_TOOLTIP_UPGRADE_ALREADY_ASSIGNED_MIO: "อัปเดตยุทโธปกรณของคุณใหไดรับคุณลักษณะ §Yทีมออกแบบ§! ลาสุด"
+INDUSTRIAL_ORG_TOOLTIP_UPGRADE_ALREADY_ASSIGNED_MIO_CREATE_VARIANT: "การกระทํานี้จะสรางรุนยอยใหม"
+INDUSTRIAL_ORG_TOOLTIP_UPGRADE_BONUS_DIFF: "การอัปเกรดจะเพิ่มสิ่งตอไปนี้ใหรุนยอยใหม:"
+INDUSTRIAL_ORG_TOOLTIP_NO_UPGRADE_ALREADY_ASSIGNED_MIO: "ไมมีคุณลักษณะใหมที่ใชกับยุทโธปกรณนี้ได ไมจําเปนตองอัปเกรด"
+INDUSTRIAL_ORG_TOOLTIP_UPGRADE_ALREADY_ASSIGNED_MIO_DELAYED: "ยุทโธปกรณที่สรางดวย §Yองคกรอุตสาหกรรมทหาร§! เวอรชันเกา ตองอัปเกรดเพื่อใหไดรับคุณลักษณะ §Yทีมออกแบบ§! ลาสุด"
+INDUSTRIAL_ORG_TOOLTIP_NO_RELEVANT_ORGANISATION: "คุณ §Rไมมี§! องคกรใดที่จะมอบหมายใหยุทโธปกรณประเภทนี้"
+INDUSTRIAL_ORG_TOOLTIP_IS_LICENSED: "§Rยุทโธปกรณที่ไดรับสิทธิบัตรผลิตไมมีสิทธิ์§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_NAME: "$NAME|H$"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_LIMIT_TYPE: "เฉพาะ $TYPE|H$:"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ALL_TYPES: "$TYPES|H$:"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ON_ASSIGN_TO_TECH: "เมื่อไดรับมอบหมายใหเทคโนโลยี:"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ON_ASSIGN_TO_VARIANT: "เมื่อไดรับมอบหมายใหยุทโธปกรณรุนยอย:"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ON_ASSIGN_TO_PRODUCTION_LINE: "เมื่อไดรับมอบหมายใหสายการผลิต:"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ON_TECH_CANCELLED: "เมื่อเทคโนโลยีที่ไดรับมอบหมายถูกยกเลิก:"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ON_TECH_COMPLETED: "เมื่อเทคโนโลยีที่ไดรับมอบหมายเสร็จสิ้น:"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ON_UNASSIGN_FROM_PRODUCTION_LINE: "เมื่อถูกยกเลิกการมอบหมายจากสายการผลิต:"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_COST: "ใชแตมคุณลักษณะ §Y1§! แตม"
+
+DESIGN_TEAM_RESEARCH_BONUS_GOOD: "$NAME$: $VALUE|G=0%$"
+DESIGN_TEAM_RESEARCH_BONUS_BAD: "$NAME$: $VALUE|R=0%$"
+
+INDUSTRIAL_ORG_AUTOGENERATED_TRAIT_DEFAULT_NAME: "อัปเกรด"
+
+INDUSTRIAL_ORG_TASK_COUNT: "$NUM_ASSIGNED$ / $CAPACITY$"
+INDUSTRIAL_ORG_TASK_CAPACITY_TITLE: "§Hขีดความสามารถรับงาน§!"
+INDUSTRIAL_ORG_TASK_CAPACITY_DESC: "ขีดความสามารถ: $NUM_ASSIGNED|H$/$CAPACITY|H$"
+INDUSTRIAL_ORG_TASK_PRODUCTION_LINE_DESC: "กําลังผลิต: $EQUIPMENT|H$"
+INDUSTRIAL_ORG_TASK_RESEARCH_DESC: "กําลังวิจัย: $RESEARCH|H$"
+INDUSTRIAL_ORG_TASK_REFIT_DESC: "กําลังปรับปรุง: $NAME|H$"
+INDUSTRIAL_ORG_TASK_NOT_ASSIGNED: "ขณะนี้ไมไดรับมอบหมายงานใด"
+INDUSTRIAL_ORG_TASK_HELP: "ขีดความสามารถรับงานคือจํานวน §Hชองการวิจัย§! หรือ §Hสายการผลิต§! ที่องคกรอุตสาหกรรมทหารสามารถรับมอบหมายได"
+
+INDUSTRIAL_ORG_EMPTY_PRODUCE: "ผลิตโดยไมใช §Hองคกรอุตสาหกรรมทหาร§!"
+INDUSTRIAL_ORG_EMPTY_REFIT: "ปรับปรุงโดยไมใช §Hองคกรอุตสาหกรรมทหาร§!"
+INDUSTRIAL_ORG_EMPTY_RESEARCH: "วิจัยโดยไมใช §Hองคกรอุตสาหกรรมทหาร§!"
+INDUSTRIAL_ORG_EMPTY_GENERIC: "ไมใช §Hองคกรอุตสาหกรรมทหาร§!"
+
+INDUSTRIAL_ORG_RESEARCH_TOOLTIP: "§Gคลิก§! เพื่อวิจัย"
+INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO: "§Gคลิก§! เพื่อวิจัย\n§GShift + คลิก§! เพื่อวิจัยโดยไมใชองคกรอุตสาหกรรมทหาร"
+INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO_ALREADY_ASSIGNED: "§Gคลิก§! เพื่อวิจัย\n§GShift + คลิก§! เพื่อวิจัยดวย $ORG|H$"
+INDUSTRIAL_ORG_DELAYED_TOOLTIP_PRODUCE: "§Gคลิก§! เพื่อเริ่มผลิต\n§GShift + คลิก§! เพื่อผลิตโดยไมใชองคกรอุตสาหกรรมทหาร"
+
+INDUSTRIAL_ORG_PP_GENERATION_COST: "$ORGANIZATION_NAME$: $VALUE|2+=$"
+
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_TITLE: "ปลดล็อกคุณลักษณะ"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_DESC: "คุณแนใจหรือไมวาตองการปลดล็อกคุณลักษณะ $TRAIT|Y$ ใน $INDUSTRIAL_ORG|Y$\n\nการปลดล็อกคุณลักษณะนี้จะใช §Rแตมคุณลักษณะ 1 แตม§!"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_UPGRADE_VARIANTS: "อัปเดตยุทโธปกรณรุนยอย $VALUE|H0$ รุนดวย §Yคุณลักษณะทีมออกแบบ§! ลาสุด โดยใช $XPCOST$"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_UPGRADE_VARIANTS_NO_COST: "อัปเดตยุทโธปกรณรุนยอย $VALUE|H0$ รุนดวย §Yคุณลักษณะทีมออกแบบ§! ลาสุด"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_NO_UPGRADE_VARIANTS: "§gอัปเดตยุทโธปกรณรุนยอยดวย §!§Yคุณลักษณะทีมออกแบบ§! ลาสุด"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_UPGRADE_VARIANTS_TOOLTIP_HEADER: "§Yอัปเกรดดวยคุณลักษณะลาสุด§!\nอัปเดตยุทโธปกรณของคุณใหไดรับ §Yคุณลักษณะทีมออกแบบ§! ลาสุด การกระทํานี้จะสรางรุนยอยใหม"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_UPGRADE_VARIANTS_TOOLTIP_NO_VARIANTS: "§gขณะนี้ไมมียุทโธปกรณรุนยอยใดที่ไดรับผลจากคุณลักษณะนี้ ไมจําเปนตองอัปเกรด§!"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_UPGRADE_VARIANTS_TOOLTIP_CANT_AFFORD: "§Rคุณมีประสบการณไมเพียงพอที่จะอัปเกรดรุนยอยที่ไดรับผล§!"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_UPGRADE_VARIANTS_TOOLTIP_COST: "ตนทุน: $XPCOST$"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_UPGRADE_VARIANTS_TOOLTIP_COST_ENTRY: "- $VARIANT|H$: $XPCOST$"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_UPGRADE_VARIANTS_TOOLTIP_DELAYED: "ยุทโธปกรณที่สรางดวย §Yองคกรอุตสาหกรรมทหาร§! เวอรชันเกา ตองอัปเกรดเพื่อใหไดรับ §Yคุณลักษณะทีมออกแบบ§! ลาสุด"
+INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_NOT_VALID_ANYMORE_TOOLTIP: "§Rไมสามารถปลดล็อกคุณลักษณะนี้ไดอีกตอไป§!"
+
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_UNLOCK_: "§Gคลิก§! เพื่อ §Yปลดล็อกคุณลักษณะ§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ADD_TO_QUEUE_UNLOCK: "§GShift + คลิก§! เพื่อ §Yเพิ่มคุณลักษณะเขาคิวปลดล็อก§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_REMOVE_FROM_QUEUE_UNLOCK: "§GShift + คลิก§! เพื่อ §Yนําคุณลักษณะออกจากคิวปลดล็อก§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_NOT_ENOUGH_FUNDS: "§Rคุณลักษณะจะปลดล็อกไดก็ตอเมื่อไดรับทุนจากการมอบหมายใหงานวิจัยหรือสายการผลิตเทานั้น§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ORGANIZATION_AVAILABLE: "§Gองคกรอุตสาหกรรมทหารพรอมใชงาน§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ORGANIZATION_NOT_AVAILABLE: "§Rองคกรอุตสาหกรรมทหารไมพรอมใชงาน§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_TRAIT_AVAILABLE: "§Gคุณลักษณะนี้พรอมใชงาน§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_TRAIT_NOT_AVAILABLE: "§Rคุณลักษณะนี้ไมพรอมใชงาน§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_PARENT_NOT_UNLOCKED: "§Rคุณลักษณะนี้มีคุณลักษณะกอนหนาที่ยังไมปลดล็อก§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_MUTUALLY_EXCLUSIVE_ALREADY_UNLOCKED: "§Rคุณลักษณะนี้ขัดแยงกับคุณลักษณะที่ปลดล็อกไปแลว§!"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_PICK_CENTRAL_TREE: "เลือกหรือดูตัวอยาง §Yความเชี่ยวชาญเฉพาะทาง§! เพื่อดูคุณลักษณะ"
+INDUSTRIAL_ORG_TRAIT_TOOLTIP_ON_COMPLETE: "เมื่อเสร็จสิ้น:"
+
+INDUSTRIAL_ORG_POLICY_BUTTON: "นโยบาย"
+INDUSTRIAL_ORG_POLICY_WINDOW_INSTRUCTION: "เลือก §Yนโยบาย§!"
+INDUSTRIAL_ORG_POLICY_ATTACH_POLICY_POPUP_TITLE: "ผูกนโยบาย"
+INDUSTRIAL_ORG_POLICY_ATTACH_POLICY_POPUP_DESC: "คุณแนใจหรือไมวาตองการผูกนโยบาย $POLICY|Y$ เขากับ $INDUSTRIAL_ORG|Y$?"
+INDUSTRIAL_ORG_POLICY_UNATTACH_POLICY_POPUP_TITLE: "นํานโยบายออก"
+INDUSTRIAL_ORG_POLICY_UNATTACH_POLICY_POPUP_DESC: "คุณแนใจหรือไมวาตองการนํานโยบาย $POLICY|Y$ ออกจาก $INDUSTRIAL_ORG|Y$?"
+INDUSTRIAL_ORG_POLICY_SWAP_POLICY_POPUP_TITLE: "เปลี่ยนนโยบาย"
+INDUSTRIAL_ORG_POLICY_SWAP_POLICY_POPUP_DESC: "คุณแนใจหรือไมวาตองการแทนที่นโยบาย $OLDPOLICY|Y$ ดวยนโยบาย $NEWPOLICY|Y$ ใน $INDUSTRIAL_ORG|Y$?"
+INDUSTRIAL_ORG_POLICY_POPUP_COST_DESC: "จะใช £GFX_pol_power_icon $VALUE|H$"
+INDUSTRIAL_ORG_POLICY_COOLDOWN: "คุณจะไมสามารถเปลี่ยนนโยบายไดเปนเวลา $VALUE|H$ วัน"
+INDUSTRIAL_ORG_POLICY_AVAILABLE: "§Gนโยบายนี้พรอมใชงาน§!"
+INDUSTRIAL_ORG_POLICY_NOT_AVAILABLE: "§Rนโยบายนี้ไมพรอมใชงาน§!"
+INDUSTRIAL_ORG_POLICY_IN_COOLDOWN: "§Rไมสามารถเปลี่ยนนโยบายไดจนกวาจะครบ $NBDAYS$ วัน§!"
+INDUSTRIAL_ORG_POLICY_NOT_ENOUGH_PP: "§Rตองมี $NBPOWER$ เพื่อผูกนโยบาย§!"
+INDUSTRIAL_ORG_POLICY_ON_ATTACH: "เมื่อผูก:"
+INDUSTRIAL_ORG_POLICY_ON_REMOVE: "เมื่อนําออก:"
+same_as_mio: "ยุทโธปกรณขององคกรอุตสาหกรรมทหารทั้งหมด"
+INDUSTRIAL_ORG_POLICY_COST: "§Yตนทุน§!: £GFX_pol_power_icon $VALUE|H$"
+INDUSTRIAL_ORG_POLICY_CLICK_TO_ATTACH: "§Gคลิก§! เพื่อ §Yผูกเขากับองคกรอุตสาหกรรมทหาร!§!"
+INDUSTRIAL_ORG_POLICY_CLICK_TO_UNATTACH: "§Gคลิก§! เพื่อ §Yถอดออกจากองคกรอุตสาหกรรมทหาร!§!"
+INDUSTRIAL_ORG_POLICY_WINDOW_INSTRUCTION_TT: "§Gคลิก§! เพื่อเลือก §Yนโยบาย§!"
+INDUSTRIAL_ORG_POLICY_TOOLTIP_HEADER: "§Yนโยบาย§!"
+INDUSTRIAL_ORG_POLICY_TOOLTIP_POLICY_NAME: "$NAME|Y$"
+INDUSTRIAL_ORG_POLICY_TOOLTIP_NO_POLICY_AVAILABLE: "ไมมี §Yนโยบาย§! ที่ใชได"
+INDUSTRIAL_ORG_POLICY_TOOLTIP_NO_POLICY_SELECTED: "ยังไมไดเลือก §Yนโยบาย§!"
+INDUSTRIAL_ORG_POLICY_TOOLTIP_CANT_CHANGE: "คุณ §Rไมสามารถ§! เปลี่ยน §Yนโยบาย§! ไดเปนเวลา $NUMBER|Y$ วัน"
+INDUSTRIAL_ORG_POLICY_DESCRIPTION_TT: "นโยบายชวยให §Yองคกรอุตสาหกรรมทหาร§! ของคุณเชี่ยวชาญในดานเฉพาะของการวิจัยหรือการผลิต"
+INDUSTRIAL_ORG_POLICY_DESCRIPTION_COOLDOWN_TT: "เมื่อเลือก §Yนโยบาย§! แลว จะไมสามารถเปลี่ยนไดเปนเวลา $NUMBER|Y$ วัน"
+
+INDUSTRIAL_ORG_EQUIPMENT_HEADER_NOT_MATCHING_CONTEXT: "$TYPE|Y$ §Rไมตรงกับยุทโธปกรณประเภทนี้ คุณลักษณะที่ปลดล็อกแลวจะไมมีผล§!"
+INDUSTRIAL_ORG_EQUIPMENT_HEADER_NO_EQUIPMENT_IN_CONTEXT: "§Rเทคโนโลยีนี้ไมไดปลดล็อกยุทโธปกรณใหม ดังนั้นคุณลักษณะที่ปลดล็อกแลวจะไมมีผล§!"
+INDUSTRIAL_ORG_EQUIPMENT_HEADER_DESIGN_TEAM_BONUSES: "§Yโบนัสสําหรับยุทโธปกรณรุนยอย:§!"
+INDUSTRIAL_ORG_EQUIPMENT_HEADER_MANUFACTURER_BONUSES: "§Yโบนัสสําหรับสายการผลิต:§!"
+INDUSTRIAL_ORG_EQUIPMENT_HEADER_AFFECTED_EQUIPMENT: "§Yยุทโธปกรณที่ไดรับผล:§!"
+INDUSTRIAL_ORG_EQUIPMENT_HEADER_LIMIT_TYPE: "เฉพาะ $TYPE|H$:"
+INDUSTRIAL_ORG_EQUIPMENT_HEADER_LIMIT_TYPE_ALSO: "และเฉพาะ $TYPE|H$ เชนกัน:"
+
+INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_TITLE: "§Yองคกรอุตสาหกรรมทหาร§! ที่ตรงกัน:"
+INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM: " - $NAME|H$"
+INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM_WITH_CAPACITY: "$INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM$: (ขีดความสามารถรับงาน: $TASKS|Y$/$CAPACITY|Y$)"
+INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM_WITH_CAPACITY_FULL: "$INDUSTRIAL_ORG_AVAILABLE_TOOLTIP_ITEM$: (ขีดความสามารถรับงาน: $TASKS|R$/$CAPACITY|R$)"
+INDUSTRIAL_ORG_AVAILABLE_MIOS: "$TOTAL|H$"
+
+INDUSTRIAL_ORG_TOOLTIP_PRODUCTION_TASK_INFO: "การมอบหมายงานสายการผลิตให §Yองคกรอุตสาหกรรมทหาร§! จะใหโบนัสการผลิตแกสายการผลิตนั้น"
+INDUSTRIAL_ORG_TOOLTIP_RESEARCH_TASK_INFO: "การมอบหมายงานวิจัยให §Yองคกรอุตสาหกรรมทหาร§! จะเพิ่มความเร็วการวิจัยและอาจใหโบนัสเฉพาะยุทโธปกรณ"
+
+INDUSTRIAL_ORG_QUEUE_NAME: "คิว:"
+
+INDUSTRIAL_ORG_QUEUE_OVERWRITE: "เขียนทับ"
+INDUSTRIAL_ORG_QUEUE_RENAME: "เปลี่ยนชื่อ"
+INDUSTRIAL_ORG_QUEUE_RENAME_AND_OVERWRITE: "แทนที่"
+INDUSTRIAL_ORG_QUEUE_SAVE_DESCRIPTION: "บันทึกคิวคุณลักษณะปจจุบันเปนไฟล เพื่อใหใชไดในการเลนครั้งตอๆ ไป"
+INDUSTRIAL_ORG_QUEUE_SAVE_OVERWRITE_DESC: "เลือกคิวคุณลักษณะที่จะเขียนทับ หรือเวนวางไวเพื่อสรางคิวคุณลักษณะที่บันทึกใหม:"
+INDUSTRIAL_ORG_QUEUE_SAVE_NAME_DESC: "ปอนชื่อ (ใหม) สําหรับคิวคุณลักษณะที่จะบันทึก:"
+INDUSTRIAL_ORG_QUEUE_SAVE_AS: "บันทึกเปน"
+INDUSTRIAL_ORG_QUEUE_SAVE: "บันทึก"
+INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_DISABLED_TOOLTIP: "§Rคิวคุณลักษณะตองมีชื่อจึงจะบันทึกได§!"
+
+INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_ENABLED_TOOLTIP: "§Gคลิก§! เพื่อบันทึกคิวคุณลักษณะ"
+INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_CREATE_NEW_ENABLED_TOOLTIP: "§Gคลิก§! เพื่อบันทึกคิวคุณลักษณะ \"$SAVED|Y$\" และสรางคิวคุณลักษณะใหม"
+INDUSTRIAL_ORG_QUEUE_DISCARD_BUTTON_TOOLTIP: "§Gคลิก§! เพื่อ §Rละทิ้งการเปลี่ยนแปลงในคิวคุณลักษณะปจจุบัน§! และโหลดคิวคุณลักษณะ \"$LOAD|Y$\""
+INDUSTRIAL_ORG_QUEUE_DISCARD_BUTTON_CREATE_NEW_TOOLTIP: "§Gคลิก§! เพื่อ §Rละทิ้งการเปลี่ยนแปลงในคิวคุณลักษณะปจจุบัน§! และสรางคิวคุณลักษณะใหม"
+
+INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_TITLE: "บันทึกคิวคุณลักษณะกอนโหลด"
+INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_DESC: "§Yคุณมีการเปลี่ยนแปลงที่ยังไมไดบันทึกซึ่งจะสูญหาย§!\n\nคุณตองการบันทึกหรือละทิ้งคิวคุณลักษณะปจจุบัน \"$SAVED|Y$\" กอนโหลดคิวคุณลักษณะ \"$LOAD|Y$\" หรือไม?\n\nหากไมบันทึก §Rการเปลี่ยนแปลงในคิวคุณลักษณะปจจุบันจะสูญหาย§!"
+INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_SAVE: "บันทึก"
+INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_TOOLTIP: "§Gคลิก§! เพื่อบันทึกคิวคุณลักษณะ \"$SAVED|Y$\" และโหลดคิวคุณลักษณะ \"$LOAD|Y$\""
+INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_DISCARD_SAVE: "ละทิ้ง"
+INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_DESC: "§Yคุณมีการเปลี่ยนแปลงที่ยังไมไดบันทึกซึ่งจะสูญหาย§!\n\nคุณตองการบันทึกหรือละทิ้งคิวคุณลักษณะปจจุบัน \"$SAVED|Y$\" กอนสรางคิวคุณลักษณะใหมหรือไม?\n\nหากไมบันทึก §Rการเปลี่ยนแปลงในคิวคุณลักษณะปจจุบันจะสูญหาย§!"
+INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_SAVE: "บันทึก"
+INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_DISCARD_SAVE: "ละทิ้ง"
+
+INDUSTRIAL_ORG_QUEUE_LOAD_FROM_SIMILAR_MIO: "โหลดคุณลักษณะที่ใชรวมกันจากคิวสําหรับ $MIO|Y$"
+INDUSTRIAL_ORG_QUEUE_LOAD_UNKNOWN_MIO: "องคกรอุตสาหกรรมทหารที่ไมทราบชื่อ"
+
+INDUSTRIAL_ORG_DELETE_QUEUE_TITLE: "ลบคิวคุณลักษณะที่บันทึกไว"
+INDUSTRIAL_ORG_DELETE_QUEUE_DESC: "คุณแนใจหรือไมวาตองการลบคิวคุณลักษณะที่บันทึกไว $QUEUE|Y$ ขององคกรอุตสาหกรรมทหาร $MIO|Y$?\n\nการกระทํานี้จะลางคุณลักษณะที่บันทึกไวออกจากคิวและ §Rลบคิวอยางถาวร§!"
+INDUSTRIAL_ORG_DELETE_QUEUE_CONFIRM: "ลบ"
+
+INDUSTRIAL_ORG_CLEAR_QUEUE_TITLE: "ลางคิวคุณลักษณะ"
+INDUSTRIAL_ORG_CLEAR_QUEUE_DESC: "คุณแนใจหรือไมวาตองการลางคิวคุณลักษณะปจจุบัน?"
+INDUSTRIAL_ORG_CLEAR_QUEUE_CONFIRM: "ลาง"
+
+###################################################################################################
+#### Content localization
+###################################################################################################
+
+### Just for testing
+my_custom_mio: "องคกรอุตสาหกรรมทหารที่ฉันสรางเอง"
+FRA_my_custom_mio: "องคกรอุตสาหกรรมทหารของฉันเอง"
+my_custom_mio_custom_1: "คุณลักษณะมุมซายบนของฉัน"
+FRA_my_custom_mio_custom_1: "คุณลักษณะมุมซายบนของฉัน"
+my_custom_mio_initial_trait: "คุณลักษณะเริ่มตน"
+FRA_my_custom_mio_initial_trait: "คุณลักษณะเริ่มตน"
+### end of testing stuff
+
+
+
+########  #######  ##     ## #### ########  ##     ## ######## ##    ## ########     ######   ########   #######  ##     ## ########   ######  
+##       ##     ## ##     ##  ##  ##     ## ###   ### ##       ###   ##    ##       ##    ##  ##     ## ##     ## ##     ## ##     ## ##    ## 
+##       ##     ## ##     ##  ##  ##     ## #### #### ##       ####  ##    ##       ##        ##     ## ##     ## ##     ## ##     ## ##       
+######   ##     ## ##     ##  ##  ########  ## ### ## ######   ## ## ##    ##       ##   #### ########  ##     ## ##     ## ########   ######  
+##       ##  ## ## ##     ##  ##  ##        ##     ## ##       ##  ####    ##       ##    ##  ##   ##   ##     ## ##     ## ##              ## 
+##       ##    ##  ##     ##  ##  ##        ##     ## ##       ##   ###    ##       ##    ##  ##    ##  ##     ## ##     ## ##        ##    ## 
+########  ##### ##  #######  #### ##        ##     ## ######## ##    ##    ##        ######   ##     ##  #######   #######  ##         ######  
+
+mio_cat_eq_all_light_tank: "ยุทโธปกรณรถถังเบาทั้งหมด"
+mio_cat_eq_all_medium_tank: "ยุทโธปกรณรถถังกลางทั้งหมด"
+mio_cat_eq_all_heavy_tank: "ยุทโธปกรณรถถังหนักทั้งหมด"
+mio_cat_eq_all_tank_destroyers: "ยุทโธปกรณรถถังพิฆาตทั้งหมด"
+mio_cat_eq_all_tanks: "ยุทโธปกรณรถถังทั้งหมด"
+mio_cat_eq_all_carrier: "เรือบรรทุกเครื่องบินทั้งหมด"
+mio_cat_eq_all_cruiser: "เรือลาดตระเวนทั้งหมด"
+mio_cat_eq_all_destroyer: "เรือพิฆาตทั้งหมด"
+mio_cat_eq_all_battleship: "เรือประจัญบานทั้งหมด"
+mio_cat_eq_all_ships_no_convoys: "เรือรบทั้งหมด"
+mio_cat_eq_all_small_plane: "เครื่องบินขนาดเล็กและเครื่องบินประจําเรือบรรทุกเครื่องบินทั้งหมด"
+mio_cat_eq_all_medium_plane: "เครื่องบินขนาดกลางทั้งหมด"
+mio_cat_eq_all_large_plane: "เครื่องบินขนาดใหญทั้งหมด"
+mio_cat_eq_only_light_fighter: "เครื่องบินขับไลและเครื่องบินขับไลประจําเรือบรรทุกเครื่องบิน"
+mio_cat_eq_only_light_fighter_no_cv: "เครื่องบินขับไล"
+mio_cat_eq_only_light_fighter_and_CAS_no_cv: "เครื่องบินขับไลและ CAS"
+mio_cat_eq_only_light_cas: "เครื่องบินสนับสนุนทางอากาศโดยใกลชิดและ CAS ประจําเรือบรรทุกเครื่องบิน"
+mio_cat_eq_only_light_nav: "เครื่องบินทิ้งระเบิดทางทะเลและเครื่องบินทิ้งระเบิดทางทะเลประจําเรือบรรทุกเครื่องบิน"
+mio_cat_eq_only_tactical_bomber: "เครื่องบินทิ้งระเบิดทางยุทธวิธี"
+mio_cat_eq_only_strategic_bomber: "เครื่องบินทิ้งระเบิดทางยุทธศาสตร"
+mio_cat_eq_all_cv_aircraft: "อากาศยานประจําเรือบรรทุกเครื่องบินทั้งหมด"
+mio_cat_eq_all_artillery: "ยุทโธปกรณปนใหญทั้งหมด"
+mio_cat_eq_only_artillery: "$artillery_equipment$"
+mio_cat_eq_all_infantry_and_support_equipment: "ยุทโธปกรณทหารราบและยุทโธปกรณสนับสนุนทั้งหมด"
+
+
+##     ## ########    ###    ########  ######## ########   ######  
+##     ## ##         ## ##   ##     ## ##       ##     ## ##    ## 
+##     ## ##        ##   ##  ##     ## ##       ##     ## ##       
+######### ######   ##     ## ##     ## ######   ########   ######  
+##     ## ##       ######### ##     ## ##       ##   ##         ## 
+##     ## ##       ##     ## ##     ## ##       ##    ##  ##    ## 
+##     ## ######## ##     ## ########  ######## ##     ##  ######  
+
+#######################
+##### MIO HEADERS #####
+#######################
+mio_header_light_tank_department: "แผนกรถถังเบา"
+mio_header_medium_tank_department: "แผนกรถถังกลาง"
+mio_header_heavy_tank_department: "แผนกรถถังหนัก"
+mio_header_production_department: "แผนกการผลิต"
+mio_header_design_department: "แผนกการออกแบบ"
+mio_header_operational_department: "แผนกปฏิบัติการ"
+mio_header_engines_department: "แผนกเครื่องยนต"
+mio_header_armor: "เกราะ"
+mio_header_systems: "ระบบ"
+mio_header_support: "การสนับสนุน"
+mio_header_weapons: "อาวุธ"
+mio_header_chassis: "แชสซี"
+mio_header_design_and_production: "การออกแบบและการผลิต"
+mio_header_production: "การผลิต"
+mio_header_design: "การออกแบบ"
+mio_header_mechanical_design: "การออกแบบเชิงกล"
+mio_header_armament_and_ammunition: "อาวุธยุทโธปกรณและกระสุน"
+mio_header_engines: "เครื่องยนต"
+mio_header_wings: "ปก"
+mio_header_engine_and_suspension: "เครื่องยนตและระบบรองรับ"
+mio_header_armament: "อาวุธประจําตัว"
+mio_header_armor_and_armaments: "เกราะและอาวุธ"
+mio_header_engine_and_drive_system: "เครื่องยนตและระบบขับเคลื่อน"
+mio_header_guns_and_turret: "ปนและปอมปน"
+mio_header_tank_construction: "การสรางรถถัง"
+mio_header_equipment_and_specialization: "ยุทโธปกรณและความเชี่ยวชาญเฉพาะทาง"
+mio_header_long_range_focus: "มุงเนนพิสัยไกล"
+mio_header_stealth_focus: "มุงเนนการลองหน"
+mio_header_supremacy_focus: "มุงเนนความเหนือกวา"
+mio_header_high_speed_focus: "มุงเนนความเร็วสูง"
+mio_header_trains: "รถไฟ"
+mio_header_fighter_aircraft: "เครื่องบินขับไล"
+mio_header_bomber_aircraft: "เครื่องบินทิ้งระเบิด"
+mio_header_naval_aircraft: "อากาศยานนาวี"
+mio_header_light_aircraft: "อากาศยานขนาดเบา"
+mio_header_medium_aircraft: "อากาศยานขนาดกลาง"
+mio_header_motorized: "ยานยนต"
+mio_header_mechanized: "ยานเกราะลําเลียงพล"
+mio_header_anti_tank: "ตอตานรถถัง"
+mio_header_protection: "การปองกัน"
+mio_header_specialization: "ความเชี่ยวชาญเฉพาะทาง"
+mio_header_light_assault_gun_department: "แผนกปนจูโจมเบา"
+mio_header_armored_cars: "รถหุมเกราะ"
+mio_header_medium_assault_gun_department: "แผนกปนจูโจมกลาง"
+mio_header_heavy_assault_gun_department: "แผนกปนจูโจมหนัก"
+mio_header_helicopter_construction: "การสรางเฮลิคอปเตอร"
+mio_header_single_rotor: "ใบพัดเดี่ยว"
+mio_header_tandem_rotor: "ใบพัดคูตามแนวยาว"
+mio_header_aircraft_weapons: "อาวุธอากาศยาน"
+mio_header_light_tank_destroyers_department: "แผนกรถถังพิฆาตเบา"
+mio_header_medium_tank_destroyers_department: "แผนกรถถังพิฆาตกลาง"
+mio_header_heavy_tank_destroyers_department: "แผนกรถถังพิฆาตหนัก"
+mio_header_tank_production: "การผลิตรถถัง"
+
+
+
+
+########   #######  ##       ####  ######  #### ########  ######  
+##     ## ##     ## ##        ##  ##    ##  ##  ##       ##    ## 
+##     ## ##     ## ##        ##  ##        ##  ##       ##       
+########  ##     ## ##        ##  ##        ##  ######    ######  
+##        ##     ## ##        ##  ##        ##  ##             ## 
+##        ##     ## ##        ##  ##    ##  ##  ##       ##    ## 
+##         #######  ######## ####  ######  #### ########  ######  
+
+
+ mio_policy_general_ruthless_contracts: "สัญญาอันไรปรานี"
+ mio_policy_general_assembly_line_optimisers: "ผูปรับปรุงสายการประกอบ"
+ mio_policy_general_vertical_integration: "การบูรณาการแนวดิ่ง"
+ mio_policy_general_mechanical_genius: "อัจฉริยะดานเครื่องกล"
+ mio_policy_general_experimental_development_teams: "ทีมพัฒนาเชิงทดลอง"
+
+ mio_policy_land_armor_welding_specialists: "ผูเชี่ยวชาญการเชื่อมเกราะ"
+ mio_policy_land_casting_specialists: "ผูเชี่ยวชาญการหลอ"
+ mio_policy_land_heavy_gantry_cranes: "ปนจั่นขาสูงขนาดหนัก"
+ mio_policy_land_factory_applied_camouflage: "การพรางตัวจากโรงงาน"
+ mio_policy_land_cutting_corners: "ลดขั้นตอน"
+
+ mio_policy_air_perfect_finish: "งานเก็บรายละเอียดไรที่ติ"
+ mio_policy_air_heavy_gantry_cranes: "ปนจั่นขาสูงขนาดหนัก"
+ mio_policy_air_propulsion_experimenters: "นักทดลองระบบขับเคลื่อน"
+ mio_policy_air_wind_tunnel_pioneers: "ผูบุกเบิกอุโมงคลม"
+ mio_policy_air_modular_assembly: "การประกอบแบบโมดูล"
+
+ mio_policy_navy_welding_specialists: "ผูเชี่ยวชาญการเชื่อม"
+ mio_policy_navy_space_efficient_design: "การออกแบบที่ประหยัดพื้นที่"
+ mio_policy_navy_stable_platforms: "แทนยิงปนที่มีเสถียรภาพ"
+ mio_policy_navy_great_sea_keeping: "สมรรถนะการเดินทะเลยอดเยี่ยม"
+ mio_policy_navy_coastal_battlefleet: "กองเรือรบชายฝง"
+
+
+
+#   #  ##   ###  ##  ###       ##   ##  #  # #  # ### ###  ### ###  ## 
+## ## #  #    # #  # #  #     #  # #  # #  # ## #  #  #  #  #  #   #   
+# # # ####    # #  # ###      #    #  # #  # # ##  #  ###   #  ##   #  
+#   # #  # #  # #  # #  #     #  # #  # #  # #  #  #  #  #  #  #     # 
+#   # #  #  ##   ##  #  #      ##   ##   ##  #  #  #  #  # ### ### ##  
+
+###################
+####### USA #######
+###################
+
+### ORGANIZATIONS ### 
+ USA_marmon_herrington_organization: "$marmon_herrington$"
+ USA_chrysler_organization: "$chrysler$"
+ USA_army_ordnance_department_organization: "$army_ordnance_department$"
+
+ USA_norfolk_naval_yard_organization: "$norfolk_naval_yard$"
+ USA_electric_boat_company_organization: "$electric_boat_company$"
+ USA_brooklyn_naval_yard_organization: "$brooklyn_naval_yard$"
+ USA_newport_news_shipbuilding_organization: "$newport_news_shipbuilding$"
+
+ USA_north_american_aviation_organization: "$north_american_aviation$"
+ USA_lockheed_organization: "$lockheed$"
+ USA_douglas_aircraft_company_organization: "$douglas_aircraft_company$"
+ USA_boeing_organization: "$boeing$"
+ USA_grumman_organization: "$grumman$"
+
+ USA_springfield_armory_organization: "$springfield_armory$"
+ USA_ford_motor_company_organization: "$ford_motor_company$"
+ USA_rock_island_arsenal_organization: "$rock_island_arsenal$"
+ USA_sikorsky_organization: "Sikorsky Aviation Corporation"
+
+### TRAITS ###
+ USA_mio_trait_lockeed_aircraft: "Lockheed Aircraft"
+ USA_mio_trait_medium_tank_organization: "องคกรรถถังกลาง"
+ USA_mio_trait_mechanized_production: "การผลิตยานเกราะลําเลียงพล"
+ USA_mio_trait_outsourced_engines: "เครื่องยนตจากผูรับจางภายนอก"
+ USA_mio_trait_strict_design_specifications: "ขอกําหนดการออกแบบที่เขมงวด"
+ USA_mio_trait_expanded_production_facilities: "ขยายโรงงานผลิต"
+ USA_mio_trait_periscope_sights: "กลองเล็งแบบปริทรรศน"
+ USA_mio_trait_superfortress: "ซูเปอรฟอรเทรส"
+ USA_mio_trait_smooth_finish: "ผิวงานเรียบเนียน"
+ USA_mio_trait_jet_fighter_design: "การออกแบบเครื่องบินขับไลไอพน"
+ USA_mio_trait_remote_controlled_turrets: "ปอมปนควบคุมระยะไกล"
+ USA_mio_trait_specialist_nose_configurations: "การจัดวางสวนหัวแบบเฉพาะทาง"
+ USA_mio_trait_arsenal_of_democracy: "คลังแสงแหงประชาธิปไตย"
+ USA_mio_trait_shipyard_expansion: "ขยายอูตอเรือ"
+ USA_mio_trait_naval_station_norfolk: "ฐานทัพเรือนอรฟอลก"
+ USA_mio_trait_gould_centrifugal_pump: "ปมหอยโขง Gould"
+ USA_mio_trait_radar_experimentation: "การทดลองเรดาร"
+ USA_mio_trait_the_can_do_shipyard: "อูตอเรือ Can-Do"
+ USA_mio_trait_drydock_expansion: "ขยายอูแหง"
+ USA_mio_trait_north_carolina_shipbuilding_company: "North Carolina Shipbuilding Company"
+ USA_mio_trait_carrier_specialists: "ผูเชี่ยวชาญเรือบรรทุกเครื่องบิน"
+
+### INITIAL TRAITS ###
+USA_mio_trait_light_long_range_aircraft: "อากาศยานเบาพิสัยไกล"
+USA_mio_trait_medium_long_range_aircraft: "อากาศยานกลางพิสัยไกล"
+USA_mio_trait_light_aircraft_development: "การพัฒนาอากาศยานเบา"
+USA_mio_trait_mass_production_of_armor: "การผลิตยานเกราะจํานวนมาก"
+USA_mio_trait_medium_tank_manufacturer: "ผูผลิตรถถังกลาง"
+USA_mio_trait_dedicated_tank_factory: "โรงงานรถถังเฉพาะทาง"
+
+###################
+###### JAPAN ######
+###################
+
+### ORGANIZATIONS ### 
+ JAP_kure_naval_arsenal_organization: "$kure_naval_arsenal$"
+ JAP_yokosuka_naval_arsenal_organization: "$yokosuka_naval_arsenal$"
+ JAP_maizuru_naval_arsenal_organization: "$maizuru_naval_arsenal$"
+ JAP_sasebo_naval_arsenall_organization: "$sasebo_naval_arsenall$"
+
+ JAP_mitsubishi_organization: "$mitsubishi$"
+ JAP_aichi_organization: "$aichi$"
+ JAP_nakajima_organization: "$nakajima$"
+ JAP_yokosuka_organization: "$yokosuka$"
+ JAP_sasebo_naval_arsenal_organization: "$sasebo_naval_arsenal$"
+
+ JAP_kokura_arsenal_organization: "$kokura_arsenal$"
+ JAP_osaka_army_arsenal_artillery_organization: "$osaka_army_arsenal$"
+ JAP_nissan_organization: "$nissan$"
+ JAP_tokyo_automobile_industries_organization: "$tokyo_automobile_industries$"
+ JAP_isuzu_motors_organization: "$isuzu_motors$"
+ JAP_sagami_army_arsenal_organization: "$sagami_army_arsenal$"
+ JAP_nagoya_arsenal_organization: "$nagoya_arsenal$"
+ JAP_kayaba_industry_organization: "$kayaba_industry$"
+ JAP_kawanishi_aircraft_company_organization: "$kawanishi_aircraft_company$"
+ JAP_hikari_naval_arsenal_organization: "$hikari_naval_arsenal$"
+ JAP_mitsubishi_heavy_industries_organization: "$mitsubishi_heavy_industries$"
+ JAP_hitachi_arms_department_organization: "$hitachi_arms_department$"
+ JAP_osaka_army_arsenal_organization: "$osaka_army_arsenal$"
+ JAP_kawasaki_aircraft_industries_organization: "$kawasaki_aircraft_industries$"
+ JAP_mitsubishi_kobe_shipyard_organization: "$mitsubishi_kobe_shipyard$"
+ JAP_tachikawa_aircraft_company_organization: "$tachikawa_aircraft_company$"
+ JAP_kawasaki_dockyards_organization: "$kawasaki_dockyards$"
+ JAP_isuzu_motors: "Isuzu Motors"
+ JAP_nippon_sharyo_organization: "Nippon Sharyō Seizō Kaisha"
+
+ JAP_kawasaki_dockyards_org_name: "กองเรือจูโจมที่เนนเรือบรรทุกเครื่องบิน"
+
+### TRAITS ###
+
+ JAP_mio_trait_rapid_counterflooding_system: "ระบบถวงนํ้าแกเอียงแบบรวดเร็ว"
+ JAP_generic_mio_trait_advanced_hydrodynamic_design: "หัวเรือแบบกระเปาะ"
+ JAP_mio_trait_enhanced_optics: "ทัศนอุปกรณที่ไดรับการปรับปรุง"
+ JAP_mio_trait_armor_plating_to_hull_strength: "แผนเกราะที่ชวยเสริมความแข็งแรงตัวเรือ"
+ JAP_mio_trait_type_94_fire_control: "เครื่องควบคุมการยิงตอสูอากาศยาน Type 94"
+ JAP_mio_trait_torpedo_reloads: "การบรรจุตอรปโดใหม"
+ JAP_mio_trait_type_97_torpedo_control_director: "เครื่องควบคุมการยิงตอรปโด Type 97"
+ JAP_mio_trait_high_pressure_boilers: "หมอไอนํ้าแรงดันสูง"
+ JAP_mio_trait_army_aircraft_manufacturer: "ผูผลิตอากาศยานของกองทัพบก"
+
+ JAP_mio_trait_unified_research_and_development: "การวิจัยและพัฒนาแบบรวมศูนย"
+ JAP_mio_trait_unified_research_and_development_taken_flag: "$generic_has_already_completed_this_trait$"
+
+ JAP_mio_trait_type_91_aerial_torpedo_integration: "การบูรณาการตอรปโดอากาศ Type 91"
+
+ JAP_mio_trait_foreign_research_and_development_cooperation: "ความรวมมือดานการวิจัยและพัฒนากับตางประเทศ"
+ JAP_mio_trait_foreign_research_and_development_cooperation_taken_flag: "$generic_has_already_completed_this_trait$"
+
+ JAP_mio_trait_strength_in_numbers: "โครงการริเริ่มการผลิตจํานวนมาก"
+ JAP_mio_trait_strength_in_numbers_taken_flag: "$generic_has_already_completed_this_trait$"
+
+ JAP_mio_trait_cooperation_with_kurogane: "ความรวมมือกับ Tokyu Kogyo Kurogane"
+
+ JAP_mio_trait_military_arsenal_trait: "คลังแสงของกองทัพบก"
+
+ JAP_mio_trait_zaibatsu_production_capabilities_trait: "ขีดความสามารถการผลิตของไซบัตสึ"
+
+ JAP_mio_trait_naval_arsenal_trait: "คลังแสงของกองทัพเรือ"
+
+ JAP_mio_trait_special_government_contracts_mitsubishi_trait: "สัญญาพิเศษจากรัฐบาล"
+ JAP_mio_trait_special_government_contracts_taken_flag: " ไดปลดล็อกคุณลักษณะนี้ในองคกร Mitsubishi อื่นแลว"
+ mitsubishi_trait_will_not_be_available_in_other_organizations: "§Rคุณลักษณะนี้จะไมสามารถใชไดอีกในองคกร Mitsubishi อื่นๆ§!"
+
+ JAP_mio_trait_special_government_contracts_nissan_trait: "$JAP_mio_trait_special_government_contracts_mitsubishi_trait$"
+
+ JAP_mio_trait_special_government_contracts_nakajima_trait: "$JAP_mio_trait_special_government_contracts_mitsubishi_trait$"
+
+
+
+
+######################
+#### SOVIET UNION ####
+######################
+
+### ORGANIZATIONS ### 
+ SOV_mytishchy_machine_building_plant_organization: "$SOV_mytishchy_machine_building_plant$"
+ SOV_tupolev_design_bureau_organization: "$tupolev_design_bureau$"
+ SOV_morozov_design_bureau_organization: "$morozov_design_bureau$"
+ SOV_astrov_design_bureau_organization: "$astrov_design_bureau$"
+ SOV_okmo_organization: "$okmo$"
+ SOV_kirov_organization: "$SOV_kirov$"
+ SOV_nevskoye_design_bureau_organization: "$nevskoye_design_bureau$"
+ SOV_rubin_design_bureau_organization: "$SOV_rubin_design_bureau$"
+ SOV_black_sea_shipyard_organization: "$SOV_black_sea_shipyard$"
+ SOV_sevastopol_marine_plant_organization: "$SOV_sevastopol_marine_plant$"
+ SOV_mig_design_bureau_organization: "$mig_design_bureau$"
+ SOV_ilyushin_design_bureau_organization: "$ilyushin_design_bureau$"
+ SOV_yakovlev_design_bureau_organization: "$yakovlev_design_bureau$"
+ SOV_grabin_design_bureau_organization: "$grabin_design_bureau$"
+ SOV_tula_arms_plant_organization: "$tula_arms_plant$"
+ SOV_gaz_organization: "$gaz$"
+
+### TRAITS ###
+ SOV_mio_trait_gas_tank_protection: "การปองกันถังนํ้ามัน"
+ SOV_mio_trait_lightened_reduction_gear: "เฟองทดรอบนํ้าหนักเบา"
+
+ SOV_merge_plant_no_174_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_112_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_ural_heavy_machine_building_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_370_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_mariupol_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_28_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_plant_no_150_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_vef_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_nkmz_plant_flag: "$generic_has_already_completed_this_trait$"
+ SOV_merge_magnitogorsk_metallurgical_plant_flag: "$generic_has_already_completed_this_trait$"
+
+
+########################
+#### UNITED KINGDOM ####
+########################
+
+### ORGANIZATIONS ###
+ ENG_harland_wolff_organization: "$harland_wolff$"
+ ENG_cammell_laird_organization: "$cammell_laird$"
+ ENG_yarrow_shipbuilders_organization: "$yarrow_shipbuilders$"
+ ENG_john_brown_organization: "$john_brown_company$"
+ ENG_supermarine_organization: "$supermarine$"
+ ENG_hawker_organization: "$hawker$"
+ ENG_de_havilland_organization: "$de_havilland$"
+ ENG_fairey_aviation_organization: "$fairey_aviation$"
+ ENG_rsaf_enfield_organization: "$rsaf_enfield$"
+ ENG_vauxhall_organization: "$vauxhall$"
+ ENG_royal_arsenal_organization: "$royal_arsenal$"
+ ENG_vickers_armstrong_eng_organization: "$vickers_armstrong_eng$"
+ ENG_avro_organization: "$avro$"
+
+### TRAITS ###
+ ENG_mio_trait_flared_bow: "หัวเรือบานออก"
+ ENG_mio_trait_super_charges: "การอัดประจุพิเศษ"
+ ENG_mio_trait_seaplane_origins: "ตนกําเนิดจากเครื่องบินทะเล"
+ ENG_mio_trait_elliptical_wings: "ปกรูปวงรี"
+ ENG_mio_trait_supercharger: "ซูเปอรชารจเจอร"
+ ENG_mio_trait_piat: "PIAT"
+ ENG_mio_trait_sten_submachine_guns: "ปนกลมือ STEN"
+ ENG_mio_trait_expanded_turret_capacity: "เพิ่มความจุปอมปน"
+ ENG_mio_trait_expanded_production_facilities: "ขยายโรงงานผลิต"
+
+
+################
+#### FRANCE ####
+################
+
+### ORGANIZATIONS ###
+ FRA_panhard_organization: "$FRA_panhard$"
+ FRA_renault_organization: "$renault_fra$"
+ FRA_hotchkiss_organization: "$FRA_hotchkiss$"
+ FRA_apx_organization: "$FRA_APX$"
+ FRA_amx_organization: "$FRA_AMX$"
+
+ FRA_somua_organization: "$somua$"
+ FRA_mas_organization: "$mas$"
+ FRA_schneider_organization: "$schneider$"
+
+ FRA_morane_saulnier_organization: "$morane_saulnier$"
+ FRA_bloch_organization: "$bloch$"
+ FRA_amiot_organization: "$amiot$"
+ FRA_levasseur_organization: "$levasseur$"
+
+ FRA_fcm_organization: "$fcm$"
+ FRA_aeb_organization: "$aeb$"
+ FRA_acl_organization: "$acl$"
+ FRA_acf_organization: "$acf$"
+
+### TRAITS ###
+ FRA_mio_trait_light_tank_improvements: "Chars Légers"
+ FRA_mio_trait_medium_tank_improvements: "Chars de Bataille"
+ FRA_mio_trait_automitrailleuses: "Automitrailleuses"
+ FRA_mio_trait_production_division: "แผนกการผลิต AMX"
+ FRA_mio_trait_standardized_turrets: "ปอมปน APX"
+ FRA_mio_trait_b1_bis_suspension: "ระบบรองรับ B1 bis"
+ FRA_mio_trait_l_35: "L/35"
+ FRA_mio_trait_scam_facilities: "โรงงาน SACM"
+
+
+#################
+#### GERMANY ####
+#################
+
+#### ORGANIZATIONS ####
+ GER_porsche_organization: "$porsche$"
+ GER_henschel_organization: "$henschel$"
+ GER_man_organization: "$GER_MAN$"
+ GER_daimler_benz_organization: "Daimler-Benz"
+ GER_alkett_organization: "$GER_alkett$"
+ GER_germaniawerft_organization: "$germaniawerft$"
+ GER_blohm_und_voss_organization: "$blohm_und_voss$"
+ GER_hdw_organization: "$GER_hdw$"
+ GER_deschimag_organization: "$GER_deschimag$"
+ GER_deutsche_werke_organization: "$GER_deutsche_werke$"
+ GER_kriegsmarinewerft_wilhelmshaven_organization: "$GER_kriegsmarinewerft_wilhelmshaven$"
+ GER_messerschmitt_organization: "$messerschmitt$"
+ GER_junkers_organization: "$junkers$"
+ GER_focke_wulf_organization: "$focke_wulf$"
+ GER_heinkel_organization: "$heinkel$"
+ GER_dornier_organization: "$dornier$"
+ GER_arado_flugzeugwerke_organization: "$GER_arado_flugzeugwerke$"
+ GER_fieseler_organization: "$GER_fieseler$"
+ GER_focke_achgelis_organization: "Focke-Achgelis"
+ GER_rheinmetall_organization: "$rheinmetall$"
+ GER_mauser_organization: "$mauser$"
+ GER_opel_organization: "$opel$"
+ GER_carl_walther_organization: "$GER_carl_walther$"
+ GER_auto_union_organization: "$GER_auto_union$"
+
+### TRAITS ###
+ GER_mio_trait_hotrolled_armor: "เกราะรีดรอน"
+ GER_mio_trait_multilayer_armour: "เกราะเสริม"
+ GER_mio_trait_maintenance_first_design: "การออกแบบที่เนนการซอมบํารุงเปนหลัก"
+ GER_mio_trait_fuselage_based_weapons: "อาวุธติดลําตัว"
+ GER_mio_trait_early_jet_engine_adopter: "ผูนําเครื่องยนตไอพนมาใชกอนใคร"
+ GER_mio_trait_psychological_warfare: "สงครามจิตวิทยา"
+ GER_mio_trait_hoesch_facilities: "โรงงาน Hoesch"
+ GER_hoesch_facilities_trait_taken_flag: "$generic_has_already_completed_this_trait$"
+ GER_mio_trait_hamburger_flugzeugbau: "Hamburger Flugzeugbau"
+ GER_hamburger_flugzeugbau_trait_taken_flag: "$generic_has_already_completed_this_trait$"
+ GER_mio_trait_amerikabomber_learnings: "บทเรียนจาก Amerikabomber"
+ GER_mio_trait_ford_facilities: "โรงงาน Ford"
+ GER_mio_trait_efficiency_in_mass_production: "ประสิทธิภาพในการผลิตจํานวนมาก"
+ GER_mio_trait_continental_ag_tires: "ยาง Continental AG"
+ GER_mio_trait_involve_porsche_in_special_projects: "ให Porsche รวมในโครงการพิเศษ"
+ GER_mio_trait_involve_henschel_in_special_projects: "ให Henschel รวมในโครงการพิเศษ"
+ GER_mio_trait_steel_wheel_design: "การออกแบบลอเหล็ก"
+ GER_mio_trait_telescopic_sight: "กลองเล็งแบบกลองโทรทรรศน"
+ GER_mio_trait_technical_superiority: "ความเหนือกวาทางเทคนิค"
+ GER_mio_trait_multi_role_tanks: "รถถังหลายบทบาท"
+ GER_mio_trait_anti_tank_specialization: "ความเชี่ยวชาญดานตอตานรถถัง"
+ GER_mio_trait_unorthodox_transmission_design: "การออกแบบระบบสงกําลังแหวกแนว"
+ GER_mio_trait_versatile_chassis: "แชสซีอเนกประสงค"
+ GER_mio_trait_tungsten_tipped_rounds: "กระสุนแกนทังสเตน"
+ GER_mio_trait_history_of_battleships: "ประวัติศาสตรเรือประจัญบาน"
+ GER_mio_trait_krupp_guns: "ปน Krupp"
+ GER_mio_trait_h_class_battleships: "เรือประจัญบานชั้น H"
+ GER_mio_trait_heavy_raiders: "เรือจูโจมขนาดหนัก"
+ GER_mio_trait_o_class_battlecruisers: "เรือลาดตระเวนประจัญบานชั้น O"
+ GER_mio_trait_u_boat_yards: "อูตอเรือ U-Boat"
+ GER_mio_trait_high_test_peroxide: "ไฮโดรเจนเปอรออกไซดความเขมขนสูง"
+ GER_mio_trait_ocean_u_boats: "เรือ U-Boat เดินสมุทร"
+ GER_mio_trait_kilian_submarine_bunker: "บังเกอรเรือดํานํ้า Kilian"
+ GER_mio_trait_saddle_tanks: "ถังอานมา"
+ GER_mio_trait_excellent_diving_performance: "สมรรถนะการดํานํ้ายอดเยี่ยม"
+ GER_mio_trait_atlantic_raiders: "เรือจูโจมแอตแลนติก"
+ GER_mio_trait_krupp_contacts: "เสนสาย Krupp"
+ GER_mio_trait_armored_design: "การออกแบบหุมเกราะ"
+ GER_mio_trait_shipyard_conglomerate: "กลุมบริษัทอูตอเรือ"
+ GER_mio_trait_auxilliary_shipyard: "อูตอเรือสํารอง"
+ GER_mio_trait_foreign_influences: "อิทธิพลจากตางชาติ"
+ GER_mio_trait_raider_doctrine: "หลักนิยมการจูโจม"
+ GER_mio_trait_fast_raiders: "เรือจูโจมความเร็วสูง"
+ GER_mio_trait_carrier_raiders: "เรือบรรทุกเครื่องบินจูโจม"
+ GER_mio_trait_historical_shipyard: "อูตอเรือเกาแก"
+ GER_mio_trait_upgrade_panzerschiffs: "อัปเกรด Panzerschiff"
+ GER_mio_trait_innovative_battleship_designs: "การออกแบบเรือประจัญบานเชิงนวัตกรรม"
+ GER_mio_trait_high_velocity_armament: "อาวุธความเร็วตนสูง"
+ GER_mio_trait_schachtellaufwerk: "Schachtellaufwerk"
+ GER_mio_trait_mobility_design_philosophy: "ปรัชญาการออกแบบเนนความคลองตัว"
+ GER_mio_trait_panzerjager: "Panzerjäger"
+ GER_mio_trait_armored_superstructure_specialist: "ผูเชี่ยวชาญโครงสรางสวนบนหุมเกราะ"
+ GER_mio_trait_sturmhaubitze: "Sturmhaubitze"
+ GER_mio_trait_90_degree_dives: "การดิ่งทิ้งระเบิด 90 องศา"
+ GER_mio_trait_long_nose_design: "การออกแบบหัวยาว"
+ GER_mio_trait_work_horse_design_philosophy: "ปรัชญาการออกแบบแบบมางาน"
+ GER_mio_trait_bomber_destroyer: "เครื่องบินพิฆาตเครื่องบินทิ้งระเบิด"
+ GER_mio_trait_radial_engine: "เครื่องยนตแบบดาวกระจาย"
+ GER_mio_trait_doppel_blitz: "Doppel-Blitz"
+ GER_mio_trait_advanced_night_equipment: "อุปกรณปฏิบัติการกลางคืนขั้นสูง"
+ GER_mio_trait_stepless_cockpit: "หองนักบินแบบไรขั้น"
+ GER_mio_trait_flying_boat_specialist: "ผูเชี่ยวชาญเรือบิน"
+ GER_mio_trait_schnellbomber_doctrine: "หลักนิยม Schnellbomber"
+ GER_mio_trait_jet_bomber_innovator: "ผูบุกเบิกเครื่องบินทิ้งระเบิดไอพน"
+ GER_mio_trait_dual_recoil_mechanism: "กลไกรับแรงถอยสองชั้น"
+ GER_mio_trait_versatile_carriage: "แครปนอเนกประสงค"
+ GER_mio_trait_experienced_manufacturer: "ผูผลิตที่มีประสบการณ"
+ GER_mio_trait_export_models: "รุนสงออก"
+ GER_mio_trait_karabiner: "Karabiner"
+ GER_mio_trait_sturmgewehr: "Sturmgewehr"
+ GER_mio_trait_innovative_safety_features: "คุณสมบัติความปลอดภัยเชิงนวัตกรรม"
+ GER_mio_trait_policiary_equipment: "ยุทโธปกรณตํารวจ"
+ GER_mio_trait_improved_engines: "เครื่องยนตที่ไดรับการปรับปรุง"
+ GER_mio_trait_racing_pedigree: "สายเลือดนักแขง"
+ GER_mio_trait_military_exclusivity: "สิทธิ์เฉพาะทางทหาร"
+ GER_mio_trait_schwerer_panzerspahwagen: "Schwerer Panzerspähwagen"
+ GER_mio_trait_placeholder_helicopter: "ผังองคกรอุตสาหกรรมทหารเฮลิคอปเตอร เร็วๆ นี้"
+ generic_mio_initial_trait_helicopter_designer: "ผูออกแบบเฮลิคอปเตอรยุคแรก"
+ GER_mio_trait_aerodynamic_research_insitute: "แผนกสถาบันวิจัยอากาศพลศาสตรแบบบูรณาการ"
+ GER_mio_trait_aerodynamic_research_insitute_taken_flag: "$generic_has_already_completed_this_trait$"
+
+
+
+###################
+###### ITALY ######
+###################
+
+#### ORGANIZATIONS ####
+ ITA_fiat_organization: "$fiat$"
+ ITA_crda_organization: "$crda$"
+ ITA_cantiere_oto_organization: "$ITA_cantiere_oto$"
+ ITA_navalmeccanica_organization: "$ITA_navalmeccanica$"
+ ITA_cantiere_navale_di_ancona_organization: "$ITA_cantiere_navale_di_ancona$"
+ ITA_cantieri_navali_tosi_organization: "$ITA_cantieri_navali_tosi$"
+ ITA_macchi_organization: "$macchi$"
+ ITA_savoia_marchetti_organization: "$savoia_marchetti$"
+ ITA_caproni_organization: "$caproni$"
+ ITA_piaggio_organization: "$piaggio$"
+ ITA_imam_organization: "$ITA_imam$"
+ ITA_crda_cant_organization: "$ITA_crda_cant$"
+ ITA_fiat_aviazione_organization: "$ITA_fiat_aviazione$"
+ ITA_beretta_organization: "$beretta$"
+ ITA_lancia_organization: "$lancia$"
+ ITA_breda_organization: "$breda$"
+ ITA_brescia_arsenal_organization: "$ITA_brescia_arsenal$"
+ ITA_officine_meccaniche_organization: "$ITA_officine_meccaniche$"
+ ITA_ansaldo_train_organization: "$AUS_ansaldo_organization$"
+
+### TRAITS ###
+ ITA_mio_trait_air_race_pedigree: "สายเลือดการแขงขันทางอากาศ"
+ ITA_mio_trait_special_aerotorpedoes_unit: "หนวยตอรปโดอากาศพิเศษ"
+ ITA_mio_trait_remote_operated: "ควบคุมระยะไกล"
+ ITA_mio_trait_high_altitude_fighter_development: "การพัฒนาเครื่องบินขับไลระยะสูง"
+ ITA_new_ricostruzione_industriale_motorized: "$ITA_new_ricostruzione_industriale$ (ยานยนต)"
+ ITA_new_ricostruzione_industriale_mechanized: "$ITA_new_ricostruzione_industriale$ (ยานเกราะลําเลียงพล)"
+ ITA_new_ricostruzione_industriale_train: "$ITA_new_ricostruzione_industriale$ (รถไฟ)"
+
+
+###  ##   ##  ### ### #  # ### ###      ###  ##  ###      #   # ###  ##  ###  ##  ###  #   # 
+ #  #  # #    #    #  #  # #   #  #     #   #  # #  #     #   #  #  #  #  #  #  # #  #  # #  
+ #  #  # # ## ##   #  #### ##  ###      ##  #  # ###       # #   #  #     #  #  # ###    #   
+ #  #  # #  # #    #  #  # #   #  #     #   #  # #  #      # #   #  #  #  #  #  # #  #   #   
+ #   ##   ##  ###  #  #  # ### #  #     #    ##  #  #       #   ###  ##   #   ##  #  #   #   
+
+
+#####################
+#### NEW ZEALAND ####
+#####################
+
+### ORGANIZATIONS ###
+ NZL_port_chalmers_shipbuilding_organization: "$NZL_port_chalmers_shipbuilding$"
+ NZL_st_mary_bay_ship_organization: "$NZL_st_mary_bay_ship$"
+ NZL_nz_railways_organization: "$NZL_nz_railways$"
+ NZL_christchurch_workshops_organization: "$NZL_christchurch_workshops$"
+ NZL_charlton_mw_organization: "$NZL_charlton_mw$"
+
+
+###################
+#### AUSTRALIA ####
+###################
+
+### ORGANIZATIONS BASEGAME ###
+ AST_cockatoo_doe_organization: "$Cockatoo_doe$"
+ AST_evans_deakin_co_organization: "$evans_deakin_co$"
+ AST_new_south_wales_rc_organization: "$new_south_wales_rc$"
+ AST_lysaghts_works_organization: "$lysaghts_works$"
+ AST_lithgow_saf_organization: "$lithgow_saf$"
+ AST_com_aircraft_corporation_organization: "$AST_commonwealth_aircraft_corporation$"
+
+### ORGANIZATIONS Thunder at Our Gates ###
+ AST_new_south_wales_government_railways_organization: "New South Wales Government Railways"
+ AST_vulcan_foundry_organization: "Vulcan Foundry"
+ AST_nuffield_mechanizations_and_aero_organization: "Nuffield Mechanizations และ Aero"
+ AST_american_car_and_foundry_organization: "American Car and Foundry"
+ AST_commonwealth_aircraft_corporation_organization: "Commonwealth Aircraft Corporation"
+ AST_government_aircraft_factories_organization: "Government Aircraft Factories"
+ AST_de_havilland_australia_organization: "de Havilland Australia"
+ AST_gloster_aircraft_organization: "Gloster Aircraft"
+ AST_lockheed_organization: "Lockheed"
+ AST_curtiss-wright_organization: "Curtiss-Wright"
+ AST_lithgow_arms_organization: "Lithgow Arms"
+ AST_lysaght_organization: "Lysaght"
+ AST_holden_organization: "Holden"
+ AST_ford_australia_organization: "Ford Australia"
+ AST_vickers-ruwolt_organization: "Vickers-Ruwolt"
+ AST_evan_deakin_and_company_organization: "Evans Deakin & Company"
+ AST_morts_dock_organization: "Mort's Dock"
+ AST_cockatoo_docks_organization: "Cockatoo Docks"
+ AST_john_brown_and_company_organization: "John Brown & Company"
+ 
+#####################
+#### BRITISH RAJ ####
+#####################
+
+### ORGANIZATIONS ###
+ RAJ_mazagon_dock_limited_organization: "$mazagon_dock_limited$"
+ RAJ_garden_reach_shipbuilders_organization: "$garden_reach_shipbuilders$"
+ RAJ_scindia_shipyard_organization: "$scindia_shipyard$"
+ RAJ_ishapore_rifle_factory_organization: "$ishapore_rifle_factory$"
+ RAJ_ordnance_factories_board_organization: "$ordnance_factories_board$"
+ RAJ_hindustan_aircraft_organization: "$hindustan_aircraft$"
+ RAJ_ordnance_factory_medak_organization: "โรงงานสรรพาวุธเมดัก"
+ RAJ_mio_trait_ordnance_factory_kanpur_uttar_pradesh_art: "โรงงานสรรพาวุธกานปุระ"
+ RAJ_mio_trait_ordnance_factory_kanpur_uttar_pradesh_inf: "$RAJ_mio_trait_ordnance_factory_kanpur_uttar_pradesh_art$"
+ mio_policy_RAJ_general_ordnance_factory_board: "คณะกรรมการโรงงานสรรพาวุธ"
+ RAJ_mio_trait_chariot_of_victory: "รถศึกแหงชัยชนะ"
+ RAJ_mio_trait_apc_research_effort: "ความพยายามวิจัยรถลําเลียงพลหุมเกราะ"
+ RAJ_supermarine_organization: "$supermarine$ - สาขาอินเดีย"
+ RAJ_vickers_armstrong_organization: "Vickers Armstrong - แผนกอินเดีย"
+ RAJ_vauxhall_organization: "Vauxhall - แผนกอินเดีย"
+ RAJ_harland_wolff_organization: "Harland & Wolff - แผนกอินเดีย"
+ RAJ_cammell_laird_organization: "Cammell Laird - แผนกอินเดีย"
+ RAJ_yarrow_shipbuilders_organization: "Yarrow Shipbuilders - แผนกอินเดีย"
+ RAJ_john_brown_organization: "John Brown - แผนกอินเดีย"
+ RAJ_hawker_organization: "Hawker - แผนกอินเดีย"
+ RAJ_de_havilland_organization: "De Havilland - แผนกอินเดีย"
+ RAJ_fairey_aviation_organization: "Fairey Aviation - แผนกอินเดีย"
+ RAJ_avro_organization: "Avro - แผนกอินเดีย"
+ RAJ_rsaf_enfield_organization: "RSAF Enfield - แผนกอินเดีย"
+ RAJ_vauxhall_automotive_organization: "Vauxhall Automotive - แผนกอินเดีย"
+ RAJ_royal_arsenal_organization: "Royal Arsenal - แผนกอินเดีย"
+ RAJ_crossley_motors_organization: "Crossley Motors - แผนกอินเดีย"
+
+
+
+
+
+######################
+#### SOUTH AFRICA ####
+######################
+
+### ORGANIZATIONS ###
+ SAF_iscor_organization: "$iscor$"
+
+
+################
+#### CANADA ####
+################
+
+### CANADIAN ORGANIZATIONS ###
+ CAN_kingston_shipbuilding_organization: "$kingston_shipbuilding$"
+ CAN_halifax_shipyard_organization: "$halifax_shipyard_limited$"
+ CAN_vickers_armstrong_can_organization: "$vickers_armstrong_can$"
+ CAN_inglis_company_organization: "$inglis_company$"
+ CAN_small_arms_limited_organization: "$small_arms_limited$"
+ CAN_de_havilland_organization: "$de_havilland$"
+ CAN_canadian_car_foundry_organization: "$canadian_car_foundry$"
+ CAN_fairchild_aircraft_ltd_organization: "$CAN_fairchild_aircraft_ltd$"
+ CAN_handley_page_organization: "$CAN_handley_page$"
+
+### CANADIAN TRAITS ###
+ CAN_mio_trait_cookie_carriers: "$CAN_cookie_carriers$"
+ CAN_mio_trait_fairchilds_funded: "ทุนสนับสนุนจาก Fairchild"
+
+
+
+###  ###  ##  ### #  #      ##  ###      ###  ###  ## #  #  ##  #  #  ##  ###  
+#  # #   #  #  #  #  #     #  # #  #     #  #  #  #   #  # #  # ## # #  # #  # 
+#  # ##  ####  #  ####     #  # ###      #  #  #   #  #### #  # # ## #  # ###  
+#  # #   #  #  #  #  #     #  # #  #     #  #  #    # #  # #  # #  # #  # #  # 
+###  ### #  #  #  #  #      ##  #  #     ###  ### ##  #  #  ##  #  #  ##  #  # 
+
+
+########################
+#### CZECHOSLOVAKIA ####
+########################
+
+### CZECHOSLOVAKIAN ORGANIZATIONS ###
+ CZE_skoda_shipyards_organization: "$CZE_skoda_shipyards$"
+ CZE_ckd_organization: "$CZE_ckd$"
+ CZE_tatra_organization: "$CZE_tatra$"
+ CZE_skoda_armor_organization: "$CZE_skoda_armor$"
+ CZE_zbrojovka_brno_organization: "$CZE_zbrojovka_brno$"
+ CZE_skoda_artillery_organization: "$CZE_skoda_artillery$"
+ CZE_praga_organization: "$CZE_praga$"
+ CZE_ckd_praga_organization: "$CZE_ckd_praga$"
+ CZE_avia_organization: "$CZE_avia$"
+ CZE_aero_organization: "$CZE_aero$"
+ CZE_letov_organization: "$CZE_letov$"
+ CZE_praga_aviation_organization: "$CZE_praga$ Aviation"
+
+#################
+#### HUNGARY ####
+#################
+
+### HUNGARIAN ORGANIZATIONS ###
+ HUN_ganz_danubius_organization: "$HUN_ganz_danubius$"
+ HUN_femaru_fegyver_es_gepgyar_organization: "$HUN_femaru_fegyver_es_gepgyar$"
+ HUN_mw_aircraft_organization: "$mw_aircraft$"
+ HUN_obudai_hajogyar_organization: "$HUN_obudai_hajogyar$"
+ HUN_mavag_aircraft_organization: "$mavag_aircraft$"
+ HUN_mrt_aircraft_organization: "$HUN_mrt_aircraft$"
+ HUN_danuvia_inf_organization: "$HUN_danuvia_inf$"
+ HUN_mwg_raba_organization: "$HUN_mwg_raba$"
+ HUN_hti_turan_organization: "$HUN_hti_turan$"
+ HUN_mavag_assault_guns_organization: "$HUN_mavag_assault_guns$"
+ HUN_mio_trait_army_ammunition_and_wepaons_works: "โรงงานกระสุนและอาวุธ"
+ HUN_digep_artillery: "Diósgyöri Tüzérgyár"
+
+
+ ## FOREIGN ###
+ ENG_crossley_motors_organization: "$HUN_crossley_motors$"
+ HUN_fiat_tankettes_organization: "$ITA_fiat_organization$"
+ HUN_henschel_organization: "$GER_henschel_organization$"
+ HUN_mio_trait_aircraft_production_plant: "$aircraft_production_plant$"
+
+ ### HUNGARIAN TRAITS ###
+ HUN_mio_trait_naval_warfare: "$HUN_naval_warfare$"
+ HUN_mio_trait_danuvia_two_part_lever_delayed_blowback_bolt: "ลูกเลื่อนโบลวแบ็กหนวงดวยคานสองสวน"
+ HUN_mio_trait_danuvia_motorcycles: "รถจักรยานยนต"
+ HUN_mio_trait_danuvia_improved_stock: "พานทายโลหะพับได"
+ HUN_mio_trait_heavy_mauser_rounds: "กระสุน Mauser 9×25mm"
+
+ ### FOREIGN TRAITS ###
+ GER_mio_trait_3_7_cm_pak: "3.7cm Panzerabwehrkanone"
+ GER_mio_trait_7_5_cm_pak: "7.5cm Panzerabwehrkanone"
+
+
+#################
+#### ROMANIA ####
+#################
+
+### ROMANIAN ORGANIZATIONS ###
+ ROM_constanta_shipyard_organization: "$constanta_shipyard$"
+ ROM_galati_shipyard_organization: "$ROM_coastal_defense_navy_designer$"
+ ROM_Braila_organization: "$ROM_black_sea_dominance_designer$"
+ ROM_pzinz_organization: "$pzinz_rom$"
+ ROM_leonidas_works_organization: "$ROM_leonidas_works$"
+ ROM_malaxa_organization: "$ROM_malaxa$"
+ ROM_cugir_organization: "$ROM_cugir$"
+ ROM_resita_works_organization: "$ROM_resita$"
+ ROM_vauxhall_organization: "$ROM_vauxhall$"
+ ROM_ENG_vauxhall_organization: "$ROM_vauxhall$"
+ ROM_ford_organization: "$ROM_ford$"
+ ROM_opel_organization: "$ROM_opel$"
+ ROM_iar_organization: "$ROM_iar$"
+ ROM_icar_organization: "$ROM_ICAR$"
+ ROM_set_organization: "$ROM_SET$"
+ ROM_ENG_vauxhall_automotive_organization: "$ROM_vauxhall$"
+ ROM_GER_opel_organization: "$ROM_opel$"
+ ROM_USA_ford_motor_company_organization: "$ROM_ford$"
+
+### ROMANIAN TRAITS ###
+ ROM_mio_trait_iar_investment: "การลงทุนใน IAR"
+ ROM_mio_trait_black_sea_armor: "เกราะทะเลดํา"
+ ROM_mio_trait_black_sea_weapons: "อาวุธทะเลดํา"
+ ROM_mio_trait_coastal_defense_weapons: "อาวุธปองกันชายฝง"
+ ROM_mio_trait_coastal_defense_production: "การผลิตเพื่อปองกันชายฝง"
+ ROM_mio_trait_mobile_tank_destroyers: "$ROM_mobile_tank_destroyers$"
+
+
+####################
+#### YUGOSLAVIA ####
+####################
+
+### YUGOSLAVIC ORGANIZATIONS ###
+ YUG_jadransko_brodogradiliste_organization: "$jadransko_brodogradiliste$"
+ YUG_zastava_arms_organization: "$zastava_arms$"
+ YUG_ikarus_organization: "$YUG_ikarus$"
+ YUG_rogozarski_organization: "$YUG_rogozarski$"
+ YUG_zmaj_organization: "$YUG_zmaj$"
+
+### YUGOSLAVIC TRAITS ###
+ YUG_mio_trait_ikarus_funding: "ทุนสนับสนุน $YUG_ikarus$"
+ YUG_mio_trait_rogozarski_funding: "ทุนสนับสนุน $YUG_rogozarski$"
+ YUG_mio_trait_zmaj_funding: "ทุนสนับสนุน $YUG_zmaj$"
+
+
+
+#   #  ##  # # ### #  #  ##      ### #  # ###     ### ###  ##  ### ###  
+#   # #  # # #  #  ## # #         #  #  # #        #   #  #    #   #  # 
+# # # #### ##   #  # ## # ##      #  #### ##       #   #  # ## ##  ###  
+# # # #  # # #  #  #  # #  #      #  #  # #        #   #  #  # #   #  # 
+ # #  #  # # # ### #  #  ##       #  #  # ###      #  ###  ##  ### #  # 
+
+
+##########################
+#### CHINESE FACTIONS ####
+##########################
+
+### CHINESE ORGANIZATIONS ###
+ CHI_jiangnan_shipyard_group_organization: "$jiangnan_shipyard_group$"
+ CHI_dagu_shipyard_organization: "$dagu_shipyard$"
+ CHI_morozov_design_bureau_organization: "$morozov_design_bureau$"
+ CHI_sino_german_technical_mission_organization: "$german_chinese_tank_designer$"
+ CHI_taiyuan_arsenal_organization: "$CHI_taiyuan_arsenal$"
+ CHI_liaoning_arsenal_organization: "$CHI_liaoning_arsenal$"
+ CHI_hanyan_arsenal_organization: "$CHI_hanyan_arsenal$"
+ CHI_mukden_arsenal_organization: "$CHI_mukden_arsenal$"
+ CHI_camco_organization: "$CHI_camco_1$"
+ CHI_camco_medium_organization:  "$CHI_camco_1$"
+ CHI_camco_fighter_organization: "$CHI_camco_2$"
+ CHI_camco_bomber_organization: "$CHI_camco_3$"
+ CHI_ncns_sino_german_technical_mission_organization: "$german_chinese_tank_designer$"
+
+### CHINESE TRAITS ###
+ CHI_mio_trait_chinese_panzer_armor: "เกราะแพนเซอรจีน"
+ CHI_mio_trait_chinese_panzer_weapons: "อาวุธแพนเซอรจีน"
+ CHI_mio_trait_morozov_reliability: "ความนาเชื่อถือแบบโมโรซอฟ"
+ CHI_mio_trait_morozov_speed: "ความเร็วแบบโมโรซอฟ"
+ CHI_mio_trait_raf_cooperation: "ความรวมมือกับ RAF"
+ CHI_mio_trait_camco_fighters: "เครื่องบินขับไล CAMCO"
+ CHI_mio_trait_camco_bombers: "เครื่องบินทิ้งระเบิด CAMCO"
+
+
+###################
+#### MANCHUKUO ####
+###################
+
+### MANCHUKUO ORGANIZATIONS ###
+ MAN_mamc_organization: "$MAN_manshu$"
+ MAN_mamc_light_organization: "$MAN_mamc_light$"
+ MAN_mamc_medium_organization: "$MAN_mamc_medium$"
+ MAN_mamc_heavy_organization: "$MAN_mamc_heavy$"
+
+### MANCHUKUO TRAITS ###
+ MAN_mio_trait_mamc_fighters: "เครื่องบินขับไลแมนจูเรีย"
+ MAN_mio_trait_mamc_bombers: "เครื่องบินทิ้งระเบิดแมนจูเรีย"
+ MAN_mio_trait_mamc_heavy: "โครงการขนาดใหญแมนจูเรีย"
+
+
+
+
+#   #  ##  #  #     ### #  # ###      ##  #  # #  #  ## 
+## ## #  # ## #      #  #  # #       #    #  # ## # #   
+# # # #### # ##      #  #### ##      # ## #  # # ##  #  
+#   # #  # #  #      #  #  # #       #  # #  # #  #   # 
+#   # #  # #  #      #  #  # ###      ##   ##  #  # ##  
+
+#####################
+#### NETHERLANDS ####
+#####################
+
+### ORGANIZATIONS ###
+ HOL_fokker_organization: "$fokker$"
+ HOL_koolhoven_organization: "$koolhoven$"
+ HOL_nsm_amsterdam_organization: "$nsm_amsterdam$"
+ HOL_wilton_fijenoord_organization: "$wilton_fijenoord$"
+ HOL_daf_organization: "$HOL_daf$"
+ HOL_artillerie_inrichtingen_organization: "$artillerie_inrichtingen$"
+ HOL_hih_siderius_organization: "$hih_siderius$"
+
+
+### TRAITS ###
+
+
+####################
+###### MEXICO ######
+####################
+
+### ORGANIZATIONS ###
+ MEX_tga_organization: "$MEX_tga$"
+ MEX_GER_porsche_organization: "$MEX_germano_mexican_tanks$"
+ MEX_SOV_morozov_design_bureau_organization: "$MEX_russo_mexican_tanks$"
+ MEX_USA_chrysler_organization: "$MEX_american_mexican_tanks$"
+ MEX_astimar_gulf_organization: "$MEX_astimar_gulf$"
+ MEX_astimar_pacific_organization: "$MEX_astimar_pacific$"
+ MEX_tnca_organization: "$MEX_tnca$"
+ MEX_fabrica_nacional_armas_organization: "$fabrica_nacional_armas$"
+ MEX_comesa_organization: "$comesa$"
+ MEX_USA_ford_motor_company_organization: "$mexican_ford$"
+
+
+### TRAITS ###
+
+
+
+
+#    ##      ###  ###  ## ###  ## ###  ##  #  #  ##  ### 
+#   #  #     #  # #   #    #  #    #  #  # ## # #  # #   
+#   ####     ###  ##   #   #   #   #  #### # ## #    ##  
+#   #  #     #  # #     #  #    #  #  #  # #  # #  # #   
+### #  #     #  # ### ##  ### ##   #  #  # #  #  ##  ### 
+
+###################
+###### SPAIN ######
+###################
+
+### ORGANIZATIONS ###
+ SPR_secn_vanilla_organization: "$secn$"
+ SPR_secn_organization: "$secn$"
+ SPR_euskalduna_organization: "$SPR_euskalduna$"
+ SPR_casa_vanilla_organization: "$casa$"
+ SPR_casa_organization: "$casa$"
+ SPR_hispano_aviacion_organization: "$SPR_hispano_aviacion$"
+ SPR_star_bonifacio_echeverria_organization: "$SPR_star_bonifacio_echeverria$"
+ SPR_esperanza_y_cia_organization: "$SPR_esperanza_y_cia$"
+ SPR_llama_gabilondo_y_cia_organization: "$SPR_llama_gabilondo_y_cia$"
+ SPR_hispano_suiza_organization: "$SPR_hispano_suiza$"
+
+### TRAITS ###
+
+
+####################
+##### PORTUGAL #####
+####################
+
+### ORGANIZATIONS ###
+ POR_ogma_organization: "$ogma$"
+ POR_arsenal_alfeite_organization: "$arsenal_alfeite$"
+ POR_fnmal_organization: "$fnmal$"
+ POR_fabrica_material_guerra_organization: "$fabrica_material_guerra$"
+ POR_ogme_organization: "$ogme$"
+ POR_fma_organization: "$fma$"
+ POR_generic_infantry_equipment_organization: "$POR_fabrica_material_guerra_organization$"
+
+### TRAITS ###
+
+
+
+
+###   ##  ### ### #   ###     ###  ##  ###      ### #  # ###     ###   ##   ## ###   ##  ###  #  #  ## 
+#  # #  #  #   #  #   #       #   #  # #  #      #  #  # #       #  # #  # #   #  # #  # #  # #  # #   
+###  ####  #   #  #   ##      ##  #  # ###       #  #### ##      ###  #  #  #  ###  #  # ###  #  #  #  
+#  # #  #  #   #  #   #       #   #  # #  #      #  #  # #       #  # #  #   # #    #  # #  # #  #   # 
+###  #  #  #   #  ### ###     #    ##  #  #      #  #  # ###     ###   ##  ##  #     ##  #  #  ##  ##  
+
+
+####################
+###### TURKEY ######
+####################
+
+### ORGANIZATIONS ###
+ TUR_ticaret_organization: "$koc_ticaret_as_armor$"
+ TUR_tulomsas_organization: "$tulomsas$"
+ TUR_thk_organization: "$thk$"
+ TUR_thk_bftb_organization: "$thk_bftb$"
+ TUR_ktf_organization: "$ktf$"
+ TUR_gok_okulu_organization: "$gok_okulu$"
+ TUR_tomtasch_organization: "$tomtasch$"
+ TUR_nud_organization: "$nud$"
+ TUR_golcuk_nsy_organization: "$golcuk_nsy$"
+ TUR_cgt_organization: "$cgt$"
+ TUR_koc_ticaret_as_shipyard_organization: "$koc_ticaret_as_shipyard$"
+ TUR_istanbul_military_industries_organization: "$istanbul_military_industries$"
+ TUR_killigil_endustrileri_organization: "$killigil_endustrileri$"
+ TUR_koc_ticaret_as_defense_industry_organization: "$koc_ticaret_as_defense_industry$"
+
+### TRAITS ###
+
+
+
+####################
+###### GREECE ######
+####################
+
+### ORGANIZATIONS ###
+ GRE_biamax_organization: "$GRE_biamax$"
+ GRE_gnaf_organization: "$gnaf$"
+ GRE_aekkea_organization: "$GRE_aekkea$"
+ GRE_phaliron_aircraft_organization: "$GRE_phaliron_aircraft$"
+ GRE_royal_hellenic_naval_shipyard_organization: "$royal_hellenic_naval_shipyard$"
+ GRE_basileiades_organization: "$GRE_basileiades$"
+ GRE_astilleros_onassis_organization: "$GRE_astilleros_onassis$"
+ GRE_pyrkal_organization: "$GRE_pyrkal$"
+ GRE_petropoulos_organization: "$GRE_petropoulos$"
+
+### TRAITS ###
+
+
+####################
+##### BULGARIA #####
+####################
+
+### ORGANIZATIONS ###
+ BUL_varna_naval_dockyard_organization: "$BUL_varna_naval_dockyard$"
+ BUL_dar_organization: "$BUL_dar$"
+ BUL_kaproni_bulgarski_organization: "$BUL_kaproni_bulgarski$"
+ BUL_dvf_organization: "$BUL_dvf$"
+ BUL_dvf_sopot_organization: "$BUL_dvf_sopot$"
+
+### TRAITS ###
+
+ has_invited_mio_tt: "§Y[ROOT.owner.GetNameWithFlag]§! ไดเชิญ §Y[ROOT.GetName]§!"
+
+
+#  #  ##       ## ### ### ###      ###   ##   ##  # # 
+## # #  #     #    #  #   #  #     #  # #  # #  # # # 
+# ## #  #      #   #  ##  ###      ###  #### #    ##  
+#  # #  #       #  #  #   #        #  # #  # #  # # # 
+#  #  ##      ##   #  ### #        ###  #  #  ##  # # 
+
+
+###############
+### POLAND ###
+###############
+
+### ORGANIZATIONS ###
+ POL_pzl_organization: "Państwowe Zakłady Lotnicze"
+ POL_pws_organization: "Podlaska Wytwórnia Samolotów"
+ POL_pzinz_organization: "Państwowe Zakłady Inżynierii"
+ POL_fb_organization: "Fabryka Broni "Łucznik" – Radom"
+ POL_lrl_organization: "Lilpop, Rau i Loewenstein"
+ POL_stocznia_gdynia_organization: "Stocznia Gdynia"
+ POL_smpa_organization: "SMPA"
+ POL_USA_ford_motor_company_organization: "$POL_ford$"
+ POL_ENG_vauxhall_organization: "$POL_vauxhall$"
+ POL_FRA_somua_organization: "$POL_somua$"
+
+
+### TRAITS ###
+ POL_mio_trait_cruiser_tanks: "รถถังครูเซอร"
+ POL_mio_trait_multi_role_tank_designer: "ผูออกแบบรถถังหลายบทบาท"
+
+
+#####################
+### BALTIC SHARED ###
+#####################
+
+### ORGANIZATIONS ###
+ BALTIC_ford_organization: "$BALTIC_ford$"
+ BALTIC_rsaf_enfield_organization: "$BALTIC_RSAF_enfield$"
+ BALTIC_royal_arsenal_organization: "$BALTIC_royal_arsenal$"
+ BALTIC_RAF_organization: "$BALTIC_RAF$"
+
+### TRAITS ###
+
+
+###############
+### ESTONIA ###
+###############
+
+### ORGANIZATIONS ###
+ EST_paldiski_port_organization: "$paldiski_port$"
+ EST_arsenal_organization: "$arsenal$"
+
+### TRAITS ###
+
+
+
+##############
+### LATVIA ###
+##############
+
+### ORGANIZATIONS ###
+ LAT_lkod_organization: "$lkod$"
+ LAT_vef_organization: "$vef$"
+
+### TRAITS ###
+
+
+
+#################
+### LITHUANIA ###
+#################
+
+### ORGANIZATIONS ###
+ LIT_anbo_organization: "$anbo$"
+
+### TRAITS ###
+
+
+
+###  #   #     ###  #    ##   ##  ###       ##  #    ##  #  # ### 
+#  #  # #      #  # #   #  # #  # #  #     #  # #   #  # ## # #   
+###    #       ###  #   #  # #  # #  #     #### #   #  # # ## ##  
+#  #   #       #  # #   #  # #  # #  #     #  # #   #  # #  # #   
+###    #       ###  ###  ##   ##  ###      #  # ###  ##  #  # ### 
+
+
+
+ ##  ###  #   #  ##      ##   ##   ##  ### #  #  ## ###     ### #   # ###   ##  #  # #  # #   # 
+#  # #  # ## ## #       #  # #    #  #  #  ## # #    #       #   # #  #  # #  # ## # ## #  # #  
+#### ###  # # #  #      #### # ## ####  #  # ##  #   #       #    #   ###  #### # ## # ##   #   
+#  # #  # #   #   #     #  # #  # #  #  #  #  #   #  #       #    #   #  # #  # #  # #  #   #   
+#  # #  # #   # ##      #  #  ##  #  # ### #  # ##   #       #    #   #  # #  # #  # #  #   #   
+
+
+
+###############
+### SWEDEN ###
+###############
+
+### SWEDISH ORGANIZATIONS ###
+ SWE_bofors_organization: "Bofors"
+ SWE_landsverk_organization: "Landsverk"
+ SWE_volvo_organization: "Volvo"
+ SWE_scania_vabis_organization: "Scania-Vabis"
+ SWE_saab_organization: "SAAB"
+ SWE_gotaverken_organization: "Götaverken"
+ SWE_husqvarna_organization: "Husqvarna AB"
+ SWE_kockums_organization: "Kockums"
+
+### SWEDISH TRAITS ###
+ SWE_mio_trait_german_landsverk_tech_exchange: "การแลกเปลี่ยนเทคโนโลยีรถถังเยอรมนี-สวีเดน"
+ SWE_mio_trait_lancer_tank: "แลนเซอร"
+ SWE_mio_trait_recoil_operation: "ระบบทํางานดวยแรงถอย"
+ SWE_mio_trait_defense_in_depth: "กระสุนเจาะเกราะขั้นสูง"
+ SWE_mio_trait_high_capacity_dockyard: "อูตอเรือขีดความสามารถสูง"
+ SWE_mio_trait_forefront_of_aeroplane_development: "แนวหนาของการพัฒนาอากาศยาน"
+ SWE_mio_trait_booming_domestic_production: "การผลิตภายในประเทศที่เฟองฟู"
+
+
+###############
+### FINLAND ###
+###############
+
+### FINNISH ORGANIZATIONS ###
+ FIN_valtion_panssaritehdas_organization: "Valtion Panssaritehdas"
+ FIN_crichton_vulcan_organization: "Crichton-Vulcan"
+ FIN_valtion_lentokonetehdas_organization: "Valtion Lentokonetehdas"
+ FIN_sisu_auto_organization: "Sisu Auto"
+ FIN_valtion_kivaaritehdas_organization: "Valtion Kivääritehdas"
+ FIN_valtion_tykkitehdas_organization: "Valtion Tykkitehdas"
+
+### FINNISH TRAITS ###
+ FIN_mio_trait_recycled_materials: "วัสดุรีไซเคิล"
+ FIN_mio_trait_contract_with_yhteissisu: "สัญญากับ Yhteissisu"
+ FIN_mio_trait_yhteissisus_modern_premises: "สถานที่ทันสมัยของ Yhteissisu"
+ FIN_mio_trait_alternative_materials: "วัสดุทดแทน"
+ FIN_mio_trait_salvaged_and_retooled: "กูซากและปรับเครื่องมือใหม"
+ FIN_mio_trait_repurposed_equipment: "ยุทโธปกรณที่นํามาใชใหม"
+ FIN_mio_trait_oy_tikkakoski: "Oy Tikkakoski"
+ FIN_mio_trait_andros_engines: "เครื่องยนต Andros"
+ FIN_mio_trait_rapid_raiders: "$FIN_rapid_raiders$"
+ FIN_mio_trait_deep_sea_raiders: "$FIN_deep_sea_raiders$"
+ FIN_mio_trait_repurposed_equipment_trigger_tt: "ไดวิจัย §Y$FIN_mechanized_equipment_3$§! แลว (เทคโนโลยียานเกราะลําเลียงพล 1944)"
+ FIN_mio_trait_wartsila_engine_production: "$FIN_wartsila_engine_production$"
+ FIN_mio_trait_modernization_program: "โครงการปรับปรุงใหทันสมัย"
+
+
+###############
+### DENMARK ###
+###############
+
+### DANISH ORGANIZATIONS ###
+ DEN_DISA_organization: "Dansk Industri Syndikat A/S"
+ DEN_haerens_tekniske_korps_organization: "Hærens Tekniske Korps"
+ DEN_triangel_organization: "De Forenede Motorfabrikker Triangel"
+ DEN_burmeister_wain_organization: "Burmeister & Wain"
+ DEN_orlogsvaerftet_organization: "Orlogsværftet"
+ DEN_flyvertroppernes_organization: "Flyvertroppernes Værksteder"
+ DEN_flyvemaskinevaerksted_organization: "Orlogsværftet Flyvemaskineværksted"
+
+### DANISH TRAITS ###
+ DEN_mio_trait_burmeister_wain_engines: "เครื่องยนต Burmeister & Wain"
+ DEN_mio_trait_coastal_defense_ship_modernization: "การปรับปรุงเรือปองกันชายฝงใหทันสมัย"
+ DEN_mio_trait_weibel_development: "ปรับปรุงตนแบบ Weibel"
+ DEN_mio_trait_madsen_heavy_machine_gun: "ปนใหญกล Madsen"
+ DEN_mio_trait_fodfolkskanoner: "Fodfolkskanoner"
+ DEN_mio_trait_feltkanoner: "Feltkanoner"
+ DEN_mio_trait_madsen_20_mm: "กระสุนระเบิดแรงสูงเจาะเกราะที่ปรับปรุงแลว"
+ DEN_mio_trait_repurpose_triangel_factories: "โรงงาน Triangel ที่ปรับมาใชใหม"
+
+################
+#### NORWAY ####
+################
+
+### NORWEGIAN ORGANIZATIONS ###
+ NOR_thunes_mekaniske_verksted_organization: "Thunes Mekaniske Verksted"
+ NOR_akers_mekaniske_verksted_organization: "Akers Mekaniske Verksted"
+ NOR_karljohansvern_verft_organization: "Karljohansvern Verft"
+ NOR_marinens_flyvebaatfabrikk_organization: "Marinens Flyvebaatfabrikk"
+ NOR_kongsberg_vaapenfabrikk_organization: "Kongsberg Vaapenfabrikk"
+ NOR_norsk_spraengstofindustri_organization: "Norsk Sprængstofindustri"
+ NOR_raufoss_ammunisjonsfabrikker_organization: "Raufoss Ammunisjonsfabrikker"
+ NOR_cadillac_organization: "Cadillac"
+ NOR_morozov_design_bureau_nord_organization: "$SOV_morozov_design_bureau_organization$ Nord"
+ NOR_rubin_design_bureau_nord_organization: "$SOV_rubin_design_bureau_organization$ Nord"
+ NOR_gaz_nord_organization: "$SOV_gaz_organization$ Nord"
+ NOR_porsche_norge_organization: "$GER_porsche_organization$"
+ NOR_messerschmitt_norge_organization: "$GER_messerschmitt_organization$"
+ NOR_heinkel_norge_organization: "$GER_heinkel_organization$"
+ NOR_SOV_morozov_design_bureau_organization: "$NOR_morozov_design_bureau_nord_organization$"
+ NOR_SOV_rubin_design_bureau_organization: "$NOR_rubin_design_bureau_nord_organization$"
+ NOR_SOV_gaz_organization: "$NOR_gaz_nord_organization$"
+
+### NORWEGIAN TRAITS ###
+ NOR_mio_initial_trait_mechanical_workshop: "โรงปฏิบัติงานเครื่องจักรกลหนัก"
+ NOR_mio_initial_trait_convoy_and_escort_fleet: "ผูตอเรือสินคาและเรือคุมกัน"
+
+ mio_policy_NOR_general_permanent_industrial_revolution: "การปฏิวัติอุตสาหกรรมถาวร"
+ NOR_mio_trait_forsvarets_forskningsinstitutt: "แผนก Forsvarets Forskningsinstitutt"
+ NOR_mio_trait_trondhjems_mekaniske_vaerksted: "Trondhjems Mekaniske Værksted"
+ NOR_mio_trait_cruiser_specialization: "ความเชี่ยวชาญดานเรือลาดตระเวน"
+
+################
+#### NORDIC ####
+################
+
+### NORDIC TRAITS ###
+ NORDIC_mio_department_design_infantry_name: "แผนกยุทโธปกรณทหารราบ"
+ NORDIC_mio_department_design_tank_general_name: "แผนกรถถัง"
+ NORDIC_joint_MIO: "แผนกอาวุธยุทโธปกรณ [THIS.OWNER.NORDIC_get_adjective]"   
+ NORDIC_mio_trait_large_scale_production_tank: "$NORDIC_large_scale_production$"
+ NORDIC_mio_trait_large_scale_production_infantry: "$NORDIC_large_scale_production$"
+ NORDIC_mio_trait_improved_assembly_tank: "$NORDIC_improve_assembly$"
+ NORDIC_mio_trait_improved_assembly_infantry: "$NORDIC_improve_assembly$"
+
+
+########################################################################
+
+#      /$$$$$                              
+#     |__  $$                              
+#        | $$ /$$   /$$ /$$$$$$$   /$$$$$$ 
+#        | $$| $$  | $$| $$__  $$ /$$__  $$
+#   /$$  | $$| $$  | $$| $$  \ $$| $$  \ $$
+#  | $$  | $$| $$  | $$| $$  | $$| $$  | $$
+#  |  $$$$$$/|  $$$$$$/| $$  | $$|  $$$$$$/
+#   \______/  \______/ |__/  |__/ \______/ 
+#                                                       
+
+################
+#### Brazil ####
+################
+
+ BRA_amrj_organization: "Arsenal de Marinha do Rio de Janeiro"
+ BRA_rossi_organization: "Amadeo Rossi"
+ BRA_cbc_organization: "Companhia Brasileira de Cartuchos"
+ BRA_fnm_organization: "Fábrica Nacional de Motores"
+ BRA_embraer_organization: "Empresa Brasileira de Aeronáutica"
+ BRA_bernadini_organization: "Bernadini"
+ BRA_ddam_organization: "Departamento de Artilharia"
+
+#CHILE
+ CHL_arsenales_de_marina_organization: "Arsenales de Marina"
+ CHL_epartamento_de_tanques_del_ejercito_organization: "Departamento De Tanques Del Ejército"
+ CHL_enaer_organization: "ENAER"
+ CHL_fanaero_chile_organization: "Fanaero-Chile"
+ CHL_famae_organization: "FAMAE"
+ CHL_famae_rama_de_artilleria_organization: "FAMAE - Rama de Artillería"
+ CHL_willys_famae_corvo_organization: "Willys FAMAE Corvo"
+ CHL_csav_organization: "CSAV"
+
+#ARGENTINA
+
+ ARG_fabricaciones_militares_epartamento_de_tanques_del_ejercito_organization: "Fabricaciones Militares Departamento De Tanques Del Ejercito"
+ ARG_arsenales_de_marina_organization: "Arsenales de Marina"
+ ARG_astarsa_organization: "Astarsa"
+ ARG_fma_organization: "FMA"
+ ARG_fabricaciones_militares_organization: "Fabricaciones Militares"
+ ARG_fabricaciones_militares_art_organization: "Fabricaciones Militares - Departamento De Artillería"
+ ARG_hispano_argentina_organization: "Hispano - Argentina"
+ ARG_mio_trait_dreams_of_a_domestic_tank_trait: "ความฝนถึงรถถังที่ผลิตเอง"
+
+########################################################################
+
+
+ ##      ## ##     ## ##    ## ########  ######## ########  ##      ##    ###    ######## ######## ########                                                     
+ ##  ##  ## ##     ## ###   ## ##     ## ##       ##     ## ##  ##  ##   ## ##   ##       ##       ##                                                           
+ ##  ##  ## ##     ## ####  ## ##     ## ##       ##     ## ##  ##  ##  ##   ##  ##       ##       ##                                                           
+ ##  ##  ## ##     ## ## ## ## ##     ## ######   ########  ##  ##  ## ##     ## ######   ######   ######                                                       
+ ##  ##  ## ##     ## ##  #### ##     ## ##       ##   ##   ##  ##  ## ######### ##       ##       ##                                                           
+ ##  ##  ## ##     ## ##   ### ##     ## ##       ##    ##  ##  ##  ## ##     ## ##       ##       ##                                                           
+  ###  ###   #######  ##    ## ########  ######## ##     ##  ###  ###  ##     ## ##       ##       ########  
+
+ ##########################
+ ######## AUSTRIA #########
+ ##########################
+
+ AUS_ansaldo_organization: "Ansaldo"
+ AUS_stabilimento_tecnico_triestino_organization: "Stabilimento Tecnico Triestino"
+ AUS_ELIN_organization: "ELIN"
+ AUS_phonix_fleugzeugwerke_organization: "Phönix Fleugzeugwerke"
+ AUS_hirtenberger_organization: "Hirtenberger Defence Systems"
+ AUS_steyr_organization: "Steyr Arms"
+ AUS_graf_and_stift_organization: "Gräf und Stift"
+ AUS_osterreichische_saurerwerke_organization: "Österreichische Sauerwerke"
+ AUS_mio_robust_light_aircraft: "ผูออกแบบอากาศยานเบาที่ทนทาน"
+ AUS_mio_trait_static_wings: "ปรับปรุงปกเอียง"
+ AUS_mio_trait_weight_optimization: "การปรับนํ้าหนักใหเหมาะสม"
+ AUS_mio_trait_structural_integrity: "ความแข็งแรงของโครงสรางที่ปรับปรุงแลว"
+ AUS_mio_trait_range_speed: "การปรับแตงเครื่องยนต"
+ AUS_mio_trait_production_speed: "การผลิตที่คลองตัว"
+ AUS_mio_trait_radar_improvements: "การบูรณาการเรดาร-โซนาร"
+ AUS_mio_initial_trait_technologically_advanced_submarines: "ผูออกแบบเรือดํานํ้าขั้นสูง"
+ AUS_mio_standardize_piercing_ammunition: "กระสุนเจาะเกราะ"
+ AUS_mio_standardize_cheaper_ammunition: "กระสุนราคาถูกลง"
+ AUS_graf_und_stift_initial_mio_trait_speed_focused_organization: "ผูผลิตยานยนตความเร็วสูง"
+ AUS_mio_trait_improved_suspensions: "ระบบรองรับที่ปรับปรุงแลว"
+ AUS_mio_trait_fuel_effeicient_engines: "เครื่องยนตประหยัดเชื้อเพลิง"
+ AUS_mio_trait_thorough_construction: "การกอสรางอยางพิถีพิถัน"
+ AUS_mio_trait_modular_construction: "การกอสรางแบบโมดูล"
+ AUS_saurerwerke_initial_mio_trait_attack_focused_organization: "ผูผลิตยานยนตที่เนนการโจมตี"
+ AUS_mio_trait_improved_armaments: "อาวุธที่ปรับปรุงแลว"
+ AUS_mio_trait_high_quality_mass_production: "การผลิตจํานวนมากคุณภาพสูง"
+ AUS_mio_trait_innovative_riflemaking: "การออกแบบเชิงนวัตกรรม"
+ AUS_mio_trait_cutting_corners: "ลดขั้นตอน"
+ AUS_osterreichische_fleugzeugfabrik_organization: "Österreichische Fleugzeugfabrig AG"
+
+ #BELGIUM - Organizations
+ BEL_vickers_armstrong_bel_organization: "Vickers-Armstrong Belgium"
+ BEL_fonderie_royale_canons: "Fonderie Royale Cannons"
+ BEL_renault_organization: "Renault Belgium"
+ BEL_stampe_et_renard: "Stampe et Renard"
+ BEL_fonderie_royale_de_canons_liege_organization: "Fonderie Royale de Canons Liege"
+ BEL_fn_herstal_organization: "FN Herstal"
+ BEL_minerva_imperia_armored_car_organization: "รถหุมเกราะ Minerva-Imperia"
+ BEL_minerva_imperia_motorized_organization: "Minerva-Imperia Automobiles"
+ BEL_laboratoire_aerotechnique_de_belgique_organization: "Laboratoire Aérotechnique de Belgique"
+ BEL_ateliers_metallurgiques_tubize_organization: "Ateliers Métallurgiques-Tubize"
+ 
+ 
+ #BELGIUM - MIO Traits
+ BEL_mio_initial_trait_fn_herstal: "ผูผลิตอาวุธเบา"
+ BEL_mio_trait_belgium_congo_link: "สายสัมพันธเบลเยียม-คองโก"
+ BEL_mio_trait_high_speed_transport: "การขนสงความเร็วสูง"
+ BEL_mio_trait_anti_submarine_expertise: "ความเชี่ยวชาญดานตอตานเรือดํานํ้า"
+ BEL_mio_trait_all_metal_expertise: "ความเชี่ยวชาญดานโครงสรางโลหะทั้งลํา"
+ BEL_mio_trait_browning_collaboration: "ความรวมมือกับ Browning"
+ BEL_mio_trait_outsourced_production: "การผลิตจากผูรับจางภายนอก"
+ BEL_mio_trait_browning_automatic_rifles: "ปนเล็กยาวอัตโนมัติ Browning"
+ BEL_mio_trait_assault_rifles: "ปนเล็กยาวจูโจม"
+ BEL_mio_trait_47mm_at_guns: "ปนตอสูรถถัง 47mm"
+ BEL_mio_trait_excellent_machining_tools: "เครื่องมือกลชั้นยอด"
+ BEL_mio_trait_knight_engines: "เครื่องยนต Knight"
+ BEL_mio_trait_heavy_machine_guns: "ปนกลหนัก"
+ BEL_mio_trait_high_grade_armor: "เกราะคุณภาพสูง"
+ BEL_mio_trait_flourishing_automobile_industry: "อุตสาหกรรมรถยนตที่รุงเรือง"
+ BEL_mio_trait_fonderie_royale_canons: "Fonderie Royale Cannons"
+ BEL_mio_trait_stampe_et_vertrongen: "Stampe et Vertrongen"
+ BEL_mio_trait_stampe_et_renard: "Stampe et Renard"
+
+ #CONGO - Organizations
+ COG_fonderie_royale_de_canons_leopoldville_organization: "Fonderie Royale de Canons Léopoldville"
+ COG_fn_hershal_organization: "FN Hershal"
+ COG_explosifs_congo_organization: "Société Africaine d'Explosifs Congo"
+
+
+ #AFGHANISTAN - Organizations
+ AFG_naval_organization: "อูตอเรืออัฟกัน"
+ AFG_tanks_organization: "คลังอาวุธเฮรัต"
+ afg_tank_factory_mio: "ไดจัดตั้งโรงงานรถถังของรัฐผานการตัดสินใจ §Y$AFG_placate_the_graduates$§! แลว"
+ AFG_aircraft_organization: "บริษัทการบินอัฟกัน"
+ afg_aircraft_factory_mio: "ไดจัดตั้งโรงงานอากาศยานของรัฐผานการตัดสินใจ §Y$AFG_placate_the_graduates$§! แลว"
+ AFG_infantry_organization: "บริษัทปนเล็กยาวคาบูล"
+ afg_artillery_factory_mio: "ไดจัดตั้งโรงงานปนใหญของรัฐผานการตัดสินใจ §Y$AFG_placate_the_graduates$§! แลว"
+ AFG_artillery_organization: "โรงหลอคาบูล"
+ AFG_construct_mio_in_progress: "กําลังกอสรางองคกรอุตสาหกรรมทหาร"
+ AFG_khyber_pass_rifling_org: "เกลียวลํากลองชองเขาไคเบอร"
+ AFG_khyber_pass_rifling_org_cost_reduction_1: "อุตสาหกรรมในครัวเรือน"
+ AFG_khyber_pass_rifling_org_cost_reduction_2: "การแปรรูปเศษโลหะ"
+ AFG_khyber_pass_rifling_org_cost_reduction_3: "ความเชี่ยวชาญดั้งเดิม"
+
+ #IRAN - Organizations
+ PER_tehran_armor_organization: "ยานเกราะเตหะราน"
+ PER_qorkhaneh_organization: "Qorkhaneh"
+ PER_shahbaz_organization: "อากาศยาน Shahbaz"
+ PER_iranian_shipyards_organization: "อูตอเรืออิหราน"
+ PER_motor_organization: "Iran National Corp"
+
+ #Iraq - Organizations
+ IRQ_tanks_organization: "ยานเกราะติกริต"
+ IRQ_naval_organization: "อูทหารเรือบัสรา"
+ IRQ_aircraft_organization: "อากาศพลศาสตรฮับบานิยา"
+ IRQ_infantry_organization: "บริษัทปนเล็กยาวนาจาฟ"
+ IRQ_artillery_organization: "คลังอาวุธแบกแดด"
+ IRQ_motor_organization: "บริษัทยานยนตโมซูล"
+ IRQ_support_organization: "โรงงานผาใบและเครื่องนุงหมคารบาลา"
+ IRQ_multi_role_aircraft_organization: "แผนกกองทัพอากาศชัยบะห"
+ IRQ_close_air_support_aircraft_organization: "คลังแสงเทคนิคทางอากาศอัลรอชีด"
+ IRQ_submarine_organization: "อูตอเรืออุมมก็อศร"
+ IRQ_kuwait_dockyards_organization: "อูตอเรือคูเวต"
+
+ CHI_camco_organization_sea: "$CHI_camco_1$"
+ CHI_sinaw_organization_sea: "SINAW"
+ CHI_shanghai_arsenal: "คลังแสงเซี่ยงไฮ"
+ CHI_taiyuan_arsenal_organization_sea: "$CHI_taiyuan_arsenal_organization$"
+ CHI_liaoning_arsenal_organization_sea: "$CHI_liaoning_arsenal_organization$"
+ CHI_hanyan_arsenal_organization_sea: "$CHI_hanyan_arsenal_organization$"
+ CHI_mukden_arsenal_organization_sea: "$CHI_mukden_arsenal_organization$"
+ CHI_china_automobile_corporation_organization: "China Automobile Corporation"
+ CHI_kiangnan_shipyard_group_organization_sea: "อูตอเรือเจียงหนาน"
+ CHI_dagu_shipyard_organization_sea: "$CHI_dagu_shipyard_organization$"
+ CHI_jinling_arsenal_organization: "คลังแสงจินหลิง"
+ generic_mio_initial_trait_light_armored_manufacturer: "ผูผลิตยานเกราะเบา"
+ generic_mio_trait_locally_sourced_alloys: "โลหะผสมจากแหลงในประเทศ"
+ generic_mio_trait_reinforcing_plates: "แผนเสริมความแข็งแรง"
+ generic_mio_trait_self_cycling_guns: "อาวุธปนบรรจุกระสุนอัตโนมัติ"
+ generic_mio_trait_superior_fuel_mix: "สวนผสมเชื้อเพลิงชั้นเยี่ยม"
+ generic_mio_trait_fully_auto_pistol: "ปนพกกึ่งอัตโนมัติ"
+ generic_mio_trait_long_range_priority: "ใหความสําคัญกับพิสัยไกล"
+ generic_mio_trait_sufficient_armor: "เกราะที่เพียงพอ"
+ generic_mio_trait_simplified_hulls: "ตัวเรือแบบเรียบงาย"
+ generic_mio_trait_modular_construction: "การกอสรางแบบโมดูล"
+ generic_mio_trait_increased_amount_of_bulkheads: "ผนังกั้นนํ้าสํารอง"
+ CHI_local_bomber_production_tt: "ไดทําแผนยุทธศาสตร §Y$CHI_local_bomber_production$§! สําเร็จแลว"
+ CHI_local_fighter_production_tt: "ไดทําแผนยุทธศาสตร §Y$CHI_local_fighter_production$§! สําเร็จแลว"
+ CHI_camco_tt: "ไดทําแผนยุทธศาสตร §Y$CHI_camco$§! สําเร็จแลว"
+ CHI_chinese_panzers_TT: "ไดทําแผนยุทธศาสตร §Y$CHI_chinese_panzers$§! สําเร็จแลว"
+
+
+
+
+
+
+ ### PRC - Organizations
+ PRC_factory_617_organization: "โรงงาน 617"
+ PRC_factory_617_early_mbt_trait: "รถถังหลักยุคแรก"
+ PRC_first_tractor_company_organization: "บริษัทแทรกเตอรที่หนึ่ง"
+ PRC_first_tractor_company_peoples_tank_trait: "รถถังของประชาชน"
+ PRC_shipbuilding_industry_bureau_organization: "สํานักงานอุตสาหกรรมตอเรือ"
+ PRC_shipbuilding_industry_bureau_nascant_shipbuilding_trait: "อุตสาหกรรมตอเรือแรกเริ่ม"
+ PRC_dalian_shipbuilding_company_organization: "บริษัทตอเรือตาเหลียน"
+ PRC_dalian_shipbuilding_company_carrier_learners: "ผูเรียนรูเรือบรรทุกเครื่องบิน"
+ PRC_dalian_shipbuilding_company_domestic_carriers_trait: "โครงการเรือบรรทุกเครื่องบินในประเทศ"
+ PRC_dalian_shipbuilding_company_mass_production_carriers_trait: "การผลิตเรือบรรทุกเครื่องบินจํานวนมาก"
+ PRC_peoples_aviation_company_of_china_organization: "บริษัทการบินประชาชนแหงจีน"
+ PRC_peoples_aviation_company_of_china_power_of_monopoly_trait: "อํานาจแหงการผูกขาด"
+ PRC_shenyang_aircraft_corporation_organization: "บริษัทอากาศยานเสิ่นหยาง"
+ PRC_shenyang_aircraft_corporation_domestic_jet_manufacturer_trait: "ผูผลิตเครื่องบินไอพนในประเทศ"
+ PRC_harbin_aircraft_industry_group_organization: "กลุมอุตสาหกรรมอากาศยานฮารบิน"
+ PRC_harbin_aircraft_industry_group_harbin_aircraft_manufacturing_plant_trait: "โรงงานผลิตอากาศยานฮารบิน"
+ PRC_harbin_aircraft_industry_group_factory_122_trait: "โรงงาน 122"
+ PRC_harbin_aircraft_industry_group_organization_non_gtd: "กลุมอุตสาหกรรมอากาศยานฮารบิน"
+ PRC_ordenance_bureau_organization: "สํานักงานสรรพาวุธ"
+ PRC_ordenance_bureau_central_planning_trait: "การวางแผนจากสวนกลาง"
+ PRC_huangyadong_arsenal_organization: "คลังแสงหวงหยาตง"
+ PRC_huangyadong_arsenal_cave_industry_trait: "อุตสาหกรรมในถํ้า"
+ PRC_huangyadong_arsenal_jewell_in_the_crown_trait: "มณีแหงมงกุฎ"
+ PRC_cmc_military_industry_bureau_organization: "สํานักงานอุตสาหกรรมทหารแหงคณะกรรมาธิการการทหารกลาง"
+ PRC_cmc_military_industry_bureau_center_of_the_red_arsenal_trait: "ศูนยกลางคลังแสงแดง"
+ PRC_first_automative_works_organization: "โรงงานยานยนตที่หนึ่ง"
+ PRC_first_automative_works_organization_non_lar: "โรงงานยานยนตที่หนึ่ง"
+ PRC_first_automative_works_soviet_advisors_trait: "ที่ปรึกษาโซเวียต"
+ PRC_harbin_aircraft_industry_group_organization_header: "เฮลิคอปเตอร"
+ PRC_dalian_shipbuilding_company_organization_header: "โครงการเรือบรรทุกเครื่องบิน"
+ PRC_shipbuilding_industry_bureau_organization_header: "อุตสาหกรรม"
+ PRC_huangyadong_arsenal_organization_header: "อุตสาหกรรม"
+ PRC_shenyang_aircraft_corporation_factory_112_trait: "โรงงาน 112"
+ PRC_peoples_aviation_company_of_china_transport_planes_trait: "ฝูงบินอิลยูชิน"
+ PRC_shipbuilding_industry_bureau_office_of_the_science_technology_committee_trait: "สํานักงานคณะกรรมการวิทยาศาสตรและเทคโนโลยี"
+
+ ### Philippines MIOs ###
+
+ PHI_mio_trait_rugged_construction: "การกอสรางที่ทนทาน"
+ PHI_mio_trait_use_local_materials: "ใชวัสดุในทองถิ่น"
+ PHI_mio_trait_naval_caliber_artillery: "ปนใหญขนาดลํากลองเรือ"
+ PHI_mio_trait_civilian_smugglers: "ผูลักลอบขนของพลเรือน"
+ PHI_mio_trait_ethanol_fuel_adaptations: "การดัดแปลงใหใชเชื้อเพลิงเอทานอล"
+ PHI_mio_trait_coconut_fuel_adaptations: "การดัดแปลงใหใชเชื้อเพลิงมะพราว"
+ PHI_mio_trait_coastal_specialization: "ความเชี่ยวชาญดานชายฝง"
+ PHI_mio_trait_employ_civilian_cargo: "ใชเรือสินคาพลเรือน"
+ PHI_mio_trait_ad_hoc_armor_reinforcement: "การเสริมเกราะเฉพาะหนา"
+ PHI_mio_trait_widened_tracks: "สายพานแบบกวาง"
+ PHI_mio_trait_widened_tires: "ยางแบบกวาง"
+ PHI_mio_trait_improvised_bombs: "ระเบิดแสวงเครื่อง"
+ PHI_mio_trait_engine_filters: "ไสกรองเครื่องยนต"
+
+ ### Indonesia MIOs ###
+ INS_nsm_amsterdam_name_nationalized: "NSM จาการตา"
+ INS_nsm_amsterdam_name_normal: "NSM อัมสเตอรดัม"
+ INS_nsm_amsterdam_organization: "[INS_nsm_amsterdam_name]"
+ nsm_amsterdam_ins: "[INS_nsm_amsterdam_name]"
+
+ INS_marine_establishment_organization: "Marine Establishment"
+ marine_establishment_ins: "Marine Establishment"
+
+ INS_fokker_name_normal: "Fokker"
+ INS_fokker_name_nationalized: "IPT Nusantara"
+ INS_fokker_organization: "[INS_fokker_name]"
+ fokker_ins: "[INS_fokker_name]"
+
+ INS_knilm_name_normal: "KNILM"
+ INS_knilm_name_nationalized: "Garuda Indonesia"
+ INS_knilm_organization: "[INS_knilm_name]"
+ knilm: "[INS_knilm_name]"
+
+ INS_artillerie_inrichtingen_name_normal: "Artillerie Inrichtingen"
+ INS_artillerie_inrichtingen_name_nationalized: "Industri Persenjataan Negara"
+ INS_artillerie_inrichtingen_organization: "[INS_artillerie_inrichtingen_name]"
+ artillerie_inrichtingen_ins: "[INS_artillerie_inrichtingen_name]"
+
+ INS_artillerie_inrichtingen_pyrotechnische_name_normal: "AI Pyrotechnische"
+ INS_artillerie_inrichtingen_pyrotechnische_name_nationalized: "Industri Persenjataan Amunisi"
+ INS_artillerie_inrichtingen_pyrotechnische_organization: "[INS_artillerie_inrichtingen_pyrotechnische_name]"
+ artillerie_inrichtingen_pyrotechnische: "[INS_artillerie_inrichtingen_pyrotechnische_name]"
+
+ INS_bio_pharma_name_normal: "Landskoepok–Pasteur"
+ INS_bio_pharma_name_nationalized: "Bio Farma"
+ INS_bio_pharma_organization: "[INS_bio_pharma_name]"
+ bio_pharma: "[INS_bio_pharma_name]"
+
+ INS_machinefabriek_braat_name_normal: "N.V. Machinefabriek Braat"
+ INS_machinefabriek_braat_name_nationalized: "Pabrik Mesin Surabaya"
+ INS_machinefabriek_braat_organization: "[INS_machinefabriek_braat_name]"
+ machinefabriek_braat: "[INS_machinefabriek_braat_name]"
+
+ ### Australia MIOs ###
+ AST_mio_trait_lee_enfield_no1_mark3: "$AST_lee_enfield_no1_mark3$"
+ AST_mio_trait_owen_gun: "$AST_owen_gun$"
+ AST_mio_trait_better_ammo_supply: "การสงกําลังกระสุนที่ดีขึ้น"
+ AST_mio_trait_yeramba_engineering: "วิศวกรรม Yeramba"
+ AST_mio_trait_anti_tank_improvements: "การปรับปรุงดานตอตานรถถัง"
+ AST_mio_trait_commonwealth_exports: "สินคาสงออกของเครือจักรภพ"
+ AST_mio_trait_defensive_emplacements: "ที่มั่นตั้งรับ"
+ AST_mio_trait_utility_conversions: "การดัดแปลงเปนรถอเนกประสงค"
+ AST_mio_trait_all_australian_drive: "ระบบขับเคลื่อนแบบออสเตรเลียแท"
+ AST_mio_trait_bush_modifications: "การดัดแปลงสําหรับพื้นที่ปาละเมาะ"
+ AST_mio_trait_light_vehicle_standardization: "การกําหนดมาตรฐานยานยนตเบา"
+ AST_mio_trait_corrugated_iron_ingenuity: "ความเฉลียวฉลาดจากสังกะสีลูกฟูก"
+ AST_mio_trait_integrated_steelworks: "โรงงานเหล็กกลาแบบบูรณาการ"
+ AST_mio_trait_mosquito_local_production: "การผลิต Mosquito ในประเทศ"
+ AST_mio_trait_timber_frame_mastery: "ความเชี่ยวชาญโครงสรางไม"
+ AST_mio_trait_high_altitude_calibration: "การปรับเทียบสําหรับระยะสูง"
+ AST_mio_trait_nationalised_production_standards: "มาตรฐานการผลิตของรัฐ"
+ AST_mio_trait_trainer_to_combat_pipeline: "เสนทางจากเครื่องบินฝกสูเครื่องบินรบ"
+ AST_mio_trait_commonwealth_procurement_office: "สํานักงานจัดซื้อเครือจักรภพ"
+ AST_mio_trait_boomerang_spirit: "จิตวิญญาณบูมเมอแรง"
+ AST_mio_trait_indigenous_airframe_design: "การออกแบบโครงเครื่องบินในประเทศ"
+ AST_mio_trait_wirraway_versatility: "ความอเนกประสงคของ Wirraway"
+ AST_mio_trait_raf_doctrine_integration: "การบูรณาการหลักนิยม RAF"
+ AST_mio_trait_gladiator_lessons_learned: "บทเรียนจาก Gladiator"
+ AST_mio_trait_jet_transition_pathway: "เสนทางสูยุคไอพน"
+ AST_mio_trait_kittyhawk_reliability_programme: "โครงการความนาเชื่อถือของ Kittyhawk"
+ AST_mio_trait_cross_pacific_logistics: "การสงกําลังบํารุงขามแปซิฟก"
+ AST_mio_trait_dive_bombing_refinement: "การปรับปรุงการดิ่งทิ้งระเบิด"
+ AST_mio_trait_hudson_coastal_patrol: "การลาดตระเวนชายฝงดวย Hudson"
+ AST_mio_trait_pacific_overwater_endurance: "ความอึดในการบินเหนือทะเลแปซิฟก"
+ AST_mio_trait_ventura_strike_packages: "ชุดโจมตี Ventura"
+ AST_mio_trait_evans_deakin_coral_sea_hunters: "นักลาแหงทะเลคอรัล"
+ AST_mio_trait_evans_deakin_pacific_raider_refit: "การปรับปรุงเรือจูโจมแปซิฟก"
+ AST_mio_trait_evans_deakin_lightweight_hull_construction: "การสรางตัวเรือนํ้าหนักเบา"
+ AST_mio_trait_morts_dock_convoy_protection_protocols: "ระเบียบปฏิบัติการคุมกันขบวนเรือลําเลียง"
+ AST_mio_trait_morts_dock_sydney_harbour_defenders: "ผูพิทักษอาวซิดนีย"
+ AST_mio_trait_morts_dock_endurance_refit_standards: "มาตรฐานการปรับปรุงเพื่อความทนทาน"
+ AST_mio_trait_cockatoo_docks_battle_damage_overhaul: "การซอมใหญความเสียหายจากการรบ"
+ AST_mio_trait_cockatoo_docks_allied_fleet_servicing: "การซอมบํารุงกองเรือพันธมิตร"
+ AST_mio_trait_cockatoo_docks_drydock_capacity_expansion: "การขยายขีดความสามารถอูแหง"
+ AST_mio_trait_john_brown_clyde_built_standard: "มาตรฐานการตอเรือแบบไคลด"
+ AST_mio_trait_john_brown_capital_ship_heritage: "มรดกแหงเรือหลัก"
+ AST_mio_trait_john_brown_wartime_surge_capacity: "ขีดความสามารถเรงการผลิตยามสงคราม"
+ AST_mio_trait_nuffield_liberty_engine_refinement: "การปรับปรุงเครื่องยนต Liberty"
+ AST_mio_trait_nuffield_cruiser_tank_lineage: "สายเลือดรถถังครูเซอร"
+ AST_mio_trait_nuffield_pursuit_doctrine_optimisation: "การปรับหลักนิยมการไลลาใหเหมาะสม"
+ AST_mio_trait_vulcan_matilda_pacific: "Matilda แปซิฟก"
+ AST_mio_trait_vulcan_jungle_assault_modifications: "การดัดแปลงสําหรับการโจมตีในปา"
+ AST_mio_trait_vulcan_slow_and_steady_resilience: "ความทนทานแบบชาแตมั่นคง"
+ AST_mio_trait_nswgr_sentinel_casting_programme: "โครงการหลอ Sentinel"
+ AST_mio_trait_nswgr_railway_foundry_capacity: "ขีดความสามารถโรงหลอรถไฟ"
+ AST_mio_trait_nswgr_progressive_up_armouring: "การเพิ่มเกราะอยางตอเนื่อง"
+ AST_mio_trait_acf_production_pipeline: "สายพานการผลิต"
+ AST_mio_trait_acf_lend_lease_integration: "การบูรณาการใหยืม-เชา"
+ AST_mio_trait_acf_arsenal_of_the_pacific: "คลังแสงแหงแปซิฟก"
+
+
+ ## SIAM ###
+ SIA_army_ordnance_department_organzation: "แผนกอาวุธเบา กรมสรรพาวุธทหารบก"
+ SIA_army_ordnance_department_artillery_organzation: "แผนกปนใหญ กรมสรรพาวุธทหารบก"
+ SIA_thai_rung_organization: "ไทยรุง"
+ SIA_directorate_of_aeronautical_engineering: "กรมวิศวกรรมการบิน"
+ SIA_mio_trait_japanese_air_mission: "คณะผูแทนทางเทคนิคญี่ปุน"
+ SIA_mio_trait_american_procurement: "ชองทางการจัดซื้อจากอเมริกา"
+ SIA_chaiseri_organization: "ชัยเสรี"
+ SIA_bangkok_dock_organization: "อูกรุงเทพ"
+
+
+########################################################################    
+
+  ##     ## ##     ## ##    ## ####  ######  ##     ##
+  ###   ### ##     ## ###   ##  ##  ##    ## ##     ##
+  #### #### ##     ## ####  ##  ##  ##       ##     ## 
+  ## ### ## ##     ## ## ## ##  ##  ##       #########
+  ##     ## ##     ## ##  ####  ##  ##       ##     ##
+  ##     ## ##     ## ##   ###  ##  ##    ## ##     ##
+  ##     ##  #######  ##    ## ####  ######  ##     ##
+
+ ##########################
+ #######    PFOT    #######
+ ##########################
+
+ #CZECHOSLOVAKIA - Organizations
+ CZE_zbrojovka_vsetin_organization: "Zbrojovka-Vsetín"
+ CZE_benees_mraz_organization: "Beneš-Mráz"
+ CZE_zlin_aircraft_organization: "อากาศยาน Zlín"
+ CZE_CKD_plzen_organization: "CKD-Plzen"
+ CZE_ceska_zbrojovka_uhersky_brod_organization: "CZ Uherský Brod"
+ CZE_ringhoffer_tatra_organization: "Ringhoffer-Tatra"
+ CZE_skoda_plzen_tank_destroyer_organization: "Škoda ยานเกราะ-Plzen"
+
+ #OTHER TAGS - Organizations
+ CZE_skoda_works_german_organization: "$CZE_skoda_works$-ปราก"
+ CZE_bohmische_mahrische_maschinenfabrik_ag_german_organization: "Böhmische-Mährische Maschinenfabrik AG"
+ GER_henschel_kassel_organization: "Henschel-Kassel"
+ ENG_crewe_works_organization: "Crewe Works"
+ USA_baldwin_locomotive_works_organization: "Baldwin Locomotive Works"
+ FRA_alsthom_organization: "Alsthom"
+ SOV_kolomna_locomotive_plant_name_dynamic: "[SOV_kolomna_locomotive_plant_name_dynamic]"
+ SOV_kolomna_locomotive_plant_communist: "โรงงานหัวรถจักร V.V. Kuybyshev"
+ SOV_kolomna_locomotive_plant_default: "โรงงานหัวรถจักรโคโลมนา"
+
+ #CZECHOSLOVAKIA - MIO Traits
+ CZE_mio_trait_skoda_works: "$CZE_skoda_works$"
+ CZE_mio_trait_walter_co_name: "เครื่องยนต $CZE_walter_co$"
+ CZE_bata_corporation_name: "โรงงาน $CZE_bata_corporation$"
+ CZE_mio_trait_walter_co_taken_flag: " $GER_hoesch_facilities_trait_taken_flag$"
+ CZE_mio_trait_bata_corporation_taken_flag: " $GER_hoesch_facilities_trait_taken_flag$"
+
+ #OTHER TAGS - MIO Traits
+ CZE_mio_trait_gun_smuggling_difficulties: "ความยากลําบากในการลักลอบขนอาวุธ"
+ CZE_mio_trait_panzer_38t_chassis_conversion: "การดัดแปลงแชสซี Panzer 38(t)"
+ CZE_mio_trait_messerschmitt_integration: "การบูรณาการเขากับสายการผลิตของ Messerschmitt"
+ CZE_mio_trait_walter_co_german_taken_flag: "  $GER_hoesch_facilities_trait_taken_flag$"
+ GER_mio_trait_lokomotivfabrik_floridsdorf: "โรงงาน Lokomotivfabrik Floridsdorf"
+ generic_mio_trait_compulsory_tank_designer: "ผูผลิตรถถังภาคบังคับ"
+ generic_mio_trait_off_the_board_designs: "แบบที่นอกกรอบ"
+ generic_mio_trait_armor_improvements: "การปรับปรุงเกราะ"
+ generic_mio_trait_cruiser_tank_production: "การผลิตรถถังครูเซอร"
+ generic_mio_trait_additional_anti_aircraft_machine_guns: "ปนกลตอสูอากาศยานเพิ่มเติม"
+ ENG_mio_trait_lms_logistical_expertise: "ความเชี่ยวชาญการสงกําลังบํารุงทางรถไฟ LMS"
+ CZE_mio_trait_minimalist_wagon_design: "การออกแบบตูรถไฟแบบเรียบงาย"
+ ENG_mio_trait_lms_class_stanier_class_5_black_five: "LMS Black Five"
+ ENG_mio_trait_vickers_armstrong_knowledge_sharing: "การแบงปนความรูกับ $ENG_vickers_armstrong_eng_organization$"
+ CZE_mio_trait_scam_facilities: "โรงงานมูลูซ"
+
+ #SLOVAKIA - Organizations
+ SLO_povazska_bystrica_organization: "Škoda-Považská Bystrica"
+ SLO_CZE_skoda_artillery_organization: "Škoda-ดุบนิตซา นัด วาโฮม"
+ SLO_zbrojnica_roth_organization: "Zbrojnica Roth"
+ SLO_generic_escort_ship_organization: "Prístav Bratislava"
+ SLO_CZE_letov_organization: "Letov-Bratislava"
+ SLO_generic_general_aircraft_organization: "Považské strojárne"
+ SLO_svit_organization: "Svit"
+ SLO_CZE_skoda_armor_organization: "Škoda-ดุบนิตซา นัด วาโฮม"
+ SLO_CZE_skoda_plzen_tank_destroyer_organization: "Závody ťažkého strojárstva"
+
+ ###################################
+ #### AUTOMATIC WEAPON DESIGNER ####
+ ###################################
+ CZE_mio_initial_trait_automatic_manufacturer: "ผูผลิตอาวุธอัตโนมัติ"
+ CZE_mio_trait_drum_mags: "ซองกระสุนแบบกลอง"
+ CZE_mio_trait_box_mags: "ซองกระสุนแบบกลอง"
+ CZE_mio_trait_9_mm: "ขนาดลํากลอง 9mm"
+ CZE_mio_trait_larger_calibers: "ขนาดลํากลอง 45mm"
+ CZE_mio_trait_maintain_current_firing_mechanism: "คงการออกแบบกลไกการยิงแบบเดิม"
+ CZE_mio_trait_simplified_firing_mechanisms: "กลไกการยิงแบบเรียบงาย"
+ CZE_mio_trait_reduce_use_of_wooden_parts: "ลดการใชโครงไม"
+ CZE_mio_trait_stamp_steel_components: "โครงสรางเหล็กปมขึ้นรูป"
+ CZE_mio_trait_anti_tank_rifles: "ปนเล็กยาวตอสูรถถัง"
+ CZE_mio_trait_simplified_barrel_forging: "การตีขึ้นรูปลํากลองแบบเรียบงาย"
+ 
+
+ ###################################
+ ####  Tank Destroyer Designer  ####
+ ###################################
+ CZE_tank_destroyer_organization: "ผูผลิตรถถังพิฆาต"
+ CZE_mio_trait_initial_trait_tank_destroyer_guns_organization: "ผูออกแบบรถถังพิฆาต"
+ CZE_mio_trait_mobile_tank_destroyers: "รถถังพิฆาตแบบตีแลวหนี"
+ CZE_mio_trait_multi_purpose_ammunition_tank_destoryer: "กระสุนอเนกประสงค"
+ CZE_mio_trait_light_tank_destroyer_artillery_gun_combo: "ปนใหญผสานปนรถถัง"
+ CZE_mio_trait_light_tank_destroyer_gun_improved_muzzle_breaks: "เบรกปากลํากลองที่ปรับปรุงแลว"
+ CZE_mio_trait_medium_tank_hunters_tank_destoryer: "นักลารถถังเคลื่อนที่เร็ว"
+ CZE_mio_trait_low_profile_ambushers_tank_destoryer: "นักซุมโจมตีรูปทรงเตี้ย"
+ CZE_mio_trait_armor_reinforced_sloped_armor_tank_destroyer: "เกราะลาดเอียงเสริมความแข็งแรง"
+ CZE_mio_trait_rear_and_low_ammo_compartment_tank_destroyer: "ชองเก็บกระสุนดานหลังและตําแหนงตํ่า"
+ CZE_mio_trait_medium_tank_destroyer_gun_high_velocity_rounds: "กระสุนความเร็วสูง"
+ CZE_mio_trait_medium_tank_destroyer_extended_barrel_length: "ลํากลองที่ยาวขึ้น"
+ CZE_mio_trait_heavy_mobile_siege_cannons: "ปนใหญลอมเมืองเคลื่อนที่"
+ CZE_mio_trait_improved_barrel_cooling: "ระบบระบายความรอนลํากลองที่ปรับปรุงแลว"
+ CZE_mio_minimalist_gun_designs: "การออกแบบปนแบบเรียบงาย"
+ CZE_mio_trait_additional_ammo_storage: "ที่เก็บกระสุนเพิ่มเติม"
+ CZE_mio_trait_easier_gun_maintance: "การซอมบํารุงปนที่งายขึ้น"
+ CZE_mio_trait_cannon_improvements: "การปรับปรุงปนใหญ"
+
+
+########################################################################                                                 
+
+ ######   ######## ##    ## ######## ########  ####  ######   ######  
+##    ##  ##       ###   ## ##       ##     ##  ##  ##    ## ##    ## 
+##        ##       ####  ## ##       ##     ##  ##  ##       ##       
+##   #### ######   ## ## ## ######   ########   ##  ##        ######  
+##    ##  ##       ##  #### ##       ##   ##    ##  ##             ## 
+##    ##  ##       ##   ### ##       ##    ##   ##  ##    ## ##    ## 
+ ######   ######## ##    ## ######## ##     ## ####  ######   ######  
+
+
+### GENERIC TOOLTIPS FOR SPECIAL TRAITS ##
+ generic_has_already_completed_this_trait: " ไดปลดล็อกคุณลักษณะนี้ในองคกรอื่นแลว"
+ generic_trait_will_not_be_available_in_other_organizations: "§Rคุณลักษณะนี้จะไมสามารถใชไดอีกในองคกรอื่นๆ§!"
+
+
+###  ##  #  # # #     #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ## 
+ #  #  # ## # # #     ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #   
+ #  #### # ## ##      # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #  
+ #  #  # #  # # #     #   #  #  #  #     #  # #  # #  # #  # #    #    #   #    #     # 
+ #  #  # #  # # #     #   # ###  ##      #  # #  #  ##  #  # ###  #    #   #    ### ##  
+
+
+################################
+#### GENERAL TANK DESIGNER ####
+################################
+ generic_tank_organization: "ผูผลิตรถถัง"
+ generic_mio_initial_trait_standardized_production: "การผลิตแบบมาตรฐาน"
+ generic_mio_trait_simplified_suspension: "ระบบรองรับแบบเรียบงาย"
+ generic_mio_trait_crew_ergonomics: "การยศาสตรสําหรับพลประจํารถ"
+ generic_mio_trait_improved_tracks: "สายพานที่ปรับปรุงแลว"
+ generic_mio_trait_command_upgrades: "การปรับปรุงทัศนวิสัย"
+ generic_mio_trait_standardized_components: "ชิ้นสวนมาตรฐาน"
+ generic_mio_trait_improved_tooling: "เครื่องมือการผลิตที่ปรับปรุงแลว"
+ generic_mio_trait_quality_improvements: "การปรับปรุงคุณภาพ"
+ generic_mio_trait_defensive_equipment: "อาวุธติดตั้งบนแทนหมุน"
+ generic_mio_trait_long_barreled_guns: "ปนลํากลองยาว"
+ generic_mio_trait_anti_tank_specialization: "ความเชี่ยวชาญดานตอตานรถถัง"
+ generic_mio_trait_infantry_support_tanks: "รถถังสนับสนุนทหารราบ"
+
+
+################################
+#### INFANTRY TANK DESIGNER ####
+################################
+ generic_infantry_tank_organization: "ผูผลิตรถถังทหารราบ"
+ generic_mio_initial_trait_infantry_tanks_designer: "ผูออกแบบรถถังทหารราบ"
+ generic_mio_trait_single_engine: "เครื่องยนตที่ทนทาน"
+ generic_mio_trait_dual_engine_redundancy: "เครื่องยนตที่เชื่อถือได"
+ generic_mio_trait_interleaved_track_wheels: "ลอกดสายพานขนาดใหญ"
+ generic_mio_trait_overlapped_track_wheels: "ลอกดสายพานขนาดเล็ก"
+ generic_mio_trait_battle_tank_specifications: "ขอกําหนดรถถังเจาะแนว"
+ generic_mio_trait_adaptable_turret_ring: "วงแหวนปอมปนที่ปรับใชไดหลากหลาย"
+ generic_mio_trait_turret_sights: "ทัศนวิสัยโดมผูบังคับการที่ปรับปรุงแลว"
+ generic_mio_trait_close_support_role: "บทบาทสนับสนุนโดยใกลชิด"
+ generic_mio_trait_anti_tank_role: "บทบาทตอตานรถถัง"
+ generic_mio_trait_adaptable_chassis: "แชสซีที่ปรับใชไดหลากหลาย"
+ generic_mio_trait_light_tank_specialization: "ความเชี่ยวชาญดานรถถังเบา"
+ generic_mio_trait_medium_tank_specialization: "ความเชี่ยวชาญดานรถถังกลาง"
+ generic_mio_trait_heavy_tank_specialization: "ความเชี่ยวชาญดานรถถังหนัก"
+ generic_mio_trait_thick_armor: "เกราะหนา"
+ generic_mio_trait_even_thicker_armor: "เกราะหนายิ่งขึ้นไปอีก"
+
+
+################################
+#### MOBILE TANK DESIGNER ######
+################################
+ generic_mobile_tank_organization: "ผูผลิตรถถังเคลื่อนที่เร็ว"
+ generic_mio_initial_trait_fast_tanks_designer: "ผูออกแบบรถถังความเร็วสูง"
+ generic_mio_trait_improved_boogies: "ลอโบกี้ที่ปรับปรุงแลว"
+ generic_mio_engine_optimization: "การปรับแตงเครื่องยนต"
+ generic_mio_reduced_fuel_usage: "ประสิทธิภาพการใชเชื้อเพลิง"
+ generic_mio_improved_ventilation: "การระบายอากาศที่ปรับปรุงแลว"
+ generic_mio_improved_tracks_and_suspension: "สายพานและระบบรองรับที่ปรับปรุงแลว"
+ generic_mio_sloping_armor: "เกราะลาดเอียง"
+ generic_mio_lighter_materials: "วัสดุที่เบาขึ้น"
+ generic_mio_armor_hardening_process: "กระบวนการชุบแข็งเกราะ"
+ generic_mio_enlarged_breech: "กระสุนระเบิดแรงสูงที่ปรับปรุงแลว"
+ generic_mio_gunner_sight_improvements: "การปรับปรุงกลองเล็งของพลยิง"
+ generic_mio_quality_assurance_routines: "ขั้นตอนการประกันคุณภาพ"
+ generic_mio_streamlined_production: "การผลิตที่คลองตัว"
+
+
+################################
+#### MEDIUM TANK DESIGNER ######
+################################
+ generic_medium_tank_organization: "ผูผลิตรถถังกลาง"
+ generic_mio_initial_trait_medium_tank_designer: "ผูออกแบบรถถังกลาง"
+ generic_mio_trait_power_traverse: "ระบบหมุนปอมปนดวยกําลัง"
+ generic_mio_trait_all_round_cupola: "โดมผูบังคับการรอบทิศ"
+ generic_mio_trait_simplified_turret_design: "การออกแบบปอมปนแบบเรียบงาย"
+ generic_mio_trait_specialist_shells: "กระสุน APBC"
+ generic_mio_trait_improved_gun_metallurgy: "โลหะวิทยาปนที่ปรับปรุงแลว"
+ generic_mio_trait_advanced_shells: "กระสุน APCR"
+ generic_mio_trait_armor_steel_working: "การผลิตเกราะจํานวนมาก"
+ generic_mio_trait_spaced_armor: "เกราะแบบเวนระยะ"
+ generic_mio_trait_crew_survival_layout: "การรอดชีวิตของพลประจํารถ"
+ generic_mio_trait_sloped_side_armor: "เกราะดานขางลาดเอียง"
+ generic_mio_trait_truck_engines: "เครื่องยนตรถบรรทุก"
+ generic_mio_trait_aircraft_engines: "เครื่องยนตอากาศยาน"
+ generic_mio_trait_improved_suspension: "ระบบรองรับที่ปรับปรุงแลว"
+
+
+################################
+##### HEAVY TANK DESIGNER ######
+################################
+ generic_heavy_tank_organization: "ผูผลิตรถถังหนัก"
+ generic_mio_initial_trait_heavy_tank_designer: "ผูออกแบบรถถังหนัก"
+ generic_mio_trait_wide_tracks: "สายพานกวาง"
+ generic_mio_trait_fire_extinguishers: "เครื่องดับเพลิง"
+ generic_mio_trait_one_piece_hull_side_coverings: "การประกอบแบบโมดูล"
+ generic_mio_trait_simplified_transmission_system: "ระบบสงกําลังแบบเรียบงาย"
+ generic_mio_trait_improved_engine_output: "กําลังเครื่องยนตที่ปรับปรุงแลว"
+ generic_mio_trait_sloping_armor: "เกราะลาดเอียง"
+ generic_mio_trait_improved_crew_ergonomics: "การยศาสตรสําหรับพลประจํารถที่ปรับปรุงแลว"
+ generic_mio_trait_reinforced_construction: "โครงสรางเสริมความแข็งแรง"
+ generic_mio_trait_fully_cast_turret: "ปอมปนหลอทั้งชิ้น"
+ generic_mio_trait_commander_cupola: "โดมผูบังคับการ"
+ generic_mio_trait_simplified_layout: "การจัดวางแบบเรียบงาย"
+ generic_mio_trait_high_explosive_shells: "กระสุนระเบิดแรงสูงสะเก็ดระเบิด"
+ generic_mio_trait_apcr_hvap_shells: "กระสุน APCR/HVAP"
+
+
+#####################################
+##### TANK REFURBISHMENT PLANT ######
+#####################################
+ generic_tank_refurbishment_plant_organization: "โรงงานซอมปรับสภาพรถถัง"
+ generic_mio_initial_trait_tank_refurbishment_plant: "โรงงานซอมปรับสภาพรถถัง"
+ generic_mio_trait_enemy_tank_refitting: "การปรับปรุงรถถังที่ยึดมาได"
+ generic_mio_trait_efficient_scrap_recycling: "การรีไซเคิลเศษโลหะอยางมีประสิทธิภาพ"
+ generic_mio_trait_high_volume_smelter: "เตาหลอมปริมาณสูง"
+ generic_mio_trait_high_powered_engine_production: "การผลิตเครื่องยนตกําลังสูง"
+ generic_mio_trait_heavy_duty_machine_tools: "เครื่องมือกลงานหนัก"
+ generic_mio_trait_multi_plant_cooperation: "ความรวมมือหลายโรงงาน"
+ generic_mio_trait_standardized_secondary_armament: "อาวุธรองมาตรฐาน"
+ generic_mio_trait_mass_small_arms_ammunition_production: "การผลิตกระสุนอาวุธเบาจํานวนมาก"
+ generic_mio_trait_plant_tech_exchange: "การแลกเปลี่ยนเทคโนโลยีระหวางโรงงาน"
+ generic_mio_trait_dual_plant_main_armament_production: "การผลิตอาวุธหลักสองโรงงาน"
+ generic_mio_trait_24h_rotation_shifts: "การเปลี่ยนกะตลอด 24 ชั่วโมง"
+ generic_mio_trait_long_distance_escort: "ตูรถไฟปนตอสูอากาศยาน"
+ generic_mio_trait_barrels_of_hell: "การดัดแปลงปนเรือ"
+
+ #####################################
+ ##### ASSAULT GUNS MANUFACTURER #####
+ #####################################
+ generic_assault_guns_organization: "ผูผลิตปนจูโจม"
+ generic_mio_initial_trait_assault_guns_organization: "ผูผลิตปนจูโจม"
+ generic_mio_trait_light_assault_gun_improvements: "กองรอยปนใหญคุมกันทหารราบ"
+ generic_mio_trait_light_assault_gun_anti_tank_combo: "กระสุน HEAP ที่ปรับปรุงแลว"
+ generic_mio_trait_light_assault_gun_improved_cannon_stabilization: "กระสุนระเบิดแรงสูงที่ปรับปรุงแลว"
+ generic_mio_trait_light_assault_gun_10_5_iefh_ammunition: "การปรับปรุงตัวชดเชยแรงถอย"
+ generic_mio_trait_medium_assault_gun_improvements: "ปนใหญจูโจม"
+ generic_mio_lighter_materials_assault_guns: "วัสดุที่เบาขึ้น"
+ generic_mio_armor_hardening_process_assault_guns: "กระบวนการชุบแข็งเกราะอยางครอบคลุม"
+ generic_mio_medium_assault_gun_rocket_tubes: "เครื่องยิงจรวดอัตตาจรหุมเกราะ"
+ generic_mio_medium_assault_gun_75_mm_43M_tank_gun: "ทัศนอุปกรณแบบสองตา"
+ generic_mio_medium_assault_gun_low_slung_superstructure_and_fighting_compartment: "โครงสรางสวนบนรูปทรงเตี้ย"
+ generic_mio_trait_heavy_assault_gun_improvements: "ฐานยิงเคลื่อนที่"
+ generic_mio_trait_fully_cast_turret_assault_gun: "โครงสรางสวนบนแบบปด"
+ generic_mio_trait_assault_gun_improved_tracks: "สายพานเสริมความแข็งแรง"
+
+
+
+ ## #  # ### ###      #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ## 
+#   #  #  #  #  #     ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #   
+ #  ####  #  ###      # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #  
+  # #  #  #  #        #   #  #  #  #     #  # #  # #  # #  # #    #    #   #    #     # 
+##  #  # ### #        #   # ###  ##      #  # #  #  ##  #  # ###  #    #   #    ### ##  
+
+
+######################################
+#### TASK FORCE SHIP MANUFACTURER ####
+######################################
+ generic_task_force_ship_organization: "ผูผลิตเรือหมูเฉพาะกิจ"
+ generic_mio_initial_trait_task_force_ship_builders: "ผูตอเรือหมูเฉพาะกิจ"
+ generic_mio_trait_long_range_cruising: "การเดินเรือพิสัยไกล"
+ generic_mio_trait_high_speed_cruising: "การเดินเรือความเร็วสูง"
+ generic_mio_trait_splinter_protection: "การปองกันสะเก็ด"
+ generic_mio_trait_transom_stern: "การปรับปรุงอุทกพลศาสตร"
+ generic_mio_trait_underway_replenishment_equipment: "อุปกรณเติมเสบียงกลางทะเล"
+ generic_mio_trait_secondary_fire_director_control: "การควบคุมอํานวยการยิงรอง"
+ generic_mio_trait_flight_deck_edge_aa_mounts: "แทนปนตอสูอากาศยานริมดาดฟาบิน"
+ generic_mio_trait_gyro_stabilized_mounts: "แทนปนรักษาเสถียรภาพดวยไจโร"
+ generic_mio_trait_rapid_fire_guns: "ปนยิงเร็ว"
+ JAP_generic_mio_trait_rapid_fire_guns: "แทนปนตอสูอากาศยาน 25mm สามลํากลอง Type 95"
+ generic_mio_trait_advanced_fitting_works: "งานติดตั้งขั้นสูง"
+ generic_mio_trait_carrier_flight_operations_center: "ปมดับเพลิงขั้นสูง"
+ generic_mio_trait_primary_fire_director_control: "การควบคุมอํานวยการยิงหลัก"
+ generic_mio_trait_high_velocity_guns: "ปนความเร็วตนสูง"
+ JAP_generic_mio_trait_high_velocity_guns: "ชนวนกระสุนเจาะเกราะที่เชื่อถือได"
+
+#######################################
+#### BATTLE LINE SHIP MANUFACTURER ####
+#######################################
+ generic_battle_line_ship_organization: "ผูผลิตเรือแนวรบ"
+ generic_mio_initial_trait_battle_line_ship_builders: "ผูตอเรือแนวรบ"
+ generic_mio_trait_external_armor_belt: "เข็มขัดเกราะแนวตั้ง"
+ generic_mio_trait_internal_armor_belt: "เข็มขัดเกราะแบบเอียง"
+ generic_mio_trait_hardened_critical_components: "ชิ้นสวนสําคัญที่ชุบแข็ง"
+ JAP_generic_mio_trait_hardened_critical_components: "การแบงสวนหองเครื่องจักรอยางละเอียด"
+ generic_mio_trait_advanced_hydrodynamic_design: "การออกแบบอุทกพลศาสตรขั้นสูง"
+ generic_mio_trait_advanced_armor_design: "การออกแบบเกราะขั้นสูง"
+ generic_mio_trait_anti_air_layout: "มุมยิงตอสูอากาศยานที่เหมาะสม"
+ generic_mio_trait_secondary_battery_layout: "การจัดวางปนรอง"
+ generic_mio_trait_combat_information_center: "ศูนยขอมูลการรบ"
+ generic_mio_trait_primary_battery_layout: "การจัดวางปนหลัก"
+ JAP_generic_mio_trait_primary_battery_layout: "ขีปนวิถีขั้นสูง"
+ generic_mio_trait_super_heavy_shells: "หัวครอบกันแตก"
+ generic_mio_trait_semi_armor_piercing_shells: "กระสุนกึ่งเจาะเกราะ"
+
+##################################
+#### ESCORT SHIP MANUFACTURER ####
+##################################
+ generic_escort_ship_organization: "ผูผลิตเรือคุมกัน"
+ generic_mio_initial_trait_escort_fleet: "ผูตอเรือคุมกัน"
+ generic_mio_trait_submarine_hunters: "การปรับใหเหมาะกับบทบาทปราบเรือดํานํ้า"
+ JAP_generic_mio_trait_submarine_hunters: "ระเบิดนํ้าลึก Type 2"
+ generic_mio_trait_high_speed_mine_hunting_equipment: "อุปกรณกวาดทุนระเบิดความเร็วสูง"
+ JAP_generic_mio_trait_high_speed_mine_hunting_equipment: "อุปกรณกวาดทุนระเบิดขนาดกลาง Type 3"
+ generic_mio_trait_fleet_escorts: "บทบาทคุมกันกองเรือ"
+ JAP_generic_mio_trait_fleet_escorts: "ความเหนือกวาเชิงคุณภาพ"
+ generic_mio_trait_anti_air_ships: "เรือตอสูอากาศยาน"
+ generic_mio_trait_escort_in_force: "การคุมกันดวยกําลังเต็มที่"
+ JAP_generic_mio_trait_escort_in_force: "แทนปนแบบปด"
+ generic_mio_trait_improved_anti_air_gun_mounting: "การติดตั้งปนตอสูอากาศยานที่ปรับปรุงแลว"
+ generic_mio_trait_mass_production: "การผลิตจํานวนมาก"
+ JAP_generic_mio_trait_mass_production: "การสรางแบบบล็อกเชื่อม"
+ generic_mio_trait_improved_light_gun_mounting: "การติดตั้งปนเบาที่ปรับปรุงแลว"
+ JAP_generic_mio_trait_improved_light_gun_mounting: "แทนปนตอสูอากาศยาน 25mm สามลํากลอง Type 95"
+
+##################################
+#### RAIDER SHIP MANUFACTURER ####
+##################################
+ generic_raider_ship_organization: "ผูผลิตเรือจูโจม"
+ generic_mio_initial_trait_raiding_fleet: "ผูตอเรือจูโจม"
+ generic_mio_trait_long_range_raiding: "การจูโจมพิสัยไกล"
+ generic_mio_trait_high_speed_raiding: "การจูโจมความเร็วสูง"
+ generic_mio_trait_diesel_powerplants: "โรงตนกําลังดีเซล"
+ generic_mio_trait_high_speed_operation_stores: "คลังเสบียงสําหรับปฏิบัติการความเร็วสูง"
+ generic_mio_trait_raiding_capital_ships: "เรือหลักสําหรับการจูโจม"
+ generic_mio_trait_long_range_engagement_ethos: "แนวคิดการรบระยะไกล"
+ generic_mio_trait_high_quality_optics: "ทัศนอุปกรณคุณภาพสูง"
+ generic_mio_trait_raider_escort_requirements: "ขอกําหนดการคุมกันเรือจูโจม"
+ generic_mio_trait_unescorted_raider_requirements: "ขอกําหนดเรือจูโจมแบบไมมีการคุมกัน"
+ generic_mio_trait_raiding_cruisers: "เรือลาดตระเวนจูโจม"
+ generic_mio_trait_raiding_submarines: "เรือดํานํ้าจูโจม"
+ generic_mio_trait_spotting_tops: "หอตรวจการณบนเสากระโดง"
+ generic_mio_trait_large_torpedo_banks: "ชุดทอยิงตอรปโดขนาดใหญ"
+ generic_mio_trait_mass_produced_raiders: "เรือจูโจมที่ผลิตจํานวนมาก"
+
+##############################
+### SUBMARINE MANUFACTURER ###
+##############################
+ generic_submarine_organization: "ผูผลิตเรือดํานํ้า"
+ generic_mio_initial_trait_submarine_designer: "ผูตอเรือดํานํ้า"
+ generic_mio_trait_decalin_fueled_torpedo: "ตอรปโดเชื้อเพลิงเดคาลิน"
+ generic_mio_trait_efficient_fuel_engines: "เครื่องยนตประหยัดเชื้อเพลิง"
+ generic_mio_trait_highly_efficient_diesel_electric_propulsion_systems: "ระบบขับเคลื่อนดีเซล-ไฟฟาประสิทธิภาพสูง"
+ generic_mio_trait_high_powered_engines: "เครื่องยนตกําลังสูง"
+ generic_mio_trait_open_cycle_propulsion: "ระบบขับเคลื่อนแบบวงจรเปด"
+ generic_mio_trait_experimental_anechoic_tiles: "แผนดูดซับเสียงสะทอนรุนทดลอง"
+ generic_mio_trait_improved_torpedo_detonators: "ตัวจุดระเบิดตอรปโดที่ปรับปรุงแลว"
+ generic_mio_trait_simplified_pressure_hull_design: "การออกแบบตัวเรือทนแรงดันแบบเรียบงาย"
+ generic_mio_trait_advanced_periscope: "กลองปริทรรศนขั้นสูง"
+ generic_mio_trait_emergency_main_ballast_tank_blow: "การเปาถังอับเฉาหลักฉุกเฉิน"
+ generic_mio_trait_radar_warning_receiver: "เครื่องรับสัญญาณเตือนเรดาร"
+ generic_mio_trait_crash_dive_flood_tanks: "ถังนํ้าสําหรับดําดวน"
+ generic_mio_trait_submarine_mass_production: "การผลิตเรือดํานํ้าจํานวนมาก"
+ generic_mio_trait_advanced_sonar: "โซนารขั้นสูง"
+ generic_mio_trait_deck_guns: "ปนบนดาดฟา"
+ generic_mio_trait_high_capacity_mine_storage: "ที่เก็บทุนระเบิดความจุสูง"
+
+
+##############################
+### BLACK SEA MANUFACTURER ###
+##############################
+ generic_black_sea_fleet_organization: "ผูผลิตกองเรือทะเลดํา"
+ generic_mio_initial_trait_black_sea_fleet_designer: "ผูตอเรือทะเลดํา"
+ generic_mio_trait_submarine_hunters_black_sea: "นักลาเรือดํานํ้า"
+ generic_mio_trait_efficient_patrolling_scheme: "แผนการลาดตระเวนที่มีประสิทธิภาพ"
+ generic_mio_trait_advanced_sub_scanners: "เครื่องตรวจจับเรือดํานํ้าขั้นสูง"
+ generic_mio_trait_high_altitute_catapult: "เครื่องดีดสงระยะสูง"
+ generic_mio_trait_light_armor_piercing_guns: "ปนเจาะเกราะ"
+ generic_mio_trait_brass_case_reloader: "เครื่องบรรจุปลอกกระสุนทองเหลืองใหม"
+ generic_mio_trait_anti_air_defense: "การปองกันภัยทางอากาศ"
+ generic_mio_trait_heavy_guns: "ปนหนัก"
+ generic_mio_advanced_periscope: "กลองปริทรรศนขั้นสูง"
+ generic_mio_trait_piercing_rounds: "กระสุนเจาะเกราะ"
+ generic_mio_trait_base_defense: "การปองกันฐานทัพ"
+ generic_mio_trait_state_sponsored_growth: "การเติบโตที่รัฐสนับสนุน"
+ generic_mio_trait_state_sponsored_research: "การวิจัยที่รัฐสนับสนุน"
+ generic_mio_trait_24h_shifts: "กะทํางาน 24 ชั่วโมง"
+ generic_mio_trait_state_subsidizing: "การอุดหนุนจากรัฐ"
+ generic_mio_trait_deck_guns_black_sea: "ปนบนดาดฟา"
+
+
+
+
+ generic_refurbishment_repair_organization: "ผูผลิตดานซอมบํารุงปรับสภาพ"
+ generic_mio_refurbishment_repair_organization: "$generic_refurbishment_repair_organization$"
+ generic_mio_trait_heavy_armored_hull: "ตัวเรือหุมเกราะหนัก"
+ generic_mio_trait_isolated_firemains: "ทอดับเพลิงหลักแบบแยกสวน"
+ generic_mio_trait_counter_flooding_system: "ระบบถวงนํ้าแกเอียง"
+ generic_mio_trait_anti_torpedo_bulge: "กระพุงกันตอรปโด"
+ generic_mio_trait_foam_fire_extinguishers: "เครื่องดับเพลิงชนิดโฟม"
+ generic_mio_trait_bulkhead_shoring_procedure: "ขั้นตอนคํ้ายันผนังกั้นนํ้า"
+ generic_mio_trait_high_powered_steering: "ระบบบังคับเลี้ยวกําลังสูง"
+ generic_mio_trait_flooding_boundries: "ขอบเขตกั้นนํ้าทวม"
+ generic_mio_trait_protected_pumps: "ปมที่มีการปองกัน"
+ generic_mio_trait_advanced_scanners: "เครื่องตรวจจับขั้นสูง"
+ generic_mio_trait_capital_destroyer_shells: "กระสุนพิฆาตเรือหลัก"
+ generic_mio_trait_naval_all_purpose_defense_systems: "ระบบปองกันอเนกประสงค"
+
+
+
+
+ ##  ### ###   ##  ###   ##  ### ###     #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ## 
+#  #  #  #  # #  # #  # #  # #    #      ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #   
+####  #  ###  #    ###  #### ##   #      # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #  
+#  #  #  #  # #  # #  # #  # #    #      #   #  #  #  #     #  # #  # #  # #  # #    #    #   #    #     # 
+#  # ### #  #  ##  #  # #  # #    #      #   # ###  ##      #  # #  #  ##  #  # ###  #    #   #    ### ##  
+
+
+#######################################
+#### GENERAL AIRCRAFT MANUFACTURER ####
+#######################################
+ generic_general_aircraft_organization: "ผูผลิตอากาศยานทั่วไป"
+ generic_mio_initial_trait_general_aircraft_designer: "ผูออกแบบอากาศยานทั่วไป"
+ generic_mio_trait_conservative_designs: "การออกแบบแบบอนุรักษนิยม"
+ generic_mio_trait_fighter_aircraft_specialists: "ผูเชี่ยวชาญเครื่องบินขับไล"
+ generic_mio_trait_high_speed_design: "การออกแบบความเร็วสูง"
+ generic_mio_trait_agility_wing_design: "การออกแบบปกเพื่อความคลองตัว"
+ generic_mio_trait_fighter_aircraft_production: "การผลิตเครื่องบินขับไล"
+ generic_mio_trait_bomber_aircraft_specialists: "ผูเชี่ยวชาญเครื่องบินทิ้งระเบิด"
+ generic_mio_trait_bomb_trucks: "รถบรรทุกระเบิดบินได"
+ generic_mio_trait_fast_bombers: "เครื่องบินทิ้งระเบิดความเร็วสูง"
+ generic_mio_trait_bomber_aircraft_production: "การผลิตเครื่องบินทิ้งระเบิด"
+ generic_mio_trait_naval_aircraft_specialists: "ผูเชี่ยวชาญอากาศยานนาวี"
+ generic_mio_trait_naval_strike: "การโจมตีทางทะเล"
+ generic_mio_trait_naval_air_patrol: "การลาดตระเวนทางอากาศเหนือทะเล"
+ generic_mio_trait_naval_aircraft_production: "การผลิตอากาศยานนาวี"
+
+
+#####################################
+#### LIGHT AIRCRAFT MANUFACTURER ####
+#####################################
+ generic_light_aircraft_organization: "ผูผลิตอากาศยานเบา"
+ generic_mio_initial_trait_light_aircraft_designer: "ผูออกแบบอากาศยานเบา"
+ generic_mio_trait_expanded_production_facilities: "ขยายโรงงานผลิต"
+ generic_mio_trait_fixed_tailwheels: "ลอทายแบบตายตัว"
+ generic_mio_trait_removable_wings: "ปกถอดได"
+ generic_mio_trait_liquid_cooled_engines: "เครื่องยนตระบายความรอนดวยของเหลว"
+ generic_mio_trait_maritime_duties: "ภารกิจทางทะเล"
+ generic_mio_trait_advanced_aerodynamics: "อากาศพลศาสตรขั้นสูง"
+ generic_mio_trait_fuselage_ordinance_rack: "แร็กติดอาวุธใตลําตัว"
+ generic_mio_trait_ongoing_developmental_upgrades: "การอัปเกรดเพื่อการพัฒนาอยางตอเนื่อง"
+ generic_mio_trait_heavier_airframe: "โครงเครื่องบินที่หนักขึ้น"
+ generic_mio_trait_maximum_wing_loads: "นํ้าหนักบรรทุกใตปกสูงสุด"
+ generic_mio_trait_gun_pods: "กระเปาะปน"
+ generic_mio_trait_multi_purpose_aircraft: "อากาศยานอเนกประสงค"
+ generic_mio_trait_fighter_specialization: "ความเชี่ยวชาญดานเครื่องบินขับไล"
+ generic_mio_trait_close_air_support_specialization: "ความเชี่ยวชาญดานการสนับสนุนทางอากาศโดยใกลชิด"
+ generic_mio_trait_flexible_design: "การออกแบบที่ยืดหยุน"
+ generic_mio_trait_fighter_expertise: "ความชํานาญดานเครื่องบินขับไล"
+ generic_mio_trait_close_air_support_expertise: "ความชํานาญดานการสนับสนุนทางอากาศโดยใกลชิด"
+
+######################################
+#### MEDIUM AIRCRAFT MANUFACTURER ####
+######################################
+ generic_medium_aircraft_organization: "ผูผลิตอากาศยานขนาดกลาง"
+ generic_mio_initial_trait_multi_role_tactical_aircraft: "ผูออกแบบอากาศยานขนาดกลาง"
+ generic_mio_trait_narrow_build: "โครงสรางลําตัวแคบ"
+ generic_mio_trait_mixed_material_construction: "การสรางดวยวัสดุผสม"
+ generic_mio_trait_multi_role_transport: "เครื่องบินลําเลียงหลายบทบาท"
+ generic_mio_trait_refined_engines: "เครื่องยนตที่ปรับแตงแลว"
+ generic_mio_trait_twin_tail: "หางคู"
+ generic_mio_trait_reinforced_wing_braces: "โครงคํ้าปกเสริมความแข็งแรง"
+ generic_mio_trait_expanded_cockpit: "หองนักบินที่ขยายใหญขึ้น"
+ generic_mio_trait_metal_nose_replacement: "การเปลี่ยนสวนหัวเปนโลหะ"
+ generic_mio_trait_streamlined_fuselage: "ลําตัวเครื่องบินทรงเพรียวลม"
+ generic_mio_trait_extra_machine_guns: "ปนกลเพิ่มเติม"
+ generic_mio_trait_adaptable_build: "โครงสรางที่ปรับใชไดหลากหลาย"
+ generic_mio_trait_heavy_fighter_specialization: "ความเชี่ยวชาญดานเครื่องบินขับไลหนัก"
+ generic_mio_trait_tactical_bomber_specialization: "ความเชี่ยวชาญดานเครื่องบินทิ้งระเบิดทางยุทธวิธี"
+ generic_mio_trait_skip_bombing: "การทิ้งระเบิดแบบกระดอนผิวนํ้า"
+ generic_mio_trait_high_frequency_direction_finding: "การหาทิศทางดวยคลื่นความถี่สูง"
+
+#####################################
+#### HEAVY AIRCRAFT MANUFACTURER ####
+#####################################
+ generic_heavy_aircraft_organization: "ผูผลิตอากาศยานหนัก"
+ generic_mio_initial_trait_heavy_aircraft_designer: "ผูออกแบบอากาศยานหนัก"
+ generic_mio_trait_reinforced_frames: "โครงเสริมความแข็งแรง"
+ generic_mio_trait_transport_conversions: "การดัดแปลงเปนเครื่องบินลําเลียง"
+ generic_mio_trait_standardized_alloys: "โลหะผสมมาตรฐาน"
+ generic_mio_trait_drop_hammer_alloy_straining: "การขึ้นรูปโลหะผสมดวยคอนตก"
+ generic_mio_trait_refined_secondary_aluminium: "อะลูมิเนียมทุติยภูมิที่ผานการกลั่น"
+ generic_mio_trait_high_quality_aluminium_alloys: "โลหะผสมอะลูมิเนียมคุณภาพสูง"
+ generic_mio_trait_pressurized_cockpit: "หองนักบินปรับความดัน"
+ generic_mio_trait_advanced_turbochargers: "เทอรโบชารจเจอรขั้นสูง"
+ generic_mio_trait_extended_rear_fuselage: "ลําตัวสวนทายที่ยืดยาวขึ้น"
+ generic_mio_trait_auto_levelled_bombsights: "ศูนยเล็งทิ้งระเบิดปรับระดับอัตโนมัติ"
+ generic_mio_trait_air_deployed_sonobuoys: "ทุนโซนารปลอยจากอากาศ"
+ generic_mio_trait_cockpit_controlled_remote_gun_turrets: "ปอมปนควบคุมระยะไกลจากหองนักบิน"
+ generic_mio_trait_flying_fortress: "ปอมบิน"
+ generic_mio_trait_advanced_instruments: "เครื่องวัดขั้นสูง"
+
+###################################
+#### CAS AIRCRAFT MANUFACTURER ####
+###################################
+ generic_cas_aircraft_organization: "ผูผลิตเครื่องบิน CAS"
+ generic_mio_initial_trait_cas_aircraft_designer: "ผูออกแบบเครื่องบิน CAS"
+ generic_mio_trait_selectional_construction: "การสรางแบบคัดสรร"
+ generic_mio_trait_low_altitude_attacks: "การโจมตีระยะตํ่า"
+ generic_mio_trait_canopies_and_firewalls: "ฝาครอบหองนักบินและผนังกันไฟ"
+ generic_mio_trait_automatic_pull_out: "ระบบดึงเชิดอัตโนมัติ"
+ generic_mio_trait_integrated_armor_designs: "การออกแบบเกราะแบบบูรณาการ"
+ generic_mio_trait_gull_wings: "ปกนางนวล"
+ generic_mio_trait_reinforced_wings: "ปกเสริมความแข็งแรง"
+ generic_mio_trait_heavily_armed_aircraft: "อากาศยานติดอาวุธหนัก"
+ generic_mio_trait_air_brakes: "แพนเบรกอากาศ"
+ generic_mio_trait_wingborne_fuel_tanks: "ถังเชื้อเพลิงในปก"
+ generic_mio_trait_bombs: "ระเบิด"
+ generic_mio_trait_rockets: "จรวด"
+ generic_mio_heat_bombs: "ระเบิด HEAT"
+ generic_mio_cluster_bombs: "ระเบิดลูกปราย"
+
+
+#####################################
+#### NAVAL AIRCRAFT MANUFACTURER ####
+#####################################
+ generic_naval_aircraft_organization: "องคกรอากาศยานนาวี"
+ generic_mio_initial_trait_naval_aircraft_designer: "ผูออกแบบอากาศยานนาวี"
+ generic_mio_trait_navigation_equipment: "อุปกรณนํารอง"
+ generic_mio_trait_patrol_fuel_tanks: "ถังเชื้อเพลิงสําหรับการลาดตระเวน"
+ generic_mio_trait_internal_torpedo_mountings: "ที่ติดตั้งตอรปโดภายใน"
+ generic_mio_trait_high_speed_torpedo_release: "การปลอยตอรปโดความเร็วสูง"
+ generic_mio_trait_reinforced_fuselage: "ลําตัวเครื่องบินเสริมความแข็งแรง"
+ generic_mio_agility_wing_design: "การออกแบบปกเพื่อความคลองตัว"
+ generic_mio_strength_wing_design: "การออกแบบปกเพื่อความแข็งแรง"
+ generic_mio_high_capacity_ammunition_stores: "ที่เก็บกระสุนความจุสูง"
+ generic_mio_larger_bomb_loads: "นํ้าหนักระเบิดที่มากขึ้น"
+ generic_mio_air_cooled_engines: "เครื่องยนตระบายความรอนดวยอากาศ"
+ generic_mio_multi_stage_super_charger: "ซูเปอรชารจเจอรหลายขั้น"
+ generic_mio_water_injection: "ระบบฉีดนํ้า"
+ generic_mio_advanced_materials: "วัสดุขั้นสูง"
+
+
+##########################################
+#### MULTI-ROLE AIRCRAFT MANUFACTURER ####
+##########################################
+ generic_multi_role_aircraft_organization: "ผูผลิตอากาศยานหลายบทบาท"
+ generic_mio_initial_trait_multi_role_aircraft_designer: "ผูออกแบบอากาศยานหลายบทบาท"
+ generic_mio_trait_armored_cockpit: "หองนักบินหุมเกราะ"
+ generic_mio_trait_escort_designs: "การออกแบบสําหรับการคุมกัน"
+ generic_mio_trait_light_airframe: "โครงเครื่องบินขนาดเบา"
+ generic_mio_trait_medium_airframe: "โครงเครื่องบินขนาดกลาง"
+ generic_mio_trait_hardened_frames: "โครงที่ชุบแข็ง"
+ generic_mio_trait_belly_shackles: "ตะขอแขวนใตทอง"
+ generic_mio_trait_oversized_propeller: "ใบพัดขนาดใหญพิเศษ"
+ generic_mio_trait_variable_pitch_propellers: "ใบพัดปรับมุมพิตชได"
+ generic_mio_trait_upgraded_air_air_weapons: "อาวุธอากาศสูอากาศที่อัปเกรดแลว"
+ generic_mio_trait_reinforced_wing_hardpoints: "จุดติดตั้งใตปกเสริมความแข็งแรง"
+ generic_mio_trait_transport_duties: "ภารกิจลําเลียง"
+ generic_mio_trait_upgraded_engines: "เครื่องยนตที่อัปเกรดแลว"
+ generic_mio_trait_not_enough_guns_never_enough_guns: "ปนไมเคยพอ ไมมีวันพอ"
+ generic_mio_trait_lengthened_wings: "ปกที่ยืดยาวขึ้น"
+ generic_mio_trait_bubble_canopy: "ฝาครอบหองนักบินทรงฟอง"
+ generic_mio_trait_bomber_specialization: "ความเชี่ยวชาญดานเครื่องบินทิ้งระเบิด"
+
+
+####################################################
+#### HIGH AGILITY FIGHTER AIRCRAFT MANUFACTURER ####
+####################################################
+ generic_high_agility_fighter_aircraft_organization: "ผูผลิตเครื่องบินขับไลความคลองตัวสูง"
+ generic_mio_initial_trait_high_agility_fighters_designer: "ผูออกแบบเครื่องบินขับไลความคลองตัวสูง"
+ generic_mio_trait_bigger_engines: "เครื่องยนตที่ใหญขึ้น"
+ generic_mio_trait_cantilever_wing_structure: "โครงสรางปกแบบคานยื่น"
+ generic_mio_trait_minimum_weapon_requirements: "ขอกําหนดอาวุธขั้นตํ่า"
+ generic_mio_trait_fabric_skin: "ผิวผาใบ"
+ generic_mio_trait_metal_skin: "ผิวโลหะ"
+ generic_mio_trait_shortened_wings: "ปกที่สั้นลง"
+ generic_mio_trait_high_octane_fuels: "เชื้อเพลิงออกเทนสูง"
+ generic_mio_trait_interceptor: "เครื่องบินสกัดกั้น"
+ generic_mio_trait_gunboat: "เรือปนบินได"
+ generic_mio_trait_fuel_injection_engines: "เครื่องยนตหัวฉีดเชื้อเพลิง"
+ generic_mio_trait_stiffened_wings: "ปกเสริมความแข็ง"
+ generic_mio_trait_subsidiary_suppliers: "ผูจัดหาสินคาในเครือ"
+ generic_mio_trait_fighter_interceptors: "เครื่องบินขับไลสกัดกั้น"
+
+
+#############################################
+#### RANGE FOCUSED AIRCRAFT MANUFACTURER ####
+#############################################
+ generic_range_focused_aircraft_organization: "ผูผลิตอากาศยานที่เนนพิสัย"
+ generic_mio_initial_trait_range_focused_aircraft_designer: "ผูออกแบบอากาศยานที่เนนพิสัย"
+ generic_mio_trait_large_rudders_and_flaps: "หางเสือและแฟลปขนาดใหญ"
+ generic_mio_trait_variable_dihedral: "มุมไดฮีดรัลปรับได"
+ generic_mio_trait_high_capacity_ammunition: "กระสุนความจุสูง"
+ generic_mio_trait_extra_cargo_doors: "ประตูบรรทุกสินคาเพิ่มเติม"
+ generic_mio_trait_improved_air_frame_strength: "ความแข็งแรงของโครงเครื่องบินที่ปรับปรุงแลว"
+ generic_mio_trait_glider_hook_modifications: "การดัดแปลงตะขอลากเครื่องรอน"
+ generic_mio_trait_advanced_production_techniques: "เทคนิคการผลิตขั้นสูง"
+ generic_mio_trait_low_drag_wings: "ปกแรงตานตํ่า"
+ generic_mio_trait_strafing_techniques: "เทคนิคการกราดยิง"
+ generic_mio_trait_long_range_modifications: "การดัดแปลงเพื่อพิสัยไกล"
+ generic_mio_trait_anti_interception_tactics: "ยุทธวิธีตอตานการสกัดกั้น"
+ generic_mio_trait_high_explosive_payload: "นํ้าหนักบรรทุกวัตถุระเบิดแรงสูง"
+ generic_mio_trait_long_range_fighters: "เครื่องบินขับไลพิสัยไกล"
+ generic_mio_trait_heavy_fighters: "เครื่องบินขับไลหนัก"
+ generic_mio_trait_tactical_bombers: "เครื่องบินทิ้งระเบิดทางยุทธวิธี"
+
+
+
+#   #  ##  ### ### ###  ### ### #       #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ## 
+## ## #  #  #  #   #  #  #  #   #       ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #   
+# # # ####  #  ##  ###   #  ##  #       # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #  
+#   # #  #  #  #   #  #  #  #   #       #   #  #  #  #     #  # #  # #  # #  # #    #    #   #    #     # 
+#   # #  #  #  ### #  # ### ### ###     #   # ###  ##      #  # #  #  ##  #  # ###  #    #   #    ### ##  
+
+
+
+############################################
+############ ARTLLERY MANUFRACTURER ########
+############################################
+ generic_artillery_organization: "ผูผลิตปนใหญ"
+ generic_mio_initial_trait_artillery_manufacturer: "$generic_artillery_organization$"
+ generic_mio_trait_mobile_limbers: "รถพวงปนเคลื่อนที่"
+ generic_mio_trait_stable_platforms: "แทนยิงที่มีเสถียรภาพ"
+ generic_mio_trait_improved_hydraulic_recoil_system: "ระบบรับแรงถอยไฮดรอลิก"
+ generic_mio_trait_improved_direct_fire_targeting: "การเล็งยิงตรงที่ปรับปรุงแลว"
+ generic_mio_trait_advanced_anti_air_targeting: "การเล็งตอสูอากาศยานขั้นสูง"
+ generic_mio_trait_advanced_trajectory_calculations: "การคํานวณวิถีกระสุนขั้นสูง"
+ generic_mio_trait_sliding_breech_block: "ทายปดลํากลองแบบเลื่อน"
+ generic_mio_trait_rapid_fire: "การยิงเร็ว"
+ generic_mio_trait_advanced_barrel_forging: "การตีขึ้นรูปลํากลองขั้นสูง" #ALSO FOR INFANTRY WEAPONS
+ generic_mio_trait_big_guns: "ปนใหญขนาดใหญ"
+ generic_mio_trait_gun_mass_production: "การผลิตปนจํานวนมาก"
+ generic_mio_trait_super_charges: "การอัดประจุพิเศษ"
+ generic_mio_trait_light_weight_barrels: "ลํากลองนํ้าหนักเบา"
+
+##################################
+#### Infantry Weapons         ####
+##################################
+ generic_infantry_equipment_organization: "ผูผลิตยุทโธปกรณทหารราบ"
+ generic_mio_initial_trait_infantry_manufacturer: "ผูผลิตอาวุธทหารราบ"
+ generic_mio_trait_drum_pattern_sights: "ศูนยเล็งแบบกลอง"
+ generic_mio_trait_reinforced_stocks: "พานทายเสริมความแข็งแรง"
+ generic_mio_trait_bolt_action: "ปนเล็กยาวลูกเลื่อน"
+ generic_mio_trait_semi_auto: "ปนเล็กยาวกึ่งอัตโนมัติ"
+ generic_mio_trait_medium_machineguns: "การผลิตปนกลกลาง"
+ generic_mio_trait_mass_rifle_production: "การผลิตปนเล็กยาวจํานวนมาก"
+ generic_mio_trait_quality_materials: "วัสดุคุณภาพ"
+ generic_mio_trait_improved_small_arms_bullet_design: "การออกแบบกระสุนอาวุธเบาที่ปรับปรุงแลว"
+ generic_mio_trait_armor_piercing_rounds: "กระสุนเจาะเกราะ"
+ generic_mio_trait_heavy_anti_armor_ammunition: "กระสุนตอตานเกราะหนัก"
+ generic_mio_trait_vehicle_mounted_capabilities: "ขีดความสามารถติดตั้งบนยานพาหนะ"
+ generic_mio_trait_rubber_cushioned_buttpad: "การลดแรงถอยปนเล็กยาวที่ปรับปรุงแลว"
+ generic_mio_trait_anti_vechicle_land_mines: "ทุนระเบิดตอตานยานพาหนะ"
+
+##################################
+#### Mot/Mech                 ####
+##################################
+ generic_motorized_mechanized_organization: "ผูผลิตยานยนตทางทหาร"
+ generic_mio_initial_trait_motorized_mechanized_manufacturer: "ผูผลิตยานยนต"
+ generic_mio_trait_composite_cargo_bed: "กระบะบรรทุกวัสดุผสม"
+ generic_mio_trait_steel_cargo_bed: "กระบะบรรทุกเหล็กกลา"
+ generic_mio_trait_all_wheel_drive: "ขับเคลื่อนทุกลอ"
+ generic_mio_trait_attached_wood_gas_generator: "เครื่องผลิตกาซจากไมแบบติดตั้ง"
+ generic_mio_trait_high_powered_engine: "เครื่องยนตกําลังสูง"
+ generic_mio_trait_medium_machinegun_mounts: "ปนกลกลางติดตั้งดานขาง"
+ generic_mio_trait_armored_pulpit_mount: "แทนยิงหุมเกราะ"
+ generic_mio_trait_heavy_machinegun_mount: "ปนกลหนักติดตั้งบนยานพาหนะ"
+ generic_mio_trait_advanced_artillery_racks: "แร็กปนใหญขั้นสูง"
+ generic_mio_trait_mounted_light_anti_tank_gun: "ปนตอสูรถถังเบาติดตั้งบนยานพาหนะ"
+ generic_mio_trait_open_chassi: "แชสซีแบบเปด"
+ generic_mio_trait_closed_chassi: "แชสซีแบบปด"
+ generic_mio_trait_bulletproof_panels: "แผนกันกระสุน"
+ generic_mio_trait_light_flame_projectors: "เครื่องพนไฟเบา"
+ generic_mio_trait_land_mine_racks: "แร็กทุนระเบิด"
+
+##################################
+#### Support Eq               ####
+##################################
+ generic_support_equipment_organization: "ผูผลิตยุทโธปกรณสนับสนุน"
+ generic_mio_initial_trait_support_equipment_manufacturer: "ผูผลิตยุทโธปกรณสนับสนุน"
+ generic_mio_trait_material_recycling: "การรีไซเคิลวัสดุ"
+ generic_mio_trait_scrap_melting: "การหลอมเศษโลหะ"
+ generic_mio_trait_high_quality_material_blend: "การผสมวัสดุคุณภาพสูง"
+ generic_mio_trait_research_program: "โครงการวิจัย"
+ generic_mio_trait_efficient_scale_up: "การขยายกําลังผลิตอยางมีประสิทธิภาพ"
+ generic_mio_trait_private_scientists_program: "โครงการนักวิทยาศาสตรเอกชน"
+ generic_mio_trait_private_tenders: "การประมูลภาคเอกชน"
+ generic_mio_trait_anti_tank_rifle: "ปนไรเฟลตอสูรถถัง"
+ generic_mio_trait_single_shot_man_portable_anti_tank_system: "ระบบตอสูรถถังแบบนัดเดียวพกพาโดยทหารคนเดียว"
+ generic_mio_trait_small_sidearms: "อาวุธประจํากายขนาดเล็ก"
+ generic_mio_trait_light_mortar: "ปนครกเบา"
+ generic_mio_trait_pontoons: "ทุนลอยสะพาน"
+
+##################################
+#### ARMORED CAR MANUFACTURER ####
+##################################
+ generic_armored_car_organization: "ผูผลิตรถหุมเกราะ"
+ generic_mio_initial_trait_armored_car_manufacturer: "ผูออกแบบรถหุมเกราะ"
+ generic_mio_trait_flash_suppressor: "อุปกรณลดแสงปากลํากลอง"
+ generic_mio_trait_glacis_armor: "เกราะลาดเอียงดานหนา"
+ generic_mio_trait_heavy_anti_tank_rifle: "ปนไรเฟลตอสูรถถังหนักแบบติดตั้ง"
+ generic_mio_trait_light_anti_personnel_machinegun: "ปนกลเบาตอตานบุคคล"
+ generic_mio_trait_combat_group: "กลุมรบ"
+ generic_mio_trait_machine_gun_group: "กลุมปนกล"
+ generic_mio_trait_transceiver_station: "สถานีรับสงวิทยุ"
+ generic_mio_trait_water_tank: "ถังนํ้า"
+ generic_mio_trait_reinforced_suspension: "ระบบรองรับแรงสะเทือนเสริมกําลัง"
+ generic_mio_trait_reverser: "ระบบขับถอยหลัง"
+ generic_mio_trait_officer_support_car: "รถสนับสนุนนายทหาร"
+ generic_mio_trait_heavy_anti_tank_gun: "ปนตอสูรถถังหนัก"
+ generic_mio_trait_reinforced_wheels: "ลอเสริมกําลัง"
+
+#################################
+#### HELICOPTER MANUFACTURER ####
+#################################
+generic_helicopter_organization: "ผูผลิตเฮลิคอปเตอร"
+generic_mio_initial_trait_helicopter_manufacturer: "การพัฒนาเฮลิคอปเตอร"
+generic_mio_trait_tandem_rotor_innovations: "นวัตกรรมใบพัดคูแบบเรียงกัน"
+generic_mio_trait_single_rotor_innovations: "นวัตกรรมใบพัดเดี่ยว"
+generic_mio_trait_side_venting_exhaust: "ทอไอเสียระบายดานขาง"
+generic_mio_trait_improved_engine: "เครื่องยนตปรับปรุง"
+generic_mio_trait_extra_seating: "ที่นั่งเพิ่มเติม"
+generic_mio_trait_co_axial_rotors: "ใบพัดรวมแกน"
+generic_mio_trait_mass_production_certification: "การรับรองการผลิตจํานวนมาก"
+
+############################
+#### TRAIN MANUFACTURER #### #marijn211: PfoT CCP addition
+############################
+ generic_mio_initial_trait_generic_train_manufacturer: "ผูผลิตรถไฟ"
+ generic_mio_trait_material_improvements: "การปรับปรุงวัสดุ"
+ generic_mio_trait_joint_stock_scheme: "แผนการรวมทุน"
+ generic_rapid_production_upscaling: "การเรงขยายกําลังผลิตอยางรวดเร็ว"
+ generic_mio_trait_additional_flak_wagons: "ตูปนตอสูอากาศยานเพิ่มเติม"
+ generic_mio_trait_improved_axle_fitting: "การติดตั้งเพลาที่ปรับปรุง"
+ generic_mio_trait_improved_wagon_design: "การออกแบบตูรถไฟที่ปรับปรุง"
+ generic_mio_trait_improved_loading: "วิธีการบรรทุกที่ปรับปรุง"
+ generic_mio_trait_ugly_ducklings: "ลูกเปดขี้เหร"
+ generic_mio_trait_armor_plating: "การติดแผนเกราะ"
+ generic_mio_trait_simplified_rail_carrier: "รางลําเลียงแบบเรียบงาย"
+ generic_mio_trait_improved_barrel_lining: "การบุลํากลองที่ปรับปรุง"
+ generic_mio_trait_quick_design_turnarounds: "การปรับแบบอยางรวดเร็ว"
+ generic_mio_trait_salavage_destoryed_locomotives: "กูซากหัวรถจักรที่ถูกทําลาย"
+ generic_mio_trait_train_production_at_scale: "การผลิตในระดับใหญ"
+ generic_mio_trait_machine_assembly: "การประกอบดวยเครื่องจักร"
+
+########### DEBUG #############
+
+ DEBUG_generic_tank_organization: "$generic_tank_organization$"
+ DEBUG_generic_infantry_tank_organization: "$generic_infantry_tank_organization$"
+ DEBUG_generic_mobile_tank_organization: "$generic_mobile_tank_organization$"
+ DEBUG_generic_medium_tank_organization: "$generic_medium_tank_organization$"
+ DEBUG_generic_heavy_tank_organization: "$generic_heavy_tank_organization$"
+ DEBUG_generic_tank_refurbishment_plant_organization: "$generic_tank_refurbishment_plant_organization$"
+ DEBUG_generic_task_force_ship_organization: "$generic_task_force_ship_organization$"
+ DEBUG_generic_battle_line_ship_organization: "$generic_battle_line_ship_organization$"
+ DEBUG_generic_escort_ship_organization: "$generic_escort_ship_organization$"
+ DEBUG_generic_raider_ship_organization: "$generic_raider_ship_organization$"
+ DEBUG_generic_submarine_organization: "$generic_submarine_organization$"
+ DEBUG_generic_black_sea_fleet_organization: "$generic_black_sea_fleet_organization$"
+ DEBUG_generic_general_aircraft_organization: "$generic_general_aircraft_organization$"
+ DEBUG_generic_light_aircraft_organization: "$generic_light_aircraft_organization$"
+ DEBUG_generic_medium_aircraft_organization: "$generic_medium_aircraft_organization$"
+ DEBUG_generic_heavy_aircraft_organization: "$generic_heavy_aircraft_organization$"
+ DEBUG_generic_cas_aircraft_organization: "$generic_cas_aircraft_organization$"
+ DEBUG_generic_naval_aircraft_organization: "$generic_naval_aircraft_organization$"
+ DEBUG_generic_multi_role_aircraft_organization: "$generic_multi_role_aircraft_organization$"
+ DEBUG_generic_high_agility_fighter_aircraft_organization: "$generic_high_agility_fighter_aircraft_organization$"
+ DEBUG_generic_artillery_organization: "$generic_artillery_organization$"
+ DEBUG_generic_infantry_equipment_organization: "$generic_infantry_equipment_organization$"
+ DEBUG_generic_support_equipment_organization: "$generic_support_equipment_organization$"
+ DEBUG_generic_motorized_mechanized_organization: "$generic_motorized_mechanized_organization$"
+ DEBUG_generic_armored_car_organization: "$generic_armored_car_organization$"

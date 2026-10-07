@@ -1,0 +1,265 @@
+﻿l_english:
+#Friends view
+ MENU_BAR_FRIENDS: "เพื่อน"
+ FRIENDS_VIEW_LOADING_FRIENDS_LIST: "กําลังโหลดรายชื่อเพื่อน..."
+ FRIENDS_VIEW_LOADING_FRIENDS_LIST_FAILED: "โหลดไมสําเร็จ โปรดลองอีกครั้งในภายหลัง"
+ FRIENDS_VIEW_EMPTY_FRIENDS_LIST: "รายชื่อเพื่อนของคุณวางเปลา"
+ FRIENDS_VIEW_NAME: "ชื่อ:"
+ FRIENDS_VIEW_STATUS: "สถานะ:"
+ FRIENDS_VIEW_STATUS_ONLINE: "ออนไลน"
+ FRIENDS_VIEW_STATUS_OFFLINE: "ออฟไลน"
+ FRIENDS_VIEW_VIEW_FRIENDS_PROFILE: "ดูโปรไฟล"
+ FRIENDS_VIEW_INVITE: "เชิญเขาเลนหลายผูเลน"
+ FRIENDS_VIEW_ERROR_TITLE: "เกิดขอผิดพลาด"
+ FRIENDS_VIEW_ERROR_STEAM: "โปรดตรวจสอบวาโปรแกรม Steam กําลังทํางานอยู แลวเริ่มเกมใหม"
+
+ FRIENDS_LOAD_FRIEND_PROFILE: "กําลังโหลดประวัติการเลน..."
+ FRIENDS_LOAD_FRIEND_PROFILE_FAILED: "โหลดไมสําเร็จ โปรดลองอีกครั้งในภายหลัง"
+
+# Friends career profile
+ CAREER_PROFILE_PRIVATE: "ผูเลนนี้เลือกตั้งคาโปรไฟลเปนสวนตัว"
+ CAREER_PROFILE_OLD_VERSION: "สถิติของผูเลนนี้มาจากเกมเวอรชันที่ใหมกวา\nโปรดอัปเดตเกมเพื่อดูสถิติของพวกเขา"
+
+# Log in to PDX
+ LOGIN_HEADER: "เขาสูระบบบัญชี PDX"
+ LOGIN_MESSAGE: "เขาสูระบบบัญชี PDX เพื่อดูรายชื่อเพื่อนของคุณ"
+ LOGIN_USERNAME: "ชื่อผูใช"
+ LOGIN_PASSWORD: "รหัสผาน"
+ LOGIN_FORGOT: "ลืมขอมูลเขาสูระบบ?"
+
+# Header
+ CAREER_PROFILE_YOU: "คุณ"
+ CAREER_PROFILE_CAREER_POINTS: "$POINTS|H$"
+ CAREER_PROFILE_CAREER_POINTS_LABEL: "§Hคะแนนประวัติการเลน§!"
+ CAREER_PROFILE_HEADER_DISCLAIMER: "การใชคําสั่งคอนโซลและม็อดสวนใหญจะทําใหไมมีการบันทึกรางวัล"
+
+# Career Profile tab
+ CAREER_PROFILE_DROPDOWN_BASEGAME: "เกมหลัก"
+ CAREER_PROFILE_DROPDOWN_MODS: "ม็อด"
+ CAREER_PROFILE_LOADING: "กําลังโหลดประวัติการเลน…"
+ CAREER_PROFILE_LOADING_FAILED: "โหลดไมสําเร็จ โปรดลองอีกครั้งในภายหลัง"
+ CAREER_PROFILE_BEST_IN_CAREER_TOOLTIP: "ดีที่สุดตลอดการเลน"
+
+#Playthrough overview
+ PLAYTHROUGH_OV_NOT_ELIGIBLE: "การเลนของคุณไมมีสิทธิ์ไดรับเหรียญตราและแพรแถบ เนื่องจากใชม็อดหรือคําสั่งคอนโซล"
+ PLAYTHROUGH_OV_MP: "ไมมีการบันทึกสถิติในโหมดหลายผูเลน"
+ PLAYTHROUGH_OV_MP_AWARDS: "จะไมมีการมอบเหรียญตราและแพรแถบในเกมแบบหลายผูเลน"
+
+# Awards tab
+ CAREER_PROFILE_AWARD_TAB_LABEL: "รางวัล"
+
+ CAREER_PROFILE_AWARD_NOT_ACHIEVED: "ยังไมไดรับ"
+ CAREER_PROFILE_AWARD_ACHIEVED: "ไดรับเมื่อ $DATE|H$"
+ CAREER_PROFILE_COLLECT_AWARD: "รับรางวัล"
+
+ CAREER_PROFILE_MOD_ACHIEVEMENT_AVAILABLE_WHEN: "จะพรอมใชงานเมื่อ:"
+
+ CAREER_PROFILE_MEDALS: "เหรียญตรา"
+ CAREER_PROFILE_MEDAL_TOOLTIP: "$NAME$\n\n$DESCRIPTION$\n\n$CAREER_PROFILE_MEDAL_TOOLTIP_BRONZE$\n$CAREER_PROFILE_MEDAL_TOOLTIP_SILVER$\n$CAREER_PROFILE_MEDAL_TOOLTIP_GOLD$\n\n$ACHIEVED_STATUS$"
+ CAREER_PROFILE_MEDAL_TOOLTIP_BRONZE: "$BRONZE_PREFIX$ §8ทองแดง§!: $BRONZE_REQUIREMENT$ (§H$BRONZE_POINTS$ คะแนน§!)"
+ CAREER_PROFILE_MEDAL_TOOLTIP_SILVER: "$SILVER_PREFIX$ เงิน: $SILVER_REQUIREMENT$ (§H$SILVER_POINTS$ คะแนน§!)"
+ CAREER_PROFILE_MEDAL_TOOLTIP_GOLD: "$GOLD_PREFIX$ §Yทอง§!: $GOLD_REQUIREMENT$ (§H$GOLD_POINTS$ คะแนน§!)"
+ CAREER_PROFILE_MEDAL_TOOLTIP_PREFIX_YES: "£trigger_yes£"
+ CAREER_PROFILE_MEDAL_TOOLTIP_PREFIX_NO: "£white_dot£"
+
+ CAREER_PROFILE_TRIGGER_ATTACKS: "$VALUE|0H$ การโจมตี"
+ CAREER_PROFILE_TRIGGER_BONUS_PERCENT: "โบนัส §H$VALUE|0$%§!"
+ CAREER_PROFILE_TRIGGER_DIVISIONS: "$VALUE|0H$ กองพล"
+ CAREER_PROFILE_TRIGGER_MODIFIERS: "$VALUE|0H$ ตัวปรับคา"
+ CAREER_PROFILE_TRIGGER_REGIONS: "$VALUE|0H$ ภูมิภาค"
+ CAREER_PROFILE_TRIGGER_SUPPLIES: "$VALUE|0H$ หนวยเสบียง"
+ CAREER_PROFILE_TRIGGER_AIRPLANES: "$VALUE|0H$ ลํา"
+
+ # Special medal tooltips
+ CAREER_PROFILE_LAND_ACQUISITION_MEDAL_BRONZE: "§H5§! จังหวัด"
+ CAREER_PROFILE_LAND_ACQUISITION_MEDAL_SILVER: "§H10§! จังหวัด"
+ CAREER_PROFILE_LAND_ACQUISITION_MEDAL_GOLD: "§H15§! จังหวัด"
+
+ CAREER_PROFILE_RIBBONS: "แพรแถบ"
+ CAREER_PROFILE_RIBBON_TOOLTIP: "$NAME$\n\n$DESCRIPTION$\n\n§H$RIBBON_POINTS$ คะแนน§!\n\n$ACHIEVED_STATUS$"
+
+ # Statistics
+ CAREER_PROFILE_OFFENSIVE_BATTLES_LABEL: "การรบเชิงรุก"
+ CAREER_PROFILE_DEFENSIVE_BATTLES_LABEL: "การรบเชิงรับ"
+ CAREER_PROFILE_TOTAL_BATTLES_LABEL: "จํานวนการรบทั้งหมด"
+ CAREER_PROFILE_OFFENSIVE_BATTLES_RATIO_LABEL: "อัตราสวนการรบเชิงรุก"
+ CAREER_PROFILE_BATTLES_AGAINST_ENCIRCLED_LABEL: "การรบกับขาศึกที่ถูกโอบลอม"
+ CAREER_PROFILE_BATTLES_AGAINST_ENCIRCLED_RATIO_LABEL: "อัตราสวนการรบกับขาศึกที่ถูกโอบลอม"
+ CAREER_PROFILE_BATTLES_WITH_AIR_SUPPORT_LABEL: "การรบที่มีการสนับสนุนทางอากาศ"
+ CAREER_PROFILE_BATTLES_WITH_AIR_SUPPORT_RATIO_LABEL: "อัตราสวนการรบที่มีการสนับสนุนทางอากาศ"
+ CAREER_PROFILE_YEARS_AT_WAR_LABEL: "จํานวนปที่อยูในสงคราม"
+ CAREER_PROFILE_PROVINCES_GAINED_LABEL: "จังหวัดที่ไดมา"
+ CAREER_PROFILE_PROVINCES_LOST_LABEL: "จังหวัดที่เสียไป"
+ CAREER_PROFILE_PROVINCES_GAINED_PER_YEAR_LABEL: "ประมาณการจังหวัดที่ได/เสียตอป"
+ CAREER_PROFILE_DESIGNED_PLANES_LABEL: "เครื่องบินที่ออกแบบ"
+ CAREER_PROFILE_FIELD_OFFICERS_PROMOTED_LABEL: "นายทหารภาคสนามที่ไดเลื่อนเปนนายพล"
+ CAREER_PROFILE_SHIPS_SUNK_BY_MARITIME_LABEL: "เรือที่ถูกจมโดยเครื่องบินลาดตระเวนทิ้งระเบิดทางทะเล"
+ CAREER_PROFILE_MUSSOLINI_MISSIONS_LABEL: "ภารกิจมุสโสลินีที่สําเร็จ"
+ CAREER_PROFILE_MIO_SIZE_UPS_LABEL: "การขยายขนาดองคกรอุตสาหกรรมทางทหาร"
+ CAREER_PROFILE_SPECIAL_FORCES_DEPLOYED_LABEL: "หนวยรบพิเศษที่สงประจําการ"
+ CAREER_PROFILE_EQUIPMENT_SOLD_LABEL: "หนวยยุทโธปกรณที่ขายในตลาด"
+ CAREER_PROFILE_SPECIAL_PROJECTS_COMPLETED_LABEL: "โครงการพิเศษที่สําเร็จ"
+ CAREER_PROFILE_LAUNCHED_RAIDS_LABEL: "การจูโจมที่เปดฉาก"
+ CAREER_PROFILE_SCIENTIST_LEVEL_UPS_LABEL: "การเลื่อนระดับนักวิทยาศาสตร"
+
+ # Medals
+ CAREER_PROFILE_STALWART_DEFENDER_MEDAL: "ผูพิทักษผูแนวแน"
+ CAREER_PROFILE_STALWART_DEFENDER_MEDAL_DESCRIPTION: "ปองกันการโจมตีของศัตรูไดสําเร็จตามจํานวนที่กําหนด"
+ CAREER_PROFILE_SHIELD_MEDAL: "โลกําบัง"
+ CAREER_PROFILE_SHIELD_MEDAL_DESCRIPTION: "มีกองพลที่ไดโบนัสการปองกันรวมถึงระดับที่กําหนด"
+ CAREER_PROFILE_MILITARY_PLANNER_MEDAL: "นักวางแผนการทหาร"
+ CAREER_PROFILE_MILITARY_PLANNER_MEDAL_DESCRIPTION: "มีกองพลที่ไดโบนัสเปอรเซ็นตการวางแผนถึงระดับที่กําหนด"
+ CAREER_PROFILE_COMBAT_EFFICIENCY_MEDAL: "ประสิทธิภาพการรบ"
+ CAREER_PROFILE_COMBAT_EFFICIENCY_MEDAL_DESCRIPTION: "ทําลายกองพลที่ไดรับผลจากตัวปรับคาการรบ "ถูกโอบลอม" ตามจํานวนที่กําหนด"
+ CAREER_PROFILE_GRAND_ENCIRCLEMENT_MEDAL: "การโอบลอมครั้งใหญ"
+ CAREER_PROFILE_GRAND_ENCIRCLEMENT_MEDAL_DESCRIPTION: "ลอมกองพลศัตรูตามจํานวนที่กําหนดไวในจังหวัดเดียว"
+ CAREER_PROFILE_MILITARY_MASTERY_MEDAL: "ความเชี่ยวชาญทางทหาร"
+ CAREER_PROFILE_MILITARY_MASTERY_MEDAL_DESCRIPTION: "ทําการรบโดยมีตัวปรับคาเชิงบวกสงผลตอการรบตามจํานวนที่กําหนด"
+ CAREER_PROFILE_TURNING_THE_TIDE_MEDAL: "พลิกสถานการณ"
+ CAREER_PROFILE_TURNING_THE_TIDE_MEDAL_DESCRIPTION: "ขณะอยูในสงคราม สงกองพลทหารเขาประจําการตามจํานวนที่กําหนดภายในกรอบเวลา 48 ชั่วโมง ขนาดกองพลขั้นตํ่า: 5 กองพัน"
+ CAREER_PROFILE_LORD_OF_THE_SEAS_MEDAL: "เจาแหงทองทะเล"
+ CAREER_PROFILE_LORD_OF_THE_SEAS_MEDAL_DESCRIPTION: "สรางความเปนเจาทางทะเลอยางนอย 75% ในภูมิภาคทางทะเลที่มีการชวงชิงตามจํานวนที่กําหนด"
+ CAREER_PROFILE_VETERANCY_MEDAL: "ความเกาเกม"
+ CAREER_PROFILE_VETERANCY_MEDAL_DESCRIPTION: "มีกองทัพที่ประกอบดวยกองพลทหารผานศึกตามจํานวนที่กําหนด"
+ CAREER_PROFILE_SKY_SUPPLIES_MEDAL: "เสบียงจากฟากฟา"
+ CAREER_PROFILE_SKY_SUPPLIES_MEDAL_DESCRIPTION: "ใหเครื่องบินลําเลียงสงเสบียงไปยังภูมิภาคหนึ่งตามปริมาณที่กําหนด"
+ CAREER_PROFILE_PARADROP_MEDAL: "การสงพลรม"
+ CAREER_PROFILE_PARADROP_MEDAL_DESCRIPTION: "ดําเนินแผนการรบสงพลรมโดยใชกองพลพลรมตามจํานวนที่กําหนด ขนาดกองพลขั้นตํ่า: 5 กองพัน"
+ CAREER_PROFILE_NAVAL_INVASION_MEDAL: "การยกพลขึ้นบก"
+ CAREER_PROFILE_NAVAL_INVASION_MEDAL_DESCRIPTION: "ดําเนินแผนการยกพลขึ้นบกโดยใชกองพลตามจํานวนที่กําหนดภายใน 96 ชั่วโมง ขนาดกองพลขั้นตํ่า: 5 กองพัน"
+ CAREER_PROFILE_LAND_ACQUISITION_MEDAL: "การยึดครองดินแดน"
+ CAREER_PROFILE_LAND_ACQUISITION_MEDAL_DESCRIPTION: "ผานการรบภาคพื้นดิน ยึด (และรักษา) จังหวัดเพิ่มเติมตามจํานวนที่กําหนดภายในกรอบเวลา 48 ชั่วโมง"
+ CAREER_PROFILE_RAINING_DEBRIS_MEDAL: "ฝนเศษซาก"
+ CAREER_PROFILE_RAINING_DEBRIS_MEDAL_DESCRIPTION: "ยิงเครื่องบินตกตามจํานวนที่กําหนดภายในกรอบเวลา 48 ชั่วโมง"
+
+ # Ribbons
+ CAREER_PROFILE_OFFENSE_IS_THE_BEST_DEFENSE: "การรุกคือการปองกันที่ดีที่สุด"
+ CAREER_PROFILE_OFFENSE_IS_THE_BEST_DEFENSE_DESCRIPTION: "ภายในระยะเวลา 2 ป ทําการรบเชิงรุกใหไดเปนสองเทาของการรบเชิงรับ โดยมีการรบอยางนอย 100 ครั้ง"
+ CAREER_PROFILE_OFFENSE_IS_THE_BEST_DEFENSE_QUOTE: "\n"หากคุณพบวาตัวเองอยูในการตอสูที่สูสี แปลวาคุณวางแผนภารกิจไดไมดีพอ"\n\n- พันเอกเดวิด แฮ็กเวิรท"
+ CAREER_PROFILE_GOING_THROUGH_NOT_AROUND: "ทะลวงผาน ไมออมไป"
+ CAREER_PROFILE_GOING_THROUGH_NOT_AROUND_DESCRIPTION: "โจมตีและยึดครองพื้นที่ที่มีปอมปราการระดับ 10 ไดสําเร็จ"
+ CAREER_PROFILE_GOING_THROUGH_NOT_AROUND_QUOTE: ""ในทุก ๆ หนึ่งรอยคน สิบคนไมควรอยูตรงนั้นดวยซํ้า แปดสิบคนเปนเพียงเปา เกาคนเปนนักสูตัวจริง และเราโชคดีที่มีพวกเขา เพราะพวกเขาคือผูสรางการรบ อา แตคนหนึ่งคนนั้น คนหนึ่งคนนั้นคือนักรบ และเขาจะพาคนอื่น ๆ กลับมา"\n\n- จดหมายของนักปรัชญาซีนิก"
+ CAREER_PROFILE_YOU_SHALL_NOT_PASS: "ทางนี้ปดแลว"
+ CAREER_PROFILE_YOU_SHALL_NOT_PASS_DESCRIPTION: "ไดโบนัสการปองกันถึง 400%"
+ CAREER_PROFILE_YOU_SHALL_NOT_PASS_QUOTE: ""การรบไมใชที่ที่คุณอาจตาย -- แมวาจะเกิดขึ้นได -- แตเปนที่ที่คุณจะไดรูวาคุณจะไดมีชีวิตอยูตอไปหรือไม อยาประเมินพลังของการตระหนักรูนั้นตํ่าไป อยาประเมินตํ่าไปวาชายหนุมจะยอมเดิมพันดวยอะไรบางเพื่อไดเลนเกมนั้นอีกสักครั้ง"\n\n- เซบาสเตียน ยังเงอร, War"
+ CAREER_PROFILE_THOUSAND_SPLENDID_SUNS: "พันดวงตะวันอันเจิดจา"
+ CAREER_PROFILE_THOUSAND_SPLENDID_SUNS_DESCRIPTION: "จุดระเบิดปรมาณู 3 ลูก โดยแตละลูกหางกันไมเกิน 12 ชั่วโมง"
+ CAREER_PROFILE_THOUSAND_SPLENDID_SUNS_QUOTE: ""จนถึงบัดนี้ มนุษยตองอยูกับความคิดเรื่องความตายในฐานะปจเจกบุคคล นับจากนี้ไป มนุษยชาติจะตองอยูกับความคิดเรื่องความตายของตนในฐานะเผาพันธุ"\n\n- อารเทอร เคิสตเลอร"
+ CAREER_PROFILE_THE_GUNS_OF_AUGUST: "ปนใหญแหงเดือนสิงหาคม"
+ CAREER_PROFILE_THE_GUNS_OF_AUGUST_DESCRIPTION: "มีการรบพรอมกันอยางนอย 15 แหงที่ไดรับการสนับสนุนจากการยิงระดมของปนใหญรถไฟ"
+ CAREER_PROFILE_THE_GUNS_OF_AUGUST_QUOTE: ""การหาคนที่อาสาจะตายนั้นงายกวาการหาคนที่เต็มใจอดทนตอความเจ็บปวดอยางใจเย็น"\n\n- จูเลียส ซีซาร"
+ CAREER_PROFILE_LEARNING_ON_THE_JOB: "เรียนรูจากการทํางาน"
+ CAREER_PROFILE_LEARNING_ON_THE_JOB_DESCRIPTION: "มีผูบัญชาการ (ไมรวมผูบัญชาการกองพล) เพิ่มระดับทักษะสี่ครั้ง"
+ CAREER_PROFILE_LEARNING_ON_THE_JOB_QUOTE: ""ตองสูญเสียทหาร 15,000 นาย จึงจะฝกพลตรีไดหนึ่งคน"\n\n- แฟรดีนอง ฟอช"
+ CAREER_PROFILE_THEY_CAME_FROM_ABOVE: "พวกเขามาจากฟากฟา"
+ CAREER_PROFILE_THEY_CAME_FROM_ABOVE_DESCRIPTION: "ดําเนินแผนสงพลรมโดยใชกองพลพลรม 15 กองพล"
+ CAREER_PROFILE_THEY_CAME_FROM_ABOVE_QUOTE: ""พวกเขาหวานลม และบัดนี้พวกเขากําลังจะเก็บเกี่ยวพายุหมุน"\n\n- คัมภีรไบเบิล, โฮเชยา บทที่ 8 ขอ 7"
+ CAREER_PROFILE_COORDINATED_INVASION: "การยกพลขึ้นบกแบบประสานกัน"
+ CAREER_PROFILE_COORDINATED_INVASION_DESCRIPTION: "ดําเนินการยกพลขึ้นบกพรอมกัน 4 ครั้ง ในพื้นที่ยกพลขึ้นบก 4 แหงที่แตกตางกัน"
+ CAREER_PROFILE_COORDINATED_INVASION_QUOTE: ""การรบเอาชนะไดดวยการเขนฆาและการดําเนินกลยุทธ ยิ่งนายพลยิ่งใหญเทาใด เขาก็ยิ่งอาศัยการดําเนินกลยุทธมากขึ้น และเรียกรองการเขนฆานอยลงเทานั้น"\n\n- วินสตัน เอส. เชอรชิลล, "The World Crisis""
+ CAREER_PROFILE_NOT_SO_FAST: "ชากอน"
+ CAREER_PROFILE_NOT_SO_FAST_DESCRIPTION: "บดขยี้กองพลศัตรูหนึ่งกองพล"
+ CAREER_PROFILE_NOT_SO_FAST_QUOTE: ""เมื่อภาษาทองถิ่นคือความรุนแรง ก็จงพูดใหคลอง"\n\n- ไมทราบผูกลาว"
+ CAREER_PROFILE_TANKS_NO_THANKS: "รถถังหรือ ไมละขอบคุณ"
+ CAREER_PROFILE_TANKS_NO_THANKS_DESCRIPTION: "บดขยี้กองพลรถถังของศัตรูหนึ่งกองพล"
+ CAREER_PROFILE_TANKS_NO_THANKS_QUOTE: ""วากันตามจริงแลว รถถังก็คือกลองเหล็กเล็ก ๆ ที่อัดแนนไปดวยสารไวไฟหรือวัตถุระเบิด ซึ่งกลายเปนเตาเผาศพเคลื่อนที่สําหรับลูกเรือผูเชี่ยวชาญของมันไดอยางงายดาย"\n\n- พลจัตวาเชลฟอรด บิดเวลล"
+ CAREER_PROFILE_WE_SHALL_FIGHT_IN_THE_SHADE: "เราจะสูในรมเงา"
+ CAREER_PROFILE_WE_SHALL_FIGHT_IN_THE_SHADE_DESCRIPTION: "สงเครื่องบินมากกวา 5000 ลําเขาประจําการในภูมิภาคนานฟาเดียว"
+ CAREER_PROFILE_WE_SHALL_FIGHT_IN_THE_SHADE_QUOTE: ""เครื่องบินมีขอบกพรองทางเทคนิคมากมายเสียจนเปนเพียงเรื่องของเวลา กอนที่คนมีเหตุผลทุกคนจะตระหนักวามันไรประโยชน!"\n\n- อางวามาจากบทความใน "Scientific American", (1910)"
+ CAREER_PROFILE_ACES_HIGH: "เหลาเอซเหนือฟา"
+ CAREER_PROFILE_ACES_HIGH_DESCRIPTION: "มีนักบินเอซ 20 คนใชสนามบินเดียวกันเปนฐานประจําการ"
+ CAREER_PROFILE_ACES_HIGH_QUOTE: ""ฟากฟาคือสมรภูมิของพวกเขา พวกเขาคือทหารมาแหงหมูเมฆ "\n\n- เดวิด ลอยด จอรจ"
+ CAREER_PROFILE_BEHIND_ENEMY_LINES: "หลังแนวขาศึก"
+ CAREER_PROFILE_BEHIND_ENEMY_LINES_DESCRIPTION: "ยึดเมืองหลวงของศัตรูโดยใชคําสั่งสงพลรม"
+ CAREER_PROFILE_BEHIND_ENEMY_LINES_QUOTE: ""เราเปนพลรมนะ รอยโท เราควรจะถูกลอมอยูแลว"\n\n- พันตรีวินเทอรส, Band of Brothers"
+
+# First Startup Splash Screen Text
+ SUB_MESSAGE_SPLASHSCREEN_TITLE: "รับเหรียญตราและแพรแถบจากผลงานโดดเดนในสนามรบ!"
+ SUB_MESSAGE_SPLASHSCREEN_DESC: "เหรียญตราและแพรแถบเปนรูปแบบใหมของความทาทายและรางวัลที่สามารถไดรับในเกมที่ไมใชโหมดไอรอนแมน ตรวจสอบรายการไดในประวัติการเลนของคุณ และเปรียบเทียบสถิติและเหรียญตรากับเพื่อน ๆ \n\n นอกจากนี้ ประวัติการเลนยังรองรับการเก็บสถิติสําหรับม็อดแลว!"
+
+# Backup Flavor Texts
+ CAREER_PROFILE_BACKUP_QUOTE_01: ""ขาคือแสแหงพระเจา หากพวกเจาไมไดกอบาปมหันต พระเจาคงไมสงการลงทัณฑอยางขามาลงโทษพวกเจา"\n\n- เจงกิสขาน"
+ CAREER_PROFILE_BACKUP_QUOTE_02: ""มนุษยมีสามประเภท: ผูที่ไมอาจขยับได ผูที่ขยับได และผูที่ขยับพวกเขา"\n\n- อางวาเปนคํากลาวของเบนจามิน แฟรงคลิน"
+ CAREER_PROFILE_BACKUP_QUOTE_03: ""...เหลาบุรุษผูสงบพายุและขี่สายฟา"\n\n- เท็ดดี รูสเวลต"
+ CAREER_PROFILE_BACKUP_QUOTE_04: ""ตีอีกฝายใหเร็วที่สุดเทาที่ทําได และแรงที่สุดเทาที่ทําได ตรงจุดที่เจ็บที่สุด ตอนที่เขาไมทันมอง"\n\n- เซอรวิลเลียม สลิม"
+ CAREER_PROFILE_BACKUP_QUOTE_05: ""เมื่อทานกลับบาน จงเลาถึงพวกเราและบอกวา เพื่อวันพรุงนี้ของพวกเขา เราไดสละวันนี้ของเรา"\n\n- จอหน แม็กซเวลล เอดมอนส"
+ CAREER_PROFILE_BACKUP_QUOTE_06: ""สิ่งใดที่คุมคาแกการตอสู ก็คุมคาแกการสูแบบสกปรก"\n\n- ไมทราบผูกลาว"
+ CAREER_PROFILE_BACKUP_QUOTE_07: ""ขาจะกลับมาใหเร็วที่สุดพรอมกําลังใหมากที่สุดเทาที่ทําได ระหวางนี้ พวกทานตองยันไวใหได!"\n\n- อางวาเปนคํากลาวของดักลาส แมกอาเธอร"
+ CAREER_PROFILE_BACKUP_QUOTE_08: ""ปนใหญของขาศึกตื่นขึ้นจากที่ใดสักแหง และกระสุนก็พุงขามมา- คุณนับมันไดขณะที่มันพุงมา แลวคุณก็นับไมไหวอีกตอไป มันตกลงมาอยางไรระเบียบ หนึ่ง-สอง-สาม แตราวกับรูดีวาพวกเราอยูตรงไหน- ซาย ขวา ขางหนา ขางหลัง กระแทกลงมาเหมือนถังขยะยักษที่ถูกยักษขวางใส ดินที่แตกกระจายตกลงบนตัวเรา หินที่แตกราวกระเด็นใสหินที่ยังไมแตกบนไหลเขา ราตรีที่คืบคลานเขามาดังกึกกองในหูของเรา"\n\n- แอลวา เบสซี, Men in Battle: A Story of American in Spain (1939)"
+ CAREER_PROFILE_BACKUP_QUOTE_09: ""โอ เจาจะไปที่ใดเมื่อแสงวาบอันบาดตา โปรยเมล็ดพันธุแหงดวงตะวันนับลาน? และเจาจะทําสิ่งใดในสายฝนแหงเถาธุลี? แตจะเปนเชนไรเมื่อแสงวาบอันบาดตา รบกวนโครงขายอันแนบแนนของรางกายเจา เผยใหเห็นกระดูกอันงดงามของเจา? เจาจะสวมใสสิ่งใดในสายฝนแหงเถาธุลี?"\n\n- ขอความตอนหนึ่งจาก "Terminal Colloquy" ของชาลส มารติน"
+ CAREER_PROFILE_BACKUP_QUOTE_10: ""จงอานการทัพของอเล็กซานเดอร ฮันนิบาล ซีซาร กุสตาวัส ตูแรน เออแฌน และเฟรเดอริก ซํ้าแลวซํ้าเลา นี่คือหนทางเดียวที่จะเปนนายพลผูยิ่งใหญและเขาถึงความลับแหงศิลปะการสงคราม"\n\n- นโปเลียน โบนาปารต"
+ CAREER_PROFILE_BACKUP_QUOTE_11: ""ขาพเจาตองศึกษาการเมืองและการสงคราม เพื่อใหลูกชายของขาพเจามีเสรีภาพที่จะศึกษาคณิตศาสตรและปรัชญา... เพื่อใหลูกหลานของพวกเขามีสิทธิ์ที่จะศึกษาจิตรกรรม กวีนิพนธ และดนตรี"\n\n- จอหน แอดัมส"
+ CAREER_PROFILE_BACKUP_QUOTE_12: ""นํ้าทั้งมหาสมุทรไมอาจทําใหเรือจมได เวนแตนํ้าจะเขาไปขางใน"\n\n- ไมทราบผูกลาว"
+ CAREER_PROFILE_BACKUP_QUOTE_13: ""แลนเรือเหมือนขโมยมันมา"\n\n- ไมทราบผูกลาว"
+ CAREER_PROFILE_BACKUP_QUOTE_14: ""พวกมันมากมายเหลือเกิน และพวกเรามีนอยนิด แลวเราจะฝงพวกมันใหหมดไดอยางไร?"\n\n- สํานวนฟนแลนดสมัยสงครามฤดูหนาว"
+ CAREER_PROFILE_BACKUP_QUOTE_15: ""ตองเปนคนกลาหาญจึงจะเปนคนขี้ขลาดในกองทัพแดงได"\n\n- โจเซฟ สตาลิน"
+ CAREER_PROFILE_BACKUP_QUOTE_16: ""นามของทานไมมีผูใดรูจัก วีรกรรมของทานเปนอมตะ"\n\n- อนุสรณทหารนิรนาม"
+ CAREER_PROFILE_BACKUP_QUOTE_17: ""การตายเพื่อองคจักรพรรดิคือการมีชีวิตอยูชั่วนิรันดร"\n\n- ไมทราบผูกลาว"
+ CAREER_PROFILE_BACKUP_QUOTE_18: ""ซุนวูกลาววา: ในศิลปะการสงครามเชิงปฏิบัติ สิ่งที่ดีที่สุดคือการยึดประเทศของศัตรูไวทั้งหมดโดยไมเสียหาย การทําลายลางประเทศนั้นไมดีเทา"\n\n- ซุนวู, ตําราพิชัยสงคราม"
+ CAREER_PROFILE_BACKUP_QUOTE_19: ""มนุษยทั้งปวงลวนเปนพี่นองกัน ดุจทองทะเลทั่วโลก แลวเหตุใดลมและคลื่นจึงปะทะกันอยางดุเดือดไปทุกหนแหง?"\n\n- ฮิโรฮิโตะ"
+ CAREER_PROFILE_BACKUP_QUOTE_20: ""Facta non-Verba."\n\n- ภาษาละตินแปลวา "การกระทํา ไมใชคําพูด""
+ CAREER_PROFILE_BACKUP_QUOTE_21: ""สงครามคือชีวิตที่คูณดวยตัวเลขที่ไมเคยมีใครไดยินมากอน"\n\n- เซบาสเตียน ยังเงอร, War"
+ CAREER_PROFILE_BACKUP_QUOTE_22: ""อุดมการณไมจําเปนตองชอบธรรม และการรบไมจําเปนตองชนะได แตครั้งแลวครั้งเลาตลอดประวัติศาสตร ผูคนเลือกที่จะตายในสนามรบพรอมกับเพื่อนพอง มากกวาจะหนีเอาตัวรอดเพียงลําพัง"\n\n- เซบาสเตียน ยังเงอร, War"
+ CAREER_PROFILE_BACKUP_QUOTE_23: ""แตปญหาของความกลัวก็คือ มันไมใชสิ่งใดสิ่งหนึ่งเพียงอยางเดียว ความกลัวมีการจําแนกประเภททั้งระบบ—ความวิตก ความหวาดหวั่น ความตื่นตระหนก ลางสังหรณราย—และคุณอาจเตรียมใจรับรูปแบบหนึ่งไว แตกลับพังทลายโดยสิ้นเชิงเมื่อเผชิญอีกรูปแบบหนึ่ง"\n\n- เซบาสเตียน ยังเงอร, War"
+ CAREER_PROFILE_BACKUP_QUOTE_24: ""พลเรือนไมยอมรับวาสิ่งที่สรางบาดแผลทางใจมากที่สุดอยางหนึ่งของการรบ คือการตองละทิ้งมันไป สงครามเลวรายและผิดอยางเห็นไดชัด จนความคิดที่วามันอาจมีอะไรดีอยูบางแทบจะรูสึกเหมือนเปนการหมิ่นศักดิ์สิทธิ์"\n\n- เซบาสเตียน ยังเงอร, War"
+ CAREER_PROFILE_BACKUP_QUOTE_25: ""การรบอัดอะดรีนาลีนเขาสูรางกายมากเสียจนความกลัวแทบไมเปนปญหา สิ่งที่บงบอกถึงความกลาหาญที่แทจริงไดดีกวามาก คือความรูสึกของคุณกอนปฏิบัติการใหญ เมื่อความหมายของการสูญเสียชีวิตไดมีโอกาสซึมซับเขามาจริง ๆ จุดออนสวนตัวของผมไมใชความกลัวเทากับการรอคอยมัน"\n\n- เซบาสเตียน ยังเงอร, War"
+ CAREER_PROFILE_BACKUP_QUOTE_26: ""แนวมาฌีโนปลอดภัยแลว การสงบศึกไดรับความเห็นชอบแลว และผมไดรับคําสัญญาจากเธอแลววาจะไมรุกรานโปแลนด"\n\n- แฟรดีนอง ฟอช"
+ CAREER_PROFILE_BACKUP_QUOTE_27: ""สิ่งเดียวที่ยากกวาการใสความคิดใหมเขาไปในหัวของทหาร คือการเอาความคิดเกาออกมา"\n\n- รอยเอกเซอรบาซิล ลิดเดลล ฮารต, Thoughts on War, 1944"
+ CAREER_PROFILE_BACKUP_QUOTE_28: ""สงครามมีหลายแงมุม และการแสรงทําเปนวาความตื่นเตนไมใชหนึ่งในนั้นก็ไรประโยชน"\n\n- เซบาสเตียน ยังเงอร, War"
+ CAREER_PROFILE_BACKUP_QUOTE_29: ""นักปรัชญาและนักวิทยาศาสตรไดแสดงใหเห็นวาการปรับตัวคือเคล็ดลับแหงการดํารงอยู อยางไรก็ตาม ประวัติศาสตรคือบัญชีรายชื่อแหงความลมเหลวในการเปลี่ยนแปลงใหทันความจําเปน และกองทัพ ซึ่งดวยบทบาทของมันควรเปนสถาบันที่ปรับตัวไดดีที่สุด กลับเปนสถาบันที่แข็งทื่อที่สุด - ซึ่งตองแลกมาดวยความเสียหายตออุดมการณที่พวกเขายึดถือ"\n\n- รอยเอกเซอรบาซิล ลิดเดลล ฮารต, Thoughts on War, 1944"
+ CAREER_PROFILE_BACKUP_QUOTE_30: ""การเปลี่ยนแปลงคือลักษณะของโลกสมัยใหม คุณจะจัดการกับการเปลี่ยนแปลง หรือไมการเปลี่ยนแปลงก็จะจัดการกับคุณ"\n\n- นายพลกอรดอน อาร. ซัลลิแวน"
+
+# Profile Picture Tab
+ CAREER_PROFILE_PROFILE_PICTURES: "รูปภาพที่ใชได"
+ CAREER_PROFILE_TOOLTIP_POINTS: "รับคะแนนประวัติการเลน $VALUE|H$ คะแนนเพื่อปลดล็อก"
+ CAREER_PROFILE_TOOLTIP_RIBBON: "ปลดล็อกดวยแพรแถบ $VALUE|H$"
+ CAREER_PROFILE_TOOLTIP_PICTURE_UNLOCKED: "ใชเปนรูปโปรไฟล"
+ CAREER_PROFILE_TOOLTIP_PICTURE_LOCKED: "§b.§!\n\n£$ICON$£\n\n§b.§!\n\n$REQUIREMENT$" # The black . prevent the newlines from being trimmed
+
+# Countries in Profile Picture Tab, original loc key in comment
+ CAREER_PROFILE_COUNTRY_BUL: "บัลแกเรีย" # BUL_neutrality
+ CAREER_PROFILE_COUNTRY_CHI: "จีน" # CHI_neutrality
+ CAREER_PROFILE_COUNTRY_CZE: "เชโกสโลวาเกีย" # CZE_democratic
+ CAREER_PROFILE_COUNTRY_ENG: "สหราชอาณาจักร" # ENG_democratic
+ CAREER_PROFILE_COUNTRY_EST: "สาธารณรัฐเอสโตเนีย" # EST_democratic
+ CAREER_PROFILE_COUNTRY_FRA: "ฝรั่งเศส" # FRA_democratic
+ CAREER_PROFILE_COUNTRY_GER: "ไรชเยอรมัน" # GER_fascism
+ CAREER_PROFILE_COUNTRY_GRE: "ราชอาณาจักรกรีซ" # GRE_neutrality
+ CAREER_PROFILE_COUNTRY_HOL: "เนเธอรแลนด" # HOL_democratic
+ CAREER_PROFILE_COUNTRY_JAP: "ญี่ปุน" # JAP_fascism
+ CAREER_PROFILE_COUNTRY_LIT: "ลิทัวเนีย" # LIT_neutrality
+ CAREER_PROFILE_COUNTRY_MEX: "เม็กซิโก" # MEX_neutrality
+ CAREER_PROFILE_COUNTRY_POL: "โปแลนด" # POL_neutrality
+ CAREER_PROFILE_COUNTRY_POR: "โปรตุเกส" # POR_neutrality
+ CAREER_PROFILE_COUNTRY_RAJ: "บริติชราช" # RAJ_UK_neutrality
+ CAREER_PROFILE_COUNTRY_SOV: "สหภาพโซเวียต" # SOV_communism
+ CAREER_PROFILE_COUNTRY_SPR: "สเปน" # SPR_democratic
+ CAREER_PROFILE_COUNTRY_USA: "สหรัฐอเมริกา" # USA_democratic
+ CAREER_PROFILE_COUNTRY_YUG: "ยูโกสลาเวีย" # YUG_neutrality
+
+### BATCH 2 ###
+ CAREER_PROFILE_FAILED_UPDATE_TITLE: "อัปเดตไมสําเร็จ"
+ CAREER_PROFILE_FAILED_UPDATE_MSG: "อัปเดตขอมูลประวัติการเลนหรือสถานะความเปนสวนตัวไมสําเร็จ โปรดลองอีกครั้งในภายหลัง"
+ CAREER_PROFILE_STEAM_NOT_RUNNING: "ประวัติการเลนใชงานไมไดเมื่อโปรแกรม Steam ไมไดทํางานอยู"
+ CAREER_PROFILE_SWITCHER_TOOLTIP: "§Hการมองเห็นโปรไฟล§!\n\nตั้งเปน "สาธารณะ" หากตองการใหเพื่อนมองเห็นโปรไฟลของคุณ หรือปดเพื่อตั้งเปนสวนตัว"
+ CAREER_PROFILE_SHOW_IN_STORE: "แสดงเพิ่มเติม"
+
+ # Statistics
+ CAREER_PROFILE_TOTAL_OWN_CASUALTIES_LABEL: "ความสูญเสียฝายเรา"
+ CAREER_PROFILE_ENEMY_CASUALTIES_LABEL: "ความสูญเสียฝายศัตรู"
+ CAREER_PROFILE_CASUALTIES_PER_WEEK_LABEL: "ความสูญเสียตอสัปดาห"
+
+ # Playthrough overview
+ CAREER_PROFILE_END_GAME_TAB_LABEL: "สถิติ"
+ CAREER_PROFILE_AWARDS_NOT_AVAILABLE_IN_MULTIPLAYER: "รางวัลไมมีใหในเกมแบบหลายผูเลน"
+
+ # Profile Picture Tab
+ CAREER_PROFILE_TOOLTIP_BRONZE: "ปลดล็อกดวย $NAME|H$ ระดับทองแดง"
+ CAREER_PROFILE_TOOLTIP_SILVER: "ปลดล็อกดวย $NAME|H$ ระดับเงิน"
+ CAREER_PROFILE_TOOLTIP_GOLD: "ปลดล็อกดวย $NAME|H$ ระดับทอง"
+
+ 
+ REQUIRES_DLC_TEXT: "ตองมี DLC $DLC|Y$"
+ DLC_OWNED_TEXT: "§Gคุณเปนเจาของเนื้อหานี้แลว!§!"
+ DLC_NOT_OWNED_TEXT: "§Hคลิกเพื่อไปยังหนารานคาของเนื้อหานี้§!"
+ 

@@ -1,0 +1,48 @@
+﻿l_english:
+  ### Indonesia
+  INS_naval_steal_crit_tt: "กองทัพเรือ[THIS.GetAdjective] ถูกยึดไปแลว §Y20%§!"
+  INS_naval_steal_success_tt: "กองทัพเรือ[THIS.GetAdjective] ถูกยึดไปแลว §Y35%§!"
+  INS_naval_steal_limited_success_tt: "กองทัพเรือ[THIS.GetAdjective] ถูกยึดไปแลว §Y50%§!"
+  INS_unlock_naval_steal_raid_tt: "ปลดล็อก §Yยึดเรืออาณานิคม§! ใน [1058.GetName] เพื่อยึดเรือจากกองทัพเรือดัตชมาใชเพื่อเปาหมายของเรา"
+  INS_activate_naval_raid_tt: "ปลดล็อกการจูโจม §Yยึดฐานทัพเรือ§! ตอฐานทัพเรือในรัฐที่ดัตชควบคุม"
+  INS_militia_knil_supply_raid_unlock_tt: "ปลดล็อกการจูโจม §Yบุกคลังอาวุธ§! ตอศูนยกลางเสบียงในรัฐที่ดัตชควบคุม"
+  INS_mobilize_the_pemuda_trigger_tt: "ทําการจูโจมภาคพื้นดินของเปมูดาสําเร็จแลวอยางนอย §Y3§! ครั้ง"
+  INS_weapons_caches_unlock_tt: "ปลดล็อกการจูโจม §Yบุกที่ซอนอาวุธ§! ในรัฐที่ดัตชควบคุมบนเกาะชวา ใชไดเพียงครั้งเดียว"
+  INS_militia_increase_activity_raid_unlock_tt: "ปลดล็อกการจูโจม §Yบุกฐานทัพ KNIL§! ในรัฐใกลเคียงที่ดัตชควบคุม โดยใหตัวปรับคาการรบแกรัฐนั้นเมื่อสําเร็จ"
+
+  SIA_activate_naval_raid_tt: "ปลดล็อกการจูโจม §Yจูโจมเกาะในแปซิฟก§! ตอหมูเกาะในมหาสมุทรแปซิฟก"
+
+  ### AST - Malaya Foothold Raid
+  AST_malaya_foothold_raid_unlock_tt: "ปลดล็อกการจูโจม §Yสรางที่มั่นคอมมิวนิสตในมลายา§! ตอรัฐที่รัฐบาลมลายาควบคุม"
+  raid_type_AST_malaya_communist_foothold_raid: "สรางที่มั่นคอมมิวนิสตในมลายา"
+  AST_malaya_communist_foothold_raid: "สรางที่มั่นคอมมิวนิสตในมลายา"
+  AST_malaya_communist_foothold_raid_desc: "กองกําลังคอมมิวนิสตมลายาถูกตัดขาดจากคาบสมุทร ปฏิบัติการยกพลขึ้นบกอยางลับ ๆ สามารถยึดรัฐบนแผนดินใหญและวางกองกําลังติดอาวุธไวที่นั่น มอบพื้นที่ที่การปฏิวัติจําเปนตองมีเพื่อความอยูรอด"
+
+  success_modifier_INS_has_influence_mod: "§Hกิจกรรมของกองกําลังอาสา§!"
+  success_modifier_INS_has_influence_mod_improvement: "- เพิ่ม §Yกิจกรรมของกองกําลังอาสา§! ในรัฐ"
+  success_modifier_INS_has_influence_mod_counterplay: "- ลด §Yกิจกรรมของกองกําลังอาสา§! ในรัฐ"
+
+  success_modifier_INS_infrastructure_modifier_militia: "§Hโครงสรางพื้นฐาน§!"
+  success_modifier_INS_infrastructure_modifier_militia_counterplay: "§Hเพิ่มโครงสรางพื้นฐานในรัฐ§!"
+
+  success_modifier_INS_militia_leader_modifier: "§Hผูนํากองกําลังอาสา§!"
+  success_modifier_INS_militia_leader_modifier_improvement: "- มอบหมายผูบัญชาการที่มีคุณลักษณะ §Yผูนํากองกําลังอาสา§!"
+
+  success_modifier_INS_militia_leader_level_modifier: "§Hระดับของนายพล§!"
+  success_modifier_INS_militia_leader_level_modifier_improvement: "- มอบหมายผูบัญชาการที่มี §Yระดับ§! สูงกวา"
+
+  success_modifier_INS_is_batavia_mod: "§H§Yเมืองหลวงของขาศึก§!§!"
+
+  success_modifier_INS_defense_modifier: "§H§Yกองพลของขาศึก§!§!"
+  success_modifier_INS_defense_modifier_counterplay: "- เพิ่ม §Yกองพล§! ในรัฐ"
+  success_modifier_INS_defense_modifier_improvement: "- ลด §Yกองพล§! ของขาศึก"
+
+  success_modifier_INS_marine_modifier: "§H§Yการใชนาวิกโยธิน§!§!"
+  success_modifier_INS_marine_modifier_improvement: "- ใช §Yกองพันนาวิกโยธิน§!"
+
+  success_modifier_INS_naval_dominance_modifier: "§H§Yความเปนเจาทะเล§!§!"
+  success_modifier_INS_naval_dominance_modifier_counterplay: "- เพิ่ม §Yความเปนเจาทะเล§!"
+  success_modifier_INS_naval_dominance_modifier_improvement: "- เพิ่ม §Yความเปนเจาทะเล§!"
+
+  success_modifier_INS_militia_unit_level_modifier: "§H§Yกองพันหนวยรบ§!§!"
+  success_modifier_INS_militia_unit_level_modifier_improvement: "- เพิ่ม §Yกองพันหนวยรบ§!"

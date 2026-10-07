@@ -1,0 +1,11 @@
+﻿l_english:
+ is_controlled_by_ROOT_or_ally: "ถูกควบคุมโดย §H[Root.GetNameDef]§! หรือพันธมิตรของพวกเขา"
+ is_not_controlled_by_ROOT_or_ally: "§Yไมได§!ถูกควบคุมโดย §H[Root.GetNameDef]§! หรือพันธมิตรของพวกเขา"
+ is_league_of_nations_member_tt: "เปนประเทศสมาชิกสันนิบาตชาติ"
+ has_war_with_non_exiled_country_tt: "อยูในภาวะสงครามกับประเทศที่ไมไดลี้ภัย"
+ state_is_fully_controlled_by_ROOT_or_subject_tt: "ถูกควบคุมทั้งหมดโดย §Y[ROOT.GetFlag][ROOT.GetNameDef]§! หรือ§Yรัฐในอารักขาของ[ROOT.GetAdjective]§!ใดก็ได"
+ state_is_fully_controlled_by_ROOT_or_subject_tt_NOT: "ไม: $state_is_fully_controlled_by_ROOT_or_subject_tt$"
+ is_at_peace_exiled_countries_excluded_tt: "อยูในภาวะสงบ (ไมนับสงครามกับประเทศที่ลี้ภัย)"
+ is_alpine_TT: "เปนรัฐเทือกเขาแอลป"
+ state_is_fully_controlled_by_ROOT_subject_or_faction_member_tt: "ถูกควบคุมทั้งหมดโดย §Y[ROOT.GetFlag][ROOT.GetNameDef]§!, §Yรัฐในอารักขาของ[ROOT.GetAdjective]§!ใดก็ได หรือ§Yสมาชิกฝาย§!"
+ state_is_fully_controlled_by_ROOT_subject_or_faction_member_tt_NOT: "ไม: $state_is_fully_controlled_by_ROOT_subject_or_faction_member_tt$"
