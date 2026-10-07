@@ -17,7 +17,7 @@
 - ม็อดเสริม `addon/` คืนชื่อประเทศ รัฐ เมือง ภูมิภาค เป็นภาษาอังกฤษ (ใช้เมื่อชื่อบนแผนที่แสดงผลเพี้ยน)
 
 ## วิธีติดตั้ง
-1. ดาวน์โหลดไฟล์ zip จากหน้า Releases (หรือคัดลอกโฟลเดอร์ `mod/`)
+1. ดาวน์โหลดม็อด: [**hoi4_thai_v1.0.zip**](https://github.com/mondaro/hoi4_TH_mondaro/raw/main/download/hoi4_thai_v1.0.zip) (ม็อดเสริมชื่อสถานที่ภาษาอังกฤษ: [hoi4_thai_names_en_v1.0.zip](https://github.com/mondaro/hoi4_TH_mondaro/raw/main/download/hoi4_thai_names_en_v1.0.zip))
 2. แตกไฟล์ไปที่ `Documents\Paradox Interactive\Hearts of Iron IV\mod\hoi4_thai\`
 3. คัดลอก `descriptor.mod` ไปไว้ที่ `...\mod\hoi4_thai.mod` แล้วเพิ่มบรรทัด `path="mod/hoi4_thai"`
 4. เปิด Launcher แล้วเพิ่มม็อดเข้า Playset
@@ -27,6 +27,7 @@
 |---|---|
 | `mod/` | ตัวม็อดหลัก (localisation + gfx/fonts) |
 | `addon/` | ม็อดเสริมชื่อสถานที่ภาษาอังกฤษ |
+| `download/` | ไฟล์ zip พร้อมติดตั้ง |
 | `glossary.md` | ตารางคำศัพท์ที่ใช้แปล ให้คำแปลตรงกันทั้งเกม |
 | `tools/` | สคริปต์แยกข้อความ ตรวจโค้ดพิเศษ ประกอบไฟล์ |
 | `tools/font/` | สคริปต์เพิ่มอักษรไทยลงฟอนต์ของเกม |
